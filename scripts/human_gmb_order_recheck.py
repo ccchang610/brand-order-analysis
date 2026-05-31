@@ -58,7 +58,7 @@ def search_url(store: dict) -> str:
 def should_preserve_existing(store: dict, result: dict) -> bool:
     if result["status"] in {"confirmed", "button_confirmed_provider_pending"}:
         return False
-    return bool(store.get("hasGmbOrderingSystem") or confirmed_gmb_claims(store))
+    return bool(confirmed_gmb_claims(store))
 
 
 def better_result(current: dict | None, candidate: dict) -> dict:
@@ -73,6 +73,17 @@ def better_result(current: dict | None, candidate: dict) -> dict:
 
 def preserve_existing_state(store: dict, result: dict) -> dict:
     reason = result.get("notes") or result.get("status") or "No improved result during re-check."
+    trusted_claims = confirmed_gmb_claims(store)
+    store["orderingSystems"] = [
+        claim for claim in store.get("orderingSystems", []) if claim.get("sourceType") != "gmb"
+    ] + trusted_claims
+    store["hasGmbOrderingSystem"] = bool(trusted_claims)
+    store["gmbPickupProviders"] = sorted(
+        {claim["system"] for claim in trusted_claims if "pickup" in claim.get("orderMode", [])}
+    )
+    store["gmbDeliveryProviders"] = sorted(
+        {claim["system"] for claim in trusted_claims if "delivery" in claim.get("orderMode", [])}
+    )
     store["manualReviewReason"] = (
         f"Human-paced re-check did not improve prior GMB ordering evidence ({reason}); "
         "preserved existing Google Order status instead of downgrading it."
@@ -80,7 +91,7 @@ def preserve_existing_state(store: dict, result: dict) -> dict:
     store["gmbSignals"] = {
         **(store.get("gmbSignals") or {}),
         "buttonDetected": bool(store.get("hasGmbOrderingSystem") or result.get("buttonDetected")),
-        "providersParsed": bool(confirmed_gmb_claims(store)),
+        "providersParsed": bool(trusted_claims),
         "panelUrl": store.get("gmbOrderPanelUrl") or result.get("panelUrl") or store.get("gmbUrl") or "",
         "checkedAt": date.today().isoformat(),
         "checkMethod": "human_paced_gmb_recheck",

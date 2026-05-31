@@ -19,8 +19,6 @@ PROVIDERS = {
     "ubereats": "Uber Eats",
     "uber eats": "Uber Eats",
     "UberEats": "Uber Eats",
-    "Nidin": "Nidin",
-    "order.nidin": "Nidin",
 }
 
 
@@ -63,10 +61,9 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
         order_links = await page.locator("a[href*='searchviewer']").evaluate_all(
             """els => els.map(e => ({ href: e.href, text: (e.innerText || e.textContent || '').trim(), aria: e.getAttribute('aria-label') || '' }))"""
         )
-        direct_order_links = await page.locator("a").evaluate_all(
-            """els => els.map(e => ({ href: e.href, text: (e.innerText || e.textContent || '').trim(), aria: e.getAttribute('aria-label') || '' }))
-              .filter(x => /(點餐外帶|點餐外送|立即訂餐|線上點餐|order\\.nidin|ubereats|foodpanda|lin\\.ee)/i.test(`${x.href} ${x.text} ${x.aria}`))"""
-        )
+        # Direct links on Google results can be official/store links, not Google Order
+        # provider rows. GMB-only providers must come from the opened order panel.
+        direct_order_links = []
         for link in direct_order_links:
             link_text = f"{link.get('text', '')} {link.get('aria', '')}"
             href = link.get("href", "")

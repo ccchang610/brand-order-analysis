@@ -3353,7 +3353,7 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F",
       "gmbUrl": "https://maps.app.goo.gl/CSRPYF2yXbvMreVk9",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "confirmed",
+      "gmbOrderingStatus": "button_confirmed_provider_pending",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -3384,38 +3384,26 @@
           "label": "外送平台",
           "confidence": "confirmed",
           "evidenceTitle": "台中大茗本位製茶堂 高工店外送 | 菜單和價目表 | Uber Eats"
-        },
-        {
-          "system": "Nidin",
-          "sourceType": "gmb",
-          "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0Mnl6azdrZhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=7_caapGcG8Hh1e8P_KOhmAw&ei=7_caapGcG8Hh1e8P_KOhmAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
+      "manualReviewReason": "Google Order panel opened, but no visible provider rows were readable.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0Mnl6azdrZhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=7_caapGcG8Hh1e8P_KOhmAw&ei=7_caapGcG8Hh1e8P_KOhmAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-      "gmbPickupProviders": [
-        "Nidin"
-      ],
+      "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
       "gmbSignals": {
         "buttonDetected": true,
-        "providersParsed": true,
+        "providersParsed": false,
         "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0Mnl6azdrZhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=7_caapGcG8Hh1e8P_KOhmAw&ei=7_caapGcG8Hh1e8P_KOhmAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
         "checkedAt": "2026-05-31",
         "checkMethod": "stored_panel_mode_recheck",
         "attemptCount": 1,
         "maxAttempts": 1,
         "attemptHistory": [],
-        "notes": "Stored Google Order panel re-check read visible, clickable providers by mode."
+        "notes": "Google Order panel opened, but no visible provider rows were readable."
       }
     },
     {
@@ -6681,39 +6669,9 @@
           "system": "foodpanda",
           "sourceType": "gmb",
           "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogyL60uA5KAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Uber Eats",
-          "sourceType": "gmb",
-          "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogyL60uA5KAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Nidin",
-          "sourceType": "gmb",
-          "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogyL60uA5KAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "foodpanda",
-          "sourceType": "gmb",
-          "orderMode": [
             "delivery"
           ],
-          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogyL60uA5KAhAB",
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogjq_M5wM6AEoCEAE",
           "label": "GMB blue-button delivery",
           "confidence": "confirmed"
         },
@@ -6723,36 +6681,21 @@
           "orderMode": [
             "delivery"
           ],
-          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogyL60uA5KAhAB",
-          "label": "GMB blue-button delivery",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Nidin",
-          "sourceType": "gmb",
-          "orderMode": [
-            "delivery"
-          ],
-          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogyL60uA5KAhAB",
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogjq_M5wM6AEoCEAE",
           "label": "GMB blue-button delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+      "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogyL60uA5KAhAB",
-      "gmbPickupProviders": [
-        "foodpanda",
-        "Uber Eats",
-        "Nidin"
-      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogjq_M5wM6AEoCEAE",
+      "gmbPickupProviders": [],
       "gmbDeliveryProviders": [
         "foodpanda",
-        "Uber Eats",
-        "Nidin"
+        "Uber Eats"
       ],
       "gmbOrderModesConfirmed": [
         "unknown"
@@ -6760,70 +6703,13 @@
       "gmbSignals": {
         "buttonDetected": true,
         "providersParsed": true,
-        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogyL60uA5KAhAB",
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogjq_M5wM6AEoCEAE",
         "checkedAt": "2026-05-31",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 4,
-        "attemptHistory": [
-          {
-            "attempt": 1,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 4,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 1,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 4,
-            "target": "googleSearch",
-            "status": "confirmed",
-            "buttonDetected": true,
-            "providersParsed": true
-          }
-        ],
-        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers."
+        "checkMethod": "stored_panel_mode_recheck",
+        "attemptCount": 1,
+        "maxAttempts": 1,
+        "attemptHistory": [],
+        "notes": "Stored Google Order panel re-check read visible, clickable providers by mode."
       }
     },
     {
@@ -7110,39 +6996,9 @@
           "system": "foodpanda",
           "sourceType": "gmb",
           "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCog_LH-kQdKAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Uber Eats",
-          "sourceType": "gmb",
-          "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCog_LH-kQdKAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Nidin",
-          "sourceType": "gmb",
-          "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCog_LH-kQdKAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "foodpanda",
-          "sourceType": "gmb",
-          "orderMode": [
             "delivery"
           ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCog_LH-kQdKAhAB",
+          "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCogwui3qww6AEoCEAE",
           "label": "GMB blue-button delivery",
           "confidence": "confirmed"
         },
@@ -7152,36 +7008,21 @@
           "orderMode": [
             "delivery"
           ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCog_LH-kQdKAhAB",
-          "label": "GMB blue-button delivery",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Nidin",
-          "sourceType": "gmb",
-          "orderMode": [
-            "delivery"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCog_LH-kQdKAhAB",
+          "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCogwui3qww6AEoCEAE",
           "label": "GMB blue-button delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+      "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCog_LH-kQdKAhAB",
-      "gmbPickupProviders": [
-        "foodpanda",
-        "Uber Eats",
-        "Nidin"
-      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCogwui3qww6AEoCEAE",
+      "gmbPickupProviders": [],
       "gmbDeliveryProviders": [
         "foodpanda",
-        "Uber Eats",
-        "Nidin"
+        "Uber Eats"
       ],
       "gmbOrderModesConfirmed": [
         "unknown"
@@ -7189,21 +7030,13 @@
       "gmbSignals": {
         "buttonDetected": true,
         "providersParsed": true,
-        "panelUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCog_LH-kQdKAhAB",
+        "panelUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCogwui3qww6AEoCEAE",
         "checkedAt": "2026-05-31",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
+        "checkMethod": "stored_panel_mode_recheck",
         "attemptCount": 1,
-        "maxAttempts": 4,
-        "attemptHistory": [
-          {
-            "attempt": 1,
-            "target": "gmbUrl",
-            "status": "confirmed",
-            "buttonDetected": true,
-            "providersParsed": true
-          }
-        ],
-        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers."
+        "maxAttempts": 1,
+        "attemptHistory": [],
+        "notes": "Stored Google Order panel re-check read visible, clickable providers by mode."
       }
     },
     {
@@ -7262,39 +7095,9 @@
           "system": "foodpanda",
           "sourceType": "gmb",
           "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCog0LPExQJKAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Uber Eats",
-          "sourceType": "gmb",
-          "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCog0LPExQJKAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Nidin",
-          "sourceType": "gmb",
-          "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCog0LPExQJKAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "foodpanda",
-          "sourceType": "gmb",
-          "orderMode": [
             "delivery"
           ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCog0LPExQJKAhAB",
+          "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCoglqCKrAo6AEoCEAE",
           "label": "GMB blue-button delivery",
           "confidence": "confirmed"
         },
@@ -7304,36 +7107,21 @@
           "orderMode": [
             "delivery"
           ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCog0LPExQJKAhAB",
-          "label": "GMB blue-button delivery",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Nidin",
-          "sourceType": "gmb",
-          "orderMode": [
-            "delivery"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCog0LPExQJKAhAB",
+          "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCoglqCKrAo6AEoCEAE",
           "label": "GMB blue-button delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+      "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCog0LPExQJKAhAB",
-      "gmbPickupProviders": [
-        "foodpanda",
-        "Uber Eats",
-        "Nidin"
-      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCoglqCKrAo6AEoCEAE",
+      "gmbPickupProviders": [],
       "gmbDeliveryProviders": [
         "foodpanda",
-        "Uber Eats",
-        "Nidin"
+        "Uber Eats"
       ],
       "gmbOrderModesConfirmed": [
         "unknown"
@@ -7341,21 +7129,13 @@
       "gmbSignals": {
         "buttonDetected": true,
         "providersParsed": true,
-        "panelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCog0LPExQJKAhAB",
+        "panelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCoglqCKrAo6AEoCEAE",
         "checkedAt": "2026-05-31",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
+        "checkMethod": "stored_panel_mode_recheck",
         "attemptCount": 1,
-        "maxAttempts": 4,
-        "attemptHistory": [
-          {
-            "attempt": 1,
-            "target": "gmbUrl",
-            "status": "confirmed",
-            "buttonDetected": true,
-            "providersParsed": true
-          }
-        ],
-        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers."
+        "maxAttempts": 1,
+        "attemptHistory": [],
+        "notes": "Stored Google Order panel re-check read visible, clickable providers by mode."
       }
     },
     {
@@ -7631,39 +7411,9 @@
           "system": "foodpanda",
           "sourceType": "gmb",
           "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCog3KyvjQtKAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Uber Eats",
-          "sourceType": "gmb",
-          "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCog3KyvjQtKAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Nidin",
-          "sourceType": "gmb",
-          "orderMode": [
-            "pickup"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCog3KyvjQtKAhAB",
-          "label": "GMB blue-button pickup",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "foodpanda",
-          "sourceType": "gmb",
-          "orderMode": [
             "delivery"
           ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCog3KyvjQtKAhAB",
+          "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCogorOB1g06AEoCEAE",
           "label": "GMB blue-button delivery",
           "confidence": "confirmed"
         },
@@ -7673,36 +7423,21 @@
           "orderMode": [
             "delivery"
           ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCog3KyvjQtKAhAB",
-          "label": "GMB blue-button delivery",
-          "confidence": "confirmed"
-        },
-        {
-          "system": "Nidin",
-          "sourceType": "gmb",
-          "orderMode": [
-            "delivery"
-          ],
-          "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCog3KyvjQtKAhAB",
+          "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCogorOB1g06AEoCEAE",
           "label": "GMB blue-button delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+      "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCog3KyvjQtKAhAB",
-      "gmbPickupProviders": [
-        "foodpanda",
-        "Uber Eats",
-        "Nidin"
-      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCogorOB1g06AEoCEAE",
+      "gmbPickupProviders": [],
       "gmbDeliveryProviders": [
         "foodpanda",
-        "Uber Eats",
-        "Nidin"
+        "Uber Eats"
       ],
       "gmbOrderModesConfirmed": [
         "unknown"
@@ -7710,21 +7445,13 @@
       "gmbSignals": {
         "buttonDetected": true,
         "providersParsed": true,
-        "panelUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCog3KyvjQtKAhAB",
+        "panelUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCogorOB1g06AEoCEAE",
         "checkedAt": "2026-05-31",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
+        "checkMethod": "stored_panel_mode_recheck",
         "attemptCount": 1,
-        "maxAttempts": 4,
-        "attemptHistory": [
-          {
-            "attempt": 1,
-            "target": "gmbUrl",
-            "status": "confirmed",
-            "buttonDetected": true,
-            "providersParsed": true
-          }
-        ],
-        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers."
+        "maxAttempts": 1,
+        "attemptHistory": [],
+        "notes": "Stored Google Order panel re-check read visible, clickable providers by mode."
       }
     },
     {

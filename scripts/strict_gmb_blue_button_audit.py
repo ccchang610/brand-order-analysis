@@ -21,11 +21,10 @@ PROVIDER_PATTERNS = {
     "Uber Eats": "Uber Eats",
     "UberEats": "Uber Eats",
     "ubereats": "Uber Eats",
-    "Nidin": "Nidin",
-    "order.nidin": "Nidin",
     "LINE": "LINE",
     "lin.ee": "LINE",
 }
+TRUSTED_GMB_PROVIDER_NAMES = set(PROVIDER_PATTERNS.values())
 
 PICKUP_TEXT = "\u81ea\u53d6"
 DELIVERY_TEXT = "\u904b\u9001"
@@ -51,6 +50,14 @@ def provider_names(text: str) -> list[str]:
     for needle, name in PROVIDER_PATTERNS.items():
         if needle.lower() in lower and name not in found:
             found.append(name)
+    return found
+
+
+def trusted_gmb_providers(providers: list[str]) -> list[str]:
+    found: list[str] = []
+    for provider in providers:
+        if provider in TRUSTED_GMB_PROVIDER_NAMES and provider not in found:
+            found.append(provider)
     return found
 
 
@@ -80,11 +87,13 @@ def confirmed_gmb_claims(store: dict) -> list[dict]:
         for claim in store.get("orderingSystems", [])
         if claim.get("sourceType") == "gmb"
         and claim.get("confidence") == "confirmed"
+        and claim.get("system") in TRUSTED_GMB_PROVIDER_NAMES
         and "candidate" not in claim.get("label", "").lower()
     ]
 
 
 def preserve_confirmed_gmb_claims(store: dict, claims: list[dict], notes: str) -> dict:
+    claims = [claim for claim in claims if claim.get("system") in TRUSTED_GMB_PROVIDER_NAMES]
     store["orderingSystems"].extend(claims)
     store["hasAnyOrderingSystem"] = bool(store.get("orderingSystems"))
     store["hasGmbOrderingSystem"] = bool(claims)
@@ -143,10 +152,39 @@ async def visible_provider_names(page) -> list[str]:
                         && Number(style.opacity || 1) > 0.2;
                 };
                 const panelText = el => normalize(`${el.innerText || el.textContent || ''} ${el.getAttribute('aria-label') || ''}`);
+                const blockedRow = text => [
+                    /搜尋結果/,
+                    /網頁搜尋/,
+                    /網路上的評論/,
+                    /Google 評論/,
+                    /order\\.nidin\\.shop/i,
+                    /nidin/i,
+                    /damingtea/i,
+                    /google\\.com\\/search/i,
+                    /maps\\.app\\.goo\\.gl/i,
+                    /g\\.co\\/kgs/i,
+                    /grade\\./i,
+                    /review/i,
+                    /大茗/,
+                    /菜單/,
+                    /訂購/,
+                    /品牌專區/,
+                    /網站/,
+                    /路線/,
+                    /評論/,
+                    /儲存/,
+                    /分享/,
+                    /致電/,
+                    /營業時間/,
+                    /已打烊/,
+                    /線上點餐/
+                ].some(pattern => pattern.test(text));
+                const hasProvider = text => patterns.some(([needle]) => text.toLowerCase().includes(needle.toLowerCase()));
                 let containers = [...document.querySelectorAll('[role="dialog"]')]
                     .filter(isVisible)
                     .filter(el => panelMarkers.some(marker => panelText(el).includes(marker)));
-                if (!containers.length && location.href.includes('searchviewer')) {
+                const bodyText = panelText(document.body);
+                if (!containers.length && location.href.includes('searchviewer') && panelMarkers.some(marker => bodyText.includes(marker))) {
                     containers = [document.body];
                 }
                 const found = [];
@@ -154,8 +192,9 @@ async def visible_provider_names(page) -> list[str]:
                     const rows = [...container.querySelectorAll('a, button, [role="button"]')]
                         .filter(isVisible)
                         .map(el => panelText(el))
-                        .filter(text => text.length > 0 && text.length <= 220)
-                        .filter(text => !/搜尋結果|網頁搜尋|網路上的評論|Google 評論|order\\.nidin\\.shop|網站|路線|評論|儲存|分享|致電|菜單|線上點餐/.test(text));
+                        .filter(text => text.length > 0 && text.length <= 180)
+                        .filter(text => hasProvider(text))
+                        .filter(text => !blockedRow(text));
                     for (const rowText of rows) {
                         const lower = rowText.toLowerCase();
                         for (const [needle, name] of patterns) {
@@ -530,10 +569,18 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
 def apply_result(store: dict, result: dict) -> dict:
     claims = list(store.get("orderingSystems", []))
     panel_url = result.get("panelUrl") or store.get("gmbUrl") or ""
-    parsed_providers = bool(result.get("pickupProviders") or result.get("deliveryProviders"))
+    pickup_providers = trusted_gmb_providers(result.get("pickupProviders", []))
+    delivery_providers = trusted_gmb_providers(result.get("deliveryProviders", []))
+    parsed_providers = bool(pickup_providers or delivery_providers)
     button_detected = bool(result.get("buttonDetected")) or parsed_providers or result["status"] == "button_confirmed_provider_pending"
+    if result["status"] == "confirmed" and not parsed_providers:
+        result["status"] = "button_confirmed_provider_pending"
+        result["notes"] = (
+            "Google Order entry was opened, but no trusted provider row was parsed. "
+            "Official Nidin links are excluded from GMB-only provider evidence."
+        )
 
-    for provider in result.get("pickupProviders", []):
+    for provider in pickup_providers:
         claims.append(
             {
                 "system": provider,
@@ -544,7 +591,7 @@ def apply_result(store: dict, result: dict) -> dict:
                 "confidence": "confirmed",
             }
         )
-    for provider in result.get("deliveryProviders", []):
+    for provider in delivery_providers:
         claims.append(
             {
                 "system": provider,
@@ -577,8 +624,8 @@ def apply_result(store: dict, result: dict) -> dict:
     ] == "button_confirmed_provider_pending"
     store["gmbOrderingStatus"] = result["status"]
     store["gmbOrderPanelUrl"] = panel_url
-    store["gmbPickupProviders"] = result.get("pickupProviders", [])
-    store["gmbDeliveryProviders"] = result.get("deliveryProviders", [])
+    store["gmbPickupProviders"] = pickup_providers
+    store["gmbDeliveryProviders"] = delivery_providers
     store["manualReviewReason"] = result.get("notes", "")
     store["gmbSignals"] = {
         "buttonDetected": button_detected,

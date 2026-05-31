@@ -63,8 +63,8 @@
   },
   "allSourcePickupSystemCounts": {
     "Nidin": 72,
-    "foodpanda": 21,
-    "Uber Eats": 17
+    "foodpanda": 17,
+    "Uber Eats": 13
   },
   "allSourceDeliverySystemCounts": {
     "Uber Eats": 74,
@@ -73,18 +73,15 @@
   },
   "gmbSystemCounts": {
     "Uber Eats": 66,
-    "foodpanda": 63,
-    "Nidin": 5
+    "foodpanda": 63
   },
   "gmbPickupSystemCounts": {
-    "foodpanda": 21,
-    "Uber Eats": 17,
-    "Nidin": 5
+    "foodpanda": 17,
+    "Uber Eats": 13
   },
   "gmbDeliverySystemCounts": {
     "Uber Eats": 65,
-    "foodpanda": 57,
-    "Nidin": 4
+    "foodpanda": 57
   },
   "allSourceSystemAdoptionRates": {
     "Uber Eats": 0.9367,
@@ -93,12 +90,11 @@
   },
   "gmbSystemAdoptionRates": {
     "Uber Eats": 0.8354,
-    "foodpanda": 0.7975,
-    "Nidin": 0.0633
+    "foodpanda": 0.7975
   },
   "gmbOrderingStatusCounts": {
-    "confirmed": 72,
-    "button_confirmed_provider_pending": 6,
+    "confirmed": 71,
+    "button_confirmed_provider_pending": 7,
     "no_gmb_order_button": 1
   },
   "anyOrderingSystemAdoptionRate": 0.9747,
@@ -108,10 +104,10 @@
       "system": "Nidin",
       "allSourceStoreCount": 72,
       "allSourceAdoptionRate": 0.9114,
-      "gmbStoreCount": 5,
-      "gmbAdoptionRate": 0.0633,
-      "countGap": 67,
-      "percentagePointGap": 0.8481
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 72,
+      "percentagePointGap": 0.9114
     },
     {
       "system": "Uber Eats",
