@@ -22,6 +22,7 @@ PROVIDER_PATTERNS = {
     "UberEats": "Uber Eats",
     "ubereats": "Uber Eats",
     "Nidin": "Nidin",
+    "nidin.shop": "Nidin",
     "LINE": "LINE",
     "lin.ee": "LINE",
 }
@@ -158,7 +159,6 @@ async def visible_provider_names(page) -> list[str]:
                     /網頁搜尋/,
                     /網路上的評論/,
                     /Google 評論/,
-                    /order\\.nidin\\.shop/i,
                     /damingtea/i,
                     /google\\.com\\/search/i,
                     /maps\\.app\\.goo\\.gl/i,
@@ -180,6 +180,7 @@ async def visible_provider_names(page) -> list[str]:
                     /線上點餐/
                 ].some(pattern => pattern.test(text));
                 const hasProvider = text => patterns.some(([needle]) => text.toLowerCase().includes(needle.toLowerCase()));
+                const isGoogleOrderMerchantProvider = text => /nidin(\\.shop)?/i.test(text);
                 let containers = [...document.querySelectorAll('[role="dialog"]')]
                     .filter(isVisible)
                     .filter(el => panelMarkers.some(marker => panelText(el).includes(marker)));
@@ -189,12 +190,12 @@ async def visible_provider_names(page) -> list[str]:
                 }
                 const found = [];
                 for (const container of containers) {
-                    const rows = [...container.querySelectorAll('a, button, [role="button"]')]
+                    const rows = [...container.querySelectorAll('a, button, [role="button"], [role="link"], [jsaction], [onclick], [tabindex]')]
                         .filter(isVisible)
                         .map(el => panelText(el))
                         .filter(text => text.length > 0 && text.length <= 180)
                         .filter(text => hasProvider(text))
-                        .filter(text => !blockedRow(text));
+                        .filter(text => isGoogleOrderMerchantProvider(text) || !blockedRow(text));
                     for (const rowText of rows) {
                         const lower = rowText.toLowerCase();
                         for (const [needle, name] of patterns) {

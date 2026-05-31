@@ -50,6 +50,17 @@ STATUS_RANK = {
 }
 
 
+def unique_targets(items: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    targets = []
+    seen = set()
+    for label, url in items:
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        targets.append((label, url))
+    return targets
+
+
 def search_url(store: dict) -> str:
     query = f"{store.get('brand') or '大茗'} {store.get('storeName','')} {store.get('address','')}"
     return f"https://www.google.com/search?q={quote_plus(query)}&hl=zh-TW"
@@ -57,6 +68,8 @@ def search_url(store: dict) -> str:
 
 def should_preserve_existing(store: dict, result: dict) -> bool:
     if result["status"] in {"confirmed", "button_confirmed_provider_pending"}:
+        return False
+    if result["status"] == "no_gmb_order_button" and not confirmed_gmb_claims(store):
         return False
     return bool(
         confirmed_gmb_claims(store)
@@ -149,7 +162,6 @@ async def click_first_text(page, texts: list[str]) -> bool:
         for locator in (
             page.get_by_role("button", name=text, exact=False),
             page.get_by_role("link", name=text, exact=False),
-            page.get_by_text(text, exact=False),
         ):
             try:
                 count = min(await locator.count(), 8)
@@ -212,6 +224,83 @@ async def click_first_text(page, texts: list[str]) -> bool:
                 {"texts": [text], "selector": CLICKABLE_SELECTOR},
             )
             if clicked:
+                await human_pause(page, 1200, 2600)
+                return True
+        except Exception:
+            continue
+        try:
+            target = await page.evaluate(
+                """
+                ({ texts }) => {
+                    const normalize = value => (value || '').replace(/\\s+/g, ' ').trim();
+                    const parseColor = value => {
+                        const match = /rgba?\\((\\d+),\\s*(\\d+),\\s*(\\d+)/.exec(value || '');
+                        return match ? [Number(match[1]), Number(match[2]), Number(match[3])] : [0, 0, 0];
+                    };
+                    const isVisible = el => {
+                        const rect = el.getBoundingClientRect();
+                        const style = getComputedStyle(el);
+                        return rect.width > 18
+                            && rect.height > 10
+                            && rect.bottom > 0
+                            && rect.top < innerHeight
+                            && rect.right > 0
+                            && rect.left < innerWidth
+                            && style.display !== 'none'
+                            && style.visibility !== 'hidden'
+                            && Number(style.opacity || 1) > 0.25;
+                    };
+                    const isDisabled = el => {
+                        for (let node = el; node && node !== document.body; node = node.parentElement) {
+                            const aria = (node.getAttribute('aria-disabled') || '').toLowerCase();
+                            const cls = (node.getAttribute('class') || '').toLowerCase();
+                            const style = getComputedStyle(node);
+                            if (node.disabled || aria === 'true' || cls.includes('disabled') || style.pointerEvents === 'none' || Number(style.opacity || 1) < 0.45) {
+                                return true;
+                            }
+                        }
+                        return false;
+                    };
+                    const isClickable = el => Boolean(el.closest('button,[role="button"],[role="link"],a,[jsaction],[onclick],[tabindex]'));
+                    const clickableTarget = el => el.closest('button,[role="button"],[role="link"],a,[jsaction],[onclick],[tabindex]') || el;
+                    const candidates = [...document.querySelectorAll('button,[role="button"],[role="link"],a,[jsaction],[onclick],[tabindex],div,span')]
+                        .filter(isVisible)
+                        .map(el => {
+                            const text = normalize(`${el.innerText || el.textContent || ''} ${el.getAttribute('aria-label') || ''}`);
+                            if (!texts.some(needle => text.includes(needle))) return null;
+                            const target = clickableTarget(el);
+                            if (!target || target === document.body || !isVisible(target) || isDisabled(target)) return null;
+                            const rect = target.getBoundingClientRect();
+                            if (rect.width > Math.min(760, innerWidth * 0.92) || rect.height > 130) return null;
+                            const style = getComputedStyle(target);
+                            const bg = parseColor(style.backgroundColor);
+                            const border = parseColor(style.borderColor);
+                            const blue = (bg[2] > bg[0] + 28 && bg[2] >= bg[1] + 5) || (border[2] > border[0] + 35 && border[2] >= border[1] + 8);
+                            const exact = texts.some(needle => text === needle || text.startsWith(needle));
+                            const rectArea = rect.width * rect.height;
+                            const score = (exact ? 0 : 80)
+                                + Math.min(text.length, 180)
+                                + rectArea / 4500
+                                - (blue ? 45 : 0)
+                                - (isClickable(target) ? 25 : 0);
+                            return {
+                                x: rect.left + rect.width / 2,
+                                y: rect.top + rect.height / 2,
+                                score,
+                                area: rectArea,
+                            };
+                        })
+                        .filter(Boolean)
+                        .sort((a, b) => (a.score - b.score) || (a.area - b.area));
+                    return candidates[0] || null;
+                }
+                """,
+                {"texts": [text]},
+            )
+            if target:
+                await page.mouse.move(target["x"], target["y"], steps=random.randint(8, 18))
+                await human_pause(page, 120, 420)
+                await page.mouse.click(target["x"], target["y"], delay=random.randint(40, 160))
                 await human_pause(page, 1200, 2600)
                 return True
         except Exception:
@@ -386,6 +475,8 @@ async def read_mode(page, mode_texts: list[str]) -> list[str]:
     text = await wait_for_panel_text(page)
     if not is_order_panel_text(page.url, text):
         return []
+    if await mode_control_state(page, mode_texts) != "active":
+        return []
     return await visible_provider_names(page)
 
 
@@ -417,14 +508,16 @@ async def inspect_order_flow(page) -> dict:
         except Exception:
             clicked = False
         if clicked:
+            clicked_text = await wait_for_panel_text(page)
+            if not is_order_panel_text(page.url, clicked_text):
+                continue
             result["buttonDetected"] = True
             result["panelUrl"] = page.url
-            clicked_text = await wait_for_panel_text(page)
             mode_state = await mode_control_state(
                 page,
                 PICKUP_TEXTS if mode_key == "pickupProviders" else DELIVERY_TEXTS,
             )
-            if is_order_panel_text(page.url, clicked_text) and mode_state == "active":
+            if mode_state == "active":
                 result[mode_key] = await visible_provider_names(page)
 
     if not result["buttonDetected"]:
@@ -434,8 +527,9 @@ async def inspect_order_flow(page) -> dict:
         except Exception:
             pass
         clicked = await click_first_text(page, ORDER_BUTTON_TEXTS)
-        result["buttonDetected"] = clicked or probe["hasOrderText"]
-        await human_pause(page, 900, 1700)
+        text_after_entry_click = await wait_for_panel_text(page) if clicked else ""
+        result["buttonDetected"] = clicked and is_order_panel_text(page.url, text_after_entry_click)
+        await human_pause(page, 400, 900)
 
     if not result["buttonDetected"]:
         return result
@@ -468,15 +562,20 @@ async def audit_store(context, store: dict, attempts: int = 3) -> dict:
     previous_confirmed = confirmed_gmb_claims(store)
     attempts = max(1, attempts)
     try:
-        targets = [
-            store.get("gmbOrderPanelUrl") if "google.com" in (store.get("gmbOrderPanelUrl") or "") else "",
-            store.get("gmbUrl"),
-            search_url(store),
-        ]
+        targets = unique_targets(
+            [
+                ("googleSearch", search_url(store)),
+                (
+                    "storedPanel",
+                    store.get("gmbOrderPanelUrl") if "google.com" in (store.get("gmbOrderPanelUrl") or "") else "",
+                ),
+                ("gmbUrl", store.get("gmbUrl")),
+            ]
+        )
         best_result = None
         last_result = None
         history = []
-        for target in [url for url in targets if url]:
+        for target_label, target in targets:
             for attempt in range(1, attempts + 1):
                 try:
                     await page.goto(target, wait_until="domcontentloaded", timeout=45000)
@@ -499,7 +598,7 @@ async def audit_store(context, store: dict, attempts: int = 3) -> dict:
                 history.append(
                     {
                         "attempt": attempt,
-                        "target": "gmbUrl" if target == store.get("gmbUrl") else "googleSearch",
+                        "target": target_label,
                         "status": result.get("status"),
                         "buttonDetected": bool(result.get("buttonDetected")),
                         "providersParsed": bool(result.get("pickupProviders") or result.get("deliveryProviders")),
@@ -553,6 +652,7 @@ async def main() -> None:
     parser.add_argument("--target", choices=["gaps", "review", "all"], default="gaps")
     parser.add_argument("--ids", nargs="*", default=[])
     parser.add_argument("--headed", action="store_true")
+    parser.add_argument("--fresh-profile", action="store_true")
     parser.add_argument("--per-store-timeout", type=int, default=180)
     parser.add_argument("--attempts", type=int, default=3)
     args = parser.parse_args()
@@ -577,58 +677,74 @@ async def main() -> None:
     profile_dir = DATA / ".gmb-human-profile"
     profile_dir.mkdir(exist_ok=True)
 
+    context_options = {
+        "locale": "zh-TW",
+        "timezone_id": "Asia/Taipei",
+        "viewport": {"width": 1365, "height": 920},
+        "user_agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+        ),
+    }
+    launch_options = {
+        "headless": not args.headed,
+        "args": [
+            "--disable-blink-features=AutomationControlled",
+            "--lang=zh-TW",
+        ],
+    }
+
     async with async_playwright() as playwright:
-        context = await playwright.chromium.launch_persistent_context(
-            str(profile_dir),
-            headless=not args.headed,
-            locale="zh-TW",
-            timezone_id="Asia/Taipei",
-            viewport={"width": 1365, "height": 920},
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-            ),
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--lang=zh-TW",
-            ],
-        )
-        updated = {}
-        for idx, store in enumerate(targets, start=1):
-            print(f"{idx}/{len(targets)} checking {store.get('storeId')} {store.get('storeName')}", flush=True)
-            try:
-                checked = await asyncio.wait_for(
-                    audit_store(context, dict(store), attempts=args.attempts),
-                    timeout=args.per_store_timeout,
-                )
-            except asyncio.TimeoutError:
-                checked = dict(store)
-                if not checked.get("hasGmbOrderingSystem"):
-                    checked["gmbOrderingStatus"] = "unavailable_or_blocked"
-                    checked["manualReviewReason"] = (
-                        f"Human-paced Google Order re-check timed out after {args.per_store_timeout}s; "
-                        "kept as manual review instead of treating as no Google Order."
-                    )
-            updated[checked["storeId"]] = checked
-            payload["stores"] = [updated.get(item["storeId"], item) for item in stores]
-            write_outputs(payload)
-            print(
-                json.dumps(
-                    {
-                        "storeId": checked.get("storeId"),
-                        "storeName": checked.get("storeName"),
-                        "status": checked.get("gmbOrderingStatus"),
-                        "hasGmb": checked.get("hasGmbOrderingSystem"),
-                        "pickup": checked.get("gmbPickupProviders"),
-                        "delivery": checked.get("gmbDeliveryProviders"),
-                        "attempts": (checked.get("gmbSignals") or {}).get("attemptCount"),
-                    },
-                    ensure_ascii=False,
-                ),
-                flush=True,
+        browser = None
+        if args.fresh_profile:
+            browser = await playwright.chromium.launch(**launch_options)
+            context = await browser.new_context(**context_options)
+        else:
+            context = await playwright.chromium.launch_persistent_context(
+                str(profile_dir),
+                **launch_options,
+                **context_options,
             )
-            await asyncio.sleep(random.uniform(1.8, 4.5))
-        await context.close()
+        try:
+            updated = {}
+            for idx, store in enumerate(targets, start=1):
+                print(f"{idx}/{len(targets)} checking {store.get('storeId')} {store.get('storeName')}", flush=True)
+                try:
+                    checked = await asyncio.wait_for(
+                        audit_store(context, dict(store), attempts=args.attempts),
+                        timeout=args.per_store_timeout,
+                    )
+                except asyncio.TimeoutError:
+                    checked = dict(store)
+                    if not checked.get("hasGmbOrderingSystem"):
+                        checked["gmbOrderingStatus"] = "unavailable_or_blocked"
+                        checked["manualReviewReason"] = (
+                            f"Human-paced Google Order re-check timed out after {args.per_store_timeout}s; "
+                            "kept as manual review instead of treating as no Google Order."
+                        )
+                updated[checked["storeId"]] = checked
+                payload["stores"] = [updated.get(item["storeId"], item) for item in stores]
+                write_outputs(payload)
+                print(
+                    json.dumps(
+                        {
+                            "storeId": checked.get("storeId"),
+                            "storeName": checked.get("storeName"),
+                            "status": checked.get("gmbOrderingStatus"),
+                            "hasGmb": checked.get("hasGmbOrderingSystem"),
+                            "pickup": checked.get("gmbPickupProviders"),
+                            "delivery": checked.get("gmbDeliveryProviders"),
+                            "attempts": (checked.get("gmbSignals") or {}).get("attemptCount"),
+                        },
+                        ensure_ascii=False,
+                    ),
+                    flush=True,
+                )
+                await asyncio.sleep(random.uniform(1.8, 4.5))
+        finally:
+            await context.close()
+            if browser:
+                await browser.close()
 
     payload["stores"] = [updated.get(store["storeId"], store) for store in stores]
     summary = write_outputs(payload)

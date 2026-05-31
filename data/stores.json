@@ -478,7 +478,7 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20LaLaport%20%E5%8D%97%E6%B8%AF%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1",
       "gmbUrl": "https://g.co/kgs/bNYsNx3",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "button_confirmed_provider_pending",
+      "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -500,87 +500,66 @@
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review.",
+      "hasGmbOrderingSystem": false,
+      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&sxsrf=AE3TifOb1dfSSOJwf2m8yVuMIuTrQ4Jk_g:1751011003757&kgmid=/g/11yct51td3&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%8D%97%E6%B8%AFLaLaport%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=c6dbe44114702f25",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+LaLaport+%E5%8D%97%E6%B8%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1&hl=zh-TW&sei=sb8cao-oOOadvr0P8N_c8QM",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
       "gmbSignals": {
-        "buttonDetected": true,
+        "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&sxsrf=AE3TifOb1dfSSOJwf2m8yVuMIuTrQ4Jk_g:1751011003757&kgmid=/g/11yct51td3&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%8D%97%E6%B8%AFLaLaport%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=c6dbe44114702f25",
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+LaLaport+%E5%8D%97%E6%B8%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1&hl=zh-TW&sei=sb8cao-oOOadvr0P8N_c8QM",
         "checkedAt": "2026-06-01",
         "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 9,
-        "maxAttempts": 3,
+        "attemptCount": 6,
+        "maxAttempts": 2,
         "attemptHistory": [
           {
             "attempt": 1,
             "target": "googleSearch",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 1,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
+            "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
+            "attempt": 2,
+            "target": "googleSearch",
+            "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
             "attempt": 1,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
+            "target": "storedPanel",
+            "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
             "attempt": 2,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
+            "target": "storedPanel",
+            "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
+            "attempt": 1,
+            "target": "gmbUrl",
+            "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "attempt": 2,
+            "target": "gmbUrl",
+            "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review."
+        "notes": "No Google Order button was found during human-paced browser check."
       }
     },
     {
@@ -700,7 +679,7 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%96%87%E6%98%8C%E8%A1%97205%E8%99%9F",
       "gmbUrl": "https://maps.app.goo.gl/ywrUqxd8QX7zDhsh7",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "button_confirmed_provider_pending",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -731,90 +710,58 @@
           "label": "外送平台",
           "confidence": "confirmed",
           "evidenceTitle": "台北大茗本位製茶堂 台北通化店外送 | 菜單和價目表 | Uber Eats"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%96%87%E6%98%8C%E8%A1%97205%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFCdmNEWmVlU3lEZmV5WlA0cHBTMjR3RjlRRTJqLV8yUHVoWGU1dnBROHJJTGFfU1l6dk1Kd2oxQ2hhQUhzYjJzLVpKSnZNWV82Wmc1a2lwOFJVTzBlbEhGc0tzUzlLRVMtSHlBVnhDek5hQmQ2Q2djEhd4NzRjYXBHQU80VHExZThQNExfSnFRSRoiQUpLTEZtSTFwS09WU2xVeUlOVXhuMEtIYmlEWW9DMlFfURIEODEyNBoBMyoAMAA4AUAAGCog0_37qQlKAhAB",
+          "label": "GMB blue-button pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%96%87%E6%98%8C%E8%A1%97205%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFCdmNEWmVlU3lEZmV5WlA0cHBTMjR3RjlRRTJqLV8yUHVoWGU1dnBROHJJTGFfU1l6dk1Kd2oxQ2hhQUhzYjJzLVpKSnZNWV82Wmc1a2lwOFJVTzBlbEhGc0tzUzlLRVMtSHlBVnhDek5hQmQ2Q2djEhd4NzRjYXBHQU80VHExZThQNExfSnFRSRoiQUpLTEZtSTFwS09WU2xVeUlOVXhuMEtIYmlEWW9DMlFfURIEODEyNBoBMyoAMAA4AUAAGCog0_37qQlKAhAB",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review.",
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/maps/place/%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97/@25.0324922,121.5541896,15z/data=!4m6!3m5!1s0x3442abf740956a95:0x8c4dbc2b052954e9!8m2!3d25.0324922!4d121.5541896!16s%2Fg%2F11krmmtscq?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%96%87%E6%98%8C%E8%A1%97205%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFCdmNEWmVlU3lEZmV5WlA0cHBTMjR3RjlRRTJqLV8yUHVoWGU1dnBROHJJTGFfU1l6dk1Kd2oxQ2hhQUhzYjJzLVpKSnZNWV82Wmc1a2lwOFJVTzBlbEhGc0tzUzlLRVMtSHlBVnhDek5hQmQ2Q2djEhd4NzRjYXBHQU80VHExZThQNExfSnFRSRoiQUpLTEZtSTFwS09WU2xVeUlOVXhuMEtIYmlEWW9DMlFfURIEODEyNBoBMyoAMAA4AUAAGCog0_37qQlKAhAB",
+      "gmbPickupProviders": [
+        "Nidin"
+      ],
+      "gmbDeliveryProviders": [
+        "Uber Eats"
+      ],
       "gmbSignals": {
         "buttonDetected": true,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/maps/place/%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97/@25.0324922,121.5541896,15z/data=!4m6!3m5!1s0x3442abf740956a95:0x8c4dbc2b052954e9!8m2!3d25.0324922!4d121.5541896!16s%2Fg%2F11krmmtscq?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D",
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%96%87%E6%98%8C%E8%A1%97205%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFCdmNEWmVlU3lEZmV5WlA0cHBTMjR3RjlRRTJqLV8yUHVoWGU1dnBROHJJTGFfU1l6dk1Kd2oxQ2hhQUhzYjJzLVpKSnZNWV82Wmc1a2lwOFJVTzBlbEhGc0tzUzlLRVMtSHlBVnhDek5hQmQ2Q2djEhd4NzRjYXBHQU80VHExZThQNExfSnFRSRoiQUpLTEZtSTFwS09WU2xVeUlOVXhuMEtIYmlEWW9DMlFfURIEODEyNBoBMyoAMAA4AUAAGCog0_37qQlKAhAB",
         "checkedAt": "2026-06-01",
         "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 9,
-        "maxAttempts": 3,
+        "attemptCount": 1,
+        "maxAttempts": 2,
         "attemptHistory": [
           {
             "attempt": 1,
             "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 1,
-            "target": "gmbUrl",
-            "status": "button_confirmed_provider_pending",
+            "status": "confirmed",
             "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 1,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
+            "providersParsed": true
           }
         ],
-        "notes": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers."
       }
     },
     {
@@ -1043,7 +990,7 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E5%AE%9C%E8%98%AD%E7%BE%85%E6%9D%B1%E5%BA%97%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5262%E8%99%9F",
       "gmbUrl": "https://share.google/9VRbpuRteU9643co2",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "button_confirmed_provider_pending",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -1074,28 +1021,57 @@
           "label": "外送平台",
           "confidence": "confirmed",
           "evidenceTitle": "大茗本位製茶堂 宜蘭羅東店的菜單和價目表 | 宜蘭外送 | Uber Eats"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%AE%9C%E8%98%AD%E7%BE%85%E6%9D%B1%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5262%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVI0d213M2UwdnpGcjFiTm16Y1U1VWhWdlE3U3k4aEVMcmVyLVZEQVhZVl9ZZ3BSOFVkV3N0QUU4RDlFd2hyT1N3ck5aVzE2VDJ4V0ZHSTVwTnBXRVhWZEYtNWRDLW84QnhJZkdjUUFVRnQ1RkpRM1NZEhc1TDRjYXNPVENPbmgxZThQNnN2bjJBdxoiQUpLTEZtSWFDaUltcmJ4b1R5RnhoWENIeEExWXFUMVN1ZxIEODEyNBoBMyoAMAA4AUAAGCogsK7LOEoCEAE",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%AE%9C%E8%98%AD%E7%BE%85%E6%9D%B1%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5262%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVI0d213M2UwdnpGcjFiTm16Y1U1VWhWdlE3U3k4aEVMcmVyLVZEQVhZVl9ZZ3BSOFVkV3N0QUU4RDlFd2hyT1N3ck5aVzE2VDJ4V0ZHSTVwTnBXRVhWZEYtNWRDLW84QnhJZkdjUUFVRnQ1RkpRM1NZEhc1TDRjYXNPVENPbmgxZThQNnN2bjJBdxoiQUpLTEZtSWFDaUltcmJ4b1R5RnhoWENIeEExWXFUMVN1ZxIEODEyNBoBMyoAMAA4AUAAGCogsK7LOEoCEAE",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Stored panel URL opened, but the Google Order provider panel was not readable. Re-check was blocked by Google on 2026-06-01; preserved prior Google Order evidence/status instead of downgrading.",
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=d525e7905da52187&sxsrf=ANbL-n7WDgjqmxvJBtKow1YRZ8QekLfr1g:1774931165167&kgmid=/g/11xdb5t8h1&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E7%BE%85%E6%9D%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=ec1d19eeeb5508f2&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNkWFZ0NzNGMjRxLTgxY216WlViVUJxTm5TR2YwVUp4YnloUU5nYjNwcXpENlVZWFhocUZKeTJ4alN2Y0VYT1FZYVdnWnRoaFZ5YTBXd2NEazFfNHVnS09NZGFVX1RoWGxTTnhxN2Z6VVV6bm1RaUVvEhdFaEliYXNpWEstaWoxZThQaDlYMi1RMBoiQUpLTEZtSTdXWVI4WnZxM0JuTVlNb3c5Vll2bUZBQTRvQRIEODEyNBoBMyoAMAA4AUAAGCog6LXSqgFKAhAB",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%AE%9C%E8%98%AD%E7%BE%85%E6%9D%B1%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5262%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVI0d213M2UwdnpGcjFiTm16Y1U1VWhWdlE3U3k4aEVMcmVyLVZEQVhZVl9ZZ3BSOFVkV3N0QUU4RDlFd2hyT1N3ck5aVzE2VDJ4V0ZHSTVwTnBXRVhWZEYtNWRDLW84QnhJZkdjUUFVRnQ1RkpRM1NZEhc1TDRjYXNPVENPbmgxZThQNnN2bjJBdxoiQUpLTEZtSWFDaUltcmJ4b1R5RnhoWENIeEExWXFUMVN1ZxIEODEyNBoBMyoAMAA4AUAAGCogsK7LOEoCEAE",
       "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
       "gmbSignals": {
         "buttonDetected": true,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?sca_esv=d525e7905da52187&sxsrf=ANbL-n7WDgjqmxvJBtKow1YRZ8QekLfr1g:1774931165167&kgmid=/g/11xdb5t8h1&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E7%BE%85%E6%9D%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=ec1d19eeeb5508f2&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNkWFZ0NzNGMjRxLTgxY216WlViVUJxTm5TR2YwVUp4YnloUU5nYjNwcXpENlVZWFhocUZKeTJ4alN2Y0VYT1FZYVdnWnRoaFZ5YTBXd2NEazFfNHVnS09NZGFVX1RoWGxTTnhxN2Z6VVV6bm1RaUVvEhdFaEliYXNpWEstaWoxZThQaDlYMi1RMBoiQUpLTEZtSTdXWVI4WnZxM0JuTVlNb3c5Vll2bUZBQTRvQRIEODEyNBoBMyoAMAA4AUAAGCog6LXSqgFKAhAB",
-        "checkedAt": "2026-05-31",
-        "checkMethod": "stored_panel_mode_recheck",
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%AE%9C%E8%98%AD%E7%BE%85%E6%9D%B1%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5262%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVI0d213M2UwdnpGcjFiTm16Y1U1VWhWdlE3U3k4aEVMcmVyLVZEQVhZVl9ZZ3BSOFVkV3N0QUU4RDlFd2hyT1N3ck5aVzE2VDJ4V0ZHSTVwTnBXRVhWZEYtNWRDLW84QnhJZkdjUUFVRnQ1RkpRM1NZEhc1TDRjYXNPVENPbmgxZThQNnN2bjJBdxoiQUpLTEZtSWFDaUltcmJ4b1R5RnhoWENIeEExWXFUMVN1ZxIEODEyNBoBMyoAMAA4AUAAGCogsK7LOEoCEAE",
+        "checkedAt": "2026-06-01",
+        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
         "attemptCount": 1,
-        "maxAttempts": 1,
-        "attemptHistory": [],
-        "notes": "Stored panel URL opened, but the Google Order provider panel was not readable.",
-        "lastBlockedRecheckAt": "2026-06-01",
-        "blockedRecheckPreserved": true
+        "maxAttempts": 2,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "googleSearch",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
+          }
+        ],
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers."
       }
     },
     {
@@ -2352,7 +2328,7 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF61%E8%99%9F",
       "gmbUrl": "https://g.co/kgs/MGkYWzj",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "button_confirmed_provider_pending",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -2371,32 +2347,62 @@
           "originalUrl": "https://order.nidin.shop/menu/21054",
           "label": "立即訂餐",
           "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF61%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVRoMXhyUjkwZGJvSWtkYmJmZWczOVJ6ODlDb0RBYTRTQ3hmRkNHUFBBVE1UamU0MHZSWm5HZ0N6MHlGMF9NalpmYTA0NkhtZm5HUkJDNjE0WU1GRkxoSnREOUoydUQ0M1FsV2FVMWczbGJLZnVLWnlvEhctYjRjYXAyNkxOVzN2cjBQMFo2OThRSRoiQUpLTEZtTENteTNKXzNDdWctRkQ3dFRDRW03eVpRYTdsdxIEODEyNBoBMyoAMAA4AUAAGCog6PPTrwlKAhAB",
+          "label": "GMB blue-button pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF61%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVRoMXhyUjkwZGJvSWtkYmJmZWczOVJ6ODlDb0RBYTRTQ3hmRkNHUFBBVE1UamU0MHZSWm5HZ0N6MHlGMF9NalpmYTA0NkhtZm5HUkJDNjE0WU1GRkxoSnREOUoydUQ0M1FsV2FVMWczbGJLZnVLWnlvEhctYjRjYXAyNkxOVzN2cjBQMFo2OThRSRoiQUpLTEZtTENteTNKXzNDdWctRkQ3dFRDRW03eVpRYTdsdxIEODEyNBoBMyoAMAA4AUAAGCog6PPTrwlKAhAB",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Google Order panel opened, but no visible provider rows were readable. Re-check was blocked by Google on 2026-06-01; preserved prior Google Order evidence/status instead of downgrading.",
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=2a89619726ebddd5&sxsrf=AHTn8zr6qx4JgkpOHTy8tYxpu9MngQiywA:1737687222031&kgmid=/g/11ltscsk_t&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=301529316d9b3fe5#sv=CAESzQEKuQEStgEKd0FNbjMteVFLbXBOZHRzbmphSERhcjgzMUpFY2lzQXVYdk11anlyUnc2ZTVYMmhhT2Fpd1hrT19Ud0F5UFo1eHl2U21kVzVnNkI3SWdERnBVX1RsYWRjU21GcWNzSWJ2cEh1WlJKb0VqZ0JLWVI4TzlKUEhteWU0EhdkUk1iYXNmS1BQQ1B2cjBQcTQyYWtBSRoiQUpLTEZtSXB4VXJEYWczRTZYMEFtMFRnX2oyaTVPWThMURIEODEyNBoBMyoAMAA4AUAAGCog8u7I6w86AEoCEAE",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF61%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVRoMXhyUjkwZGJvSWtkYmJmZWczOVJ6ODlDb0RBYTRTQ3hmRkNHUFBBVE1UamU0MHZSWm5HZ0N6MHlGMF9NalpmYTA0NkhtZm5HUkJDNjE0WU1GRkxoSnREOUoydUQ0M1FsV2FVMWczbGJLZnVLWnlvEhctYjRjYXAyNkxOVzN2cjBQMFo2OThRSRoiQUpLTEZtTENteTNKXzNDdWctRkQ3dFRDRW03eVpRYTdsdxIEODEyNBoBMyoAMAA4AUAAGCog6PPTrwlKAhAB",
+      "gmbPickupProviders": [
+        "Nidin"
+      ],
+      "gmbDeliveryProviders": [
+        "Nidin"
+      ],
       "gmbOrderModesConfirmed": [
         "pickup",
         "delivery"
       ],
       "gmbSignals": {
         "buttonDetected": true,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?sca_esv=2a89619726ebddd5&sxsrf=AHTn8zr6qx4JgkpOHTy8tYxpu9MngQiywA:1737687222031&kgmid=/g/11ltscsk_t&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=301529316d9b3fe5#sv=CAESzQEKuQEStgEKd0FNbjMteVFLbXBOZHRzbmphSERhcjgzMUpFY2lzQXVYdk11anlyUnc2ZTVYMmhhT2Fpd1hrT19Ud0F5UFo1eHl2U21kVzVnNkI3SWdERnBVX1RsYWRjU21GcWNzSWJ2cEh1WlJKb0VqZ0JLWVI4TzlKUEhteWU0EhdkUk1iYXNmS1BQQ1B2cjBQcTQyYWtBSRoiQUpLTEZtSXB4VXJEYWczRTZYMEFtMFRnX2oyaTVPWThMURIEODEyNBoBMyoAMAA4AUAAGCog8u7I6w86AEoCEAE",
-        "checkedAt": "2026-05-31",
-        "checkMethod": "stored_panel_mode_recheck",
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF61%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVRoMXhyUjkwZGJvSWtkYmJmZWczOVJ6ODlDb0RBYTRTQ3hmRkNHUFBBVE1UamU0MHZSWm5HZ0N6MHlGMF9NalpmYTA0NkhtZm5HUkJDNjE0WU1GRkxoSnREOUoydUQ0M1FsV2FVMWczbGJLZnVLWnlvEhctYjRjYXAyNkxOVzN2cjBQMFo2OThRSRoiQUpLTEZtTENteTNKXzNDdWctRkQ3dFRDRW03eVpRYTdsdxIEODEyNBoBMyoAMAA4AUAAGCog6PPTrwlKAhAB",
+        "checkedAt": "2026-06-01",
+        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
         "attemptCount": 1,
-        "maxAttempts": 1,
-        "attemptHistory": [],
-        "notes": "Google Order panel opened, but no visible provider rows were readable.",
-        "lastBlockedRecheckAt": "2026-06-01",
-        "blockedRecheckPreserved": true
+        "maxAttempts": 2,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "googleSearch",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
+          }
+        ],
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers."
       }
     },
     {
@@ -2420,7 +2426,7 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F",
       "gmbUrl": "https://maps.app.goo.gl/aEJToZC8nfSAJC2t7",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "button_confirmed_provider_pending",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -2439,90 +2445,80 @@
           "originalUrl": "https://order.nidin.shop/menu/22269",
           "label": "立即訂餐",
           "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
+          "label": "GMB blue-button pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review.",
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/maps/place/%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97/@25.0185398,121.2980145,17z/data=!3m1!4b1!4m6!3m5!1s0x34681f0066cce8b9:0x3972fef5c7f47973!8m2!3d25.0185398!4d121.3005894!16s%2Fg%2F11yb8l7bv5?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
+      "gmbPickupProviders": [
+        "Nidin"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats",
+        "Nidin"
+      ],
       "gmbSignals": {
         "buttonDetected": true,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/maps/place/%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97/@25.0185398,121.2980145,17z/data=!3m1!4b1!4m6!3m5!1s0x34681f0066cce8b9:0x3972fef5c7f47973!8m2!3d25.0185398!4d121.3005894!16s%2Fg%2F11yb8l7bv5?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D",
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
         "checkedAt": "2026-06-01",
         "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 9,
-        "maxAttempts": 3,
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
             "attempt": 1,
             "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 1,
-            "target": "gmbUrl",
-            "status": "button_confirmed_provider_pending",
+            "status": "confirmed",
             "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 1,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
+            "providersParsed": true
           }
         ],
-        "notes": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers."
       }
     },
     {
@@ -3324,7 +3320,7 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%20%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1",
       "gmbUrl": "https://share.google/sr96Ik1BsLnVWMDfR",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "button_confirmed_provider_pending",
+      "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -3333,8 +3329,8 @@
       },
       "orderingSystems": [],
       "hasAnyOrderingSystem": false,
-      "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced re-check did not improve prior GMB ordering evidence (Google blocked the page during human-paced Google Order re-check.); preserved existing Google Order status instead of downgrading it. Re-check was blocked by Google on 2026-06-01; preserved prior Google Order evidence/status instead of downgrading.",
+      "hasGmbOrderingSystem": false,
+      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80+%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1&hl=zh-TW",
@@ -3344,74 +3340,44 @@
         "unknown"
       ],
       "gmbSignals": {
-        "buttonDetected": true,
+        "buttonDetected": false,
         "providersParsed": false,
         "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80+%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1&hl=zh-TW",
-        "checkedAt": "2026-05-31",
-        "checkMethod": "human_paced_gmb_recheck",
-        "notes": "Human-paced re-check did not improve prior GMB ordering evidence (Google blocked the page during human-paced Google Order re-check.); preserved existing Google Order status instead of downgrading it.",
-        "attemptCount": 8,
-        "maxAttempts": 4,
+        "checkedAt": "2026-06-01",
+        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
+        "attemptCount": 4,
+        "maxAttempts": 2,
         "attemptHistory": [
           {
             "attempt": 1,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
+            "target": "googleSearch",
+            "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
             "attempt": 2,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 4,
-            "target": "gmbUrl",
-            "status": "unavailable_or_blocked",
+            "target": "googleSearch",
+            "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
             "attempt": 1,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
+            "target": "gmbUrl",
+            "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
             "attempt": 2,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 4,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
+            "target": "gmbUrl",
+            "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "lastBlockedRecheckAt": "2026-06-01",
-        "blockedRecheckPreserved": true
+        "notes": "No Google Order button was found during human-paced browser check."
       }
     },
     {
@@ -3531,7 +3497,7 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F",
       "gmbUrl": "https://maps.app.goo.gl/CSRPYF2yXbvMreVk9",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "button_confirmed_provider_pending",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -3562,90 +3528,80 @@
           "label": "外送平台",
           "confidence": "confirmed",
           "evidenceTitle": "台中大茗本位製茶堂 高工店外送 | 菜單和價目表 | Uber Eats"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
+          "label": "GMB blue-button pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
+          "label": "GMB blue-button delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review.",
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/maps/place/%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E9%AB%98%E5%B7%A5%E5%BA%97/@24.1140616,120.6669513,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d9b3cdf1f8f:0xfda68d6d0fecdf88!8m2!3d24.1140616!4d120.6669513!16s%2Fg%2F11t2yzk7kf?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
+      "gmbPickupProviders": [
+        "Nidin"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats",
+        "Nidin"
+      ],
       "gmbSignals": {
         "buttonDetected": true,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/maps/place/%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E9%AB%98%E5%B7%A5%E5%BA%97/@24.1140616,120.6669513,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d9b3cdf1f8f:0xfda68d6d0fecdf88!8m2!3d24.1140616!4d120.6669513!16s%2Fg%2F11t2yzk7kf?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D",
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
         "checkedAt": "2026-06-01",
         "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 9,
-        "maxAttempts": 3,
+        "attemptCount": 1,
+        "maxAttempts": 2,
         "attemptHistory": [
           {
             "attempt": 1,
             "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 1,
-            "target": "gmbUrl",
-            "status": "button_confirmed_provider_pending",
+            "status": "confirmed",
             "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 1,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "unavailable_or_blocked",
-            "buttonDetected": false,
-            "providersParsed": false
+            "providersParsed": true
           }
         ],
-        "notes": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers."
       }
     },
     {

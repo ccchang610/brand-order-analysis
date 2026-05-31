@@ -53,13 +53,13 @@
     "notes": "Official store page provides the store population, embedded Google/Maps links, Nidin order links, and delivery platform links. GMB online-order panels were opened separately to read pickup/delivery providers."
   },
   "anyOrderingSystemCount": 77,
-  "gmbOrderingSystemCount": 78,
-  "gmbCoverageGapCount": 1,
+  "gmbOrderingSystemCount": 76,
+  "gmbCoverageGapCount": 3,
   "unknownOrderingSystemCount": 2,
   "allSourceSystemCounts": {
-    "Uber Eats": 74,
+    "Uber Eats": 75,
     "Nidin": 72,
-    "foodpanda": 63
+    "foodpanda": 66
   },
   "allSourcePickupSystemCounts": {
     "Nidin": 72,
@@ -67,63 +67,66 @@
     "Uber Eats": 3
   },
   "allSourceDeliverySystemCounts": {
-    "Uber Eats": 74,
+    "Uber Eats": 75,
     "Nidin": 72,
-    "foodpanda": 63
+    "foodpanda": 66
   },
   "gmbSystemCounts": {
-    "Uber Eats": 71,
-    "foodpanda": 63
+    "Uber Eats": 75,
+    "foodpanda": 66,
+    "Nidin": 4
   },
   "gmbPickupSystemCounts": {
     "foodpanda": 11,
+    "Nidin": 4,
     "Uber Eats": 3
   },
   "gmbDeliverySystemCounts": {
-    "Uber Eats": 71,
-    "foodpanda": 63
+    "Uber Eats": 75,
+    "foodpanda": 66,
+    "Nidin": 3
   },
   "allSourceSystemAdoptionRates": {
-    "Uber Eats": 0.9367,
+    "Uber Eats": 0.9494,
     "Nidin": 0.9114,
-    "foodpanda": 0.7975
+    "foodpanda": 0.8354
   },
   "gmbSystemAdoptionRates": {
-    "Uber Eats": 0.8987,
-    "foodpanda": 0.7975
+    "Uber Eats": 0.9494,
+    "foodpanda": 0.8354,
+    "Nidin": 0.0506
   },
   "gmbOrderingStatusCounts": {
-    "confirmed": 71,
-    "button_confirmed_provider_pending": 7,
-    "no_gmb_order_button": 1
+    "confirmed": 76,
+    "no_gmb_order_button": 3
   },
   "anyOrderingSystemAdoptionRate": 0.9747,
-  "gmbOrderingSystemAdoptionRate": 0.9873,
+  "gmbOrderingSystemAdoptionRate": 0.962,
   "systemComparison": [
     {
       "system": "Nidin",
       "allSourceStoreCount": 72,
       "allSourceAdoptionRate": 0.9114,
-      "gmbStoreCount": 0,
-      "gmbAdoptionRate": 0.0,
-      "countGap": 72,
-      "percentagePointGap": 0.9114
+      "gmbStoreCount": 4,
+      "gmbAdoptionRate": 0.0506,
+      "countGap": 68,
+      "percentagePointGap": 0.8608
     },
     {
       "system": "Uber Eats",
-      "allSourceStoreCount": 74,
-      "allSourceAdoptionRate": 0.9367,
-      "gmbStoreCount": 71,
-      "gmbAdoptionRate": 0.8987,
-      "countGap": 3,
-      "percentagePointGap": 0.038
+      "allSourceStoreCount": 75,
+      "allSourceAdoptionRate": 0.9494,
+      "gmbStoreCount": 75,
+      "gmbAdoptionRate": 0.9494,
+      "countGap": 0,
+      "percentagePointGap": 0.0
     },
     {
       "system": "foodpanda",
-      "allSourceStoreCount": 63,
-      "allSourceAdoptionRate": 0.7975,
-      "gmbStoreCount": 63,
-      "gmbAdoptionRate": 0.7975,
+      "allSourceStoreCount": 66,
+      "allSourceAdoptionRate": 0.8354,
+      "gmbStoreCount": 66,
+      "gmbAdoptionRate": 0.8354,
       "countGap": 0,
       "percentagePointGap": 0.0
     }
