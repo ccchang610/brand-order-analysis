@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>&#22823;&#33559;&#40670;&#39184;&#31995;&#32113;&#32317;&#35261;</title>
+  <link rel="stylesheet" href="styles.css?v=22" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Brand Order Analysis</p>
+      <h1>&#22823;&#33559;&#26412;&#20301;&#35069;&#33590;&#22530;&#40670;&#39184;&#31995;&#32113;&#32317;&#35261;</h1>
+      <p class="subhead">&#23448;&#26041;&#38272;&#24066;&#12289;Google/GMB &#35206;&#33995;&#12289;&#20840;&#20358;&#28304;&#40670;&#39184;&#31995;&#32113;&#33287; GMB &#33258;&#21462;/&#22806;&#36865;&#20998;&#26512;&#12290;<span class="version">v22 active-mode</span></p>
+    </div>
+    <div class="meta">
+      <span id="generatedAt">Loading</span>
+      <a href="data/stores.csv">CSV</a>
+      <a href="data/summary.json">Summary JSON</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="segmented" id="regionFilters"></div>
+      <label>&#22478;&#24066;<select id="cityFilter"></select></label>
+      <label>&#31995;&#32113;<select id="systemFilter"></select></label>
+      <label>GMB &#29376;&#24907;<select id="gmbFilter"><option value="all">&#20840;&#37096;</option><option value="confirmed">GMB &#26377;&#40670;&#39184;</option><option value="gap">GMB &#40670;&#39184;&#32570;&#21475;</option><option value="no_gmb_found">GMB &#26410;&#25214;&#21040;</option></select></label>
+      <label class="search">&#25628;&#23563;&#38272;&#24066;<input id="searchInput" type="search" placeholder="&#38272;&#24066;&#12289;&#22320;&#22336;&#12289;&#22478;&#24066;" /></label>
+    </section>
+
+    <section class="insight-strip" id="insightStrip"></section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">1. Store Footprint</p><h2>&#21697;&#29260;&#38272;&#24066;&#32317;&#35261;</h2></div>
+        <p>&#23448;&#26041;&#38272;&#24066;&#28858;&#20998;&#27597;&#65307;GMB/Maps &#20358;&#33258;&#23448;&#32178;&#23884;&#20837;&#30340;&#22320;&#22294;&#36899;&#32080;&#65292;GMB &#40670;&#39184;&#38754;&#26495;&#24050;&#36880;&#24215;&#25171;&#38283;&#31293;&#26680;&#12290;</p>
+      </div>
+      <div class="kpi-grid" id="storeKpis"></div>
+      <div class="split map-layout">
+        <div>
+          <h3>&#21488;&#28771;&#38272;&#24066;&#22320;&#22294;</h3>
+          <p class="map-source">&#22320;&#22294;&#36650;&#24275;&#65306;Taiwan.md &#32291;&#24066; TopoJSON&#65292;&#24050;&#36681;&#28858;&#26412;&#27231; SVG&#12290;</p>
+          <div class="taiwan-map" id="taiwanMap"></div>
+        </div>
+        <div><h3>&#22478;&#24066;&#25490;&#34892;</h3><div class="bars" id="cityBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">2. All Sources</p><h2>&#21697;&#29260;&#25972;&#39636;&#40670;&#39184;&#31995;&#32113;</h2></div>
+        <p>&#25972;&#21512;&#23448;&#32178;&#31435;&#21363;&#35330;&#39184;&#12289;&#22806;&#36865;&#24179;&#21488;&#36899;&#32080;&#12289;&#24050;&#35299;&#26512;&#30701;&#32178;&#22336;&#33287; GMB &#32218;&#19978;&#40670;&#39184;&#38754;&#26495;&#12290;</p>
+      </div>
+      <div class="kpi-grid" id="allSourceKpis"></div>
+      <div class="split">
+        <div><h3>&#20840;&#20358;&#28304;&#33258;&#21462;&#31995;&#32113;</h3><div class="bars" id="pickupBars"></div></div>
+        <div><h3>&#20840;&#20358;&#28304;&#22806;&#36865;&#31995;&#32113;</h3><div class="bars" id="deliveryBars"></div></div>
+      </div>
+      <div class="split compact">
+        <div><h3>&#22823;&#21312;&#23566;&#20837;&#29575;</h3><div class="matrix" id="regionMatrix"></div></div>
+        <div><h3>&#35299;&#35712;</h3><p class="note">Nidin &#20027;&#35201;&#20358;&#33258;&#23448;&#32178;&#12300;&#31435;&#21363;&#35330;&#39184;&#12301;&#65292;&#27161;&#31034;&#33258;&#21462;&#33287;&#22806;&#36865;&#65307;Uber Eats / foodpanda &#20027;&#35201;&#20358;&#33258;&#22806;&#36865;&#24179;&#21488;&#25110; GMB &#36939;&#36865;&#38754;&#26495;&#12290;</p></div>
+      </div>
+    </section>
+
+    <section class="panel warning">
+      <div class="section-title">
+        <div><p class="eyebrow">3. GMB Only</p><h2>GMB &#40670;&#39184;&#31995;&#32113;&#32317;&#35261;</h2></div>
+        <p>&#21482;&#35336;&#20837; Google &#21830;&#23478;&#38913;&#34253;&#33394;&#12300;&#32218;&#19978;&#40670;&#39184;&#12301;&#25353;&#37397;&#40670;&#20837;&#24460;&#65292;&#22312;&#33258;&#21462;&#25110;&#36939;&#36865;&#38754;&#26495;&#23526;&#38555;&#30475;&#21040;&#30340;&#20379;&#25033;&#21830;&#12290;</p>
+      </div>
+      <div class="kpi-grid" id="gmbKpis"></div>
+      <div class="split">
+        <div><h3>GMB &#33258;&#21462;&#31995;&#32113;</h3><div class="bars" id="gmbPickupBars"></div></div>
+        <div><h3>GMB &#22806;&#36865;&#31995;&#32113;</h3><div class="bars" id="gmbDeliveryBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">4. Comparison</p><h2>&#20840;&#20358;&#28304; vs GMB</h2></div></div>
+      <div class="table-wrap"><table><thead><tr><th>&#31995;&#32113;</th><th>&#20840;&#20358;&#28304;&#38272;&#24066;</th><th>&#20840;&#20358;&#28304;&#23566;&#20837;&#29575;</th><th>GMB &#38272;&#24066;</th><th>GMB &#23566;&#20837;&#29575;</th><th>&#24046;&#36317;</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">5. Store Details</p><h2>&#38272;&#24066;&#26126;&#32048;</h2></div><p id="detailCount"></p></div>
+      <div class="table-wrap details"><table><thead><tr><th>&#38272;&#24066;</th><th>&#22320;&#21312;</th><th>&#22320;&#22336;</th><th>&#20840;&#20358;&#28304;&#31995;&#32113;</th><th>GMB</th><th>&#35657;&#25818;</th></tr></thead><tbody id="storeRows"></tbody></table></div>
+    </section>
+  </main>
+
+  <script src="data-inline.js?v=22"></script>
+  <script src="taiwan-map.js?v=18"></script>
+  <script src="app.js?v=22"></script>
+</body>
+</html>

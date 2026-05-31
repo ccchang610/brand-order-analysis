@@ -1,0 +1,20 @@
+# Runtime/browser state
+data/.gmb-human-profile/
+scripts/__pycache__/
+__pycache__/
+*.pyc
+
+# Local run logs
+*.log
+*.out.log
+*.err.log
+
+# Generated screenshots and debug captures
+*.png
+
+# Local backups
+backup-before-full-rerun-*/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

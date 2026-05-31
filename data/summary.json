@@ -1,0 +1,140 @@
+{
+  "brand": "大茗本位製茶堂",
+  "market": "Taiwan",
+  "generatedAt": "2026-05-31",
+  "officialStoreCount": 79,
+  "gmbFoundCount": 79,
+  "gmbMissingCount": 0,
+  "googleFoundCount": 79,
+  "thirdPartyFoundCount": 71,
+  "cityCounts": {
+    "台北市": 9,
+    "新北市": 6,
+    "基隆市": 0,
+    "桃園市": 7,
+    "新竹市": 4,
+    "新竹縣": 0,
+    "苗栗縣": 2,
+    "台中市": 30,
+    "彰化縣": 2,
+    "南投縣": 0,
+    "雲林縣": 1,
+    "嘉義市": 2,
+    "嘉義縣": 0,
+    "台南市": 5,
+    "高雄市": 7,
+    "屏東縣": 2,
+    "宜蘭縣": 2,
+    "花蓮縣": 0,
+    "台東縣": 0,
+    "澎湖縣": 0,
+    "金門縣": 0,
+    "連江縣": 0
+  },
+  "regionCounts": {
+    "北部": 28,
+    "中部": 35,
+    "南部": 16,
+    "東部": 0,
+    "離島": 0
+  },
+  "gmbStatusCounts": {
+    "confirmed": 79
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 79,
+    "gmbFound": 79,
+    "googleFound": 79,
+    "thirdPartyFound": 71
+  },
+  "source": {
+    "officialStoreList": "https://www.damingtea.com.tw/stores/",
+    "officialWebsite": "https://www.damingtea.com.tw/",
+    "notes": "Official store page provides the store population, embedded Google/Maps links, Nidin order links, and delivery platform links. GMB online-order panels were opened separately to read pickup/delivery providers."
+  },
+  "anyOrderingSystemCount": 77,
+  "gmbOrderingSystemCount": 78,
+  "gmbCoverageGapCount": 1,
+  "unknownOrderingSystemCount": 2,
+  "allSourceSystemCounts": {
+    "Uber Eats": 74,
+    "Nidin": 72,
+    "foodpanda": 63
+  },
+  "allSourcePickupSystemCounts": {
+    "Nidin": 72,
+    "foodpanda": 21,
+    "Uber Eats": 17
+  },
+  "allSourceDeliverySystemCounts": {
+    "Uber Eats": 74,
+    "Nidin": 72,
+    "foodpanda": 57
+  },
+  "gmbSystemCounts": {
+    "Uber Eats": 66,
+    "foodpanda": 63,
+    "Nidin": 5
+  },
+  "gmbPickupSystemCounts": {
+    "foodpanda": 21,
+    "Uber Eats": 17,
+    "Nidin": 5
+  },
+  "gmbDeliverySystemCounts": {
+    "Uber Eats": 65,
+    "foodpanda": 57,
+    "Nidin": 4
+  },
+  "allSourceSystemAdoptionRates": {
+    "Uber Eats": 0.9367,
+    "Nidin": 0.9114,
+    "foodpanda": 0.7975
+  },
+  "gmbSystemAdoptionRates": {
+    "Uber Eats": 0.8354,
+    "foodpanda": 0.7975,
+    "Nidin": 0.0633
+  },
+  "gmbOrderingStatusCounts": {
+    "confirmed": 72,
+    "button_confirmed_provider_pending": 6,
+    "no_gmb_order_button": 1
+  },
+  "anyOrderingSystemAdoptionRate": 0.9747,
+  "gmbOrderingSystemAdoptionRate": 0.9873,
+  "systemComparison": [
+    {
+      "system": "Nidin",
+      "allSourceStoreCount": 72,
+      "allSourceAdoptionRate": 0.9114,
+      "gmbStoreCount": 5,
+      "gmbAdoptionRate": 0.0633,
+      "countGap": 67,
+      "percentagePointGap": 0.8481
+    },
+    {
+      "system": "Uber Eats",
+      "allSourceStoreCount": 74,
+      "allSourceAdoptionRate": 0.9367,
+      "gmbStoreCount": 66,
+      "gmbAdoptionRate": 0.8354,
+      "countGap": 8,
+      "percentagePointGap": 0.1013
+    },
+    {
+      "system": "foodpanda",
+      "allSourceStoreCount": 63,
+      "allSourceAdoptionRate": 0.7975,
+      "gmbStoreCount": 63,
+      "gmbAdoptionRate": 0.7975,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    }
+  ],
+  "notes": [
+    "Adoption rates use official store count as denominator.",
+    "All-source ordering systems come from official page order/delivery links, resolved platform links, and GMB online-order panel evidence.",
+    "GMB-only pickup and delivery providers are separated from the Google online-order panel where readable."
+  ]
+}
