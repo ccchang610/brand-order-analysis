@@ -58,7 +58,10 @@ def search_url(store: dict) -> str:
 def should_preserve_existing(store: dict, result: dict) -> bool:
     if result["status"] in {"confirmed", "button_confirmed_provider_pending"}:
         return False
-    return bool(confirmed_gmb_claims(store))
+    return bool(
+        confirmed_gmb_claims(store)
+        or store.get("gmbOrderingStatus") == "button_confirmed_provider_pending"
+    )
 
 
 def better_result(current: dict | None, candidate: dict) -> dict:
@@ -74,10 +77,15 @@ def better_result(current: dict | None, candidate: dict) -> dict:
 def preserve_existing_state(store: dict, result: dict) -> dict:
     reason = result.get("notes") or result.get("status") or "No improved result during re-check."
     trusted_claims = confirmed_gmb_claims(store)
+    pending_entry = (
+        not trusted_claims
+        and store.get("gmbOrderingStatus") == "button_confirmed_provider_pending"
+    )
     store["orderingSystems"] = [
         claim for claim in store.get("orderingSystems", []) if claim.get("sourceType") != "gmb"
     ] + trusted_claims
-    store["hasGmbOrderingSystem"] = bool(trusted_claims)
+    store["hasGmbOrderingSystem"] = bool(trusted_claims or pending_entry)
+    store["gmbOrderingStatus"] = "confirmed" if trusted_claims else "button_confirmed_provider_pending"
     store["gmbPickupProviders"] = sorted(
         {claim["system"] for claim in trusted_claims if "pickup" in claim.get("orderMode", [])}
     )
@@ -349,14 +357,31 @@ async def click_mode_control(page, mode_texts: list[str]) -> bool:
     return False
 
 
+async def click_enabled_mode_text(page, mode_texts: list[str]) -> bool:
+    for text in mode_texts:
+        locator = page.get_by_text(text, exact=False)
+        try:
+            count = min(await locator.count(), 5)
+            for index in range(count):
+                candidate = locator.nth(index)
+                if not await candidate.is_visible(timeout=700):
+                    continue
+                if not await candidate.is_enabled(timeout=700):
+                    continue
+                box = await candidate.bounding_box(timeout=700)
+                if not box or box["width"] < 12 or box["height"] < 12:
+                    continue
+                await candidate.click(timeout=5000)
+                await human_pause(page, 900, 1700)
+                return True
+        except Exception:
+            continue
+    return False
+
+
 async def read_mode(page, mode_texts: list[str]) -> list[str]:
-    state = await mode_control_state(page, mode_texts)
-    if state != "active":
-        clicked = await click_mode_control(page, mode_texts)
-        if not clicked:
-            return []
-        state = await mode_control_state(page, mode_texts)
-    if state != "active":
+    clicked = await click_enabled_mode_text(page, mode_texts)
+    if not clicked:
         return []
     text = await wait_for_panel_text(page)
     if not is_order_panel_text(page.url, text):
@@ -399,7 +424,7 @@ async def inspect_order_flow(page) -> dict:
                 page,
                 PICKUP_TEXTS if mode_key == "pickupProviders" else DELIVERY_TEXTS,
             )
-            if is_order_panel_text(page.url, clicked_text) and mode_state != "inactive":
+            if is_order_panel_text(page.url, clicked_text) and mode_state == "active":
                 result[mode_key] = await visible_provider_names(page)
 
     if not result["buttonDetected"]:

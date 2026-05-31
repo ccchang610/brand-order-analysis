@@ -2,7 +2,7 @@
 
 Static dashboard and dataset for the Taiwan store ordering-system analysis of 大茗本位製茶堂.
 
-Current version: `v23 gmb-provider-strict`
+Current version: `v24 gmb-mode-enabled`
 
 ## What Is Included
 
@@ -18,4 +18,4 @@ Current version: `v23 gmb-provider-strict`
 
 GMB pickup/delivery mode is counted only when the Google Order panel mode is active or clickable and the provider appears as a visible provider row in the opened panel.
 
-Greyed mode labels, official Nidin/order links, and background Google result text are not counted as GMB provider evidence.
+Greyed or disabled mode labels, official Nidin/order links, and background Google result text are not counted as GMB provider evidence. Nidin can still be counted if it appears as a real provider row inside the opened Google Order panel.

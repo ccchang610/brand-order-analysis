@@ -1,7 +1,7 @@
 {
   "brand": "大茗本位製茶堂",
   "market": "Taiwan",
-  "generatedAt": "2026-05-31",
+  "generatedAt": "2026-06-01",
   "officialStoreCount": 79,
   "gmbFoundCount": 79,
   "gmbMissingCount": 0,
@@ -63,25 +63,25 @@
   },
   "allSourcePickupSystemCounts": {
     "Nidin": 72,
-    "foodpanda": 17,
-    "Uber Eats": 13
+    "foodpanda": 11,
+    "Uber Eats": 3
   },
   "allSourceDeliverySystemCounts": {
     "Uber Eats": 74,
     "Nidin": 72,
-    "foodpanda": 57
+    "foodpanda": 63
   },
   "gmbSystemCounts": {
-    "Uber Eats": 66,
+    "Uber Eats": 71,
     "foodpanda": 63
   },
   "gmbPickupSystemCounts": {
-    "foodpanda": 17,
-    "Uber Eats": 13
+    "foodpanda": 11,
+    "Uber Eats": 3
   },
   "gmbDeliverySystemCounts": {
-    "Uber Eats": 65,
-    "foodpanda": 57
+    "Uber Eats": 71,
+    "foodpanda": 63
   },
   "allSourceSystemAdoptionRates": {
     "Uber Eats": 0.9367,
@@ -89,7 +89,7 @@
     "foodpanda": 0.7975
   },
   "gmbSystemAdoptionRates": {
-    "Uber Eats": 0.8354,
+    "Uber Eats": 0.8987,
     "foodpanda": 0.7975
   },
   "gmbOrderingStatusCounts": {
@@ -113,10 +113,10 @@
       "system": "Uber Eats",
       "allSourceStoreCount": 74,
       "allSourceAdoptionRate": 0.9367,
-      "gmbStoreCount": 66,
-      "gmbAdoptionRate": 0.8354,
-      "countGap": 8,
-      "percentagePointGap": 0.1013
+      "gmbStoreCount": 71,
+      "gmbAdoptionRate": 0.8987,
+      "countGap": 3,
+      "percentagePointGap": 0.038
     },
     {
       "system": "foodpanda",

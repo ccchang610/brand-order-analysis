@@ -19,6 +19,7 @@ PROVIDERS = {
     "ubereats": "Uber Eats",
     "uber eats": "Uber Eats",
     "UberEats": "Uber Eats",
+    "Nidin": "Nidin",
 }
 
 

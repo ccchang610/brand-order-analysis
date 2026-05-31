@@ -21,6 +21,7 @@ PROVIDER_PATTERNS = {
     "Uber Eats": "Uber Eats",
     "UberEats": "Uber Eats",
     "ubereats": "Uber Eats",
+    "Nidin": "Nidin",
     "LINE": "LINE",
     "lin.ee": "LINE",
 }
@@ -158,7 +159,6 @@ async def visible_provider_names(page) -> list[str]:
                     /網路上的評論/,
                     /Google 評論/,
                     /order\\.nidin\\.shop/i,
-                    /nidin/i,
                     /damingtea/i,
                     /google\\.com\\/search/i,
                     /maps\\.app\\.goo\\.gl/i,
@@ -337,15 +337,31 @@ async def click_mode_control(page, mode_texts: list[str]) -> bool:
     return False
 
 
+async def click_enabled_mode_text(page, mode_texts: list[str]) -> bool:
+    for text in mode_texts:
+        locator = page.get_by_text(text, exact=False)
+        try:
+            count = min(await locator.count(), 5)
+            for index in range(count):
+                candidate = locator.nth(index)
+                if not await candidate.is_visible(timeout=700):
+                    continue
+                if not await candidate.is_enabled(timeout=700):
+                    continue
+                box = await candidate.bounding_box(timeout=700)
+                if not box or box["width"] < 12 or box["height"] < 12:
+                    continue
+                await candidate.click(timeout=5000)
+                await page.wait_for_timeout(1200)
+                return True
+        except Exception:
+            continue
+    return False
+
+
 async def click_mode_and_read(page, mode_text: str) -> str:
-    mode_texts = [mode_text]
-    state = await mode_control_state(page, mode_texts)
-    if state != "active":
-        clicked = await click_mode_control(page, mode_texts)
-        if not clicked:
-            return ""
-        state = await mode_control_state(page, mode_texts)
-    if state != "active":
+    clicked = await click_enabled_mode_text(page, [mode_text])
+    if not clicked:
         return ""
     return await wait_for_order_panel_text(page)
 
@@ -445,7 +461,7 @@ async def read_two_button_flow(page, store: dict, result: dict) -> bool:
             page,
             [PICKUP_TEXT] if mode_key == "pickupProviders" else [DELIVERY_TEXT, DELIVERY_ALT_TEXT],
         )
-        if providers and mode_state != "inactive":
+        if providers and mode_state == "active":
             result[mode_key] = providers
 
     return found_any_button
