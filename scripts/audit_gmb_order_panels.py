@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import os
 from collections import Counter
 from datetime import date
 from pathlib import Path
@@ -9,7 +10,7 @@ from pathlib import Path
 from playwright.async_api import TimeoutError as PlaywrightTimeoutError
 from playwright.async_api import async_playwright
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ.get("BRAND_ANALYSIS_REPORT_ROOT", Path(__file__).resolve().parents[1])).resolve()
 DATA = ROOT / "data"
 STORES_PATH = DATA / "stores.json"
 SUMMARY_PATH = DATA / "summary.json"
@@ -20,6 +21,10 @@ PROVIDERS = {
     "uber eats": "Uber Eats",
     "UberEats": "Uber Eats",
     "Nidin": "Nidin",
+    "QuickClick": "QuickClick",
+    "quickclick": "QuickClick",
+    "快一點": "QuickClick",
+    "order.quickclick.cc": "QuickClick",
 }
 
 

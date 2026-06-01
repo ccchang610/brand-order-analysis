@@ -610,6 +610,14 @@ main {
   background: #ff2b85;
 }
 
+.platform-row.platform-brand-line .bar-fill {
+  background: #06c755;
+}
+
+.platform-row.platform-brand-quickclick .bar-fill {
+  background: #fcb900;
+}
+
 .platform-row.platform-brand-nidin b {
   color: #0098ff;
 }
@@ -620,6 +628,14 @@ main {
 
 .platform-row.platform-brand-foodpanda b {
   color: #ff2b85;
+}
+
+.platform-row.platform-brand-line b {
+  color: #06c755;
+}
+
+.platform-row.platform-brand-quickclick b {
+  color: #000000;
 }
 
 .matrix-row {
@@ -785,6 +801,18 @@ td small {
   text-transform: lowercase;
 }
 
+.platform-logo.platform-line {
+  background: #06c755;
+  color: #ffffff;
+  border: 1px solid #06c755;
+}
+
+.platform-logo.platform-quickclick {
+  background: #fcb900;
+  color: #000000;
+  border: 1px solid #fcb900;
+}
+
 .platform-nidin {
   background: #0098ff;
   color: #ffffff;
@@ -800,6 +828,18 @@ td small {
   background: #ff2b85;
   color: #ffffff;
   border: 1px solid #ff2b85;
+}
+
+.platform-line {
+  background: #06c755;
+  color: #ffffff;
+  border: 1px solid #06c755;
+}
+
+.platform-quickclick {
+  background: #fcb900;
+  color: #000000;
+  border: 1px solid #fcb900;
 }
 
 .pill.market {

@@ -91,6 +91,8 @@ HTML visual requirements:
   - Nidin: blue `#0098ff`, white text.
   - Uber Eats: black badge with white text; use Uber Eats green `#06c167` for progress bars.
   - foodpanda: pink `#ff2b85`, white text.
+  - LINE: LINE Green `#06c755`, white text.
+  - QuickClick / 快一點: yellow `#fcb900`, black text.
 - Apply platform colors to provider badges, provider progress bars, and provider counts only. Keep row backgrounds, table cells, and chart containers neutral.
 
 ## Taiwan Geography Defaults

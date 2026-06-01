@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import csv
 import json
+import os
 from collections import Counter
 from datetime import date
 from pathlib import Path
@@ -11,7 +12,7 @@ from playwright.async_api import async_playwright
 
 from audit_gmb_order_panels import rebuild_summary
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ.get("BRAND_ANALYSIS_REPORT_ROOT", Path(__file__).resolve().parents[1])).resolve()
 DATA = ROOT / "data"
 STORES_PATH = DATA / "stores.json"
 SUMMARY_PATH = DATA / "summary.json"
@@ -23,6 +24,10 @@ PROVIDER_PATTERNS = {
     "ubereats": "Uber Eats",
     "Nidin": "Nidin",
     "nidin.shop": "Nidin",
+    "QuickClick": "QuickClick",
+    "quickclick": "QuickClick",
+    "快一點": "QuickClick",
+    "order.quickclick.cc": "QuickClick",
     "LINE": "LINE",
     "lin.ee": "LINE",
 }
@@ -641,6 +646,13 @@ def apply_result(store: dict, result: dict) -> dict:
     ] == "button_confirmed_provider_pending"
     store["gmbOrderingStatus"] = result["status"]
     store["gmbOrderPanelUrl"] = panel_url
+    if result["status"] not in {"not_found", "duplicate_or_ambiguous"}:
+        coverage = store.setdefault("sourceCoverage", {})
+        coverage["googleFound"] = True
+        coverage["gmbFound"] = True
+        store["gmbStatus"] = "confirmed"
+        if panel_url and not store.get("gmbUrl"):
+            store["gmbUrl"] = panel_url
     store["gmbPickupProviders"] = pickup_providers
     store["gmbDeliveryProviders"] = delivery_providers
     store["manualReviewReason"] = result.get("notes", "")

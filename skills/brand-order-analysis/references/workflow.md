@@ -152,6 +152,8 @@ Provider/platform styling:
 - Nidin: blue `#0098ff`, white badge text.
 - Uber Eats: black badge with white text; use Uber Eats green `#06c167` for progress bars.
 - foodpanda: pink `#ff2b85`, white badge text.
+- LINE: LINE Green `#06c755`, white badge text.
+- QuickClick / 快一點: yellow `#fcb900`, black badge text.
 - Unknown, pending, or non-platform claims should use neutral or soft-warning badges, not platform colors.
 
 ### 1. Brand Store Overview

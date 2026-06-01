@@ -1,0 +1,160 @@
+{
+  "brand": "茶聚 CHAGE",
+  "market": "Taiwan",
+  "generatedAt": "2026-06-02",
+  "officialStoreCount": 54,
+  "gmbFoundCount": 54,
+  "gmbMissingCount": 0,
+  "googleFoundCount": 54,
+  "thirdPartyFoundCount": 7,
+  "verificationGapCount": 4,
+  "anyOrderingSystemCount": 53,
+  "googleOrderEntryCount": 50,
+  "googleOrderEntryRate": 0.9259,
+  "gmbOrderingSystemCount": 49,
+  "gmbOrderingSystemAdoptionRate": 0.9074,
+  "gmbCoverageGapCount": 4,
+  "unknownOrderingSystemCount": 1,
+  "cityCounts": {
+    "基隆市": 2,
+    "台北市": 5,
+    "新北市": 10,
+    "桃園市": 17,
+    "新竹市": 1,
+    "新竹縣": 3,
+    "苗栗縣": 3,
+    "台中市": 4,
+    "彰化縣": 1,
+    "南投縣": 0,
+    "雲林縣": 0,
+    "嘉義市": 0,
+    "嘉義縣": 0,
+    "台南市": 1,
+    "高雄市": 1,
+    "屏東縣": 0,
+    "宜蘭縣": 3,
+    "花蓮縣": 3,
+    "台東縣": 0,
+    "澎湖縣": 0,
+    "金門縣": 0,
+    "連江縣": 0
+  },
+  "regionCounts": {
+    "北部": 44,
+    "中部": 5,
+    "南部": 2,
+    "東部": 3,
+    "離島": 0
+  },
+  "allSourceSystemCounts": {
+    "QuickClick": 50,
+    "foodpanda": 42,
+    "Uber Eats": 27,
+    "LINE": 14
+  },
+  "allSourcePickupSystemCounts": {
+    "QuickClick": 50,
+    "foodpanda": 37,
+    "LINE": 14,
+    "Uber Eats": 10
+  },
+  "allSourceDeliverySystemCounts": {
+    "QuickClick": 50,
+    "foodpanda": 42,
+    "Uber Eats": 27,
+    "LINE": 14
+  },
+  "gmbSystemCounts": {
+    "foodpanda": 42,
+    "Uber Eats": 27,
+    "LINE": 14
+  },
+  "gmbPickupSystemCounts": {
+    "foodpanda": 37,
+    "LINE": 14,
+    "Uber Eats": 10
+  },
+  "gmbDeliverySystemCounts": {
+    "foodpanda": 42,
+    "Uber Eats": 27,
+    "LINE": 14
+  },
+  "allSourceSystemAdoptionRates": {
+    "QuickClick": 0.9259,
+    "foodpanda": 0.7778,
+    "Uber Eats": 0.5,
+    "LINE": 0.2593
+  },
+  "gmbSystemAdoptionRates": {
+    "foodpanda": 0.7778,
+    "Uber Eats": 0.5,
+    "LINE": 0.2593
+  },
+  "systemComparison": [
+    {
+      "system": "LINE",
+      "allSourceStoreCount": 14,
+      "allSourceAdoptionRate": 0.2593,
+      "gmbStoreCount": 14,
+      "gmbAdoptionRate": 0.2593,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "QuickClick",
+      "allSourceStoreCount": 50,
+      "allSourceAdoptionRate": 0.9259,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 50,
+      "percentagePointGap": 0.9259
+    },
+    {
+      "system": "Uber Eats",
+      "allSourceStoreCount": 27,
+      "allSourceAdoptionRate": 0.5,
+      "gmbStoreCount": 27,
+      "gmbAdoptionRate": 0.5,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "foodpanda",
+      "allSourceStoreCount": 42,
+      "allSourceAdoptionRate": 0.7778,
+      "gmbStoreCount": 42,
+      "gmbAdoptionRate": 0.7778,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    }
+  ],
+  "gmbStatusCounts": {
+    "confirmed": 54
+  },
+  "gmbOrderingStatusCounts": {
+    "confirmed": 49,
+    "unavailable_or_blocked": 1,
+    "button_confirmed_provider_pending": 1,
+    "no_gmb_order_button": 3
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 54,
+    "gmbFound": 54,
+    "googleFound": 54,
+    "thirdPartyFound": 7
+  },
+  "source": {
+    "officialWebsite": "https://www.chage.com.tw/index.php?lang=tw",
+    "officialStoreList": "https://www.chage.com.tw/edcontent.php?lang=tw&tb=3",
+    "officialOrdering": "https://order.quickclick.cc/tw/portals/CHAGE",
+    "lineAccount": "https://lin.ee/xRo0az8u",
+    "notes": "Official store pages provide the store population and all-source ordering links. Google Order provider evidence counts only provider rows visible inside the opened Google Order panel."
+  },
+  "notes": [
+    "官方門市數作為所有導入率分母。",
+    "全來源點餐系統整合官網 QuickClick、平台頁與 Google Order provider evidence。",
+    "Google Order provider 覆蓋率只計入 sourceType=gmb 的面板供應商；button_confirmed_provider_pending 只列入 googleOrderEntryCount。",
+    "GMB / Google 阻擋、無藍色入口、未找到或歧義結果列為 coverage gap，不當作沒有導入點餐系統。"
+  ],
+  "anyOrderingSystemAdoptionRate": 0.9815
+}
