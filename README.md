@@ -14,6 +14,12 @@ Current version: `v25 gmb-pending-recheck`
 - `data-inline.js`: inline data bundle for file-based viewing
 - `scripts/`: collection and re-check scripts used to build and verify the report
 
+## Reusable Skills
+
+Installable Codex skill copies live under `skills/`.
+
+- `skills/brand-order-analysis/`: reusable Brand Order Analysis skill for creating brand ordering-system overview datasets and dashboard reports.
+
 ## Current GMB Rule
 
 GMB pickup/delivery mode is counted only when the Google Order panel mode is active or clickable and the provider appears as a visible provider row in the opened panel.
