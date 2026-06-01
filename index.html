@@ -3,91 +3,116 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>&#22823;&#33559;&#40670;&#39184;&#31995;&#32113;&#32317;&#35261;</title>
-  <link rel="stylesheet" href="styles.css?v=31" />
+  <title>Brand Order Analysis</title>
+  <style>
+    :root {
+      --bg: #f6faf7;
+      --surface: #ffffff;
+      --line: #dfeae3;
+      --ink: #102018;
+      --muted: #66756d;
+      --accent: #168a55;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+    }
+    main {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(28px, 5vw, 44px);
+      line-height: 1.15;
+    }
+    .subhead {
+      max-width: 680px;
+      margin: 14px 0 32px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    a.card {
+      display: block;
+      min-height: 190px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--surface);
+      color: inherit;
+      text-decoration: none;
+      box-shadow: 0 12px 36px rgba(36, 66, 48, .08);
+    }
+    a.card:hover {
+      border-color: #b8d8c4;
+      transform: translateY(-1px);
+    }
+    .card h2 {
+      margin: 0 0 12px;
+      font-size: 24px;
+    }
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 24px;
+    }
+    .pill {
+      padding: 5px 9px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #f8fcfa;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    @media (max-width: 720px) {
+      main { padding-top: 32px; }
+      .grid { grid-template-columns: 1fr; }
+      a.card { min-height: 0; }
+    }
+  </style>
 </head>
 <body>
-  <header class="topbar">
-    <div>
-      <p class="eyebrow">Brand Order Analysis</p>
-      <h1>&#22823;&#33559;&#26412;&#20301;&#35069;&#33590;&#22530;&#40670;&#39184;&#31995;&#32113;&#32317;&#35261;</h1>
-      <p class="subhead">&#23448;&#26041;&#38272;&#24066;&#12289;GMB/Google Maps &#35206;&#33995;&#12289;&#20840;&#20358;&#28304;&#40670;&#39184;&#31995;&#32113;&#33287; Google Order &#20379;&#25033;&#21830;&#20998;&#26512;&#12290;<span class="version">v31 platform-refine</span></p>
-    </div>
-    <div class="meta">
-      <span id="generatedAt">Loading</span>
-      <a href="data/stores.csv">CSV</a>
-      <a href="data/summary.json">Summary JSON</a>
-    </div>
-  </header>
-
   <main>
-    <section class="controls">
-      <div class="segmented" id="regionFilters"></div>
-      <label>&#22478;&#24066;<select id="cityFilter"></select></label>
-      <label>&#31995;&#32113;<select id="systemFilter"></select></label>
-      <label>Google Order &#29376;&#24907;<select id="gmbFilter"><option value="all">&#20840;&#37096;</option><option value="confirmed">Google Order &#26377;&#20379;&#25033;&#21830;</option><option value="gap">Google Order &#20379;&#25033;&#21830;&#32570;&#21475;</option><option value="no_gmb_found">GMB/Maps &#26410;&#25214;&#21040;</option></select></label>
-      <label class="search">&#25628;&#23563;&#38272;&#24066;<input id="searchInput" type="search" placeholder="&#38272;&#24066;&#12289;&#22320;&#22336;&#12289;&#22478;&#24066;" /></label>
-    </section>
-
-    <section class="insight-strip" id="insightStrip"></section>
-
-    <section class="panel">
-      <div class="section-title">
-        <div><p class="eyebrow">1. Store Footprint</p><h2>&#21697;&#29260;&#38272;&#24066;&#32317;&#35261;</h2></div>
-        <p>&#23448;&#26041;&#38272;&#24066;&#28858;&#20998;&#27597;&#65307;GMB/Maps &#20358;&#33258;&#23448;&#32178;&#23884;&#20837;&#30340;&#22320;&#22294;&#36899;&#32080;&#65292;Google Order &#38754;&#26495;&#24050;&#36880;&#24215;&#25171;&#38283;&#31293;&#26680;&#12290;</p>
-      </div>
-      <div class="kpi-grid" id="storeKpis"></div>
-      <div class="split map-layout">
-        <div>
-          <h3>&#21488;&#28771;&#38272;&#24066;&#22320;&#22294;</h3>
-          <p class="map-source">&#22320;&#22294;&#36650;&#24275;&#65306;Taiwan.md &#32291;&#24066; TopoJSON&#65292;&#24050;&#36681;&#28858;&#26412;&#27231; SVG&#12290;</p>
-          <div class="taiwan-map" id="taiwanMap"></div>
-        </div>
-        <div><h3>&#22478;&#24066;&#25490;&#34892;</h3><div class="bars" id="cityBars"></div></div>
-      </div>
-    </section>
-
-    <section class="panel">
-      <div class="section-title">
-        <div><p class="eyebrow">2. All Sources</p><h2>&#21697;&#29260;&#25972;&#39636;&#40670;&#39184;&#31995;&#32113;</h2></div>
-        <p>&#25972;&#21512;&#23448;&#32178;&#31435;&#21363;&#35330;&#39184;&#12289;&#22806;&#36865;&#24179;&#21488;&#36899;&#32080;&#12289;&#24050;&#35299;&#26512;&#30701;&#32178;&#22336;&#33287; Google Order &#20379;&#25033;&#21830;&#35657;&#25818;&#12290;</p>
-      </div>
-      <div class="kpi-grid" id="allSourceKpis"></div>
-      <div class="split">
-        <div><h3>&#20840;&#20358;&#28304;&#33258;&#21462;&#31995;&#32113;</h3><div class="bars" id="pickupBars"></div></div>
-        <div><h3>&#20840;&#20358;&#28304;&#22806;&#36865;&#31995;&#32113;</h3><div class="bars" id="deliveryBars"></div></div>
-      </div>
-      <div class="split compact">
-        <div><h3>&#22823;&#21312;&#23566;&#20837;&#29575;</h3><div class="matrix" id="regionMatrix"></div></div>
-        <div><h3>&#35299;&#35712;</h3><p class="note">Nidin &#20027;&#35201;&#20358;&#33258;&#23448;&#32178;&#12300;&#31435;&#21363;&#35330;&#39184;&#12301;&#65292;&#27161;&#31034;&#33258;&#21462;&#33287;&#22806;&#36865;&#65307;Uber Eats / foodpanda &#20027;&#35201;&#20358;&#33258;&#22806;&#36865;&#24179;&#21488;&#25110; Google Order &#36939;&#36865;&#38754;&#26495;&#12290;</p></div>
-      </div>
-    </section>
-
-    <section class="panel warning">
-      <div class="section-title">
-        <div><p class="eyebrow">3. Google Order</p><h2>Google Order &#20379;&#25033;&#21830;&#32317;&#35261;</h2></div>
-        <p>&#21482;&#35336;&#20837; Google &#21830;&#23478;&#38913;&#34253;&#33394;&#12300;&#32218;&#19978;&#40670;&#39184;&#12301;&#25353;&#37397;&#40670;&#20837;&#24460;&#65292;&#22312;&#33258;&#21462;&#25110;&#36939;&#36865;&#38754;&#26495;&#23526;&#38555;&#30475;&#21040;&#30340;&#20379;&#25033;&#21830;&#12290;</p>
-      </div>
-      <div class="kpi-grid" id="gmbKpis"></div>
-      <div class="split">
-        <div><h3>Google Order &#33258;&#21462;&#20379;&#25033;&#21830;</h3><div class="bars" id="gmbPickupBars"></div></div>
-        <div><h3>Google Order &#22806;&#36865;&#20379;&#25033;&#21830;</h3><div class="bars" id="gmbDeliveryBars"></div></div>
-      </div>
-    </section>
-
-    <section class="panel">
-      <div class="section-title"><div><p class="eyebrow">4. Comparison</p><h2>&#20840;&#20358;&#28304; vs Google Order &#20379;&#25033;&#21830;</h2></div></div>
-      <div class="table-wrap"><table><thead><tr><th>&#31995;&#32113;</th><th>&#20840;&#20358;&#28304;&#38272;&#24066;</th><th>&#20840;&#20358;&#28304;&#23566;&#20837;&#29575;</th><th>Google Order &#20379;&#25033;&#21830;&#38272;&#24066;</th><th>Google Order &#20379;&#25033;&#21830;&#35206;&#33995;&#29575;</th><th>&#24046;&#36317;</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
-    </section>
-
-    <section class="panel">
-      <div class="section-title"><div><p class="eyebrow">5. Store Details</p><h2>&#38272;&#24066;&#26126;&#32048;</h2></div><p id="detailCount"></p></div>
-      <div class="table-wrap details"><table><thead><tr><th>&#38272;&#24066;</th><th>&#22320;&#21312;</th><th>&#22320;&#22336;</th><th>&#20840;&#20358;&#28304;&#31995;&#32113;</th><th>Google Order &#20379;&#25033;&#21830;</th><th>&#35657;&#25818;</th></tr></thead><tbody id="storeRows"></tbody></table></div>
+    <p class="eyebrow">Brand Order Analysis</p>
+    <h1>品牌點餐系統總攬</h1>
+    <p class="subhead">選擇品牌報表。每個品牌目錄都保留獨立的門市資料、摘要 JSON、CSV 與靜態 HTML。</p>
+    <section class="grid" aria-label="Brand reports">
+      <a class="card" href="daming/">
+        <h2>大茗本位製茶堂</h2>
+        <p>官方門市、Google Order 供應商、全來源點餐系統與門市明細。</p>
+        <div class="meta"><span class="pill">/daming/</span><span class="pill">79 stores</span></div>
+      </a>
+      <a class="card" href="chage/">
+        <h2>茶聚 CHAGE</h2>
+        <p>官方門市、QuickClick、Google Order provider evidence、平台與 LINE 覆蓋。</p>
+        <div class="meta"><span class="pill">/chage/</span><span class="pill">54 stores</span></div>
+      </a>
     </section>
   </main>
-
-  <script src="data-inline.js?v=27"></script>
-  <script src="taiwan-map.js?v=18"></script>
-  <script src="app.js?v=31"></script>
 </body>
 </html>

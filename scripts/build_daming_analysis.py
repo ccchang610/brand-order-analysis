@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
 import time
 from collections import Counter
@@ -13,9 +14,10 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 
 
-ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ.get("BRAND_ANALYSIS_REPORT_ROOT", REPO_ROOT / "daming")).resolve()
 DATA = ROOT / "data"
-DATA.mkdir(exist_ok=True)
+DATA.mkdir(parents=True, exist_ok=True)
 
 BRAND = "大茗本位製茶堂"
 MARKET = "Taiwan"

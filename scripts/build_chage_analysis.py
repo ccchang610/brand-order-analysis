@@ -494,7 +494,7 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{html.escape(BRAND)} 點餐系統總攬</title>
-  <link rel="stylesheet" href="../styles.css?v=25" />
+  <link rel="stylesheet" href="../assets/styles.css?v=31" />
 </head>
 <body>
   <header class="topbar">
@@ -577,8 +577,8 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
   </main>
 
   <script src="data-inline.js?v=1"></script>
-  <script src="../taiwan-map.js?v=18"></script>
-  <script src="../app.js?v=25"></script>
+  <script src="../assets/taiwan-map.js?v=18"></script>
+  <script src="../assets/app.js?v=31"></script>
 </body>
 </html>
 """

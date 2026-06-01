@@ -10,7 +10,8 @@ from pathlib import Path
 from playwright.async_api import TimeoutError as PlaywrightTimeoutError
 from playwright.async_api import async_playwright
 
-ROOT = Path(os.environ.get("BRAND_ANALYSIS_REPORT_ROOT", Path(__file__).resolve().parents[1])).resolve()
+REPO_ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ.get("BRAND_ANALYSIS_REPORT_ROOT", REPO_ROOT / "daming")).resolve()
 DATA = ROOT / "data"
 STORES_PATH = DATA / "stores.json"
 SUMMARY_PATH = DATA / "summary.json"
