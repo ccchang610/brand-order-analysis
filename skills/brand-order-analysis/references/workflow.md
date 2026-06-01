@@ -134,6 +134,26 @@ Keep these stores in the dataset and mark `manualReviewReason`.
 
 Use a high-level dashboard layout. The first viewport should be the actual report, not a landing page.
 
+### Visual System
+
+Use a product-dashboard visual style suitable for internal analysis:
+
+- Page background: white or a very light green-gray wash.
+- Cards and tables: white surfaces, thin low-contrast borders, subtle shadows, and at least comfortable dashboard spacing.
+- Primary interaction color: a calm green for geography filters, city map emphasis, and non-platform progress bars.
+- Avoid saturated blue/purple UI chrome, large decorative gradients, heavy shadows, and full-row platform color blocks.
+- Keep the Taiwan map readable: county names and counts should remain visible, selected counties should be highlighted, and non-selected counties should fade instead of showing confusing zero states.
+- Mobile layout should stack controls and KPI cards cleanly. Avoid horizontal scrolling except for dense details tables.
+
+Provider/platform styling:
+
+- Render provider names as compact logo-like badges.
+- Use provider colors only on provider badges, provider progress bars, and provider counts. Keep chart rows, table cells, and containers neutral.
+- Nidin: blue `#0098ff`, white badge text.
+- Uber Eats: black badge with white text; use Uber Eats green `#06c167` for progress bars.
+- foodpanda: pink `#ff2b85`, white badge text.
+- Unknown, pending, or non-platform claims should use neutral or soft-warning badges, not platform colors.
+
 ### 1. Brand Store Overview
 
 Answer: how many stores exist and where are they distributed?

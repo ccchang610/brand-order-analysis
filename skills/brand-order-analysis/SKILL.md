@@ -82,6 +82,17 @@ When producing an HTML report, use a dashboard-first layout:
 4. All-source vs Google Order provider comparison: system name, all-source count/rate, Google Order provider count/rate, and gap.
 5. Store details: searchable and filterable table with store, city, region group, address, official source, GMB status, all-source systems, Google Order provider evidence, evidence links, and review status.
 
+HTML visual requirements:
+
+- Use a clean product-dashboard style: white cards, soft green-tinted page background, thin borders, subtle shadows, and mobile-first spacing.
+- Do not use saturated blue/purple dashboard chrome or decorative AI-style gradients.
+- For platform/provider labels, use small logo-like badges rather than full-row colored backgrounds.
+- Platform badge and platform progress colors:
+  - Nidin: blue `#0098ff`, white text.
+  - Uber Eats: black badge with white text; use Uber Eats green `#06c167` for progress bars.
+  - foodpanda: pink `#ff2b85`, white text.
+- Apply platform colors to provider badges, provider progress bars, and provider counts only. Keep row backgrounds, table cells, and chart containers neutral.
+
 ## Taiwan Geography Defaults
 
 For Taiwan reports, support all 22 cities/counties and show `0` where the brand has no stores. Use these default region groups:
