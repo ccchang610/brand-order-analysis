@@ -52,12 +52,12 @@ Field meanings:
 
 - `officialListed`: store exists in the official brand source or user-approved official dataset.
 - `gmbFound`: a matching GMB / Google Maps profile was found.
-- `googleFound`: store was found by Google search or Google Maps search, even if Google Order evidence is not available.
+- `googleFound`: store was found by Google search or Google Maps search, even if Google Order provider evidence is not available.
 - `thirdPartyFound`: store appears on marketplace, aggregator, ordering, or directory sources.
 
 ## Google Order Entry Fields
 
-Use these fields when a brand analysis includes Google / Google Order.
+Use these fields when a brand analysis includes Google Business Profile / Google Order provider evidence.
 
 - `hasGmbOrderingSystem`: true when the blue Google Order entry is confirmed for the store. This may be true even when provider names are still pending.
 - `gmbOrderingStatus`: status of the Google Order entry and provider-panel audit.
@@ -130,7 +130,7 @@ Allowed `sourceType` values:
 - `line`
 - `manual`
 
-Use `sourceType: gmb` only for providers observed inside the Google Business Profile blue online-order button flow. The button may be one `線上點餐` button or separate `點餐外帶` / `點餐外送` buttons. Do not convert official ordering URLs, marketplace URLs, embedded Maps links, Google search results, or known provider pages into Google Order claims. A `nidin.shop` provider row inside the opened Google Order panel is valid `Nidin` Google Order evidence; the same URL outside the panel is not.
+Use `sourceType: gmb` only for providers observed inside the Google Business Profile blue online-order button flow. The button may be one `線上點餐` button or separate `點餐外帶` / `點餐外送` buttons. Do not convert official ordering URLs, marketplace URLs, embedded Maps links, Google search results, or known provider pages into Google Order provider claims. A `nidin.shop` provider row inside the opened Google Order panel is valid `Nidin` Google Order evidence; the same URL outside the panel is not.
 
 Allowed `orderMode` values:
 
@@ -311,7 +311,7 @@ Rules:
 
 ## System Comparison
 
-`systemComparison` should support the all-source vs Google Order table:
+`systemComparison` should support the all-source vs Google Order provider table:
 
 ```json
 [
@@ -335,7 +335,7 @@ Prefer evidence URLs in this order:
 
 1. official ordering URL or official ordering API result
 2. official store URL
-3. Google Order link or Google Maps URL
+3. Google Order provider evidence URL or Google Maps URL
 4. provider/marketplace evidence URL
 5. Google search result URL
 6. official store-list source URL
@@ -352,6 +352,6 @@ Before publishing or handing off:
 - `regionCounts` sums to `officialStoreCount`.
 - `anyOrderingSystemAdoptionRate` equals `anyOrderingSystemCount / officialStoreCount`.
 - `gmbOrderingSystemAdoptionRate` equals `gmbOrderingSystemCount / officialStoreCount`.
-- Google Order coverage gaps are counted separately from confirmed no-ordering-system stores.
+- Google Order provider evidence gaps are counted separately from confirmed no-ordering-system stores.
 - `allSourceSystemCounts` and `gmbSystemCounts` count unique stores per system, not evidence links.
 

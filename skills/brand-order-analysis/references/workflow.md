@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Use this workflow to build a brand ordering-system overview. The output should combine store population, geographic distribution, all-source ordering-system adoption, Google Order ordering-system adoption, and store-level evidence into a dashboard-ready dataset or static HTML report.
+Use this workflow to build a brand ordering-system overview. The output should combine store population, geographic distribution, all-source ordering-system adoption, Google Order provider evidence coverage, and store-level evidence into a dashboard-ready dataset or static HTML report.
 
 ## Intake
 
@@ -66,14 +66,14 @@ Record evidence URLs and source types. Do not collapse official, Google, GMB, an
 Use official store count as the denominator for adoption rates.
 
 - Overall adoption rate = stores where `hasAnyOrderingSystem` is true / official store count.
-- Google Order adoption rate = stores where `hasGmbOrderingSystem` is true / official store count. In Google Order audits, this means stores where the blue Google Order entry is confirmed, even if provider names are still pending.
-- Google Order coverage gap = stores where GMB was not found, Google was blocked or timed out, matches were ambiguous, or the blue Google Order entry could not be confirmed after human-paced re-check. Stores with `button_confirmed_provider_pending` are not gaps.
-- Google Order coverage gaps are not non-adoption. Keep them separate from stores confirmed to have no ordering system.
+- Google Order provider coverage rate = stores with `sourceType: gmb` provider evidence / official store count.
+- Google Order provider evidence gap = stores where GMB was not found, Google was blocked or timed out, matches were ambiguous, or the blue Google Order entry/provider panel could not be confirmed after human-paced re-check. Stores with `button_confirmed_provider_pending` are not gaps.
+- Google Order provider evidence gaps are not non-adoption. Keep them separate from stores confirmed to have no ordering system.
 - Provider counts count a system once per store, even if multiple evidence URLs mention it.
 
 ## Google Order Re-Check Protocol
 
-Use this protocol whenever GMB / Google ordering coverage matters.
+Use this protocol whenever Google Order provider evidence matters.
 
 1. First pass: open the known GMB / Maps URL or the strongest Google result and look for a blue Google Order entry.
 2. If no entry is found by a quick pass, do not finalize `no_gmb_order_button`. Run a human-paced re-check before deciding:
@@ -108,7 +108,7 @@ Use this protocol whenever GMB / Google ordering coverage matters.
 ## Provider Interpretation
 
 - `all-source ordering systems`: all confirmed ordering systems from official, Google, GMB, third-party, marketplace, LINE, or local platform evidence.
-- `Google Order systems`: only systems where `sourceType` is `gmb`.
+- `Google Order provider evidence`: only systems where `sourceType` is `gmb`.
 - A claim may use `sourceType: gmb` only if it was observed inside the Google Business Profile blue online-order button flow. The button may appear as one `線上點餐` button or as separate `點餐外帶` and `點餐外送` buttons. Open the button, read the pickup or delivery panel, then record only the providers visible there. Official Nidin links, marketplace URLs, embedded Maps links, Google search snippets, or known provider pages must remain `official`, `marketplace`, `third_party`, or `google`; never backfill them as Google Order.
 - A Google Order panel row labelled `nidin.shop` / `order.nidin.shop` is a valid `Nidin` Google Order provider row. The same domain outside the opened panel is not valid Google Order evidence.
 - `orderMode` may include `pickup`, `delivery`, `dine_in`, `reservation`, or `unknown`.
@@ -120,7 +120,7 @@ Use this protocol whenever GMB / Google ordering coverage matters.
 Do not guess for:
 
 - GMB pages hidden behind dynamic buttons or scripts
-- Google Order blue online-order entrys that cannot be opened or whose pickup/delivery panel cannot be read
+- Google Order blue online-order entries that cannot be opened or whose pickup/delivery panel cannot be read
 - Google bot-check or `sorry` pages during re-checks; preserve prior confirmed blue-button evidence when available and note the block
 - stores with multiple possible Google Maps matches
 - closed, moved, duplicate, or temporarily closed stores
@@ -163,31 +163,31 @@ Include:
 - region-by-system adoption matrix
 - city table with store count, ordering-system count, adoption rate, and main systems
 
-### 3. Google Order Overview
+### 3. Google Order Provider Overview
 
-Answer: which ordering systems appear in Google Order and where are Google Order gaps?
+Answer: which providers are visible inside Google Order and where are Google Order provider evidence gaps?
 
 Include:
 
 - GMB-found store count
-- Google Order-system store count
-- Google Order adoption rate
-- Google Order coverage gap count
-- Google Order system ranking chart
-- Google Order region coverage matrix
-- clear note that Google Order gaps are unknown/coverage gaps, not proof of no ordering system
+- Google Order provider store count
+- Google Order provider coverage rate
+- Google Order provider evidence gap count
+- Google Order provider ranking chart
+- Google Order provider region coverage matrix
+- clear note that Google Order provider evidence gaps are unknown/coverage gaps, not proof of no ordering system
 
-### 4. All-Source vs Google Order Comparison
+### 4. All-Source vs Google Order Provider Comparison
 
-Answer: does Google Order underrepresent any ordering systems?
+Answer: does Google Order provider evidence underrepresent any ordering systems?
 
 Include a table with:
 
 - system name
 - all-source store count
 - all-source adoption rate
-- Google Order store count
-- Google Order adoption rate
+- Google Order provider store count
+- Google Order provider coverage rate
 - count gap
 - percentage-point gap
 
@@ -202,7 +202,7 @@ Include a searchable, filterable table with:
 - official source
 - GMB status
 - all-source ordering systems
-- Google Order systems
+- Google Order provider evidence
 - evidence links
 - review status or manual review reason
 
@@ -221,7 +221,7 @@ For a static report site:
 - Keep `index.html`, `styles.css`, `app.js`, and `data/` at the project root unless the repo already has another structure.
 - Keep the report usable from GitHub Pages without a server.
 - Use one active geography filter state to update KPI cards, map, charts, comparison table, and store details.
-- Keep all-source and Google Order charts visually separate.
+- Keep all-source ordering-system charts and Google Order provider charts visually separate.
 - Ensure evidence links remain reachable from store details.
 - On mobile, avoid horizontal scrolling in the map and KPI areas.
 
@@ -232,8 +232,8 @@ Before publishing:
 - Generated JSON files parse.
 - `officialStoreCount` equals the number of store records.
 - Overall adoption rate uses official store count as denominator.
-- Google Order adoption rate uses official store count as denominator.
-- Google Order gaps are counted separately from confirmed non-adoption.
+- Google Order provider coverage rate uses official store count as denominator.
+- Google Order provider evidence gaps are counted separately from confirmed non-adoption.
 - City counts sum to official store count.
 - Region counts sum to official store count, with 離島 separate for Taiwan.
 - Evidence links are present for confirmed ordering-system claims when public evidence exists.

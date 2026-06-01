@@ -251,7 +251,7 @@ def parse_official_stores() -> list[dict]:
                 ),
                 "evidenceNotes": (
                     "Official store list supplied store population, Google/Maps link, and visible order/delivery links. "
-                    "Google Order systems require manual browser review."
+                    "Google Order provider evidence requires manual browser review."
                 ),
                 "checkedAt": CHECKED_AT,
             }
@@ -344,13 +344,13 @@ def make_summary(stores: list[dict]) -> dict:
             "notes": (
                 "Official store page provides the store population, embedded Google/Maps links, "
                 "Nidin order links, and delivery platform links. Google Order buttons were not "
-                "batch-readable from static HTML and are counted as Google Order coverage gaps."
+                "batch-readable from static HTML and are counted as Google Order provider evidence gaps."
             ),
         },
         "notes": [
             "Adoption rates use official store count as denominator.",
             "All-source ordering systems come from official page order/delivery links and resolved platform links.",
-            "Google Order systems are not inferred from official-page links; dynamic Google Order entries require manual browser review.",
+            "Google Order provider evidence are not inferred from official-page links; dynamic Google Order entries require manual browser review.",
         ],
     }
 
@@ -430,7 +430,7 @@ def write_dashboard_files() -> None:
     <div>
       <p class="eyebrow">Brand Order Analysis</p>
       <h1>大茗本位製茶堂點餐系統總覽</h1>
-      <p class="subhead">官方門市、Google/GMB 覆蓋、整體點餐系統與 Google Order 缺口一次看。</p>
+      <p class="subhead">官方門市、Google/GMB 覆蓋、整體點餐系統與 Google Order 供應商一次看。</p>
     </div>
     <div class="meta">
       <span id="generatedAt">Loading</span>
@@ -451,11 +451,11 @@ def write_dashboard_files() -> None:
         <select id="systemFilter"></select>
       </label>
       <label>
-        Google Order 狀態
+        Google Order 供應商狀態
         <select id="gmbFilter">
           <option value="all">全部</option>
-          <option value="confirmed">GMB 已找到</option>
-          <option value="gap">Google Order 缺口</option>
+          <option value="confirmed">Google Order 有供應商</option>
+          <option value="gap">Google Order 供應商缺口</option>
         </select>
       </label>
       <label class="search">
@@ -510,9 +510,9 @@ def write_dashboard_files() -> None:
       <div class="section-title">
         <div>
           <p class="eyebrow">3. Google Order</p>
-          <h2>Google Order 點餐系統總覽</h2>
+          <h2>Google Order 供應商總覽</h2>
         </div>
-        <p>GMB 動態點餐按鈕無法由靜態頁批次可靠讀取，因此以覆蓋缺口呈現，不推論為未導入。</p>
+        <p>只統計藍色點餐按鈕點進去後可見的 Google Order 供應商；缺口不推論為未導入。</p>
       </div>
       <div class="kpi-grid" id="gmbKpis"></div>
       <div class="empty-chart" id="gmbChart"></div>
@@ -522,7 +522,7 @@ def write_dashboard_files() -> None:
       <div class="section-title">
         <div>
           <p class="eyebrow">4. Comparison</p>
-          <h2>整體來源 vs GMB</h2>
+          <h2>整體來源 vs Google Order 供應商</h2>
         </div>
       </div>
       <div class="table-wrap">
@@ -532,8 +532,8 @@ def write_dashboard_files() -> None:
               <th>系統</th>
               <th>全來源門市</th>
               <th>全來源導入率</th>
-              <th>Google Order 門市</th>
-              <th>Google Order 導入率</th>
+              <th>Google Order 供應商門市</th>
+              <th>Google Order 供應商覆蓋率</th>
               <th>差距</th>
             </tr>
           </thead>
@@ -558,7 +558,7 @@ def write_dashboard_files() -> None:
               <th>地區</th>
               <th>地址</th>
               <th>整體系統</th>
-              <th>GMB</th>
+              <th>Google Order 供應商</th>
               <th>證據</th>
             </tr>
           </thead>
@@ -581,7 +581,7 @@ def write_dashboard_files() -> None:
     )
 
     (ROOT / "app.js").write_text(
-        """const regions=['全台','北部','中部','南部','東部','離島'];let stores=[],summary={},state={region:'全台',city:'all',system:'all',gmb:'all',q:''};const pct=v=>`${Math.round((v||0)*1000)/10}%`;const byId=id=>document.getElementById(id);Promise.all([fetch('data/stores.json').then(r=>r.json()),fetch('data/summary.json').then(r=>r.json())]).then(([storePayload,summaryPayload])=>{stores=storePayload.stores;summary=summaryPayload;init();render();});function init(){byId('generatedAt').textContent=`更新 ${summary.generatedAt}`;byId('regionFilters').innerHTML=regions.map(r=>`<button data-region="${r}">${r}</button>`).join('');byId('regionFilters').addEventListener('click',e=>{if(e.target.dataset.region){state.region=e.target.dataset.region;state.city='all';render();}});byId('cityFilter').addEventListener('change',e=>{state.city=e.target.value;render();});byId('systemFilter').addEventListener('change',e=>{state.system=e.target.value;render();});byId('gmbFilter').addEventListener('change',e=>{state.gmb=e.target.value;render();});byId('searchInput').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase();render();});}function filtered(){return stores.filter(s=>{if(state.region!=='全台'&&s.regionGroup!==state.region)return false;if(state.city!=='all'&&s.city!==state.city)return false;if(state.system!=='all'&&!s.orderingSystems.some(o=>o.system===state.system))return false;if(state.gmb==='confirmed'&&s.gmbStatus!=='confirmed')return false;if(state.gmb==='gap'&&s.gmbOrderingStatus==='confirmed')return false;if(state.q&&!`${s.storeName} ${s.address} ${s.city} ${s.district}`.toLowerCase().includes(state.q))return false;return true;});}function render(){document.querySelectorAll('#regionFilters button').forEach(b=>b.classList.toggle('active',b.dataset.region===state.region));const availableCities=[...new Set(stores.filter(s=>state.region==='全台'||s.regionGroup===state.region).map(s=>s.city).filter(Boolean))].sort();byId('cityFilter').innerHTML='<option value="all">全部城市</option>'+availableCities.map(c=>`<option ${state.city===c?'selected':''}>${c}</option>`).join('');const systems=[...new Set(stores.flatMap(s=>s.orderingSystems.map(o=>o.system)))].sort();byId('systemFilter').innerHTML='<option value="all">全部系統</option>'+systems.map(s=>`<option ${state.system===s?'selected':''}>${s}</option>`).join('');const rows=filtered();renderKpis(rows);renderMap(rows);renderBars(rows);renderComparison(rows);renderTable(rows);}function countUniqueSystem(rows,gmbOnly=false){const m=new Map();rows.forEach(s=>{new Set(s.orderingSystems.filter(o=>!gmbOnly||o.sourceType==='gmb').map(o=>o.system)).forEach(sys=>m.set(sys,(m.get(sys)||0)+1));});return [...m.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));}function renderKpis(rows){const n=rows.length||0;const gmb=rows.filter(s=>s.sourceCoverage.gmbFound).length;const google=rows.filter(s=>s.sourceCoverage.googleFound).length;const third=rows.filter(s=>s.sourceCoverage.thirdPartyFound).length;const any=rows.filter(s=>s.hasAnyOrderingSystem).length;const gmbOrder=rows.filter(s=>s.hasGmbOrderingSystem).length;const gmbGap=rows.filter(s=>s.gmbOrderingStatus!=='confirmed').length;byId('storeKpis').innerHTML=kpis([['官方門市',n,'目前篩選範圍'],['GMB/Maps 找到',gmb,`${n?pct(gmb/n):'0%'}`],['Google 找到',google,`${n?pct(google/n):'0%'}`],['第三方來源',third,`${n?pct(third/n):'0%'}`],['查證缺口',gmbGap,'Google Order 需人工複核']]);byId('allSourceKpis').innerHTML=kpis([['有任一系統',any,`${n?pct(any/n):'0%'}`],['未知門市',n-any,'未見官方/平台連結'],['主要系統數',countUniqueSystem(rows).length,'全來源'],['Nidin',countUniqueSystem(rows).find(x=>x[0]==='Nidin')?.[1]||0,'官方訂餐'],['Uber Eats',countUniqueSystem(rows).find(x=>x[0]==='Uber Eats')?.[1]||0,'外送平台']]);byId('gmbKpis').innerHTML=kpis([['GMB 找到',gmb,`${n?pct(gmb/n):'0%'}`],['GMB 有系統',gmbOrder,`${n?pct(gmbOrder/n):'0%'}`],['Google Order 導入率',n?pct(gmbOrder/n):'0%','分母為官方門市'],['GMB 覆蓋缺口',gmbGap,'非未導入'],['需人工複查',gmbGap,'動態按鈕']]);byId('gmbChart').textContent=gmbOrder?'Google Order 系統已找到資料。':'本次靜態稽核未直接讀到 Google Order 點餐系統；請以「覆蓋缺口」解讀，不代表門市沒有點餐系統。';}function kpis(items){return items.map(([label,value,note])=>`<div class="kpi"><strong>${value}</strong><span>${label}</span><span>${note}</span></div>`).join('');}function renderMap(rows){const counts=new Map();rows.forEach(s=>counts.set(s.city,(counts.get(s.city)||0)+1));const cityList=Object.keys(summary.cityCounts);byId('taiwanMap').innerHTML=cityList.map(city=>`<div class="city-tile ${state.city===city?'active':''}" data-region="${regionOf(city)}" onclick="state.city='${city}';render()"><span class="name">${city}</span><span class="count">${counts.get(city)||0}</span></div>`).join('');}function regionOf(city){return stores.find(s=>s.city===city)?.regionGroup||'離島';}function renderBars(rows){const cityCounts=[...rows.reduce((m,s)=>m.set(s.city,(m.get(s.city)||0)+1),new Map()).entries()].sort((a,b)=>b[1]-a[1]).slice(0,12);byId('cityBars').innerHTML=bars(cityCounts,'');const systems=countUniqueSystem(rows);byId('systemBars').innerHTML=bars(systems,'alt');const n=rows.length||1;const regionRows=regions.filter(r=>r!=='全台').map(r=>{const rr=rows.filter(s=>s.regionGroup===r);const any=rr.filter(s=>s.hasAnyOrderingSystem).length;return [r,rr.length?any/rr.length:0,`${any}/${rr.length}`];});byId('regionMatrix').innerHTML=regionRows.map(([r,rate,label])=>`<div class="matrix-row"><span>${r}</span><div class="matrix-track"><div class="matrix-fill" style="width:${rate*100}%"></div></div><b>${label}</b></div>`).join('');}function bars(entries,cls){const max=Math.max(1,...entries.map(e=>e[1]));return entries.length?entries.map(([name,value])=>`<div class="bar-row"><span>${name}</span><div class="bar-track"><div class="bar-fill ${cls}" style="width:${value/max*100}%"></div></div><b>${value}</b></div>`).join(''):'<p>沒有資料</p>';}function renderComparison(rows){const all=countUniqueSystem(rows);const gmb=countUniqueSystem(rows,true);const gmbMap=new Map(gmb);const n=rows.length||1;byId('comparisonRows').innerHTML=all.map(([system,count])=>{const g=gmbMap.get(system)||0;return `<tr><td>${system}</td><td>${count}</td><td>${pct(count/n)}</td><td>${g}</td><td>${pct(g/n)}</td><td>${count-g}</td></tr>`}).join('')||'<tr><td colspan="6">沒有系統資料</td></tr>';}function renderTable(rows){byId('detailCount').textContent=`${rows.length} 家門市`;byId('storeRows').innerHTML=rows.map(s=>{const all=[...new Set(s.orderingSystems.map(o=>o.system))];const gmb=[...new Set(s.orderingSystems.filter(o=>o.sourceType==='gmb').map(o=>o.system))];const links=s.orderingSystems.slice(0,3).map(o=>`<a href="${o.evidenceUrl}" target="_blank">${o.system}</a>`).join('、');return `<tr><td><b>${s.storeName}</b><br><small>${s.phone||''}</small></td><td>${s.regionGroup}<br>${s.city} ${s.district}</td><td>${s.address}</td><td>${all.map(x=>`<span class="pill">${x}</span>`).join('')||'<span class="pill gap">未見連結</span>'}</td><td><span class="pill gap">${s.gmbOrderingStatus}</span></td><td><a href="${s.gmbUrl}" target="_blank">GMB/Maps</a>${links?'、'+links:''}</td></tr>`}).join('');}""",
+        """const regions=['全台','北部','中部','南部','東部','離島'];let stores=[],summary={},state={region:'全台',city:'all',system:'all',gmb:'all',q:''};const pct=v=>`${Math.round((v||0)*1000)/10}%`;const byId=id=>document.getElementById(id);Promise.all([fetch('data/stores.json').then(r=>r.json()),fetch('data/summary.json').then(r=>r.json())]).then(([storePayload,summaryPayload])=>{stores=storePayload.stores;summary=summaryPayload;init();render();});function init(){byId('generatedAt').textContent=`更新 ${summary.generatedAt}`;byId('regionFilters').innerHTML=regions.map(r=>`<button data-region="${r}">${r}</button>`).join('');byId('regionFilters').addEventListener('click',e=>{if(e.target.dataset.region){state.region=e.target.dataset.region;state.city='all';render();}});byId('cityFilter').addEventListener('change',e=>{state.city=e.target.value;render();});byId('systemFilter').addEventListener('change',e=>{state.system=e.target.value;render();});byId('gmbFilter').addEventListener('change',e=>{state.gmb=e.target.value;render();});byId('searchInput').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase();render();});}function filtered(){return stores.filter(s=>{if(state.region!=='全台'&&s.regionGroup!==state.region)return false;if(state.city!=='all'&&s.city!==state.city)return false;if(state.system!=='all'&&!s.orderingSystems.some(o=>o.system===state.system))return false;if(state.gmb==='confirmed'&&s.gmbStatus!=='confirmed')return false;if(state.gmb==='gap'&&s.gmbOrderingStatus==='confirmed')return false;if(state.q&&!`${s.storeName} ${s.address} ${s.city} ${s.district}`.toLowerCase().includes(state.q))return false;return true;});}function render(){document.querySelectorAll('#regionFilters button').forEach(b=>b.classList.toggle('active',b.dataset.region===state.region));const availableCities=[...new Set(stores.filter(s=>state.region==='全台'||s.regionGroup===state.region).map(s=>s.city).filter(Boolean))].sort();byId('cityFilter').innerHTML='<option value="all">全部城市</option>'+availableCities.map(c=>`<option ${state.city===c?'selected':''}>${c}</option>`).join('');const systems=[...new Set(stores.flatMap(s=>s.orderingSystems.map(o=>o.system)))].sort();byId('systemFilter').innerHTML='<option value="all">全部系統</option>'+systems.map(s=>`<option ${state.system===s?'selected':''}>${s}</option>`).join('');const rows=filtered();renderKpis(rows);renderMap(rows);renderBars(rows);renderComparison(rows);renderTable(rows);}function countUniqueSystem(rows,gmbOnly=false){const m=new Map();rows.forEach(s=>{new Set(s.orderingSystems.filter(o=>!gmbOnly||o.sourceType==='gmb').map(o=>o.system)).forEach(sys=>m.set(sys,(m.get(sys)||0)+1));});return [...m.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));}function renderKpis(rows){const n=rows.length||0;const gmb=rows.filter(s=>s.sourceCoverage.gmbFound).length;const google=rows.filter(s=>s.sourceCoverage.googleFound).length;const third=rows.filter(s=>s.sourceCoverage.thirdPartyFound).length;const any=rows.filter(s=>s.hasAnyOrderingSystem).length;const gmbOrder=rows.filter(s=>s.hasGmbOrderingSystem).length;const gmbGap=rows.filter(s=>s.gmbOrderingStatus!=='confirmed').length;byId('storeKpis').innerHTML=kpis([['官方門市',n,'目前篩選範圍'],['GMB/Maps 找到',gmb,`${n?pct(gmb/n):'0%'}`],['Google 找到',google,`${n?pct(google/n):'0%'}`],['第三方來源',third,`${n?pct(third/n):'0%'}`],['查證缺口',gmbGap,'Google Order 供應商需人工複核']]);byId('allSourceKpis').innerHTML=kpis([['有任一系統',any,`${n?pct(any/n):'0%'}`],['未知門市',n-any,'未見官方/平台連結'],['主要系統數',countUniqueSystem(rows).length,'全來源'],['Nidin',countUniqueSystem(rows).find(x=>x[0]==='Nidin')?.[1]||0,'官方訂餐'],['Uber Eats',countUniqueSystem(rows).find(x=>x[0]==='Uber Eats')?.[1]||0,'外送平台']]);byId('gmbKpis').innerHTML=kpis([['GMB 找到',gmb,`${n?pct(gmb/n):'0%'}`],['Google Order 有供應商',gmbOrder,`${n?pct(gmbOrder/n):'0%'}`],['Google Order 供應商覆蓋率',n?pct(gmbOrder/n):'0%','分母為官方門市'],['Google Order 供應商缺口',gmbGap,'非未導入'],['需人工複查',gmbGap,'動態按鈕']]);byId('gmbChart').textContent=gmbOrder?'Google Order 供應商已找到資料。':'本次靜態稽核未直接讀到 Google Order 供應商；請以「覆蓋缺口」解讀，不代表門市沒有點餐系統。';}function kpis(items){return items.map(([label,value,note])=>`<div class="kpi"><strong>${value}</strong><span>${label}</span><span>${note}</span></div>`).join('');}function renderMap(rows){const counts=new Map();rows.forEach(s=>counts.set(s.city,(counts.get(s.city)||0)+1));const cityList=Object.keys(summary.cityCounts);byId('taiwanMap').innerHTML=cityList.map(city=>`<div class="city-tile ${state.city===city?'active':''}" data-region="${regionOf(city)}" onclick="state.city='${city}';render()"><span class="name">${city}</span><span class="count">${counts.get(city)||0}</span></div>`).join('');}function regionOf(city){return stores.find(s=>s.city===city)?.regionGroup||'離島';}function renderBars(rows){const cityCounts=[...rows.reduce((m,s)=>m.set(s.city,(m.get(s.city)||0)+1),new Map()).entries()].sort((a,b)=>b[1]-a[1]).slice(0,12);byId('cityBars').innerHTML=bars(cityCounts,'');const systems=countUniqueSystem(rows);byId('systemBars').innerHTML=bars(systems,'alt');const n=rows.length||1;const regionRows=regions.filter(r=>r!=='全台').map(r=>{const rr=rows.filter(s=>s.regionGroup===r);const any=rr.filter(s=>s.hasAnyOrderingSystem).length;return [r,rr.length?any/rr.length:0,`${any}/${rr.length}`];});byId('regionMatrix').innerHTML=regionRows.map(([r,rate,label])=>`<div class="matrix-row"><span>${r}</span><div class="matrix-track"><div class="matrix-fill" style="width:${rate*100}%"></div></div><b>${label}</b></div>`).join('');}function bars(entries,cls){const max=Math.max(1,...entries.map(e=>e[1]));return entries.length?entries.map(([name,value])=>`<div class="bar-row"><span>${name}</span><div class="bar-track"><div class="bar-fill ${cls}" style="width:${value/max*100}%"></div></div><b>${value}</b></div>`).join(''):'<p>沒有資料</p>';}function renderComparison(rows){const all=countUniqueSystem(rows);const gmb=countUniqueSystem(rows,true);const gmbMap=new Map(gmb);const n=rows.length||1;byId('comparisonRows').innerHTML=all.map(([system,count])=>{const g=gmbMap.get(system)||0;return `<tr><td>${system}</td><td>${count}</td><td>${pct(count/n)}</td><td>${g}</td><td>${pct(g/n)}</td><td>${count-g}</td></tr>`}).join('')||'<tr><td colspan="6">沒有系統資料</td></tr>';}function renderTable(rows){byId('detailCount').textContent=`${rows.length} 家門市`;byId('storeRows').innerHTML=rows.map(s=>{const all=[...new Set(s.orderingSystems.map(o=>o.system))];const gmb=[...new Set(s.orderingSystems.filter(o=>o.sourceType==='gmb').map(o=>o.system))];const links=s.orderingSystems.slice(0,3).map(o=>`<a href="${o.evidenceUrl}" target="_blank">${o.system}</a>`).join('、');return `<tr><td><b>${s.storeName}</b><br><small>${s.phone||''}</small></td><td>${s.regionGroup}<br>${s.city} ${s.district}</td><td>${s.address}</td><td>${all.map(x=>`<span class="pill">${x}</span>`).join('')||'<span class="pill gap">未見連結</span>'}</td><td><span class="pill gap">${s.gmbOrderingStatus}</span></td><td><a href="${s.gmbUrl}" target="_blank">GMB/Maps</a>${links?'、'+links:''}</td></tr>`}).join('');}""",
         encoding="utf-8",
     )
 

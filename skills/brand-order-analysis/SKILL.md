@@ -1,19 +1,19 @@
 ---
 name: brand-order-analysis
-description: Build or update reusable brand ordering-system overview analyses. Use when the user wants to analyze a brand's official store population, Taiwan city or region store distribution, Google Business Profile / Google Maps / GMB store coverage, ordering-system adoption from official sites, Google search, GMB, marketplaces, LINE links, or local ordering platforms, generate stores.json / summary.json / CSV datasets, compare all-source ordering systems against Google Order systems, create Taiwan maps with region and city filters, build an internal dashboard-style HTML report, or publish the analysis as a static site such as GitHub Pages.
+description: Build or update reusable brand ordering-system overview analyses. Use when the user wants to analyze a brand's official store population, Taiwan city or region store distribution, Google Business Profile / Google Maps / GMB store coverage, ordering-system adoption from official sites, Google search, GMB, marketplaces, LINE links, or local ordering platforms, generate stores.json / summary.json / CSV datasets, compare all-source ordering systems against Google Order provider evidence, create Taiwan maps with region and city filters, build an internal dashboard-style HTML report, or publish the analysis as a static site such as GitHub Pages.
 ---
 
 # Brand Order Analysis
 
 ## Overview
 
-Use this skill to create a brand ordering-system overview. The analysis should show how many stores the brand has, where stores are distributed, which ordering systems are used overall, which ordering systems appear in Google Order, and which stores still need manual review.
+Use this skill to create a brand ordering-system overview. The analysis should show how many stores the brand has, where stores are distributed, which ordering systems are used overall, which providers are visible inside Google Order, and which stores still need manual review.
 
 The core output is a dashboard-ready dataset plus, when requested, an HTML report. The report should answer four questions at a glance:
 
 1. How many stores exist and where are they distributed?
 2. Which ordering systems does the brand use overall, and how does adoption vary by region or city?
-3. Which ordering systems appear in Google Order, and where are Google Order coverage gaps?
+3. Which providers are visible inside Google Order, and where are Google Order provider evidence gaps?
 4. What does each store-level record show, including evidence and verification status?
 
 Read `references/workflow.md` for the full execution and HTML report structure. Read `references/data-model.md` for fields, statuses, adoption-rate rules, Taiwan geography rules, and validation requirements.
@@ -32,11 +32,11 @@ Read `references/workflow.md` for the full execution and HTML report structure. 
 6. Store each ordering-system claim as structured evidence with `system`, `sourceType`, `orderMode`, `evidenceUrl`, and `confidence`.
 7. Compute two separate ordering views:
    - all-source ordering systems
-   - Google Order systems
+   - Google Order provider evidence
 8. Calculate adoption rates using official store count as the denominator.
-9. Treat missing or blocked Google Order evidence as a coverage gap, not as proof that the store has no ordering system.
+9. Treat missing or blocked Google Order provider evidence as a coverage gap, not as proof that the store has no ordering system.
 10. Generate `data/stores.json`, `data/summary.json`, and optionally `data/stores.csv`.
-11. If the user asks for an HTML output, build a dashboard-style report with store overview, all-source ordering overview, Google Order overview, comparison table, and store details.
+11. If the user asks for an HTML output, build a dashboard-style report with store overview, all-source ordering overview, Google Order provider overview, comparison table, and store details.
 
 ## Source Rules
 
@@ -45,7 +45,7 @@ Read `references/workflow.md` for the full execution and HTML report structure. 
 - Use Google search, GMB, marketplaces, aggregators, and LINE/order links as evidence sources, and keep their source type explicit.
 - Count a provider as `sourceType: gmb` only when it is read from the Google Business Profile blue online-order button flow, such as `線上點餐`, `點餐外帶`, or `點餐外送`, after opening the pickup or delivery panel. Do not infer Google Order providers from official ordering links, marketplace links, embedded Maps links, or search results.
 - Preserve evidence URLs for ordering-system claims when possible.
-- Do not merge all sources into one untraceable provider list; keep all-source and Google Order views separate.
+- Do not merge all sources into one untraceable provider list; keep all-source ordering systems and Google Order provider evidence separate.
 - Do not infer unavailable dynamic Google Order entries. Mark them as `no_gmb_order_button`, `unavailable_or_blocked`, or `needs_manual_review`. If Google blocks a re-check but prior confirmed blue-button evidence exists, preserve the confirmed evidence and note the block.
 - Keep uncertain stores in the dataset instead of deleting them.
 
@@ -71,16 +71,16 @@ For Google Business Profile / Google Order, always separate entry coverage from 
 When producing datasets, include:
 
 - `data/stores.json`: store-level records with source coverage and ordering-system evidence.
-- `data/summary.json`: overall counts, region/city counts, all-source system counts, Google Order system counts, adoption rates, and coverage gaps.
+- `data/summary.json`: overall counts, region/city counts, all-source system counts, Google Order provider counts, adoption rates, and coverage gaps.
 - `data/stores.csv`: spreadsheet-friendly store export when useful.
 
 When producing an HTML report, use a dashboard-first layout:
 
 1. Brand store overview: official store count, GMB-found count, Google-found count, third-party-found count, verification gap, Taiwan map, region filter, and city ranking.
 2. All-source ordering overview: any ordering-system count, adoption rate, unknown count, main systems, region matrix, and city table.
-3. Google Order overview: GMB-found count, Google Order-system count, Google Order adoption rate, Google Order coverage gap, Google Order provider chart, and region matrix.
-4. All-source vs Google Order comparison: system name, all-source count/rate, Google Order count/rate, and gap.
-5. Store details: searchable and filterable table with store, city, region group, address, official source, GMB status, all-source systems, Google Order systems, evidence links, and review status.
+3. Google Order provider overview: GMB-found count, Google Order provider count, Google Order provider coverage rate, Google Order provider evidence gap, Google Order provider chart, and region matrix.
+4. All-source vs Google Order provider comparison: system name, all-source count/rate, Google Order provider count/rate, and gap.
+5. Store details: searchable and filterable table with store, city, region group, address, official source, GMB status, all-source systems, Google Order provider evidence, evidence links, and review status.
 
 ## Taiwan Geography Defaults
 
@@ -113,7 +113,7 @@ Before calling the work complete:
 - Verify generated JSON files parse successfully.
 - Confirm official store count equals the number of store records.
 - Confirm all-source adoption rate equals stores with any ordering system divided by official store count.
-- Confirm Google Order adoption rate equals stores with Google Order systems divided by official store count.
+- Confirm Google Order provider coverage rate equals stores with `sourceType: gmb` provider evidence divided by official store count.
 - Confirm GMB profile missing stores and blocked Google Order checks are counted as coverage gaps, not as non-adoption.
 - Confirm `button_confirmed_provider_pending` stores count as Google Order entry coverage, but do not affect `gmbSystemCounts` until panel providers are confirmed.
 - Confirm city counts and region counts sum to official store count.

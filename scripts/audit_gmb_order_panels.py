@@ -291,7 +291,7 @@ def rebuild_summary(stores: list[dict]) -> dict:
     ]
     summary["notes"] = [
         "Adoption rates use official store count as denominator.",
-        "All-source ordering systems come from official page order/delivery links, resolved platform links, and Google Order panel evidence.",
+        "All-source ordering systems come from official page order/delivery links, resolved platform links, and Google Order provider evidence.",
         "Google Order pickup and delivery providers are separated from the Google online-order panel where readable.",
     ]
     return summary
