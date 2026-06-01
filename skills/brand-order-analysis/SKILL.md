@@ -37,6 +37,7 @@ Read `references/workflow.md` for the full execution and HTML report structure. 
 9. Treat missing or blocked Google Order provider evidence as a coverage gap, not as proof that the store has no ordering system.
 10. Generate `data/stores.json`, `data/summary.json`, and optionally `data/stores.csv`.
 11. If the user asks for an HTML output, build a dashboard-style report with store overview, all-source ordering overview, Google Order provider overview, comparison table, and store details.
+12. For multi-brand static sites, keep the repository root as the brand selector and place each brand report in its own stable slug directory.
 
 ## Source Rules
 
@@ -73,6 +74,16 @@ When producing datasets, include:
 - `data/stores.json`: store-level records with source coverage and ordering-system evidence.
 - `data/summary.json`: overall counts, region/city counts, all-source system counts, Google Order provider counts, adoption rates, and coverage gaps.
 - `data/stores.csv`: spreadsheet-friendly store export when useful.
+
+For GitHub Pages or other reusable multi-brand static sites:
+
+- Use the repository or site root as the brand entry page, such as `/brand-order-analysis/`.
+- Put every brand in a sibling slug directory, such as `/brand-order-analysis/daming/`, `/brand-order-analysis/chage/`, and `/brand-order-analysis/<brand-slug>/`.
+- Do not nest a new brand under an existing brand directory.
+- Do not let the first analyzed brand name become the repository or site base path when the intent is a reusable multi-brand analysis site.
+- Keep shared frontend assets in a shared root-level directory when multiple brand reports use the same dashboard code.
+- Add or update the root brand selector whenever a new brand report is added.
+- Include `brandSlug` and `sitePath` in `summary.json` when publishing a static site so the entry page can link reports without hardcoding internal assumptions.
 
 When producing an HTML report, use a dashboard-first layout:
 

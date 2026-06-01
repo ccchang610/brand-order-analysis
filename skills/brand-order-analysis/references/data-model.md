@@ -154,7 +154,9 @@ Allowed `confidence` values:
 
 - `generatedAt`
 - `brand`
+- `brandSlug`
 - `market`
+- `sitePath`
 - `officialStoreCount`
 - `gmbFoundCount`
 - `googleFoundCount`
@@ -248,6 +250,8 @@ Order audit status, when a separate field is needed:
 
 ## Counting Rules
 
+- `brandSlug`: stable lowercase URL directory for the brand report, such as `daming`, `chage`, or another user-approved slug.
+- `sitePath`: published relative path to the report directory, such as `/brand-order-analysis/chage/` or `./chage/` depending on the site context.
 - `officialStoreCount`: total records in the official store population after deduplication.
 - `gmbFoundCount`: stores where `sourceCoverage.gmbFound` is true or `gmbStatus` is `confirmed`.
 - `googleFoundCount`: stores where `sourceCoverage.googleFound` is true.

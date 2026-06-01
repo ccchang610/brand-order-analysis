@@ -240,7 +240,13 @@ Filters should include:
 
 For a static report site:
 
-- Keep `index.html`, `styles.css`, `app.js`, and `data/` at the project root unless the repo already has another structure.
+- If the site is intended to hold more than one brand, keep the repository root as the brand selector and put each brand report in a sibling slug directory.
+- Use stable lowercase brand slugs such as `daming`, `chage`, or another user-approved slug. Avoid spaces, mixed casing, and provider names in brand slugs.
+- Keep each brand report self-contained under `<brand-slug>/`, including that brand's `index.html`, `data/stores.json`, `data/summary.json`, and optional CSV/export files.
+- Keep shared frontend files in a root-level shared directory such as `assets/` when multiple brand reports use the same dashboard code.
+- Update the root `index.html` brand selector whenever a new brand directory is added.
+- The GitHub Pages base path should be the reusable project name, such as `/brand-order-analysis/`; do not use the first analyzed brand as the site base path if more brands are expected.
+- Single-brand throwaway reports may keep `index.html`, `styles.css`, `app.js`, and `data/` at the project root only when the user clearly wants a one-brand site.
 - Keep the report usable from GitHub Pages without a server.
 - Use one active geography filter state to update KPI cards, map, charts, comparison table, and store details.
 - Keep all-source ordering-system charts and Google Order provider charts visually separate.
