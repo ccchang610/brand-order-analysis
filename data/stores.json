@@ -4,7 +4,7 @@
   "source": {
     "officialStoreList": "https://www.damingtea.com.tw/stores/",
     "officialWebsite": "https://www.damingtea.com.tw/",
-    "notes": "Official store page provides the store population, embedded Google/Maps links, Nidin order links, and delivery platform links. GMB ordering buttons were not batch-readable from static HTML and are counted as GMB ordering coverage gaps."
+    "notes": "Official store page provides the store population, embedded Google/Maps links, Nidin order links, and delivery platform links. Google Order buttons were not batch-readable from static HTML and are counted as Google Order coverage gaps."
   },
   "stores": [
     {
@@ -66,14 +66,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3aGRuZ2sxMRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZPYaapXwEf7m1e8P_8zc0Ac&ei=ZPYaapXwEf7m1e8P_8zc0Ac&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3aGRuZ2sxMRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZPYaapXwEf7m1e8P_8zc0Ac&ei=ZPYaapXwEf7m1e8P_8zc0Ac&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -152,7 +152,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ZjR0OGZkMxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=cfYaauGkPNno1e8Pn8nIwAQ&ei=cfYaauGkPNno1e8Pn8nIwAQ&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -162,14 +162,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ZjR0OGZkMxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=cfYaauGkPNno1e8Pn8nIwAQ&ei=cfYaauGkPNno1e8Pn8nIwAQ&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ZjR0OGZkMxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=cfYaauGkPNno1e8Pn8nIwAQ&ei=cfYaauGkPNno1e8Pn8nIwAQ&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -249,14 +249,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E7%AB%99%E5%89%8D%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E4%BF%A1%E9%99%BD%E8%A1%9711%E4%B9%8B2%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFmZmZ4emQ5WWZESlQzNFh6WWJTRGlOU1ZSSURzZldaQ0JVTzBlTWVubHYwSm9WczFjOVpaekRXd2FsYS1vOE9sdzNKUGdtSWtCMUE4S09aRWt4YUdkNnFGcnZZajVyVk81bHdCVzI3UGt2aWJtOUtjEhdya2tiYXNDQkFfWGEycm9QbUt2ajhRNBoiQUpLTEZtTEdIUzZGWDBnWnhSc0VWWjZsOVRXV0pmbGlZdxIEODEyNBoBMyoAMAA4AUAAGCogv8r1swg6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E7%AB%99%E5%89%8D%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E4%BF%A1%E9%99%BD%E8%A1%9711%E4%B9%8B2%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFmZmZ4emQ5WWZESlQzNFh6WWJTRGlOU1ZSSURzZldaQ0JVTzBlTWVubHYwSm9WczFjOVpaekRXd2FsYS1vOE9sdzNKUGdtSWtCMUE4S09aRWt4YUdkNnFGcnZZajVyVk81bHdCVzI3UGt2aWJtOUtjEhdya2tiYXNDQkFfWGEycm9QbUt2ajhRNBoiQUpLTEZtTEdIUzZGWDBnWnhSc0VWWjZsOVRXV0pmbGlZdxIEODEyNBoBMyoAMAA4AUAAGCogv8r1swg6AEoCEAE",
       "gmbPickupProviders": [],
@@ -334,14 +334,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2NmtrbDU5ahgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=jPYaat6-Nobp1e8PpMXQ2QM&ei=jPYaat6-Nobp1e8PpMXQ2QM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2NmtrbDU5ahgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=jPYaat6-Nobp1e8PpMXQ2QM&ei=jPYaat6-Nobp1e8PpMXQ2QM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -420,7 +420,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NDN0Z3Y1ZBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=mvYaarW0FufY1e8P5PX2kAk&ei=mvYaarW0FufY1e8P5PX2kAk&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -430,14 +430,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NDN0Z3Y1ZBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=mvYaarW0FufY1e8P5PX2kAk&ei=mvYaarW0FufY1e8P5PX2kAk&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NDN0Z3Y1ZBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=mvYaarW0FufY1e8P5PX2kAk&ei=mvYaarW0FufY1e8P5PX2kAk&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -502,7 +502,7 @@
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
       "manualReviewReason": "No Google Order button was found during human-paced browser check.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+LaLaport+%E5%8D%97%E6%B8%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1&hl=zh-TW&sei=sb8cao-oOOadvr0P8N_c8QM",
       "gmbPickupProviders": [],
@@ -621,7 +621,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrczA4bXh5bBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=rfYaapGjOKmR1e8PhIugwA8&ei=rfYaapGjOKmR1e8PhIugwA8&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -631,14 +631,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrczA4bXh5bBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=rfYaapGjOKmR1e8PhIugwA8&ei=rfYaapGjOKmR1e8PhIugwA8&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrczA4bXh5bBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=rfYaapGjOKmR1e8PhIugwA8&ei=rfYaapGjOKmR1e8PhIugwA8&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -718,7 +718,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%96%87%E6%98%8C%E8%A1%97205%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFCdmNEWmVlU3lEZmV5WlA0cHBTMjR3RjlRRTJqLV8yUHVoWGU1dnBROHJJTGFfU1l6dk1Kd2oxQ2hhQUhzYjJzLVpKSnZNWV82Wmc1a2lwOFJVTzBlbEhGc0tzUzlLRVMtSHlBVnhDek5hQmQ2Q2djEhd4NzRjYXBHQU80VHExZThQNExfSnFRSRoiQUpLTEZtSTFwS09WU2xVeUlOVXhuMEtIYmlEWW9DMlFfURIEODEyNBoBMyoAMAA4AUAAGCog0_37qQlKAhAB",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -728,14 +728,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%96%87%E6%98%8C%E8%A1%97205%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFCdmNEWmVlU3lEZmV5WlA0cHBTMjR3RjlRRTJqLV8yUHVoWGU1dnBROHJJTGFfU1l6dk1Kd2oxQ2hhQUhzYjJzLVpKSnZNWV82Wmc1a2lwOFJVTzBlbEhGc0tzUzlLRVMtSHlBVnhDek5hQmQ2Q2djEhd4NzRjYXBHQU80VHExZThQNExfSnFRSRoiQUpLTEZtSTFwS09WU2xVeUlOVXhuMEtIYmlEWW9DMlFfURIEODEyNBoBMyoAMAA4AUAAGCog0_37qQlKAhAB",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8C%97%E9%80%9A%E5%8C%96%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%96%87%E6%98%8C%E8%A1%97205%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFCdmNEWmVlU3lEZmV5WlA0cHBTMjR3RjlRRTJqLV8yUHVoWGU1dnBROHJJTGFfU1l6dk1Kd2oxQ2hhQUhzYjJzLVpKSnZNWV82Wmc1a2lwOFJVTzBlbEhGc0tzUzlLRVMtSHlBVnhDek5hQmQ2Q2djEhd4NzRjYXBHQU80VHExZThQNExfSnFRSRoiQUpLTEZtSTFwS09WU2xVeUlOVXhuMEtIYmlEWW9DMlFfURIEODEyNBoBMyoAMAA4AUAAGCog0_37qQlKAhAB",
       "gmbPickupProviders": [
@@ -823,7 +823,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5YjYzNzUwMxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=x_YaaozcDZ3l1e8PqKHv-Qw&ei=x_YaaozcDZ3l1e8PqKHv-Qw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -833,14 +833,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5YjYzNzUwMxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=x_YaaozcDZ3l1e8PqKHv-Qw&ei=x_YaaozcDZ3l1e8PqKHv-Qw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5YjYzNzUwMxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=x_YaaozcDZ3l1e8PqKHv-Qw&ei=x_YaaozcDZ3l1e8PqKHv-Qw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -920,7 +920,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e7687de8d1b3fbf8&cs=0&output=search&kgmid=/g/11yrt7h2vn&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%AE%9C%E8%98%AD%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=705ac8fb5f839f34&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVRjdGhZbmN6U1hUQzd3VUVSa1JueTB5NHo4UUphUnJwNXJ3ZzV5b3F0bktiVjZOajVoY000QW5oUU9ZdmhDNEtMT3FtTUpyd2dzTHBSZVpnbmZSdjJOU1c2cUVWRVlNbHdxdVdGQ3FhUC1FM0d1cGZrEhdBaEliYXNfTkJ0ZVp2cjBQbUxHbnNBTRoiQUpLTEZtS2lLcG10bG41dFhQN1RqdUhTbzlZVHdXR29wZxIEODEyNBoBMyoAMAA4AUAAGCog0d3opws6AEoCEAE",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -930,7 +930,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e7687de8d1b3fbf8&cs=0&output=search&kgmid=/g/11yrt7h2vn&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%AE%9C%E8%98%AD%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=705ac8fb5f839f34&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVRjdGhZbmN6U1hUQzd3VUVSa1JueTB5NHo4UUphUnJwNXJ3ZzV5b3F0bktiVjZOajVoY000QW5oUU9ZdmhDNEtMT3FtTUpyd2dzTHBSZVpnbmZSdjJOU1c2cUVWRVlNbHdxdVdGQ3FhUC1FM0d1cGZrEhdBaEliYXNfTkJ0ZVp2cjBQbUxHbnNBTRoiQUpLTEZtS2lLcG10bG41dFhQN1RqdUhTbzlZVHdXR29wZxIEODEyNBoBMyoAMAA4AUAAGCog0d3opws6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -940,14 +940,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e7687de8d1b3fbf8&cs=0&output=search&kgmid=/g/11yrt7h2vn&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%AE%9C%E8%98%AD%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=705ac8fb5f839f34&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVRjdGhZbmN6U1hUQzd3VUVSa1JueTB5NHo4UUphUnJwNXJ3ZzV5b3F0bktiVjZOajVoY000QW5oUU9ZdmhDNEtMT3FtTUpyd2dzTHBSZVpnbmZSdjJOU1c2cUVWRVlNbHdxdVdGQ3FhUC1FM0d1cGZrEhdBaEliYXNfTkJ0ZVp2cjBQbUxHbnNBTRoiQUpLTEZtS2lLcG10bG41dFhQN1RqdUhTbzlZVHdXR29wZxIEODEyNBoBMyoAMAA4AUAAGCog0d3opws6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population. GMB blue pickup/delivery button evidence was provided by screenshot because Google blocked automated re-open.",
+      "evidenceNotes": "Official store list supplied store population. Google Order pickup/delivery evidence was provided by screenshot because Google blocked automated re-open.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=e7687de8d1b3fbf8&cs=0&output=search&kgmid=/g/11yrt7h2vn&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%AE%9C%E8%98%AD%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=705ac8fb5f839f34&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVRjdGhZbmN6U1hUQzd3VUVSa1JueTB5NHo4UUphUnJwNXJ3ZzV5b3F0bktiVjZOajVoY000QW5oUU9ZdmhDNEtMT3FtTUpyd2dzTHBSZVpnbmZSdjJOU1c2cUVWRVlNbHdxdVdGQ3FhUC1FM0d1cGZrEhdBaEliYXNfTkJ0ZVp2cjBQbUxHbnNBTRoiQUpLTEZtS2lLcG10bG41dFhQN1RqdUhTbzlZVHdXR29wZxIEODEyNBoBMyoAMAA4AUAAGCog0d3opws6AEoCEAE",
       "gmbPickupProviders": [
@@ -1029,7 +1029,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%AE%9C%E8%98%AD%E7%BE%85%E6%9D%B1%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5262%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVI0d213M2UwdnpGcjFiTm16Y1U1VWhWdlE3U3k4aEVMcmVyLVZEQVhZVl9ZZ3BSOFVkV3N0QUU4RDlFd2hyT1N3ck5aVzE2VDJ4V0ZHSTVwTnBXRVhWZEYtNWRDLW84QnhJZkdjUUFVRnQ1RkpRM1NZEhc1TDRjYXNPVENPbmgxZThQNnN2bjJBdxoiQUpLTEZtSWFDaUltcmJ4b1R5RnhoWENIeEExWXFUMVN1ZxIEODEyNBoBMyoAMAA4AUAAGCogsK7LOEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -1039,14 +1039,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%AE%9C%E8%98%AD%E7%BE%85%E6%9D%B1%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5262%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVI0d213M2UwdnpGcjFiTm16Y1U1VWhWdlE3U3k4aEVMcmVyLVZEQVhZVl9ZZ3BSOFVkV3N0QUU4RDlFd2hyT1N3ck5aVzE2VDJ4V0ZHSTVwTnBXRVhWZEYtNWRDLW84QnhJZkdjUUFVRnQ1RkpRM1NZEhc1TDRjYXNPVENPbmgxZThQNnN2bjJBdxoiQUpLTEZtSWFDaUltcmJ4b1R5RnhoWENIeEExWXFUMVN1ZxIEODEyNBoBMyoAMAA4AUAAGCogsK7LOEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%AE%9C%E8%98%AD%E7%BE%85%E6%9D%B1%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5262%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVI0d213M2UwdnpGcjFiTm16Y1U1VWhWdlE3U3k4aEVMcmVyLVZEQVhZVl9ZZ3BSOFVkV3N0QUU4RDlFd2hyT1N3ck5aVzE2VDJ4V0ZHSTVwTnBXRVhWZEYtNWRDLW84QnhJZkdjUUFVRnQ1RkpRM1NZEhc1TDRjYXNPVENPbmgxZThQNnN2bjJBdxoiQUpLTEZtSWFDaUltcmJ4b1R5RnhoWENIeEExWXFUMVN1ZxIEODEyNBoBMyoAMAA4AUAAGCogsK7LOEoCEAE",
       "gmbPickupProviders": [],
@@ -1133,7 +1133,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3ZnRrNzFsahgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4fYaarLCEeTc1e8PlLiY-QU&ei=4fYaarLCEeTc1e8PlLiY-QU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -1143,14 +1143,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3ZnRrNzFsahgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4fYaarLCEeTc1e8PlLiY-QU&ei=4fYaarLCEeTc1e8PlLiY-QU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3ZnRrNzFsahgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4fYaarLCEeTc1e8PlLiY-QU&ei=4fYaarLCEeTc1e8PlLiY-QU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -1229,14 +1229,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2c2JnajFiMhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=7vYaapWiMc6Qvr0Pye-c0A8&ei=7vYaapWiMc6Qvr0Pye-c0A8&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2c2JnajFiMhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=7vYaapWiMc6Qvr0Pye-c0A8&ei=7vYaapWiMc6Qvr0Pye-c0A8&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -1315,14 +1315,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrcWptajRqYxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=_PYaarvJDajavr0P_JSvoAM&ei=_PYaarvJDajavr0P_JSvoAM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrcWptajRqYxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=_PYaarvJDajavr0P_JSvoAM&ei=_PYaarvJDajavr0P_JSvoAM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -1401,14 +1401,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&sxsrf=ANbL-n6omaeCVJ7cveXw8CT3_DPalIR1GQ:1777015689741&kgmid=/g/11xdtfkyp3&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%9D%BF%E6%A9%8B%E5%BA%9C%E4%B8%AD%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=d700db1d0badff84&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVQ5Y2NSb0o0cl9hTWVxcHRXMUZGRWlURmhpY29LWklNdmdVRkFodFhPWFlpLVJXWnkwSVVfcmZCNU1MOV9MN0ZzbWNmZko2V09HclZYMW93dE1rV01MZEdZcW1uTWlaMTdNNnU0d3UwNjNmVFZZeE5rEhdkUkliYXVyOEZPM2UxZThQaHVPNnVRRRoiQUpLTEZtSU4xaTlLWXNZZ1NiekpHblhZZmY5TlZta3NHdxIEODEyNBoBMyoAMAA4AUAAGCog67P2tQE6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode. Re-check was blocked by Google on 2026-06-01; preserved prior Google Order evidence/status instead of downgrading.",
-      "evidenceNotes": "Official store list supplied store population and Nidin order link. GMB online ordering panel was manually checked from the browser screenshot.",
+      "evidenceNotes": "Official store list supplied store population and Nidin order link. Google Order panel was manually checked from the browser screenshot.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&sxsrf=ANbL-n6omaeCVJ7cveXw8CT3_DPalIR1GQ:1777015689741&kgmid=/g/11xdtfkyp3&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%9D%BF%E6%A9%8B%E5%BA%9C%E4%B8%AD%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=d700db1d0badff84&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVQ5Y2NSb0o0cl9hTWVxcHRXMUZGRWlURmhpY29LWklNdmdVRkFodFhPWFlpLVJXWnkwSVVfcmZCNU1MOV9MN0ZzbWNmZko2V09HclZYMW93dE1rV01MZEdZcW1uTWlaMTdNNnU0d3UwNjNmVFZZeE5rEhdkUkliYXVyOEZPM2UxZThQaHVPNnVRRRoiQUpLTEZtSU4xaTlLWXNZZ1NiekpHblhZZmY5TlZta3NHdxIEODEyNBoBMyoAMAA4AUAAGCog67P2tQE6AEoCEAE",
       "gmbPickupProviders": [],
@@ -1488,7 +1488,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2eHkweXhmXxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=D_caaszvK7-5vr0P4cOviA0&ei=D_caaszvK7-5vr0P4cOviA0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -1498,7 +1498,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2eHkweXhmXxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=D_caaszvK7-5vr0P4cOviA0&ei=D_caaszvK7-5vr0P4cOviA0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -1508,14 +1508,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2eHkweXhmXxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=D_caaszvK7-5vr0P4cOviA0&ei=D_caaszvK7-5vr0P4cOviA0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2eHkweXhmXxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=D_caaszvK7-5vr0P4cOviA0&ei=D_caaszvK7-5vr0P4cOviA0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [
@@ -1596,7 +1596,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NDl5N2RoYhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=G_caap7dKfLP1e8PkNCQqQc&ei=G_caap7dKfLP1e8PkNCQqQc&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -1606,14 +1606,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NDl5N2RoYhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=G_caap7dKfLP1e8PkNCQqQc&ei=G_caap7dKfLP1e8PkNCQqQc&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NDl5N2RoYhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=G_caap7dKfLP1e8PkNCQqQc&ei=G_caap7dKfLP1e8PkNCQqQc&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -1692,7 +1692,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=b3de37e104a03232&sxsrf=ADLYWIKjAgG7CeyrHaXmnIX4y4Q9UfAahQ:1736909277746&kgmid=/g/11y9_vzl2q&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%96%B0%E7%AB%B9%E5%9F%8E%E9%9A%8D%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=e4b746daa2c85185#sv=CAESzQEKuQEStgEKd0FNbjMteVRTejFHTjllb0RPdGZqZlY4WnVkdU81VEdqcXhUNFdSMGNDQlpNbUx1a1NnQkVwc2tjWjlsdnNqWm5aNDFJTTdLSTcxQkZYZjdPZ1NPMXJIay1kcE1vaFZ6OVNoVmJsSzIyejZHUUlSaWZBaWlONkNFEhd3aEliYXNmQkE0VHQxZThQMHBISDRRRRoiQUpLTEZtTHp3SVg2TGU5LXU3c3ByWkd6SDI1WWhUTm4tURIEODEyNBoBMyoAMAA4AUAAGCog2dG_kQ46AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -1702,14 +1702,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=b3de37e104a03232&sxsrf=ADLYWIKjAgG7CeyrHaXmnIX4y4Q9UfAahQ:1736909277746&kgmid=/g/11y9_vzl2q&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%96%B0%E7%AB%B9%E5%9F%8E%E9%9A%8D%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=e4b746daa2c85185#sv=CAESzQEKuQEStgEKd0FNbjMteVRTejFHTjllb0RPdGZqZlY4WnVkdU81VEdqcXhUNFdSMGNDQlpNbUx1a1NnQkVwc2tjWjlsdnNqWm5aNDFJTTdLSTcxQkZYZjdPZ1NPMXJIay1kcE1vaFZ6OVNoVmJsSzIyejZHUUlSaWZBaWlONkNFEhd3aEliYXNmQkE0VHQxZThQMHBISDRRRRoiQUpLTEZtTHp3SVg2TGU5LXU3c3ByWkd6SDI1WWhUTm4tURIEODEyNBoBMyoAMAA4AUAAGCog2dG_kQ46AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=b3de37e104a03232&sxsrf=ADLYWIKjAgG7CeyrHaXmnIX4y4Q9UfAahQ:1736909277746&kgmid=/g/11y9_vzl2q&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%96%B0%E7%AB%B9%E5%9F%8E%E9%9A%8D%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=e4b746daa2c85185#sv=CAESzQEKuQEStgEKd0FNbjMteVRTejFHTjllb0RPdGZqZlY4WnVkdU81VEdqcXhUNFdSMGNDQlpNbUx1a1NnQkVwc2tjWjlsdnNqWm5aNDFJTTdLSTcxQkZYZjdPZ1NPMXJIay1kcE1vaFZ6OVNoVmJsSzIyejZHUUlSaWZBaWlONkNFEhd3aEliYXNmQkE0VHQxZThQMHBISDRRRRoiQUpLTEZtTHp3SVg2TGU5LXU3c3ByWkd6SDI1WWhUTm4tURIEODEyNBoBMyoAMAA4AUAAGCog2dG_kQ46AEoCEAE",
       "gmbPickupProviders": [],
@@ -1788,7 +1788,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3YmRnYzNkORgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=L_caatXjIJeMvr0P2_-1mQs&ei=L_caatXjIJeMvr0P2_-1mQs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -1798,14 +1798,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3YmRnYzNkORgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=L_caatXjIJeMvr0P2_-1mQs&ei=L_caatXjIJeMvr0P2_-1mQs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3YmRnYzNkORgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=L_caatXjIJeMvr0P2_-1mQs&ei=L_caatXjIJeMvr0P2_-1mQs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -1885,14 +1885,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cWtfeGd4dBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Pfcaao28A4uNvr0PpL6kgQg&ei=Pfcaao28A4uNvr0PpL6kgQg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cWtfeGd4dBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Pfcaao28A4uNvr0PpL6kgQg&ei=Pfcaao28A4uNvr0PpL6kgQg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -1971,7 +1971,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2ajk5cTJxZBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=SvcaasTDHLGfvr0PhbvR2AU&ei=SvcaasTDHLGfvr0PhbvR2AU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -1981,14 +1981,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2ajk5cTJxZBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=SvcaasTDHLGfvr0PhbvR2AU&ei=SvcaasTDHLGfvr0PhbvR2AU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2ajk5cTJxZBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=SvcaasTDHLGfvr0PhbvR2AU&ei=SvcaasTDHLGfvr0PhbvR2AU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -2068,7 +2068,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=d525e7905da52187&sxsrf=ANbL-n5V50C8HPZKveuvv8hwvpnzDHCbWw:1774931034387&kgmid=/g/11mkd6r67f&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E4%B8%AD%E5%A3%A2%E6%96%B0%E6%98%8E%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=be37bc6bce70553a&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVJ6dFVfMncwenVpaXdJR3pia1BuRDNON1RwMXpLZFRXNmFqSnkzdHN1cEw3LUtlbU1QUmJNRW55cWswOHdOSXF2VnVndXdMMHJGaTluV2s5cGp5ODRoWnl1TllaZzRHajlOTVJNRzJrUHktYXpTV004EhdLaE1iYXRIVUlwYWp2cjBQOWN1dzZRSRoiQUpLTEZtSjNmNzUtTjdLVWxhLUFPaWNOWmlqcFBJbjl2dxIEODEyNBoBMyoAMAA4AUAAGCog0djXzgI6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2078,14 +2078,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=d525e7905da52187&sxsrf=ANbL-n5V50C8HPZKveuvv8hwvpnzDHCbWw:1774931034387&kgmid=/g/11mkd6r67f&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E4%B8%AD%E5%A3%A2%E6%96%B0%E6%98%8E%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=be37bc6bce70553a&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVJ6dFVfMncwenVpaXdJR3pia1BuRDNON1RwMXpLZFRXNmFqSnkzdHN1cEw3LUtlbU1QUmJNRW55cWswOHdOSXF2VnVndXdMMHJGaTluV2s5cGp5ODRoWnl1TllaZzRHajlOTVJNRzJrUHktYXpTV004EhdLaE1iYXRIVUlwYWp2cjBQOWN1dzZRSRoiQUpLTEZtSjNmNzUtTjdLVWxhLUFPaWNOWmlqcFBJbjl2dxIEODEyNBoBMyoAMAA4AUAAGCog0djXzgI6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=d525e7905da52187&sxsrf=ANbL-n5V50C8HPZKveuvv8hwvpnzDHCbWw:1774931034387&kgmid=/g/11mkd6r67f&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E4%B8%AD%E5%A3%A2%E6%96%B0%E6%98%8E%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=be37bc6bce70553a&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVJ6dFVfMncwenVpaXdJR3pia1BuRDNON1RwMXpLZFRXNmFqSnkzdHN1cEw3LUtlbU1QUmJNRW55cWswOHdOSXF2VnVndXdMMHJGaTluV2s5cGp5ODRoWnl1TllaZzRHajlOTVJNRzJrUHktYXpTV004EhdLaE1iYXRIVUlwYWp2cjBQOWN1dzZRSRoiQUpLTEZtSjNmNzUtTjdLVWxhLUFPaWNOWmlqcFBJbjl2dxIEODEyNBoBMyoAMAA4AUAAGCog0djXzgI6AEoCEAE",
       "gmbPickupProviders": [],
@@ -2156,7 +2156,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=ab8db249d156b33c&sxsrf=AE3TifNys0j19l2QSTdCggUZKStuggpXkw%3A1754468216853&kgmid=%2Fg%2F11xkt1ysmp&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%85%A7%E5%A3%A2%E5%BF%A0%E5%AD%9D%E5%BA%97&shndl=30&shem=lcuae%2Clsptb1%2Csdl1pl%2Cuaasie&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=3cca1fb90576666a#sv=CAESzQEKuQEStgEKd0FNbjMteVE1WFJUamJBQmtrTDc3RUNzWm5TYlM3YVUzeWhwTG9uN0VQd2NoUkxDR1ZmUFlxN1Z1TFgwZHhjYmJfSC1VamdiRlZqU1hiREJuYjM3VFlqOWt1YkFJWGRxbFhTNDJMQndybElKUHVtWk9qb3BwS1NNEhdQQk1iYXZ1b0g4cTV2cjBQdGFudDBBTRoiQUpLTEZtTGtpYVN6UV9Tdkk1ZExJUnpZM0dQQ3FoUGtpURIEODEyNBoBMyoAMAA4AUAAGCog6by6hAk6AEoCEAE",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -2166,7 +2166,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=ab8db249d156b33c&sxsrf=AE3TifNys0j19l2QSTdCggUZKStuggpXkw%3A1754468216853&kgmid=%2Fg%2F11xkt1ysmp&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%85%A7%E5%A3%A2%E5%BF%A0%E5%AD%9D%E5%BA%97&shndl=30&shem=lcuae%2Clsptb1%2Csdl1pl%2Cuaasie&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=3cca1fb90576666a#sv=CAESzQEKuQEStgEKd0FNbjMteVE1WFJUamJBQmtrTDc3RUNzWm5TYlM3YVUzeWhwTG9uN0VQd2NoUkxDR1ZmUFlxN1Z1TFgwZHhjYmJfSC1VamdiRlZqU1hiREJuYjM3VFlqOWt1YkFJWGRxbFhTNDJMQndybElKUHVtWk9qb3BwS1NNEhdQQk1iYXZ1b0g4cTV2cjBQdGFudDBBTRoiQUpLTEZtTGtpYVN6UV9Tdkk1ZExJUnpZM0dQQ3FoUGtpURIEODEyNBoBMyoAMAA4AUAAGCog6by6hAk6AEoCEAE",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -2176,7 +2176,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=ab8db249d156b33c&sxsrf=AE3TifNys0j19l2QSTdCggUZKStuggpXkw%3A1754468216853&kgmid=%2Fg%2F11xkt1ysmp&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%85%A7%E5%A3%A2%E5%BF%A0%E5%AD%9D%E5%BA%97&shndl=30&shem=lcuae%2Clsptb1%2Csdl1pl%2Cuaasie&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=3cca1fb90576666a#sv=CAESzQEKuQEStgEKd0FNbjMteVE1WFJUamJBQmtrTDc3RUNzWm5TYlM3YVUzeWhwTG9uN0VQd2NoUkxDR1ZmUFlxN1Z1TFgwZHhjYmJfSC1VamdiRlZqU1hiREJuYjM3VFlqOWt1YkFJWGRxbFhTNDJMQndybElKUHVtWk9qb3BwS1NNEhdQQk1iYXZ1b0g4cTV2cjBQdGFudDBBTRoiQUpLTEZtTGtpYVN6UV9Tdkk1ZExJUnpZM0dQQ3FoUGtpURIEODEyNBoBMyoAMAA4AUAAGCog6by6hAk6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2186,14 +2186,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=ab8db249d156b33c&sxsrf=AE3TifNys0j19l2QSTdCggUZKStuggpXkw%3A1754468216853&kgmid=%2Fg%2F11xkt1ysmp&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%85%A7%E5%A3%A2%E5%BF%A0%E5%AD%9D%E5%BA%97&shndl=30&shem=lcuae%2Clsptb1%2Csdl1pl%2Cuaasie&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=3cca1fb90576666a#sv=CAESzQEKuQEStgEKd0FNbjMteVE1WFJUamJBQmtrTDc3RUNzWm5TYlM3YVUzeWhwTG9uN0VQd2NoUkxDR1ZmUFlxN1Z1TFgwZHhjYmJfSC1VamdiRlZqU1hiREJuYjM3VFlqOWt1YkFJWGRxbFhTNDJMQndybElKUHVtWk9qb3BwS1NNEhdQQk1iYXZ1b0g4cTV2cjBQdGFudDBBTRoiQUpLTEZtTGtpYVN6UV9Tdkk1ZExJUnpZM0dQQ3FoUGtpURIEODEyNBoBMyoAMAA4AUAAGCog6by6hAk6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=ab8db249d156b33c&sxsrf=AE3TifNys0j19l2QSTdCggUZKStuggpXkw%3A1754468216853&kgmid=%2Fg%2F11xkt1ysmp&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%85%A7%E5%A3%A2%E5%BF%A0%E5%AD%9D%E5%BA%97&shndl=30&shem=lcuae%2Clsptb1%2Csdl1pl%2Cuaasie&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=3cca1fb90576666a#sv=CAESzQEKuQEStgEKd0FNbjMteVE1WFJUamJBQmtrTDc3RUNzWm5TYlM3YVUzeWhwTG9uN0VQd2NoUkxDR1ZmUFlxN1Z1TFgwZHhjYmJfSC1VamdiRlZqU1hiREJuYjM3VFlqOWt1YkFJWGRxbFhTNDJMQndybElKUHVtWk9qb3BwS1NNEhdQQk1iYXZ1b0g4cTV2cjBQdGFudDBBTRoiQUpLTEZtTGtpYVN6UV9Tdkk1ZExJUnpZM0dQQ3FoUGtpURIEODEyNBoBMyoAMAA4AUAAGCog6by6hAk6AEoCEAE",
       "gmbPickupProviders": [
@@ -2267,7 +2267,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e7687de8d1b3fbf8&sxsrf=ANbL-n6anCmRu60BmB-3BtuTYGtydfU5WA:1774930599530&kgmid=/g/11yxqbqnrx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%85%AB%E5%BE%B7%E5%BB%A3%E7%A6%8F%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=f48c03265d312a94&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVMybmJvb0tqRFo2LXo3VktvRlNIZjkwZVBaMU4xd0FvZmVsYURObzU0eWJxdkNNWkx1TjRobUxuaDhZaFBtaVRBYUM3SFpIX0tRSnNocVdCQ3hmWWpBTmFRZ0RnVWt4YVhjUkhsaE5OdXpyN2prNC1FEhdJVDRiYXFUOUt0S2sxZThQbHRHQzJBWRoiQUpLTEZtTFhMTGowdy15Qmo5eFY2cWFxQmhwNFBNVG5zURIEODEyNBoBMyoAMAA4AUAAGCog4-qT_Ao6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2277,14 +2277,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e7687de8d1b3fbf8&sxsrf=ANbL-n6anCmRu60BmB-3BtuTYGtydfU5WA:1774930599530&kgmid=/g/11yxqbqnrx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%85%AB%E5%BE%B7%E5%BB%A3%E7%A6%8F%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=f48c03265d312a94&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVMybmJvb0tqRFo2LXo3VktvRlNIZjkwZVBaMU4xd0FvZmVsYURObzU0eWJxdkNNWkx1TjRobUxuaDhZaFBtaVRBYUM3SFpIX0tRSnNocVdCQ3hmWWpBTmFRZ0RnVWt4YVhjUkhsaE5OdXpyN2prNC1FEhdJVDRiYXFUOUt0S2sxZThQbHRHQzJBWRoiQUpLTEZtTFhMTGowdy15Qmo5eFY2cWFxQmhwNFBNVG5zURIEODEyNBoBMyoAMAA4AUAAGCog4-qT_Ao6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=e7687de8d1b3fbf8&sxsrf=ANbL-n6anCmRu60BmB-3BtuTYGtydfU5WA:1774930599530&kgmid=/g/11yxqbqnrx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%85%AB%E5%BE%B7%E5%BB%A3%E7%A6%8F%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=f48c03265d312a94&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVMybmJvb0tqRFo2LXo3VktvRlNIZjkwZVBaMU4xd0FvZmVsYURObzU0eWJxdkNNWkx1TjRobUxuaDhZaFBtaVRBYUM3SFpIX0tRSnNocVdCQ3hmWWpBTmFRZ0RnVWt4YVhjUkhsaE5OdXpyN2prNC1FEhdJVDRiYXFUOUt0S2sxZThQbHRHQzJBWRoiQUpLTEZtTFhMTGowdy15Qmo5eFY2cWFxQmhwNFBNVG5zURIEODEyNBoBMyoAMAA4AUAAGCog4-qT_Ao6AEoCEAE",
       "gmbPickupProviders": [],
@@ -2355,7 +2355,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF61%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVRoMXhyUjkwZGJvSWtkYmJmZWczOVJ6ODlDb0RBYTRTQ3hmRkNHUFBBVE1UamU0MHZSWm5HZ0N6MHlGMF9NalpmYTA0NkhtZm5HUkJDNjE0WU1GRkxoSnREOUoydUQ0M1FsV2FVMWczbGJLZnVLWnlvEhctYjRjYXAyNkxOVzN2cjBQMFo2OThRSRoiQUpLTEZtTENteTNKXzNDdWctRkQ3dFRDRW03eVpRYTdsdxIEODEyNBoBMyoAMAA4AUAAGCog6PPTrwlKAhAB",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -2365,14 +2365,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF61%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVRoMXhyUjkwZGJvSWtkYmJmZWczOVJ6ODlDb0RBYTRTQ3hmRkNHUFBBVE1UamU0MHZSWm5HZ0N6MHlGMF9NalpmYTA0NkhtZm5HUkJDNjE0WU1GRkxoSnREOUoydUQ0M1FsV2FVMWczbGJLZnVLWnlvEhctYjRjYXAyNkxOVzN2cjBQMFo2OThRSRoiQUpLTEZtTENteTNKXzNDdWctRkQ3dFRDRW03eVpRYTdsdxIEODEyNBoBMyoAMAA4AUAAGCog6PPTrwlKAhAB",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E7%B5%B1%E9%A0%98%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF61%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVRoMXhyUjkwZGJvSWtkYmJmZWczOVJ6ODlDb0RBYTRTQ3hmRkNHUFBBVE1UamU0MHZSWm5HZ0N6MHlGMF9NalpmYTA0NkhtZm5HUkJDNjE0WU1GRkxoSnREOUoydUQ0M1FsV2FVMWczbGJLZnVLWnlvEhctYjRjYXAyNkxOVzN2cjBQMFo2OThRSRoiQUpLTEZtTENteTNKXzNDdWctRkQ3dFRDRW03eVpRYTdsdxIEODEyNBoBMyoAMAA4AUAAGCog6PPTrwlKAhAB",
       "gmbPickupProviders": [
@@ -2453,7 +2453,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -2463,7 +2463,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2473,7 +2473,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2483,14 +2483,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%A1%83%E5%9C%92%E8%97%9D%E6%96%87%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%96%B0%E5%9F%94%E5%85%AD%E8%A1%97202%E8%99%9F&hl=zh-TW&sei=170caurUM-7b1e8P_fD02AU#sv=CAESzAEKuAEStQEKd0FNbjMteVE4VVd3ZHBPUjdOTHpMZnR4NDZwT2pEa242TTl3akdmM196d2UxNGkxeWV4R3VYMzctU3d0dUNMVnFvZ0VjcWt4YURfV0xJaHFiOFdMRzRKWTFZcDk3dHFVSzZYZXMyNDc0a3dicVl6SUZTSmdza3A4EhYyTDBjYXRzTDA3cS12UV93OTViWUJBGiJBSktMRm1JcEQ5M2RGaDFIWjNJT1lXNTlOM1pmXzNnY2J3EgQ4MTI0GgEzKgAwADgBQAAYKiCUj_ejDEoCEAE",
       "gmbPickupProviders": [
@@ -2569,7 +2569,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=ea002673e68d741e&cs=0&output=search&kgmid=%2Fg%2F11yhfrrj0c&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E9%BE%8D%E6%BD%AD%E6%9D%B1%E9%BE%8D%E5%BA%97&shndl=30&shem=lcuae%2Clsptb1%2Csdl1pl%2Cuaasie&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=27d805623d36035c#sv=CAESzQEKuQEStgEKd0FNbjMteVJFZUNkS1N6dkNpN05sWjQ0aDVvVnRMeExWazVMTnFKX2FqQ0w0RFJKMVEwY0tEQWRLaDM4RXF0UUJCdHQ3cEs4N3g2dERJaHk1NkhXbW9UNmhac1BDQXpxVjQyS1I4Y0dDdGhNeTlfMjBhTGJ3NFp3EhdtaE1iYXNEeEdyLU92cjBQOWVXSTRRbxoiQUpLTEZtSlNkanFZMzV4QVAxY1lfYllYdElNVWJzM1Q2dxIEODEyNBoBMyoAMAA4AUAAGCog5Jjjyg86AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2579,14 +2579,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=ea002673e68d741e&cs=0&output=search&kgmid=%2Fg%2F11yhfrrj0c&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E9%BE%8D%E6%BD%AD%E6%9D%B1%E9%BE%8D%E5%BA%97&shndl=30&shem=lcuae%2Clsptb1%2Csdl1pl%2Cuaasie&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=27d805623d36035c#sv=CAESzQEKuQEStgEKd0FNbjMteVJFZUNkS1N6dkNpN05sWjQ0aDVvVnRMeExWazVMTnFKX2FqQ0w0RFJKMVEwY0tEQWRLaDM4RXF0UUJCdHQ3cEs4N3g2dERJaHk1NkhXbW9UNmhac1BDQXpxVjQyS1I4Y0dDdGhNeTlfMjBhTGJ3NFp3EhdtaE1iYXNEeEdyLU92cjBQOWVXSTRRbxoiQUpLTEZtSlNkanFZMzV4QVAxY1lfYllYdElNVWJzM1Q2dxIEODEyNBoBMyoAMAA4AUAAGCog5Jjjyg86AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=ea002673e68d741e&cs=0&output=search&kgmid=%2Fg%2F11yhfrrj0c&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E9%BE%8D%E6%BD%AD%E6%9D%B1%E9%BE%8D%E5%BA%97&shndl=30&shem=lcuae%2Clsptb1%2Csdl1pl%2Cuaasie&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=27d805623d36035c#sv=CAESzQEKuQEStgEKd0FNbjMteVJFZUNkS1N6dkNpN05sWjQ0aDVvVnRMeExWazVMTnFKX2FqQ0w0RFJKMVEwY0tEQWRLaDM4RXF0UUJCdHQ3cEs4N3g2dERJaHk1NkhXbW9UNmhac1BDQXpxVjQyS1I4Y0dDdGhNeTlfMjBhTGJ3NFp3EhdtaE1iYXNEeEdyLU92cjBQOWVXSTRRbxoiQUpLTEZtSlNkanFZMzV4QVAxY1lfYllYdElNVWJzM1Q2dxIEODEyNBoBMyoAMAA4AUAAGCog5Jjjyg86AEoCEAE",
       "gmbPickupProviders": [],
@@ -2669,7 +2669,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsY3BnNjhicBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=hfcaavPlPOO8vr0P--rbwQU&ei=hfcaavPlPOO8vr0P--rbwQU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2679,14 +2679,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsY3BnNjhicBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=hfcaavPlPOO8vr0P--rbwQU&ei=hfcaavPlPOO8vr0P--rbwQU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsY3BnNjhicBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=hfcaavPlPOO8vr0P--rbwQU&ei=hfcaavPlPOO8vr0P--rbwQU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -2765,7 +2765,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2a19ydGpmdBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=lPcaarHWFte3vr0P2oKe-AM&ei=lPcaarHWFte3vr0P2oKe-AM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2775,14 +2775,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2a19ydGpmdBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=lPcaarHWFte3vr0P2oKe-AM&ei=lPcaarHWFte3vr0P2oKe-AM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2a19ydGpmdBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=lPcaarHWFte3vr0P2oKe-AM&ei=lPcaarHWFte3vr0P2oKe-AM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -2862,7 +2862,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsMW40cW1ocxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ovcaaojAH-ff1e8Pqa6tkQE&ei=ovcaaojAH-ff1e8Pqa6tkQE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -2872,7 +2872,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsMW40cW1ocxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ovcaaojAH-ff1e8Pqa6tkQE&ei=ovcaaojAH-ff1e8Pqa6tkQE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2882,14 +2882,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsMW40cW1ocxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ovcaaojAH-ff1e8Pqa6tkQE&ei=ovcaaojAH-ff1e8Pqa6tkQE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsMW40cW1ocxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ovcaaojAH-ff1e8Pqa6tkQE&ei=ovcaaojAH-ff1e8Pqa6tkQE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [
@@ -2970,7 +2970,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3MmNkdm4yahgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=rvcaatrnKrmAvr0P0bP4-AQ&ei=rvcaatrnKrmAvr0P0bP4-AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -2980,7 +2980,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3MmNkdm4yahgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=rvcaatrnKrmAvr0P0bP4-AQ&ei=rvcaatrnKrmAvr0P0bP4-AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -2990,14 +2990,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3MmNkdm4yahgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=rvcaatrnKrmAvr0P0bP4-AQ&ei=rvcaatrnKrmAvr0P0bP4-AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3MmNkdm4yahgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=rvcaatrnKrmAvr0P0bP4-AQ&ei=rvcaatrnKrmAvr0P0bP4-AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [
@@ -3078,7 +3078,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2ZGpta190dxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=uvcaauDLF_2Ovr0P1feDgQo&ei=uvcaauDLF_2Ovr0P1feDgQo&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3088,14 +3088,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2ZGpta190dxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=uvcaauDLF_2Ovr0P1feDgQo&ei=uvcaauDLF_2Ovr0P1feDgQo&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2ZGpta190dxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=uvcaauDLF_2Ovr0P1feDgQo&ei=uvcaauDLF_2Ovr0P1feDgQo&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -3175,7 +3175,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2bDlzMnloZhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=x_caavLmMfuA1e8PqbuHmAM&ei=x_caavLmMfuA1e8PqbuHmAM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3185,14 +3185,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2bDlzMnloZhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=x_caavLmMfuA1e8PqbuHmAM&ei=x_caavLmMfuA1e8PqbuHmAM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2bDlzMnloZhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=x_caavLmMfuA1e8PqbuHmAM&ei=x_caavLmMfuA1e8PqbuHmAM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -3259,7 +3259,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=b3de37e104a03232&sxsrf=ADLYWIJGPSzUFW0-rq5g6oEQ3a3zhQ1ViQ:1736908853072&kgmid=/g/11wt_n8gfj&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%9D%B1%E5%B1%B1%E8%BB%8D%E5%8A%9F%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=7d716552573c9b3e#sv=CAESzQEKuQEStgEKd0FNbjMteVNBYW52MlhMLWJRaHMyekREZncxVUlSU0NNNWdpb2QwZWZTWFNFSi1WOXYtMzRkUm52a3FLQl85V19pS1hCNTBQSlBRa2NpbXc2UW1TS3RWZ0FDRUJJTVlrZjNpNjlQcmxuQ3k3SHhaTTc2b3RVNWI0EhdTUlFiYW9fV01JZkkxZThQN3RUMndRURoiQUpLTEZtSkEtbTFUazRqY1M5NVhKLVc3UGNFWUhnZUJRZxIEODEyNBoBMyoAMAA4AUAAGCogg-m6hQw6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3269,14 +3269,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=b3de37e104a03232&sxsrf=ADLYWIJGPSzUFW0-rq5g6oEQ3a3zhQ1ViQ:1736908853072&kgmid=/g/11wt_n8gfj&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%9D%B1%E5%B1%B1%E8%BB%8D%E5%8A%9F%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=7d716552573c9b3e#sv=CAESzQEKuQEStgEKd0FNbjMteVNBYW52MlhMLWJRaHMyekREZncxVUlSU0NNNWdpb2QwZWZTWFNFSi1WOXYtMzRkUm52a3FLQl85V19pS1hCNTBQSlBRa2NpbXc2UW1TS3RWZ0FDRUJJTVlrZjNpNjlQcmxuQ3k3SHhaTTc2b3RVNWI0EhdTUlFiYW9fV01JZkkxZThQN3RUMndRURoiQUpLTEZtSkEtbTFUazRqY1M5NVhKLVc3UGNFWUhnZUJRZxIEODEyNBoBMyoAMAA4AUAAGCogg-m6hQw6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=b3de37e104a03232&sxsrf=ADLYWIJGPSzUFW0-rq5g6oEQ3a3zhQ1ViQ:1736908853072&kgmid=/g/11wt_n8gfj&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%9D%B1%E5%B1%B1%E8%BB%8D%E5%8A%9F%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=7d716552573c9b3e#sv=CAESzQEKuQEStgEKd0FNbjMteVNBYW52MlhMLWJRaHMyekREZncxVUlSU0NNNWdpb2QwZWZTWFNFSi1WOXYtMzRkUm52a3FLQl85V19pS1hCNTBQSlBRa2NpbXc2UW1TS3RWZ0FDRUJJTVlrZjNpNjlQcmxuQ3k3SHhaTTc2b3RVNWI0EhdTUlFiYW9fV01JZkkxZThQN3RUMndRURoiQUpLTEZtSkEtbTFUazRqY1M5NVhKLVc3UGNFWUhnZUJRZxIEODEyNBoBMyoAMAA4AUAAGCogg-m6hQw6AEoCEAE",
       "gmbPickupProviders": [],
@@ -3331,7 +3331,7 @@
       "hasAnyOrderingSystem": false,
       "hasGmbOrderingSystem": false,
       "manualReviewReason": "No Google Order button was found during human-paced browser check.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80+%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1&hl=zh-TW",
       "gmbPickupProviders": [],
@@ -3439,7 +3439,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2a3JqcjY0XxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4vcaaoi1A7vf1e8Pqc_40A4&ei=4vcaaoi1A7vf1e8Pqc_40A4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3449,14 +3449,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2a3JqcjY0XxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4vcaaoi1A7vf1e8Pqc_40A4&ei=4vcaaoi1A7vf1e8Pqc_40A4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2a3JqcjY0XxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4vcaaoi1A7vf1e8Pqc_40A4&ei=4vcaaoi1A7vf1e8Pqc_40A4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -3536,7 +3536,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -3546,7 +3546,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3556,7 +3556,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3566,14 +3566,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E4%B8%AD%E9%AB%98%E5%B7%A5%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%BE%8E%E6%9D%91%E5%8D%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNySHVFckUxSkhRRXRBSmR0ME5aTXBWdzJNeTlaZDhqcVZBbmRncXNpYk9qVC04eW1RdExhTHVGNjdVLW82U1lnUVloZEl1R2dKYm9RTGRhR2prUHF2ZEZ1VTNxbHAxeVRJWElqNlhZbDhRaW9Ld1UwEhdacjhjYXAyNkNfdWt2cjBQajUzTXdRcxoiQUpLTEZtS0xTNGlfeHZ3bE9GbzhlU3VLcTJ1MFVfQXFKdxIEODEyNBoBMyoAMAA4AUAAGCogm5KQtQJKAhAB",
       "gmbPickupProviders": [
@@ -3664,7 +3664,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cHI2anJ2YxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-_caaq_4E7vC1e8Pq_OwoAw&ei=-_caaq_4E7vC1e8Pq_OwoAw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3674,14 +3674,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cHI2anJ2YxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-_caaq_4E7vC1e8Pq_OwoAw&ei=-_caaq_4E7vC1e8Pq_OwoAw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cHI2anJ2YxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-_caaq_4E7vC1e8Pq_OwoAw&ei=-_caaq_4E7vC1e8Pq_OwoAw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -3760,7 +3760,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtZGR6NHo3aBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=CPgaat_cMoe0vr0Pvvuq2Qk&ei=CPgaat_cMoe0vr0Pvvuq2Qk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -3770,7 +3770,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtZGR6NHo3aBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=CPgaat_cMoe0vr0Pvvuq2Qk&ei=CPgaat_cMoe0vr0Pvvuq2Qk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3780,14 +3780,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtZGR6NHo3aBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=CPgaat_cMoe0vr0Pvvuq2Qk&ei=CPgaat_cMoe0vr0Pvvuq2Qk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtZGR6NHo3aBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=CPgaat_cMoe0vr0Pvvuq2Qk&ei=CPgaat_cMoe0vr0Pvvuq2Qk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [
@@ -3869,7 +3869,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0Y3J2NTZiOBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=FPgaaqKTLtno1e8Pn8nIwAQ&ei=FPgaaqKTLtno1e8Pn8nIwAQ&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3879,14 +3879,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0Y3J2NTZiOBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=FPgaaqKTLtno1e8Pn8nIwAQ&ei=FPgaaqKTLtno1e8Pn8nIwAQ&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0Y3J2NTZiOBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=FPgaaqKTLtno1e8Pn8nIwAQ&ei=FPgaaqKTLtno1e8Pn8nIwAQ&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -3965,7 +3965,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=17664b907582ebc9&cs=0&output=search&kgmid=/g/11x891ffrk&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%A4%A7%E9%87%8C%E5%A4%A7%E6%98%8E%E5%BA%97&shndl=30&source=sh/x/kp/local/m1/1&kgs=dad7e8d7fb9000ac#sv=CAESzQEKuQEStgEKd0FNbjMteVE2azQ2YlJuX2FIWXhIeHZzNmN1Yi1qUE1SLTAzSXhrTEVab3hQZGRSSW1XV0hNbmFqSk9HbGsyRW4yMjI5dnNWVzh1c0dqWkZlUFo1eFZKU3EzVEtOd2xPYkJLLXZrVnpwdjFDbHFtRjVkWWp3UktjEhdCeFViYXRYR09NbjIxZThQbHFpYzBBdxoiQUpLTEZtTDlOeW1xaUVSSVZfVXV2eWUyR0VMaVVZa0hYZxIEODEyNBoBMyoAMAA4AUAAGCoglPfbgQM6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -3975,14 +3975,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=17664b907582ebc9&cs=0&output=search&kgmid=/g/11x891ffrk&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%A4%A7%E9%87%8C%E5%A4%A7%E6%98%8E%E5%BA%97&shndl=30&source=sh/x/kp/local/m1/1&kgs=dad7e8d7fb9000ac#sv=CAESzQEKuQEStgEKd0FNbjMteVE2azQ2YlJuX2FIWXhIeHZzNmN1Yi1qUE1SLTAzSXhrTEVab3hQZGRSSW1XV0hNbmFqSk9HbGsyRW4yMjI5dnNWVzh1c0dqWkZlUFo1eFZKU3EzVEtOd2xPYkJLLXZrVnpwdjFDbHFtRjVkWWp3UktjEhdCeFViYXRYR09NbjIxZThQbHFpYzBBdxoiQUpLTEZtTDlOeW1xaUVSSVZfVXV2eWUyR0VMaVVZa0hYZxIEODEyNBoBMyoAMAA4AUAAGCoglPfbgQM6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=17664b907582ebc9&cs=0&output=search&kgmid=/g/11x891ffrk&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%A4%A7%E9%87%8C%E5%A4%A7%E6%98%8E%E5%BA%97&shndl=30&source=sh/x/kp/local/m1/1&kgs=dad7e8d7fb9000ac#sv=CAESzQEKuQEStgEKd0FNbjMteVE2azQ2YlJuX2FIWXhIeHZzNmN1Yi1qUE1SLTAzSXhrTEVab3hQZGRSSW1XV0hNbmFqSk9HbGsyRW4yMjI5dnNWVzh1c0dqWkZlUFo1eFZKU3EzVEtOd2xPYkJLLXZrVnpwdjFDbHFtRjVkWWp3UktjEhdCeFViYXRYR09NbjIxZThQbHFpYzBBdxoiQUpLTEZtTDlOeW1xaUVSSVZfVXV2eWUyR0VMaVVZa0hYZxIEODEyNBoBMyoAMAA4AUAAGCoglPfbgQM6AEoCEAE",
       "gmbPickupProviders": [],
@@ -4064,7 +4064,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsdGo4Zmd4MBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Kfgaau2JAr23vr0P9ejW0QU&ei=Kfgaau2JAr23vr0P9ejW0QU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -4074,14 +4074,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsdGo4Zmd4MBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Kfgaau2JAr23vr0P9ejW0QU&ei=Kfgaau2JAr23vr0P9ejW0QU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsdGo4Zmd4MBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Kfgaau2JAr23vr0P9ejW0QU&ei=Kfgaau2JAr23vr0P9ejW0QU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -4161,7 +4161,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cXoxZzBfaxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=NvgaaraWGKeavr0P1ebVmAI&ei=NvgaaraWGKeavr0P1ebVmAI&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -4171,14 +4171,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cXoxZzBfaxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=NvgaaraWGKeavr0P1ebVmAI&ei=NvgaaraWGKeavr0P1ebVmAI&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cXoxZzBfaxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=NvgaaraWGKeavr0P1ebVmAI&ei=NvgaaraWGKeavr0P1ebVmAI&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -4258,14 +4258,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2d2pnNnYxYhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Q_gaaqyKL-ijvr0P2Nz3wAs&ei=Q_gaaqyKL-ijvr0P2Nz3wAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2d2pnNnYxYhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Q_gaaqyKL-ijvr0P2Nz3wAs&ei=Q_gaaqyKL-ijvr0P2Nz3wAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -4343,7 +4343,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cmwxam44ORgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=UfgaaobSCOz21e8Pqu37qAg&ei=UfgaaobSCOz21e8Pqu37qAg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -4353,14 +4353,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cmwxam44ORgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=UfgaaobSCOz21e8Pqu37qAg&ei=UfgaaobSCOz21e8Pqu37qAg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cmwxam44ORgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=UfgaaobSCOz21e8Pqu37qAg&ei=UfgaaobSCOz21e8Pqu37qAg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -4439,7 +4439,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3eHNrdjZoeRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=XvgaauaEJYvM1e8P1_Dg8Qc&ei=XvgaauaEJYvM1e8P1_Dg8Qc&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -4449,14 +4449,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3eHNrdjZoeRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=XvgaauaEJYvM1e8P1_Dg8Qc&ei=XvgaauaEJYvM1e8P1_Dg8Qc&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3eHNrdjZoeRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=XvgaauaEJYvM1e8P1_Dg8Qc&ei=XvgaauaEJYvM1e8P1_Dg8Qc&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -4536,7 +4536,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=18843b6b8377da35&sxsrf=AE3TifNqRcel3JwX4L0rWziz-DJrKHbv3A:1757475492671&kgmid=/g/11xssj10xd&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%8F%B0%E4%B8%AD%E6%B8%85%E6%B0%B4%E5%BA%97&shndl=30&shem=lcuae,lsptbl1,uaasie,shrtsdl&source=sh/x/loc/uni/m1/1&kgs=33d6ba3b677569ac&utm_source=lcuae,lsptbl1,uaasie,shrtsdl,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVFSd1FTRU1wb3RYQ1V0dGcwS1FULXE3TzFKVmZBVUVsbnRRN281NEpEbExPUVVMdlZfY3RnMkpMNEtGNUZoVm1WUDJZX0RKZC1HVGxsbjJaWmhMV2NXU2IzdllKZ1o5bnNYMFpPTVhOQXl3VXNNckFzEhdvUlViYW9DRU1QTzN2cjBQeHVLQjJRTRoiQUpLTEZtS2FNdlFHRUg0Rks4M1FDNUpVbG1OLWlTR29RdxIEODEyNBoBMyoAMAA4AUAAGCoglKGW_AQ6AEoCEAE",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -4546,7 +4546,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=18843b6b8377da35&sxsrf=AE3TifNqRcel3JwX4L0rWziz-DJrKHbv3A:1757475492671&kgmid=/g/11xssj10xd&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%8F%B0%E4%B8%AD%E6%B8%85%E6%B0%B4%E5%BA%97&shndl=30&shem=lcuae,lsptbl1,uaasie,shrtsdl&source=sh/x/loc/uni/m1/1&kgs=33d6ba3b677569ac&utm_source=lcuae,lsptbl1,uaasie,shrtsdl,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVFSd1FTRU1wb3RYQ1V0dGcwS1FULXE3TzFKVmZBVUVsbnRRN281NEpEbExPUVVMdlZfY3RnMkpMNEtGNUZoVm1WUDJZX0RKZC1HVGxsbjJaWmhMV2NXU2IzdllKZ1o5bnNYMFpPTVhOQXl3VXNNckFzEhdvUlViYW9DRU1QTzN2cjBQeHVLQjJRTRoiQUpLTEZtS2FNdlFHRUg0Rks4M1FDNUpVbG1OLWlTR29RdxIEODEyNBoBMyoAMAA4AUAAGCoglKGW_AQ6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -4556,14 +4556,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=18843b6b8377da35&sxsrf=AE3TifNqRcel3JwX4L0rWziz-DJrKHbv3A:1757475492671&kgmid=/g/11xssj10xd&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%8F%B0%E4%B8%AD%E6%B8%85%E6%B0%B4%E5%BA%97&shndl=30&shem=lcuae,lsptbl1,uaasie,shrtsdl&source=sh/x/loc/uni/m1/1&kgs=33d6ba3b677569ac&utm_source=lcuae,lsptbl1,uaasie,shrtsdl,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVFSd1FTRU1wb3RYQ1V0dGcwS1FULXE3TzFKVmZBVUVsbnRRN281NEpEbExPUVVMdlZfY3RnMkpMNEtGNUZoVm1WUDJZX0RKZC1HVGxsbjJaWmhMV2NXU2IzdllKZ1o5bnNYMFpPTVhOQXl3VXNNckFzEhdvUlViYW9DRU1QTzN2cjBQeHVLQjJRTRoiQUpLTEZtS2FNdlFHRUg0Rks4M1FDNUpVbG1OLWlTR29RdxIEODEyNBoBMyoAMAA4AUAAGCoglKGW_AQ6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=18843b6b8377da35&sxsrf=AE3TifNqRcel3JwX4L0rWziz-DJrKHbv3A:1757475492671&kgmid=/g/11xssj10xd&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%8F%B0%E4%B8%AD%E6%B8%85%E6%B0%B4%E5%BA%97&shndl=30&shem=lcuae,lsptbl1,uaasie,shrtsdl&source=sh/x/loc/uni/m1/1&kgs=33d6ba3b677569ac&utm_source=lcuae,lsptbl1,uaasie,shrtsdl,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVFSd1FTRU1wb3RYQ1V0dGcwS1FULXE3TzFKVmZBVUVsbnRRN281NEpEbExPUVVMdlZfY3RnMkpMNEtGNUZoVm1WUDJZX0RKZC1HVGxsbjJaWmhMV2NXU2IzdllKZ1o5bnNYMFpPTVhOQXl3VXNNckFzEhdvUlViYW9DRU1QTzN2cjBQeHVLQjJRTRoiQUpLTEZtS2FNdlFHRUg0Rks4M1FDNUpVbG1OLWlTR29RdxIEODEyNBoBMyoAMAA4AUAAGCoglKGW_AQ6AEoCEAE",
       "gmbPickupProviders": [
@@ -4648,7 +4648,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=18843b6b8377da35&sxsrf=AE3TifNaFghfV-8aOvTeyBZcTQUQgfNl6g:1757475311538&kgmid=/g/11xswnw_kp&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%BD%AD%E5%AD%90%E5%8B%9D%E5%88%A9%E5%BA%97&shndl=30&shem=lcuae,lsptbl1,uaasie,shrtsdl&source=sh/x/loc/uni/m1/1&kgs=3b279cdc83cb4cc2&utm_source=lcuae,lsptbl1,uaasie,shrtsdl,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVFiQ1hsSUtIRlJ6N1ZnYnRLNk01LVRCRGkzWnZhMmFTRVVNeEx6MU9WN0I3WWdYY2phclBVQVJIQUpwSDB0WGhSSTFmeV9LQVBMQi01Y3JmdHRVVWxxYUEzLWNRNkdPYjh4U2JvTmd3WWhvUGlJcXFrEhdzaFViYXJYV0FZYkYxZThQMkpXOXVRWRoiQUpLTEZtSXIxRVUtYnlHR1ZqWF93SDBlcktTS2tOcmZzQRIEODEyNBoBMyoAMAA4AUAAGCogyPbL-AM6AEoCEAE",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -4658,7 +4658,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=18843b6b8377da35&sxsrf=AE3TifNaFghfV-8aOvTeyBZcTQUQgfNl6g:1757475311538&kgmid=/g/11xswnw_kp&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%BD%AD%E5%AD%90%E5%8B%9D%E5%88%A9%E5%BA%97&shndl=30&shem=lcuae,lsptbl1,uaasie,shrtsdl&source=sh/x/loc/uni/m1/1&kgs=3b279cdc83cb4cc2&utm_source=lcuae,lsptbl1,uaasie,shrtsdl,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVFiQ1hsSUtIRlJ6N1ZnYnRLNk01LVRCRGkzWnZhMmFTRVVNeEx6MU9WN0I3WWdYY2phclBVQVJIQUpwSDB0WGhSSTFmeV9LQVBMQi01Y3JmdHRVVWxxYUEzLWNRNkdPYjh4U2JvTmd3WWhvUGlJcXFrEhdzaFViYXJYV0FZYkYxZThQMkpXOXVRWRoiQUpLTEZtSXIxRVUtYnlHR1ZqWF93SDBlcktTS2tOcmZzQRIEODEyNBoBMyoAMAA4AUAAGCogyPbL-AM6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -4668,14 +4668,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=18843b6b8377da35&sxsrf=AE3TifNaFghfV-8aOvTeyBZcTQUQgfNl6g:1757475311538&kgmid=/g/11xswnw_kp&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%BD%AD%E5%AD%90%E5%8B%9D%E5%88%A9%E5%BA%97&shndl=30&shem=lcuae,lsptbl1,uaasie,shrtsdl&source=sh/x/loc/uni/m1/1&kgs=3b279cdc83cb4cc2&utm_source=lcuae,lsptbl1,uaasie,shrtsdl,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVFiQ1hsSUtIRlJ6N1ZnYnRLNk01LVRCRGkzWnZhMmFTRVVNeEx6MU9WN0I3WWdYY2phclBVQVJIQUpwSDB0WGhSSTFmeV9LQVBMQi01Y3JmdHRVVWxxYUEzLWNRNkdPYjh4U2JvTmd3WWhvUGlJcXFrEhdzaFViYXJYV0FZYkYxZThQMkpXOXVRWRoiQUpLTEZtSXIxRVUtYnlHR1ZqWF93SDBlcktTS2tOcmZzQRIEODEyNBoBMyoAMAA4AUAAGCogyPbL-AM6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=18843b6b8377da35&sxsrf=AE3TifNaFghfV-8aOvTeyBZcTQUQgfNl6g:1757475311538&kgmid=/g/11xswnw_kp&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E6%BD%AD%E5%AD%90%E5%8B%9D%E5%88%A9%E5%BA%97&shndl=30&shem=lcuae,lsptbl1,uaasie,shrtsdl&source=sh/x/loc/uni/m1/1&kgs=3b279cdc83cb4cc2&utm_source=lcuae,lsptbl1,uaasie,shrtsdl,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVFiQ1hsSUtIRlJ6N1ZnYnRLNk01LVRCRGkzWnZhMmFTRVVNeEx6MU9WN0I3WWdYY2phclBVQVJIQUpwSDB0WGhSSTFmeV9LQVBMQi01Y3JmdHRVVWxxYUEzLWNRNkdPYjh4U2JvTmd3WWhvUGlJcXFrEhdzaFViYXJYV0FZYkYxZThQMkpXOXVRWRoiQUpLTEZtSXIxRVUtYnlHR1ZqWF93SDBlcktTS2tOcmZzQRIEODEyNBoBMyoAMAA4AUAAGCogyPbL-AM6AEoCEAE",
       "gmbPickupProviders": [
@@ -4747,7 +4747,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2enJ0ejdkcRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ePgaarGhBcaDvr0PwaDhwQY&ei=ePgaarGhBcaDvr0PwaDhwQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -4757,14 +4757,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2enJ0ejdkcRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ePgaarGhBcaDvr0PwaDhwQY&ei=ePgaarGhBcaDvr0PwaDhwQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2enJ0ejdkcRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ePgaarGhBcaDvr0PwaDhwQY&ei=ePgaarGhBcaDvr0PwaDhwQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -4844,7 +4844,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFueTF6OGtoNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=hfgaap_4Ic-zvr0P2fXI4Qg&ei=hfgaap_4Ic-zvr0P2fXI4Qg&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -4854,14 +4854,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFueTF6OGtoNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=hfgaap_4Ic-zvr0P2fXI4Qg&ei=hfgaap_4Ic-zvr0P2fXI4Qg&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFueTF6OGtoNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=hfgaap_4Ic-zvr0P2fXI4Qg&ei=hfgaap_4Ic-zvr0P2fXI4Qg&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -4913,7 +4913,7 @@
       "hasAnyOrderingSystem": false,
       "hasGmbOrderingSystem": false,
       "manualReviewReason": "No Google Order button was found during human-paced browser check.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n6paA_21G3EfiagkiHZUnEtw0gKpw:1777016246946&kgmid=/g/11w_h_yr3p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=bfb3fc053b7f1e5d&utm_source=dlvs1,sh/x/loc/uni/m1/1",
       "gmbPickupProviders": [],
@@ -5047,7 +5047,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsMW43enhmbRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=l_gaaoyzEtSovr0Pyqjh2Qc&ei=l_gaaoyzEtSovr0Pyqjh2Qc&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5057,14 +5057,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsMW43enhmbRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=l_gaaoyzEtSovr0Pyqjh2Qc&ei=l_gaaoyzEtSovr0Pyqjh2Qc&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsMW43enhmbRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=l_gaaoyzEtSovr0Pyqjh2Qc&ei=l_gaaoyzEtSovr0Pyqjh2Qc&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -5143,7 +5143,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3ODM4OGhfXxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pPgaatj3LO3q1e8PvJuvyQU&ei=pPgaatj3LO3q1e8PvJuvyQU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5153,14 +5153,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3ODM4OGhfXxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pPgaatj3LO3q1e8PvJuvyQU&ei=pPgaatj3LO3q1e8PvJuvyQU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3ODM4OGhfXxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pPgaatj3LO3q1e8PvJuvyQU&ei=pPgaatj3LO3q1e8PvJuvyQU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -5240,7 +5240,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzY19zbTdtMxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=svgaauz-C6LT1e8P056l-As&ei=svgaauz-C6LT1e8P056l-As&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5250,14 +5250,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzY19zbTdtMxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=svgaauz-C6LT1e8P056l-As&ei=svgaauz-C6LT1e8P056l-As&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzY19zbTdtMxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=svgaauz-C6LT1e8P056l-As&ei=svgaauz-C6LT1e8P056l-As&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -5336,7 +5336,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtZDN5ZDNubBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=v_gaaqzdJ_G8vr0Pk-CE4Qw&ei=v_gaaqzdJ_G8vr0Pk-CE4Qw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5346,14 +5346,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtZDN5ZDNubBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=v_gaaqzdJ_G8vr0Pk-CE4Qw&ei=v_gaaqzdJ_G8vr0Pk-CE4Qw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtZDN5ZDNubBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=v_gaaqzdJ_G8vr0Pk-CE4Qw&ei=v_gaaqzdJ_G8vr0Pk-CE4Qw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -5433,7 +5433,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NGIydmxzdBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=zfgaaqGkBZPi1e8P6_2v-Q0&ei=zfgaaqGkBZPi1e8P6_2v-Q0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -5443,7 +5443,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NGIydmxzdBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=zfgaaqGkBZPi1e8P6_2v-Q0&ei=zfgaaqGkBZPi1e8P6_2v-Q0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5453,14 +5453,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NGIydmxzdBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=zfgaaqGkBZPi1e8P6_2v-Q0&ei=zfgaaqGkBZPi1e8P6_2v-Q0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NGIydmxzdBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=zfgaaqGkBZPi1e8P6_2v-Q0&ei=zfgaaqGkBZPi1e8P6_2v-Q0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [
@@ -5541,7 +5541,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2enJ0ejdkcRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=2Pgaavn0O7umvr0P2YGcuAs&ei=2Pgaavn0O7umvr0P2YGcuAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5551,14 +5551,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2enJ0ejdkcRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=2Pgaavn0O7umvr0P2YGcuAs&ei=2Pgaavn0O7umvr0P2YGcuAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2enJ0ejdkcRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=2Pgaavn0O7umvr0P2YGcuAs&ei=2Pgaavn0O7umvr0P2YGcuAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -5638,7 +5638,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5M2ozZHY4ehgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=5vgaauHuF4721e8PqfGtWQ&ei=5vgaauHuF4721e8PqfGtWQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -5648,7 +5648,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5M2ozZHY4ehgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=5vgaauHuF4721e8PqfGtWQ&ei=5vgaauHuF4721e8PqfGtWQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -5658,7 +5658,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5M2ozZHY4ehgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=5vgaauHuF4721e8PqfGtWQ&ei=5vgaauHuF4721e8PqfGtWQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5668,14 +5668,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5M2ozZHY4ehgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=5vgaauHuF4721e8PqfGtWQ&ei=5vgaauHuF4721e8PqfGtWQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5M2ozZHY4ehgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=5vgaauHuF4721e8PqfGtWQ&ei=5vgaauHuF4721e8PqfGtWQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [
@@ -5757,7 +5757,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsNzdyZzZrMBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8vgaatLoFOii1e8PqseT4AY&ei=8vgaatLoFOii1e8PqseT4AY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5767,14 +5767,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsNzdyZzZrMBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8vgaatLoFOii1e8PqseT4AY&ei=8vgaatLoFOii1e8PqseT4AY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsNzdyZzZrMBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8vgaatLoFOii1e8PqseT4AY&ei=8vgaatLoFOii1e8PqseT4AY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -5854,7 +5854,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2d3Izd2ZubRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=__gaaryAKeSnvr0P_s-58Ao&ei=__gaaryAKeSnvr0P_s-58Ao&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5864,14 +5864,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2d3Izd2ZubRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=__gaaryAKeSnvr0P_s-58Ao&ei=__gaaryAKeSnvr0P_s-58Ao&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2d3Izd2ZubRgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=__gaaryAKeSnvr0P_s-58Ao&ei=__gaaryAKeSnvr0P_s-58Ao&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -5950,7 +5950,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3eTBnMmc0ZxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=DfkaauW-Brnq1e8P7K_amAU&ei=DfkaauW-Brnq1e8P7K_amAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -5960,14 +5960,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3eTBnMmc0ZxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=DfkaauW-Brnq1e8P7K_amAU&ei=DfkaauW-Brnq1e8P7K_amAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3eTBnMmc0ZxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=DfkaauW-Brnq1e8P7K_amAU&ei=DfkaauW-Brnq1e8P7K_amAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -6047,7 +6047,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrajFiOTEychgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=GvkaaubMHqy_vr0PkO7HsQ8&ei=GvkaaubMHqy_vr0PkO7HsQ8&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6057,14 +6057,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrajFiOTEychgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=GvkaaubMHqy_vr0PkO7HsQ8&ei=GvkaaubMHqy_vr0PkO7HsQ8&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrajFiOTEychgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=GvkaaubMHqy_vr0PkO7HsQ8&ei=GvkaaubMHqy_vr0PkO7HsQ8&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -6144,7 +6144,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5OXBoMGpzXxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=J_kaaqT3PPOPvr0Pw4rssQs&ei=J_kaaqT3PPOPvr0Pw4rssQs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6154,14 +6154,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5OXBoMGpzXxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=J_kaaqT3PPOPvr0Pw4rssQs&ei=J_kaaqT3PPOPvr0Pw4rssQs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5OXBoMGpzXxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=J_kaaqT3PPOPvr0Pw4rssQs&ei=J_kaaqT3PPOPvr0Pw4rssQs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -6240,7 +6240,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2NXM3NGtwahgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Nfkaave0F_uA1e8PqbuHmAM&ei=Nfkaave0F_uA1e8PqbuHmAM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6250,14 +6250,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2NXM3NGtwahgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Nfkaave0F_uA1e8PqbuHmAM&ei=Nfkaave0F_uA1e8PqbuHmAM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2NXM3NGtwahgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Nfkaave0F_uA1e8PqbuHmAM&ei=Nfkaave0F_uA1e8PqbuHmAM&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -6336,7 +6336,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8D%97%E5%AE%89%E5%8D%97%E5%BA%97+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%AE%89%E5%8D%97%E5%8D%80%E6%B5%B7%E4%BD%83%E8%B7%AF%E4%B8%80%E6%AE%B5240%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFhWWJOb1lmSFpod0JSWnBTekluRHdhLUlKZTVNMHF1bW5RYkpWS2d3ZjAtcU9lRVo5ZU5IQS16QndFdnV2Zk9qdGJpeGR3QmpVaTZwNmRpajVnTm9ycHN5eEhmcFlQY3BzcnBFU3FnMS1vUWxYTjkwEhd0VGNiYXY3N0JNLWR2cjBQbXBUZC1BNBoiQUpLTEZtS2FpQmJaLUpSNlJ0bmQ5SzZRRzJGOUFSamZZQRIEODEyNBoBMyoAMAA4AUAAGCog0fCnmgo6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6346,14 +6346,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8D%97%E5%AE%89%E5%8D%97%E5%BA%97+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%AE%89%E5%8D%97%E5%8D%80%E6%B5%B7%E4%BD%83%E8%B7%AF%E4%B8%80%E6%AE%B5240%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFhWWJOb1lmSFpod0JSWnBTekluRHdhLUlKZTVNMHF1bW5RYkpWS2d3ZjAtcU9lRVo5ZU5IQS16QndFdnV2Zk9qdGJpeGR3QmpVaTZwNmRpajVnTm9ycHN5eEhmcFlQY3BzcnBFU3FnMS1vUWxYTjkwEhd0VGNiYXY3N0JNLWR2cjBQbXBUZC1BNBoiQUpLTEZtS2FpQmJaLUpSNlJ0bmQ5SzZRRzJGOUFSamZZQRIEODEyNBoBMyoAMAA4AUAAGCog0fCnmgo6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%8F%B0%E5%8D%97%E5%AE%89%E5%8D%97%E5%BA%97+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%AE%89%E5%8D%97%E5%8D%80%E6%B5%B7%E4%BD%83%E8%B7%AF%E4%B8%80%E6%AE%B5240%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFhWWJOb1lmSFpod0JSWnBTekluRHdhLUlKZTVNMHF1bW5RYkpWS2d3ZjAtcU9lRVo5ZU5IQS16QndFdnV2Zk9qdGJpeGR3QmpVaTZwNmRpajVnTm9ycHN5eEhmcFlQY3BzcnBFU3FnMS1vUWxYTjkwEhd0VGNiYXY3N0JNLWR2cjBQbXBUZC1BNBoiQUpLTEZtS2FpQmJaLUpSNlJ0bmQ5SzZRRzJGOUFSamZZQRIEODEyNBoBMyoAMAA4AUAAGCog0fCnmgo6AEoCEAE",
       "gmbPickupProviders": [],
@@ -6432,7 +6432,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF4ZmZzdjMzdxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=SPkaaqHaK-_31e8PiJWwoA8&ei=SPkaaqHaK-_31e8PiJWwoA8&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6442,14 +6442,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF4ZmZzdjMzdxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=SPkaaqHaK-_31e8PiJWwoA8&ei=SPkaaqHaK-_31e8PiJWwoA8&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF4ZmZzdjMzdxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=SPkaaqHaK-_31e8PiJWwoA8&ei=SPkaaqHaK-_31e8PiJWwoA8&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -6528,7 +6528,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3NGQ3anprchgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VfkaaqyIOPb61e8Po8rlUA&ei=VfkaaqyIOPb61e8Po8rlUA&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6538,14 +6538,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3NGQ3anprchgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VfkaaqyIOPb61e8Po8rlUA&ei=VfkaaqyIOPb61e8Po8rlUA&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3NGQ3anprchgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VfkaaqyIOPb61e8Po8rlUA&ei=VfkaaqyIOPb61e8Po8rlUA&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -6624,7 +6624,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2eHF2bnpnNhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y_kaaojjGPSCvr0P99uwyA0&ei=Y_kaaojjGPSCvr0P99uwyA0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6634,14 +6634,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2eHF2bnpnNhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y_kaaojjGPSCvr0P99uwyA0&ei=Y_kaaojjGPSCvr0P99uwyA0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2eHF2bnpnNhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y_kaaojjGPSCvr0P99uwyA0&ei=Y_kaaojjGPSCvr0P99uwyA0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -6721,7 +6721,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0eDFfZGRweBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=cPkaao2EM9KB1e8PgcihaA&ei=cPkaao2EM9KB1e8PgcihaA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6731,14 +6731,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0eDFfZGRweBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=cPkaao2EM9KB1e8PgcihaA&ei=cPkaao2EM9KB1e8PgcihaA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0eDFfZGRweBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=cPkaao2EM9KB1e8PgcihaA&ei=cPkaao2EM9KB1e8PgcihaA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -6818,7 +6818,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5M3pmc3RidhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fvkaao2RD4To1e8Pm5jx8AE&ei=fvkaao2RD4To1e8Pm5jx8AE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -6828,7 +6828,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5M3pmc3RidhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fvkaao2RD4To1e8Pm5jx8AE&ei=fvkaao2RD4To1e8Pm5jx8AE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6838,14 +6838,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5M3pmc3RidhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fvkaao2RD4To1e8Pm5jx8AE&ei=fvkaao2RD4To1e8Pm5jx8AE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5M3pmc3RidhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fvkaao2RD4To1e8Pm5jx8AE&ei=fvkaao2RD4To1e8Pm5jx8AE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [
@@ -6927,7 +6927,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogjq_M5wM6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -6937,14 +6937,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogjq_M5wM6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%B1%8F%E6%9D%B1%E6%B0%91%E6%97%8F%E5%BA%97+%E5%B1%8F%E6%9D%B1%E5%B8%82%E6%B0%91%E6%97%8F%E8%B7%AF85%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJVX1lrRmNVUk0yRDRIbTFiR184WDdud3NBX19zN2FRdXhpVEtJS1h4bWN1azdHQW1zVEtXZ0FMU1czWUpZb2N6Wk5fNEc0cm5aenYxT0U3NlZJcmwtMlllaDA4djB5WEdld19oaEJYSUtraVIxQ2NNEhc1RFViYXVpX043V0ExZThQel8za3VBNBoiQUpLTEZtSXFrcVRRdlYzTnNCanR0UFc0QkxpUl9MRUtPdxIEODEyNBoBMyoAMAA4AUAAGCogjq_M5wM6AEoCEAE",
       "gmbPickupProviders": [],
@@ -7015,7 +7015,7 @@
             "pickup"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n47nghiIIdldn4UniHVs9uSiSFFiQ:1777015955582&kgmid=/g/11z48s4g_w&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%B1%8F%E6%9D%B1%E9%BA%9F%E6%B4%9B%E4%B8%AD%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=cb50f6c87e66de33&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVI3Zk9QMjc3UW90SWpQT3RpaHIyM09Ibm1hVTB4T0Jvb29fYzRLZktJM3o2cTRFeU9HWnZyNHR2Nk9fU0tzU21IUUh1b3ZTVXVDTFkzWDVUQ1lNWjlYamNRM2R6T2g3Y3ozUXdZZllkRGUzalFwN2R3EhdfalViYXZHMk9PTHExZThQbU15LTRBTRoiQUpLTEZtTGlzSGZ6S1BVZ2pMZlR4WjNiMlhXNjJaU3M0QRIEODEyNBoBMyoAMAA4AUAAGCog3vDVvwQ6AEoCEAE",
-          "label": "GMB blue-button pickup",
+          "label": "Google Order pickup",
           "confidence": "confirmed"
         },
         {
@@ -7025,7 +7025,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n47nghiIIdldn4UniHVs9uSiSFFiQ:1777015955582&kgmid=/g/11z48s4g_w&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%B1%8F%E6%9D%B1%E9%BA%9F%E6%B4%9B%E4%B8%AD%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=cb50f6c87e66de33&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVI3Zk9QMjc3UW90SWpQT3RpaHIyM09Ibm1hVTB4T0Jvb29fYzRLZktJM3o2cTRFeU9HWnZyNHR2Nk9fU0tzU21IUUh1b3ZTVXVDTFkzWDVUQ1lNWjlYamNRM2R6T2g3Y3ozUXdZZllkRGUzalFwN2R3EhdfalViYXZHMk9PTHExZThQbU15LTRBTRoiQUpLTEZtTGlzSGZ6S1BVZ2pMZlR4WjNiMlhXNjJaU3M0QRIEODEyNBoBMyoAMAA4AUAAGCog3vDVvwQ6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -7035,14 +7035,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n47nghiIIdldn4UniHVs9uSiSFFiQ:1777015955582&kgmid=/g/11z48s4g_w&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%B1%8F%E6%9D%B1%E9%BA%9F%E6%B4%9B%E4%B8%AD%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=cb50f6c87e66de33&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVI3Zk9QMjc3UW90SWpQT3RpaHIyM09Ibm1hVTB4T0Jvb29fYzRLZktJM3o2cTRFeU9HWnZyNHR2Nk9fU0tzU21IUUh1b3ZTVXVDTFkzWDVUQ1lNWjlYamNRM2R6T2g3Y3ozUXdZZllkRGUzalFwN2R3EhdfalViYXZHMk9PTHExZThQbU15LTRBTRoiQUpLTEZtTGlzSGZ6S1BVZ2pMZlR4WjNiMlhXNjJaU3M0QRIEODEyNBoBMyoAMAA4AUAAGCog3vDVvwQ6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n47nghiIIdldn4UniHVs9uSiSFFiQ:1777015955582&kgmid=/g/11z48s4g_w&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E5%B1%8F%E6%9D%B1%E9%BA%9F%E6%B4%9B%E4%B8%AD%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=cb50f6c87e66de33&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVI3Zk9QMjc3UW90SWpQT3RpaHIyM09Ibm1hVTB4T0Jvb29fYzRLZktJM3o2cTRFeU9HWnZyNHR2Nk9fU0tzU21IUUh1b3ZTVXVDTFkzWDVUQ1lNWjlYamNRM2R6T2g3Y3ozUXdZZllkRGUzalFwN2R3EhdfalViYXZHMk9PTHExZThQbU15LTRBTRoiQUpLTEZtTGlzSGZ6S1BVZ2pMZlR4WjNiMlhXNjJaU3M0QRIEODEyNBoBMyoAMAA4AUAAGCog3vDVvwQ6AEoCEAE",
       "gmbPickupProviders": [
@@ -7127,7 +7127,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3NGZ3bTFwbhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=lvkaaoaaB9KA1e8P05ym0A0&ei=lvkaaoaaB9KA1e8P05ym0A0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -7137,14 +7137,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3NGZ3bTFwbhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=lvkaaoaaB9KA1e8P05ym0A0&ei=lvkaaoaaB9KA1e8P05ym0A0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3NGZ3bTFwbhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=lvkaaoaaB9KA1e8P05ym0A0&ei=lvkaaoaaB9KA1e8P05ym0A0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -7223,7 +7223,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCogwui3qww6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -7233,14 +7233,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCogwui3qww6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=9df8d0d36b3fc424&cs=0&output=search&kgmid=/g/11x8z9ksx_&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E8%87%AA%E5%BC%B7%E5%BA%97&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=cc3fa1a8c54b0d4d#sv=CAESzQEKuQEStgEKd0FNbjMteVIzZmZBcUQ1UjVCYUtfaGRkTTRPTTlIYjZ1ck56TmhqYU81UFpUN3VjLThUZzJqM2ZfdVl4OFVhYzh6MnprOU9hZ2VhclJYZjB4b2JRUnVwaFg2YjE1WjQ0M3l5bFZRcDQtSzdIWUkwT09zQjVnWElrEhdEelliYW9XLUI3Mk52cjBQa19yRmtRWRoiQUpLTEZtSUdKXzFPamJ5ejdSeHZDOFlOZ1VVc3lGb3FIURIEODEyNBoBMyoAMAA4AUAAGCogwui3qww6AEoCEAE",
       "gmbPickupProviders": [],
@@ -7322,7 +7322,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCoglqCKrAo6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -7332,14 +7332,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCoglqCKrAo6AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n7XG6pmgQ3ReMkH3Lf6ss6siZlaEg:1777016089692&kgmid=/g/11l_0yhbhx&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=def942ca5f5a9221&utm_source=dlvs1,sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FNbjMteVNTZm0zRUN2bEFHbHhfdDdTVHhyVXVVaTk0ZzVPcGVNQmxwc0UxdXpWNnFMQm51S19sclBzTWNUbHNCVG5hOEo5NVd0d1JnMEJRNXlVWUpQaHpkR0FySk5xLVVmWnZWV2xnRnhBVGxtNk5rRkpiTE5zEhdNVFliYW9DcERQVG8xZThQMnREbmdBdxoiQUpLTEZtSl9ER25MV0V6bkJ2cEJCaHluSmRJRVEtblR1URIEODEyNBoBMyoAMAA4AUAAGCoglqCKrAo6AEoCEAE",
       "gmbPickupProviders": [],
@@ -7422,7 +7422,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2c3lzOGIxZBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=r_kaaozrG_Po1e8P2tGwKQ&ei=r_kaaozrG_Po1e8P2tGwKQ&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -7432,14 +7432,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2c3lzOGIxZBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=r_kaaozrG_Po1e8P2tGwKQ&ei=r_kaaozrG_Po1e8P2tGwKQ&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2c3lzOGIxZBgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=r_kaaozrG_Po1e8P2tGwKQ&ei=r_kaaozrG_Po1e8P2tGwKQ&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -7518,7 +7518,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3cDUyZzdtNxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=vPkaaq6QLeDW1e8PoLiHuQo&ei=vPkaaq6QLeDW1e8PoLiHuQo&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -7528,14 +7528,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3cDUyZzdtNxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=vPkaaq6QLeDW1e8PoLiHuQo&ei=vPkaaq6QLeDW1e8PoLiHuQo&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3cDUyZzdtNxgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=vPkaaq6QLeDW1e8PoLiHuQo&ei=vPkaaq6QLeDW1e8PoLiHuQo&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],
@@ -7614,7 +7614,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCogorOB1g06AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -7624,14 +7624,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCogorOB1g06AEoCEAE",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=db6c6456526170d9&sxsrf=AHTn8zqsOmdZB77oTqlZQq2mRGIri3UjXA:1737683812927&kgmid=/g/11wpnb240p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82-%E9%AB%98%E9%9B%84%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E5%BA%97&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=ac625346dc3ddd05#sv=CAESzQEKuQEStgEKd0FNbjMteVJhbWZZMEpkcDdaVk9pSEozWWdZd2dSYWJwOC1SaEptTjRBeWtINWxxWGNwYmE4R2JES3YxSUw3bXdKdll1YndnbFI3dFFrOHJuRTdteF9SUkdMVUhZRjBWbnRZUWF2TTBTUHVIVGU0YzB2bktiNl80EhdVelliYXVMNk1KcTV2cjBQMHJ2UDBBYxoiQUpLTEZtTFFHT29fY2tHSWg5UEpqSWhsQU9oSWdZOUlzQRIEODEyNBoBMyoAMAA4AUAAGCogorOB1g06AEoCEAE",
       "gmbPickupProviders": [],
@@ -7713,7 +7713,7 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3aGZrZDNoMhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=0PkaauOGC-S9vr0P88304Ak&ei=0PkaauOGC-S9vr0P88304Ak&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         },
         {
@@ -7723,14 +7723,14 @@
             "delivery"
           ],
           "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3aGZrZDNoMhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=0PkaauOGC-S9vr0P88304Ak&ei=0PkaauOGC-S9vr0P88304Ak&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
-          "label": "GMB blue-button delivery",
+          "label": "Google Order delivery",
           "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
       "manualReviewReason": "Stored Google Order panel re-check read visible, clickable providers by mode.",
-      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. GMB-only ordering systems require manual browser review.",
+      "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order systems require manual browser review.",
       "checkedAt": "2026-05-30",
       "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3aGZrZDNoMhgBOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=0PkaauOGC-S9vr0P88304Ak&ei=0PkaauOGC-S9vr0P88304Ak&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
       "gmbPickupProviders": [],

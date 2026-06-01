@@ -52,12 +52,12 @@ Field meanings:
 
 - `officialListed`: store exists in the official brand source or user-approved official dataset.
 - `gmbFound`: a matching GMB / Google Maps profile was found.
-- `googleFound`: store was found by Google search or Google Maps search, even if GMB ordering evidence is not available.
+- `googleFound`: store was found by Google search or Google Maps search, even if Google Order evidence is not available.
 - `thirdPartyFound`: store appears on marketplace, aggregator, ordering, or directory sources.
 
 ## Google Order Entry Fields
 
-Use these fields when a brand analysis includes Google / GMB ordering.
+Use these fields when a brand analysis includes Google / Google Order.
 
 - `hasGmbOrderingSystem`: true when the blue Google Order entry is confirmed for the store. This may be true even when provider names are still pending.
 - `gmbOrderingStatus`: status of the Google Order entry and provider-panel audit.
@@ -72,7 +72,7 @@ Do not use `orderingSystems` with `sourceType: gmb` for a provider unless the pr
 
 For `orderMode`, count `pickup` or `delivery` only when that mode is active or can be selected in the Google Order panel. A greyed or disabled mode label does not count. Provider rows must be visible inside the Google Order dialog/panel; ignore provider names from background Google results, knowledge-panel snippets, official-site snippets, review widgets, or hidden text.
 
-`nidin.shop` or `order.nidin.shop` counts as `Nidin` only when it is a visible provider row inside the opened Google Order panel. The same domain in official ordering links, organic Google results, or Maps website rows is not GMB evidence.
+`nidin.shop` or `order.nidin.shop` counts as `Nidin` only when it is a visible provider row inside the opened Google Order panel. The same domain in official ordering links, organic Google results, or Maps website rows is not Google Order evidence.
 
 Example `gmbSignals`:
 
@@ -130,7 +130,7 @@ Allowed `sourceType` values:
 - `line`
 - `manual`
 
-Use `sourceType: gmb` only for providers observed inside the Google Business Profile blue online-order button flow. The button may be one `????` button or separate `????` / `????` buttons. Do not convert official ordering URLs, marketplace URLs, embedded Maps links, Google search results, or known provider pages into GMB claims. A `nidin.shop` provider row inside the opened Google Order panel is valid `Nidin` GMB evidence; the same URL outside the panel is not.
+Use `sourceType: gmb` only for providers observed inside the Google Business Profile blue online-order button flow. The button may be one `線上點餐` button or separate `點餐外帶` / `點餐外送` buttons. Do not convert official ordering URLs, marketplace URLs, embedded Maps links, Google search results, or known provider pages into Google Order claims. A `nidin.shop` provider row inside the opened Google Order panel is valid `Nidin` Google Order evidence; the same URL outside the panel is not.
 
 Allowed `orderMode` values:
 
@@ -193,15 +193,15 @@ Example:
   "gmbOrderingSystemAdoptionRate": 0.633,
   "gmbCoverageGapCount": 15,
   "cityCounts": {
-    "???": 20,
-    "???": 18
+    "台北市": 20,
+    "新北市": 18
   },
   "regionCounts": {
-    "??": 48,
-    "??": 28,
-    "??": 36,
-    "??": 5,
-    "??": 3
+    "北部": 48,
+    "中部": 28,
+    "南部": 36,
+    "東部": 5,
+    "離島": 3
   },
   "allSourceSystemCounts": {
     "Nidin": 80,
@@ -226,7 +226,7 @@ GMB status:
 - `unavailable_or_blocked`
 - `needs_manual_review`
 
-GMB ordering status:
+Google Order status:
 
 - `confirmed`
 - `no_gmb_order_button` (use only after human-paced checks, preferably including a fresh profile/session when resolving stale pending records, find no blue Google Order entry)
@@ -271,47 +271,47 @@ Provider counts:
 
 For Taiwan reports, include all 22 cities/counties:
 
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
-- ???
+- 基隆市
+- 台北市
+- 新北市
+- 桃園市
+- 新竹市
+- 新竹縣
+- 苗栗縣
+- 台中市
+- 彰化縣
+- 南投縣
+- 雲林縣
+- 嘉義市
+- 嘉義縣
+- 台南市
+- 高雄市
+- 屏東縣
+- 宜蘭縣
+- 花蓮縣
+- 台東縣
+- 澎湖縣
+- 金門縣
+- 連江縣
 
 Default `regionGroup` mapping:
 
-- `??`: ???????????????????????????
-- `??`: ???????????????????
-- `??`: ???????????????????
-- `??`: ???????
-- `??`: ???????????
+- `北部`: 基隆市、台北市、新北市、桃園市、新竹市、新竹縣、宜蘭縣
+- `中部`: 苗栗縣、台中市、彰化縣、南投縣、雲林縣
+- `南部`: 嘉義市、嘉義縣、台南市、高雄市、屏東縣
+- `東部`: 花蓮縣、台東縣
+- `離島`: 澎湖縣、金門縣、連江縣
 
 Rules:
 
 - Keep city counts for all 22 cities/counties, even when the count is `0`.
 - Region counts should sum to official store count.
-- The active HTML filter should support ??, one region group, or one city/county.
+- The active HTML filter should support 全台, one region group, or one city/county.
 - If a city cannot be parsed, keep the store and set `manualReviewReason`.
 
 ## System Comparison
 
-`systemComparison` should support the all-source vs GMB table:
+`systemComparison` should support the all-source vs Google Order table:
 
 ```json
 [
@@ -335,7 +335,7 @@ Prefer evidence URLs in this order:
 
 1. official ordering URL or official ordering API result
 2. official store URL
-3. GMB ordering link or Google Maps URL
+3. Google Order link or Google Maps URL
 4. provider/marketplace evidence URL
 5. Google search result URL
 6. official store-list source URL
@@ -352,6 +352,6 @@ Before publishing or handing off:
 - `regionCounts` sums to `officialStoreCount`.
 - `anyOrderingSystemAdoptionRate` equals `anyOrderingSystemCount / officialStoreCount`.
 - `gmbOrderingSystemAdoptionRate` equals `gmbOrderingSystemCount / officialStoreCount`.
-- GMB coverage gaps are counted separately from confirmed no-ordering-system stores.
+- Google Order coverage gaps are counted separately from confirmed no-ordering-system stores.
 - `allSourceSystemCounts` and `gmbSystemCounts` count unique stores per system, not evidence links.
 

@@ -63,7 +63,7 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
             """els => els.map(e => ({ href: e.href, text: (e.innerText || e.textContent || '').trim(), aria: e.getAttribute('aria-label') || '' }))"""
         )
         # Direct links on Google results can be official/store links, not Google Order
-        # provider rows. GMB-only providers must come from the opened order panel.
+        # provider rows. Google Order providers must come from the opened order panel.
         direct_order_links = []
         for link in direct_order_links:
             link_text = f"{link.get('text', '')} {link.get('aria', '')}"
@@ -111,10 +111,10 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
 
         if result["pickupProviders"] or result["deliveryProviders"]:
             result["status"] = "confirmed"
-            result["notes"] = "GMB online-order panel was opened and providers were read by mode."
+            result["notes"] = "Google Order panel was opened and providers were read by mode."
         else:
             result["status"] = "needs_manual_review"
-            result["notes"] = "GMB online-order panel opened but no known provider names were parsed."
+            result["notes"] = "Google Order panel opened but no known provider names were parsed."
         return apply_result(store, result)
     except Exception as exc:
         result["status"] = "unavailable_or_blocked"
@@ -136,7 +136,7 @@ def apply_result(store: dict, result: dict) -> dict:
                 "sourceType": "gmb",
                 "orderMode": ["pickup"],
                 "evidenceUrl": panel_url,
-                "label": "GMB 自取",
+                "label": "Google Order 自取",
                 "confidence": "confirmed",
             }
         )
@@ -243,7 +243,7 @@ def rebuild_summary(stores: list[dict]) -> dict:
         "source": {
             "officialStoreList": stores[0].get("officialSourceUrl", "") if stores else "",
             "officialWebsite": "https://www.damingtea.com.tw/",
-            "notes": "Official store page provides the store population, embedded Google/Maps links, Nidin order links, and delivery platform links. GMB online-order panels were opened separately to read pickup/delivery providers.",
+            "notes": "Official store page provides the store population, embedded Google/Maps links, Nidin order links, and delivery platform links. Google Order panels were opened separately to read pickup/delivery providers.",
         },
     }
 
@@ -291,8 +291,8 @@ def rebuild_summary(stores: list[dict]) -> dict:
     ]
     summary["notes"] = [
         "Adoption rates use official store count as denominator.",
-        "All-source ordering systems come from official page order/delivery links, resolved platform links, and GMB online-order panel evidence.",
-        "GMB-only pickup and delivery providers are separated from the Google online-order panel where readable.",
+        "All-source ordering systems come from official page order/delivery links, resolved platform links, and Google Order panel evidence.",
+        "Google Order pickup and delivery providers are separated from the Google online-order panel where readable.",
     ]
     return summary
 

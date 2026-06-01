@@ -1,4 +1,4 @@
 interface:
   display_name: "Brand Order Analysis"
   short_description: "分析品牌點餐系統總覽、GMB覆蓋與門市地圖報表"
-  default_prompt: "Use $brand-order-analysis to build a brand ordering-system overview with store distribution, all-source provider adoption, GMB-only provider adoption, and store-level evidence."
+  default_prompt: "Use $brand-order-analysis to build a brand ordering-system overview with store distribution, all-source provider adoption, Google Order provider adoption, and store-level evidence."

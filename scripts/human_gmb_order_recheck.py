@@ -106,7 +106,7 @@ def preserve_existing_state(store: dict, result: dict) -> dict:
         {claim["system"] for claim in trusted_claims if "delivery" in claim.get("orderMode", [])}
     )
     store["manualReviewReason"] = (
-        f"Human-paced re-check did not improve prior GMB ordering evidence ({reason}); "
+        f"Human-paced re-check did not improve prior Google Order evidence ({reason}); "
         "preserved existing Google Order status instead of downgrading it."
     )
     store["gmbSignals"] = {
@@ -625,7 +625,7 @@ async def audit_store(context, store: dict, attempts: int = 3) -> dict:
         if previous_confirmed and final_result and final_result["status"] == "unavailable_or_blocked":
             store["hasGmbOrderingSystem"] = True
             store["gmbOrderingStatus"] = "confirmed"
-            store["manualReviewReason"] = "Google blocked re-check; preserved previous confirmed GMB blue-button evidence."
+            store["manualReviewReason"] = "Google blocked re-check; preserved previous confirmed Google Order evidence."
             store["gmbSignals"] = {
                 **(store.get("gmbSignals") or {}),
                 "buttonDetected": True,

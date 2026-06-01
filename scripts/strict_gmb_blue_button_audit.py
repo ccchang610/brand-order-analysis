@@ -526,7 +526,7 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
                 return preserve_confirmed_gmb_claims(
                     store,
                     previous_confirmed_gmb,
-                    "Google blocked automated re-open; preserved previous confirmed GMB blue-button evidence.",
+                    "Google blocked automated re-open; preserved previous confirmed Google Order evidence.",
                 )
             return apply_result(store, result)
 
@@ -545,7 +545,7 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
         panel_url = await find_order_panel_url(page)
         if not panel_url:
             result["status"] = "no_gmb_order_button"
-            result["notes"] = "No GMB blue online-order button/searchviewer panel was found."
+            result["notes"] = "No Google Order blue online-order entry/searchviewer panel was found."
             return apply_result(store, result)
 
         result["panelUrl"] = panel_url
@@ -569,7 +569,7 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
             result["notes"] = "Strict GMB audit: opened the blue online-order button panel and read providers by pickup/delivery mode."
         else:
             result["status"] = "button_confirmed_provider_pending"
-            result["notes"] = "GMB blue online-order panel opened, but no known provider name was parsed."
+            result["notes"] = "Google Order panel opened, but no known provider name was parsed."
         return apply_result(store, result)
     except Exception as exc:
         result["status"] = "unavailable_or_blocked"
@@ -594,7 +594,7 @@ def apply_result(store: dict, result: dict) -> dict:
         result["status"] = "button_confirmed_provider_pending"
         result["notes"] = (
             "Google Order entry was opened, but no trusted provider row was parsed. "
-            "Official Nidin links are excluded from GMB-only provider evidence."
+            "Official Nidin links are excluded from Google Order provider evidence."
         )
 
     for provider in pickup_providers:
@@ -604,7 +604,7 @@ def apply_result(store: dict, result: dict) -> dict:
                 "sourceType": "gmb",
                 "orderMode": ["pickup"],
                 "evidenceUrl": panel_url,
-                "label": "GMB blue-button pickup",
+                "label": "Google Order pickup",
                 "confidence": "confirmed",
             }
         )
@@ -615,7 +615,7 @@ def apply_result(store: dict, result: dict) -> dict:
                 "sourceType": "gmb",
                 "orderMode": ["delivery"],
                 "evidenceUrl": panel_url,
-                "label": "GMB blue-button delivery",
+                "label": "Google Order delivery",
                 "confidence": "confirmed",
             }
         )

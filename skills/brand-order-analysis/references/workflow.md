@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Use this workflow to build a brand ordering-system overview. The output should combine store population, geographic distribution, all-source ordering-system adoption, GMB-only ordering-system adoption, and store-level evidence into a dashboard-ready dataset or static HTML report.
+Use this workflow to build a brand ordering-system overview. The output should combine store population, geographic distribution, all-source ordering-system adoption, Google Order ordering-system adoption, and store-level evidence into a dashboard-ready dataset or static HTML report.
 
 ## Intake
 
@@ -13,7 +13,7 @@ Clarify or infer these inputs:
 - official store locator, official store API, or user-provided store source
 - known official ordering sites, ordering APIs, or provider domains
 - target output: dataset, HTML report, GitHub Pages site, CSV, or all of these
-- geography requirement, with Taiwan defaulting to ?? -> region group -> city/county
+- geography requirement, with Taiwan defaulting to 全台 -> region group -> city/county
 - whether the user wants a current live audit or an update from existing `data/` files
 
 If the user does not provide sources, search for official brand sources first. Treat third-party directories as supporting evidence, not as the store population source, unless the user explicitly asks for a market-wide discovery exercise.
@@ -37,7 +37,7 @@ Record evidence URLs and source types. Do not collapse official, Google, GMB, an
 
 1. Build the official store population and deduplicate stores.
 2. Normalize store identity and geography: store ID, store name, address, phone, city/county, district, and region group.
-3. For Taiwan, assign every store to one of ??, ??, ??, ??, ?? when possible.
+3. For Taiwan, assign every store to one of 北部, 中部, 南部, 東部, 離島 when possible.
 4. Add `sourceCoverage` for each store:
    - `officialListed`
    - `gmbFound`
@@ -54,7 +54,7 @@ Record evidence URLs and source types. Do not collapse official, Google, GMB, an
 8. Compute per-store booleans:
    - `hasAnyOrderingSystem`
    - `hasGmbOrderingSystem`
-9. Compute GMB status fields:
+9. Compute GMB/Google Order status fields:
    - `gmbStatus`
    - `gmbOrderingStatus`
    - `manualReviewReason` when blocked, ambiguous, or unresolved
@@ -66,9 +66,9 @@ Record evidence URLs and source types. Do not collapse official, Google, GMB, an
 Use official store count as the denominator for adoption rates.
 
 - Overall adoption rate = stores where `hasAnyOrderingSystem` is true / official store count.
-- GMB adoption rate = stores where `hasGmbOrderingSystem` is true / official store count. In Google Order audits, this means stores where the blue Google Order entry is confirmed, even if provider names are still pending.
-- GMB coverage gap = stores where GMB was not found, Google was blocked or timed out, matches were ambiguous, or the blue Google Order entry could not be confirmed after human-paced re-check. Stores with `button_confirmed_provider_pending` are not gaps.
-- GMB coverage gaps are not non-adoption. Keep them separate from stores confirmed to have no ordering system.
+- Google Order adoption rate = stores where `hasGmbOrderingSystem` is true / official store count. In Google Order audits, this means stores where the blue Google Order entry is confirmed, even if provider names are still pending.
+- Google Order coverage gap = stores where GMB was not found, Google was blocked or timed out, matches were ambiguous, or the blue Google Order entry could not be confirmed after human-paced re-check. Stores with `button_confirmed_provider_pending` are not gaps.
+- Google Order coverage gaps are not non-adoption. Keep them separate from stores confirmed to have no ordering system.
 - Provider counts count a system once per store, even if multiple evidence URLs mention it.
 
 ## Google Order Re-Check Protocol
@@ -101,16 +101,16 @@ Use this protocol whenever GMB / Google ordering coverage matters.
    - provider names visible in the order panel and the mode is active/clickable: add `sourceType: gmb` claims by mode
    - blocked, timeout, bot-check, or page instability: `unavailable_or_blocked`, manual review
    - human-paced re-check completed and no blue order entry is visible: `no_gmb_order_button`
-5. Do not parse provider names from the whole Google results page as GMB providers. Page text can include official Nidin results, marketplace snippets, ads, or knowledge-panel links that are not the opened Google Order panel.
-6. Treat `nidin.shop` or `order.nidin.shop` as `Nidin` only when it is a visible provider row inside the opened Google Order panel. Do not count official Nidin links, organic results, or Maps website rows as GMB evidence.
-7. Preserve prior confirmed GMB provider claims when a later re-check is blocked.
+5. Do not parse provider names from the whole Google results page as Google Order providers. Page text can include official Nidin results, marketplace snippets, ads, or knowledge-panel links that are not the opened Google Order panel.
+6. Treat `nidin.shop` or `order.nidin.shop` as `Nidin` only when it is a visible provider row inside the opened Google Order panel. Do not count official Nidin links, organic results, or Maps website rows as Google Order evidence.
+7. Preserve prior confirmed Google Order provider claims when a later re-check is blocked.
 8. Store retry evidence in `gmbSignals`: `buttonDetected`, `providersParsed`, `attemptCount`, `maxAttempts`, `attemptHistory`, `panelUrl`, `checkedAt`, `checkMethod`, and notes. Use this in the HTML details table so "pending" stores show why they are pending and how many attempts were made.
 ## Provider Interpretation
 
 - `all-source ordering systems`: all confirmed ordering systems from official, Google, GMB, third-party, marketplace, LINE, or local platform evidence.
-- `GMB ordering systems`: only systems where `sourceType` is `gmb`.
-- A claim may use `sourceType: gmb` only if it was observed inside the Google Business Profile blue online-order button flow. The button may appear as one `????` button or as separate `????` and `????` buttons. Open the button, read the pickup or delivery panel, then record only the providers visible there. Official Nidin links, marketplace URLs, embedded Maps links, Google search snippets, or known provider pages must remain `official`, `marketplace`, `third_party`, or `google`; never backfill them as GMB.
-- A Google Order panel row labelled `nidin.shop` / `order.nidin.shop` is a valid `Nidin` GMB provider row. The same domain outside the opened panel is not valid GMB evidence.
+- `Google Order systems`: only systems where `sourceType` is `gmb`.
+- A claim may use `sourceType: gmb` only if it was observed inside the Google Business Profile blue online-order button flow. The button may appear as one `線上點餐` button or as separate `點餐外帶` and `點餐外送` buttons. Open the button, read the pickup or delivery panel, then record only the providers visible there. Official Nidin links, marketplace URLs, embedded Maps links, Google search snippets, or known provider pages must remain `official`, `marketplace`, `third_party`, or `google`; never backfill them as Google Order.
+- A Google Order panel row labelled `nidin.shop` / `order.nidin.shop` is a valid `Nidin` Google Order provider row. The same domain outside the opened panel is not valid Google Order evidence.
 - `orderMode` may include `pickup`, `delivery`, `dine_in`, `reservation`, or `unknown`.
 - Put messaging, loyalty, menu-only, or reservation links in ordering evidence only when they support ordering or the user asks to track them.
 - Keep official ordering providers separate from marketplace providers through `sourceType`.
@@ -120,7 +120,7 @@ Use this protocol whenever GMB / Google ordering coverage matters.
 Do not guess for:
 
 - GMB pages hidden behind dynamic buttons or scripts
-- GMB blue online-order buttons that cannot be opened or whose pickup/delivery panel cannot be read
+- Google Order blue online-order entrys that cannot be opened or whose pickup/delivery panel cannot be read
 - Google bot-check or `sorry` pages during re-checks; preserve prior confirmed blue-button evidence when available and note the block
 - stores with multiple possible Google Maps matches
 - closed, moved, duplicate, or temporarily closed stores
@@ -146,7 +146,7 @@ Include:
 - third-party-found store count
 - verification gap count
 - Taiwan map with 22 city/county counts when market is Taiwan
-- region filter: ??, ??, ??, ??, ??, ??
+- region filter: 全台, 北部, 中部, 南部, 東部, 離島
 - city ranking chart
 
 ### 2. All-Source Ordering Overview
@@ -163,31 +163,31 @@ Include:
 - region-by-system adoption matrix
 - city table with store count, ordering-system count, adoption rate, and main systems
 
-### 3. GMB Ordering Overview
+### 3. Google Order Overview
 
-Answer: which ordering systems appear on GMB and where are GMB gaps?
+Answer: which ordering systems appear in Google Order and where are Google Order gaps?
 
 Include:
 
 - GMB-found store count
-- GMB ordering-system store count
-- GMB adoption rate
-- GMB coverage gap count
-- GMB-only system ranking chart
-- GMB region coverage matrix
-- clear note that GMB gaps are unknown/coverage gaps, not proof of no ordering system
+- Google Order-system store count
+- Google Order adoption rate
+- Google Order coverage gap count
+- Google Order system ranking chart
+- Google Order region coverage matrix
+- clear note that Google Order gaps are unknown/coverage gaps, not proof of no ordering system
 
-### 4. All-Source vs GMB Comparison
+### 4. All-Source vs Google Order Comparison
 
-Answer: does GMB underrepresent any ordering systems?
+Answer: does Google Order underrepresent any ordering systems?
 
 Include a table with:
 
 - system name
 - all-source store count
 - all-source adoption rate
-- GMB store count
-- GMB adoption rate
+- Google Order store count
+- Google Order adoption rate
 - count gap
 - percentage-point gap
 
@@ -202,13 +202,13 @@ Include a searchable, filterable table with:
 - official source
 - GMB status
 - all-source ordering systems
-- GMB ordering systems
+- Google Order systems
 - evidence links
 - review status or manual review reason
 
 Filters should include:
 
-- ?? / region group / city
+- 全台 / region group / city
 - system
 - source type
 - GMB status
@@ -221,7 +221,7 @@ For a static report site:
 - Keep `index.html`, `styles.css`, `app.js`, and `data/` at the project root unless the repo already has another structure.
 - Keep the report usable from GitHub Pages without a server.
 - Use one active geography filter state to update KPI cards, map, charts, comparison table, and store details.
-- Keep all-source and GMB-only charts visually separate.
+- Keep all-source and Google Order charts visually separate.
 - Ensure evidence links remain reachable from store details.
 - On mobile, avoid horizontal scrolling in the map and KPI areas.
 
@@ -232,9 +232,9 @@ Before publishing:
 - Generated JSON files parse.
 - `officialStoreCount` equals the number of store records.
 - Overall adoption rate uses official store count as denominator.
-- GMB adoption rate uses official store count as denominator.
-- GMB gaps are counted separately from confirmed non-adoption.
+- Google Order adoption rate uses official store count as denominator.
+- Google Order gaps are counted separately from confirmed non-adoption.
 - City counts sum to official store count.
-- Region counts sum to official store count, with ?? separate for Taiwan.
+- Region counts sum to official store count, with 離島 separate for Taiwan.
 - Evidence links are present for confirmed ordering-system claims when public evidence exists.
 
