@@ -7,6 +7,7 @@ Static dashboards and datasets for Taiwan brand ordering-system analyses.
 - `index.html`: brand report selector for GitHub Pages.
 - `daming/`: Daming Tea report, data bundle, JSON, and CSV.
 - `chage/`: CHAGE report, data bundle, JSON, and CSV.
+- `milksha/`: Milksha report, data bundle, JSON, and CSV.
 - `assets/`: shared dashboard frontend assets.
 - `scripts/`: collection, rebuild, and Google Order re-check scripts.
 - `skills/brand-order-analysis/`: reusable Codex skill copy.
@@ -15,6 +16,7 @@ Static dashboards and datasets for Taiwan brand ordering-system analyses.
 
 - Daming: `/daming/`
 - CHAGE: `/chage/`
+- Milksha: `/milksha/`
 
 ## Current Google Order Rule
 

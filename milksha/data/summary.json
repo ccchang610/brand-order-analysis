@@ -1,0 +1,166 @@
+{
+  "generatedAt": "2026-06-02",
+  "brand": "迷客夏 Milksha",
+  "brandSlug": "milksha",
+  "market": "Taiwan",
+  "sitePath": "/brand-order-analysis/milksha/",
+  "officialStoreCount": 335,
+  "gmbFoundCount": 335,
+  "gmbMissingCount": 0,
+  "googleFoundCount": 335,
+  "thirdPartyFoundCount": 314,
+  "verificationGapCount": 45,
+  "anyOrderingSystemCount": 316,
+  "anyOrderingSystemAdoptionRate": 0.9433,
+  "googleOrderEntryCount": 291,
+  "googleOrderEntryRate": 0.8687,
+  "gmbOrderingSystemCount": 291,
+  "gmbOrderingSystemAdoptionRate": 0.8687,
+  "gmbCoverageGapCount": 44,
+  "unknownOrderingSystemCount": 19,
+  "cityCounts": {
+    "基隆市": 1,
+    "台北市": 40,
+    "新北市": 39,
+    "桃園市": 30,
+    "新竹市": 10,
+    "新竹縣": 9,
+    "苗栗縣": 4,
+    "台中市": 51,
+    "彰化縣": 19,
+    "南投縣": 5,
+    "雲林縣": 9,
+    "嘉義市": 9,
+    "嘉義縣": 8,
+    "台南市": 37,
+    "高雄市": 48,
+    "屏東縣": 9,
+    "宜蘭縣": 3,
+    "花蓮縣": 0,
+    "台東縣": 2,
+    "澎湖縣": 1,
+    "金門縣": 1,
+    "連江縣": 0
+  },
+  "regionCounts": {
+    "北部": 136,
+    "中部": 84,
+    "南部": 111,
+    "東部": 2,
+    "離島": 2
+  },
+  "allSourceSystemCounts": {
+    "Nidin": 314,
+    "Uber Eats": 273,
+    "foodpanda": 273,
+    "LINE": 3
+  },
+  "allSourcePickupSystemCounts": {
+    "Nidin": 314,
+    "foodpanda": 258,
+    "Uber Eats": 37,
+    "LINE": 3
+  },
+  "allSourceDeliverySystemCounts": {
+    "Nidin": 314,
+    "Uber Eats": 273,
+    "foodpanda": 273,
+    "LINE": 2
+  },
+  "gmbSystemCounts": {
+    "Uber Eats": 273,
+    "foodpanda": 273,
+    "LINE": 3,
+    "Nidin": 2
+  },
+  "gmbPickupSystemCounts": {
+    "foodpanda": 258,
+    "Uber Eats": 37,
+    "LINE": 3,
+    "Nidin": 2
+  },
+  "gmbDeliverySystemCounts": {
+    "Uber Eats": 273,
+    "foodpanda": 273,
+    "LINE": 2,
+    "Nidin": 2
+  },
+  "allSourceSystemAdoptionRates": {
+    "Nidin": 0.9373,
+    "Uber Eats": 0.8149,
+    "foodpanda": 0.8149,
+    "LINE": 0.009
+  },
+  "gmbSystemAdoptionRates": {
+    "Uber Eats": 0.8149,
+    "foodpanda": 0.8149,
+    "LINE": 0.009,
+    "Nidin": 0.006
+  },
+  "systemComparison": [
+    {
+      "system": "LINE",
+      "allSourceStoreCount": 3,
+      "allSourceAdoptionRate": 0.009,
+      "gmbStoreCount": 3,
+      "gmbAdoptionRate": 0.009,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "Nidin",
+      "allSourceStoreCount": 314,
+      "allSourceAdoptionRate": 0.9373,
+      "gmbStoreCount": 2,
+      "gmbAdoptionRate": 0.006,
+      "countGap": 312,
+      "percentagePointGap": 0.9313
+    },
+    {
+      "system": "Uber Eats",
+      "allSourceStoreCount": 273,
+      "allSourceAdoptionRate": 0.8149,
+      "gmbStoreCount": 273,
+      "gmbAdoptionRate": 0.8149,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "foodpanda",
+      "allSourceStoreCount": 273,
+      "allSourceAdoptionRate": 0.8149,
+      "gmbStoreCount": 273,
+      "gmbAdoptionRate": 0.8149,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    }
+  ],
+  "gmbStatusCounts": {
+    "confirmed": 335
+  },
+  "gmbOrderingStatusCounts": {
+    "no_gmb_order_button": 44,
+    "confirmed": 290,
+    "button_confirmed_provider_pending": 1
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 335,
+    "gmbFound": 335,
+    "googleFound": 335,
+    "thirdPartyFound": 314
+  },
+  "source": {
+    "officialWebsite": "https://www.milksha.com/",
+    "officialStoreList": "https://www.milksha.com/store_detail.php?uID=1",
+    "officialOrdering": "https://www.milksha.com/order.php",
+    "officialOrderingProvider": "https://milksha.nidin.shop/",
+    "nidinApiStoreCount": 318,
+    "nidinMatchedOfficialStoreCount": 314,
+    "notes": "Official Milksha store locator provides the store population. Official online ordering links to Nidin. Google Order provider evidence must be counted only after opening the Google Order panel."
+  },
+  "notes": [
+    "Initial Milksha build uses the official store locator as the official store population.",
+    "Nidin is counted as all-source official ordering evidence only for official stores matched to the Milksha Nidin store API.",
+    "Google Order provider evidence remains pending until GMB blue-button panels are opened and provider rows are confirmed."
+  ]
+}
