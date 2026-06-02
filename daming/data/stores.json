@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30",
+  "generatedAt": "2026-06-02",
   "brand": "大茗本位製茶堂",
   "source": {
     "officialStoreList": "https://www.damingtea.com.tw/stores/",
@@ -476,7 +476,7 @@
       "officialStoreUrl": "",
       "officialMapUrl": "https://g.co/kgs/bNYsNx3",
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20LaLaport%20%E5%8D%97%E6%B8%AF%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1",
-      "gmbUrl": "https://g.co/kgs/bNYsNx3",
+      "gmbUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+LaLaport+%E5%8D%97%E6%B8%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -501,65 +501,47 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting address-only or embedded Maps leads, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order provider evidence requires manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+LaLaport+%E5%8D%97%E6%B8%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1&hl=zh-TW&sei=sb8cao-oOOadvr0P8N_c8QM",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+LaLaport+%E5%8D%97%E6%B8%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1&hl=zh-TW",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+LaLaport+%E5%8D%97%E6%B8%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1&hl=zh-TW&sei=sb8cao-oOOadvr0P8N_c8QM",
-        "checkedAt": "2026-06-01",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 6,
-        "maxAttempts": 2,
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+LaLaport+%E5%8D%97%E6%B8%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1&hl=zh-TW",
+        "checkedAt": "2026-06-02",
+        "checkMethod": "named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "storedPanel",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "storedPanel",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
+            "target": "mapsSearch",
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
+            "target": "storedGmbUrl",
+            "attempt": 1,
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+LaLaport+%E5%8D%97%E6%B8%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF131%E8%99%9FB1&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -3318,7 +3300,7 @@
       "officialStoreUrl": "",
       "officialMapUrl": "https://share.google/sr96Ik1BsLnVWMDfR",
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%20%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1",
-      "gmbUrl": "https://share.google/sr96Ik1BsLnVWMDfR",
+      "gmbUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80+%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -3330,10 +3312,10 @@
       "orderingSystems": [],
       "hasAnyOrderingSystem": false,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting address-only or embedded Maps leads, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order provider evidence requires manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80+%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1&hl=zh-TW",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80+%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1&hl=zh-TW",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
       "gmbOrderModesConfirmed": [
@@ -3342,42 +3324,38 @@
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80+%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1&hl=zh-TW",
-        "checkedAt": "2026-06-01",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80+%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1&hl=zh-TW",
+        "checkedAt": "2026-06-02",
+        "checkMethod": "named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
+            "target": "mapsSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+%E6%BC%A2%E7%A5%9E%E6%B4%B2%E9%9A%9B%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80+%E5%B4%87%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5865%E8%99%9FB1&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -4900,7 +4878,7 @@
       "officialStoreUrl": "",
       "officialMapUrl": "https://share.google/CI5jYQ2IPiMFBwI72",
       "googleSearchUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%20%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF68%E8%99%9FB1",
-      "gmbUrl": "https://share.google/CI5jYQ2IPiMFBwI72",
+      "gmbUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF68%E8%99%9FB1&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -4912,79 +4890,47 @@
       "orderingSystems": [],
       "hasAnyOrderingSystem": false,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting address-only or embedded Maps leads, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Official store list supplied store population, Google/Maps link, and visible order/delivery links. Google Order provider evidence requires manual browser review.",
       "checkedAt": "2026-05-30",
-      "gmbOrderPanelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n6paA_21G3EfiagkiHZUnEtw0gKpw:1777016246946&kgmid=/g/11w_h_yr3p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=bfb3fc053b7f1e5d&utm_source=dlvs1,sh/x/loc/uni/m1/1",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF68%E8%99%9FB1&hl=zh-TW",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?sca_esv=e42243e293ad428e&biw=2844&bih=1412&sxsrf=ANbL-n6paA_21G3EfiagkiHZUnEtw0gKpw:1777016246946&kgmid=/g/11w_h_yr3p&q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%E5%BA%97&shem=dlvs1&shndl=30&source=sh/x/loc/uni/m1/1&kgs=bfb3fc053b7f1e5d&utm_source=dlvs1,sh/x/loc/uni/m1/1",
-        "checkedAt": "2026-05-31",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 8,
-        "maxAttempts": 4,
+        "panelUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF68%E8%99%9FB1&hl=zh-TW",
+        "checkedAt": "2026-06-02",
+        "checkMethod": "named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
+            "target": "googleSearch",
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 4,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
+            "target": "mapsSearch",
             "attempt": 1,
-            "target": "googleSearch",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 4,
-            "target": "googleSearch",
+            "target": "storedGmbUrl",
+            "attempt": 1,
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E5%A4%A7%E8%8C%97%E6%9C%AC%E4%BD%8D%E8%A3%BD%E8%8C%B6%E5%A0%82+%E5%A4%A7%E8%8C%97+%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%E5%BA%97+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF68%E8%99%9FB1&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {

@@ -2,8 +2,7 @@ const T={all:"\u5168\u53f0",north:"\u5317\u90e8",central:"\u4e2d\u90e8",south:"\
 const regions=[T.all,T.north,T.central,T.south,T.east,T.islands];
 let stores=[],summary={};
 const state={region:T.all,city:"all",system:"all",gmb:"all",q:""};
-const mapCardPositions={"\u9023\u6c5f\u7e23":[14,12],"\u57fa\u9686\u5e02":[86,7],"\u81fa\u5317\u5e02":[74,10],"\u65b0\u5317\u5e02":[69,18],"\u6843\u5712\u5e02":[59,22],"\u65b0\u7af9\u5e02":[50,31],"\u65b0\u7af9\u7e23":[57,37],"\u82d7\u6817\u7e23":[47,45],"\u81fa\u4e2d\u5e02":[46,54],"\u5f70\u5316\u7e23":[35,58],"\u5357\u6295\u7e23":[57,62],"\u96f2\u6797\u7e23":[33,66],"\u5609\u7fa9\u7e23":[39,72],"\u5609\u7fa9\u5e02":[46,75],"\u81fa\u5357\u5e02":[38,82],"\u9ad8\u96c4\u5e02":[48,89],"\u5c4f\u6771\u7e23":[58,94],"\u5b9c\u862d\u7e23":[83,28],"\u82b1\u84ee\u7e23":[78,56],"\u81fa\u6771\u7e23":[69,82],"\u6f8e\u6e56\u7e23":[24,68],"\u91d1\u9580\u7e23":[8,55]};
-const mapLabelOverrides={"\u57fa\u9686\u5e02":[67.2,40.2],"\u53f0\u5317\u5e02":[60.8,43.0],"\u65b0\u5317\u5e02":[65.3,47.6],"\u6843\u5712\u5e02":[56.0,45.2],"\u65b0\u7af9\u5e02":[49.6,47.8],"\u65b0\u7af9\u7e23":[54.8,51.7],"\u82d7\u6817\u7e23":[50.7,54.8],"\u53f0\u4e2d\u5e02":[52.4,59.0],"\u5f70\u5316\u7e23":[41.2,62.7],"\u5357\u6295\u7e23":[54.8,65.0],"\u96f2\u6797\u7e23":[40.5,67.8],"\u5609\u7fa9\u7e23":[44.8,72.8],"\u5609\u7fa9\u5e02":[41.7,71.3],"\u53f0\u5357\u5e02":[40.0,76.6],"\u9ad8\u96c4\u5e02":[45.0,83.3],"\u5c4f\u6771\u7e23":[48.8,91.2],"\u5b9c\u862d\u7e23":[65.0,52.6],"\u82b1\u84ee\u7e23":[60.8,67.8],"\u53f0\u6771\u7e23":[55.2,82.3]};
+const mapCountPositions={"\u57fa\u9686\u5e02":[69.2,39.4],"\u53f0\u5317\u5e02":[60.0,42.1],"\u65b0\u5317\u5e02":[66.4,47.4],"\u6843\u5712\u5e02":[55.0,44.5],"\u65b0\u7af9\u5e02":[48.8,47.8],"\u65b0\u7af9\u7e23":[55.4,52.4],"\u82d7\u6817\u7e23":[50.0,55.6],"\u53f0\u4e2d\u5e02":[52.4,59.1],"\u5f70\u5316\u7e23":[40.2,62.7],"\u5357\u6295\u7e23":[55.3,65.4],"\u96f2\u6797\u7e23":[39.5,67.8],"\u5609\u7fa9\u7e23":[45.6,73.2],"\u5609\u7fa9\u5e02":[40.5,71.1],"\u53f0\u5357\u5e02":[39.4,77.0],"\u9ad8\u96c4\u5e02":[45.0,83.3],"\u5c4f\u6771\u7e23":[48.8,91.2],"\u5b9c\u862d\u7e23":[65.2,53.3],"\u82b1\u84ee\u7e23":[60.8,67.8],"\u53f0\u6771\u7e23":[55.2,82.3]};
 const byId=id=>document.getElementById(id);
 const pct=value=>`${Math.round((value||0)*1000)/10}%`;
 
@@ -125,6 +124,73 @@ function renderMap(rows){
   }).join("");
   byId("taiwanMap").innerHTML=`<svg class="map-outline" viewBox="22 34 60 72" role="img" aria-label="Taiwan county store distribution"><g class="map-shape-layer">${mainPaths}</g><g class="map-label-layer">${mainLabels}</g></svg><div class="island-strip">${islands}</div>`;
   byId("taiwanMap").querySelectorAll(".county-node,.island-chip").forEach(node=>{
+    node.addEventListener("click",()=>{state.city=node.dataset.city;render();});
+    node.addEventListener("keydown",event=>{if(event.key==="Enter"||event.key===" "){state.city=node.dataset.city;render();}});
+  });
+}
+function renderMap(rows){
+  const mapRows=stores.filter(store=>{
+    if(state.region!==T.all&&store.regionGroup!==state.region)return false;
+    if(state.system!=="all"&&!store.orderingSystems.some(claim=>claim.system===state.system))return false;
+    if(state.gmb==="confirmed"&&!store.hasGmbOrderingSystem)return false;
+    if(state.gmb==="gap"&&store.hasGmbOrderingSystem)return false;
+    if(state.gmb==="no_gmb_found"&&store.sourceCoverage.gmbFound)return false;
+    if(state.q&&!`${store.storeName} ${store.address} ${store.city} ${store.district}`.toLowerCase().includes(state.q))return false;
+    return true;
+  });
+  const counts=new Map();
+  mapRows.forEach(store=>counts.set(store.city,(counts.get(store.city)||0)+1));
+  const map=window.TAIWAN_MAP;
+  if(!map){byId("taiwanMap").innerHTML=`<p class="muted">${T.noData}</p>`;return;}
+  const normalizeCity=city=>city.replace("\u81fa","\u53f0");
+  const islandSet=new Set(["\u9023\u6c5f\u7e23","\u91d1\u9580\u7e23","\u6f8e\u6e56\u7e23"]);
+  const countFor=city=>counts.get(city)||counts.get(normalizeCity(city))||0;
+  const max=Math.max(1,...map.shapes.map(shape=>countFor(shape.name)));
+  const mainShapes=map.shapes.filter(shape=>!islandSet.has(shape.name));
+  const islandShapes=map.shapes.filter(shape=>islandSet.has(shape.name));
+  const metaFor=shape=>{
+    const city=shape.name;
+    const displayCity=normalizeCity(city);
+    const count=countFor(city);
+    const isSelected=state.city!=="all";
+    const active=state.city===city||state.city===displayCity?" active":"";
+    const dim=isSelected&&!active?" dimmed":"";
+    const hasCount=count>0?" has-count":"";
+    const noCount=count===0?" no-count":"";
+    const top=!isSelected&&count>0&&count===max?" top-count":"";
+    const point=mapCountPositions[displayCity]||[shape.labelX,shape.labelY];
+    return{city,displayCity,count,intensity:count/max,point,className:`${active}${dim}${hasCount}${noCount}${top}`};
+  };
+  const countyPath=shape=>{
+    const meta=metaFor(shape);
+    return`<g class="county-node${meta.className}" data-city="${meta.displayCity}" tabindex="0" role="button" aria-label="${meta.displayCity} ${meta.count} \u5bb6\u9580\u5e02"><title>${meta.displayCity} ${meta.count} \u5bb6\u9580\u5e02</title><path d="${shape.d}" style="--i:${meta.intensity.toFixed(3)}"></path></g>`;
+  };
+  const countyMarker=shape=>{
+    const meta=metaFor(shape);
+    if(meta.count===0&&!meta.className.includes("active"))return"";
+    return`<g class="map-marker-node${meta.className}" data-city="${meta.displayCity}" transform="translate(${meta.point[0]} ${meta.point[1]})"><circle r="2.18"></circle><text y=".72">${meta.count}</text></g>`;
+  };
+  const mainPaths=mainShapes.map(countyPath).join("");
+  const mainMarkers=mainShapes.map(countyMarker).join("");
+  const rankedCities=[...counts.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,22);
+  const cityChips=rankedCities.map(([city,count])=>`<button class="city-chip${state.city===city?" active":""}" data-city="${city}" type="button"><span>${city}</span><strong>${count}</strong></button>`).join("");
+  const islands=islandShapes.map(shape=>{
+    const displayCity=normalizeCity(shape.name);
+    const count=countFor(shape.name);
+    const active=state.city===displayCity?" active":"";
+    const dim=state.city!=="all"&&!active?" dimmed":"";
+    return `<button class="island-chip${active}${dim}" data-city="${displayCity}" type="button"><span>${displayCity}</span><strong>${count}</strong></button>`;
+  }).join("");
+  byId("taiwanMap").innerHTML=`<svg class="map-outline" viewBox="22 34 60 72" role="img" aria-label="Taiwan county store distribution"><g class="map-shape-layer">${mainPaths}</g><g class="map-marker-layer">${mainMarkers}</g></svg><div class="map-tooltip" aria-hidden="true"></div><div class="map-chip-panel">${cityChips}</div><div class="island-strip">${islands}</div>`;
+  const tooltip=byId("taiwanMap").querySelector(".map-tooltip");
+  byId("taiwanMap").querySelectorAll(".county-node").forEach(node=>{
+    node.addEventListener("click",()=>{state.city=node.dataset.city;render();});
+    node.addEventListener("keydown",event=>{if(event.key==="Enter"||event.key===" "){state.city=node.dataset.city;render();}});
+    node.addEventListener("pointerenter",event=>{tooltip.textContent=node.getAttribute("aria-label");tooltip.classList.add("visible");});
+    node.addEventListener("pointermove",event=>{const rect=byId("taiwanMap").getBoundingClientRect();tooltip.style.left=`${event.clientX-rect.left+12}px`;tooltip.style.top=`${event.clientY-rect.top+12}px`;});
+    node.addEventListener("pointerleave",()=>tooltip.classList.remove("visible"));
+  });
+  byId("taiwanMap").querySelectorAll(".city-chip,.island-chip").forEach(node=>{
     node.addEventListener("click",()=>{state.city=node.dataset.city;render();});
     node.addEventListener("keydown",event=>{if(event.key==="Enter"||event.key===" "){state.city=node.dataset.city;render();}});
   });

@@ -1,12 +1,18 @@
 {
+  "generatedAt": "2026-06-02",
   "brand": "大茗本位製茶堂",
   "market": "Taiwan",
-  "generatedAt": "2026-06-01",
   "officialStoreCount": 79,
   "gmbFoundCount": 79,
-  "gmbMissingCount": 0,
   "googleFoundCount": 79,
   "thirdPartyFoundCount": 71,
+  "verificationGapCount": 3,
+  "anyOrderingSystemCount": 77,
+  "anyOrderingSystemAdoptionRate": 0.9747,
+  "gmbOrderingSystemCount": 76,
+  "gmbOrderingSystemAdoptionRate": 0.962,
+  "gmbCoverageGapCount": 3,
+  "unknownOrderingSystemCount": 2,
   "cityCounts": {
     "台北市": 9,
     "新北市": 6,
@@ -38,35 +44,7 @@
     "東部": 0,
     "離島": 0
   },
-  "gmbStatusCounts": {
-    "confirmed": 79
-  },
-  "sourceCoverageCounts": {
-    "officialListed": 79,
-    "gmbFound": 79,
-    "googleFound": 79,
-    "thirdPartyFound": 71
-  },
-  "source": {
-    "officialStoreList": "https://www.damingtea.com.tw/stores/",
-    "officialWebsite": "https://www.damingtea.com.tw/",
-    "notes": "Official store page provides the store population, embedded Google/Maps links, Nidin order links, and delivery platform links. Google Order panels were opened separately to read pickup/delivery providers."
-  },
-  "anyOrderingSystemCount": 77,
-  "gmbOrderingSystemCount": 76,
-  "gmbCoverageGapCount": 3,
-  "unknownOrderingSystemCount": 2,
   "allSourceSystemCounts": {
-    "Uber Eats": 75,
-    "Nidin": 72,
-    "foodpanda": 66
-  },
-  "allSourcePickupSystemCounts": {
-    "Nidin": 72,
-    "foodpanda": 11,
-    "Uber Eats": 3
-  },
-  "allSourceDeliverySystemCounts": {
     "Uber Eats": 75,
     "Nidin": 72,
     "foodpanda": 66
@@ -75,16 +53,6 @@
     "Uber Eats": 75,
     "foodpanda": 66,
     "Nidin": 4
-  },
-  "gmbPickupSystemCounts": {
-    "foodpanda": 11,
-    "Nidin": 4,
-    "Uber Eats": 3
-  },
-  "gmbDeliverySystemCounts": {
-    "Uber Eats": 75,
-    "foodpanda": 66,
-    "Nidin": 3
   },
   "allSourceSystemAdoptionRates": {
     "Uber Eats": 0.9494,
@@ -96,12 +64,6 @@
     "foodpanda": 0.8354,
     "Nidin": 0.0506
   },
-  "gmbOrderingStatusCounts": {
-    "confirmed": 76,
-    "no_gmb_order_button": 3
-  },
-  "anyOrderingSystemAdoptionRate": 0.9747,
-  "gmbOrderingSystemAdoptionRate": 0.962,
   "systemComparison": [
     {
       "system": "Nidin",
@@ -131,9 +93,27 @@
       "percentagePointGap": 0.0
     }
   ],
+  "gmbStatusCounts": {
+    "confirmed": 79
+  },
+  "gmbOrderingStatusCounts": {
+    "confirmed": 76,
+    "no_gmb_order_button": 3
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 79,
+    "gmbFound": 79,
+    "googleFound": 79,
+    "thirdPartyFound": 71
+  },
+  "source": {
+    "officialStoreList": "https://www.damingtea.com.tw/stores/",
+    "officialWebsite": "https://www.damingtea.com.tw/",
+    "notes": "Official store page provides the store population, embedded Google/Maps links, Nidin order links, and delivery platform links. Google Order buttons were not batch-readable from static HTML and are counted as Google Order provider evidence gaps."
+  },
   "notes": [
     "Adoption rates use official store count as denominator.",
-    "All-source ordering systems come from official page order/delivery links, resolved platform links, and Google Order provider evidence.",
-    "Google Order pickup and delivery providers are separated from the Google online-order panel where readable."
+    "All-source ordering systems come from official page order/delivery links and resolved platform links.",
+    "Google Order provider evidence are not inferred from official-page links; dynamic Google Order entries require manual browser review."
   ]
 }

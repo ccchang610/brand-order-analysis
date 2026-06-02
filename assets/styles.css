@@ -354,8 +354,9 @@ main {
 
 .taiwan-map {
   position: relative;
-  min-height: 760px;
-  overflow: hidden;
+  min-height: 0;
+  overflow: visible;
+  padding: 16px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background:
@@ -364,12 +365,11 @@ main {
 }
 
 .taiwan-map svg {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  width: 92%;
-  height: 720px;
-  transform: translateX(-50%);
+  display: block;
+  position: relative;
+  width: min(100%, 720px);
+  height: 620px;
+  margin: 0 auto;
   opacity: .96;
 }
 
@@ -403,6 +403,98 @@ main {
   fill: #ccebd8;
   stroke: var(--accent);
   stroke-width: .9;
+}
+
+.map-marker-node {
+  pointer-events: none;
+}
+
+.map-marker-node circle {
+  fill: #fff;
+  stroke: var(--accent);
+  stroke-width: .4px;
+  filter: drop-shadow(0 1px 2px rgba(30, 77, 61, .18));
+}
+
+.map-marker-node text {
+  fill: var(--accent);
+  font-size: 2.35px;
+  font-weight: 800;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  stroke: none;
+}
+
+.map-marker-node.top-count circle,
+.map-marker-node.active circle {
+  fill: var(--accent);
+}
+
+.map-marker-node.top-count text,
+.map-marker-node.active text {
+  fill: #fff;
+}
+
+.map-tooltip {
+  position: absolute;
+  z-index: 3;
+  max-width: 180px;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .97);
+  box-shadow: var(--shadow-sm);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 650;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(4px);
+  transition: opacity .12s ease, transform .12s ease;
+}
+
+.map-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.map-chip-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.city-chip {
+  min-height: 42px;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--muted);
+  text-align: left;
+  cursor: pointer;
+}
+
+.city-chip.active,
+.city-chip:hover {
+  border-color: var(--accent);
+  background: #eff8f2;
+}
+
+.city-chip span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.15;
+}
+
+.city-chip strong {
+  display: block;
+  color: var(--accent);
+  font-size: 16px;
+  line-height: 1.1;
 }
 
 .map-label {
@@ -464,13 +556,10 @@ main {
 }
 
 .island-strip {
-  position: absolute;
-  left: 18px;
-  bottom: 18px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  max-width: 330px;
+  margin-top: 10px;
 }
 
 .island-chip {
@@ -878,13 +967,9 @@ td small {
     grid-template-columns: 1fr;
   }
 
-  .taiwan-map {
-    min-height: 700px;
-  }
-
   .taiwan-map svg {
-    width: 90%;
-    height: 680px;
+    width: min(100%, 680px);
+    height: 600px;
   }
 }
 
@@ -970,21 +1055,13 @@ td small {
     font-size: 26px;
   }
 
-  .taiwan-map {
-    min-height: 570px;
-  }
-
   .taiwan-map svg {
-    top: 8px;
-    width: 98%;
-    height: 550px;
+    width: 100%;
+    height: 500px;
   }
 
   .island-strip {
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-    max-width: none;
+    gap: 8px;
   }
 
   .island-chip {
@@ -996,17 +1073,8 @@ td small {
     font-size: 18px;
   }
 
-  .county-card {
-    min-width: 50px;
-    padding: 6px;
-  }
-
-  .county-card span {
-    font-size: 10px;
-  }
-
-  .county-card strong {
-    font-size: 16px;
+  .map-chip-panel {
+    grid-template-columns: repeat(auto-fit, minmax(78px, 1fr));
   }
 
   .bar-row {
@@ -1034,8 +1102,8 @@ td small {
     height: 38px;
   }
 
-  .taiwan-map {
-    min-height: 540px;
+  .taiwan-map svg {
+    height: 460px;
   }
 }
 

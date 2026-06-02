@@ -698,7 +698,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/103013臺北市大同區承德路一段1號B3樓30A",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20Milksha%20Plus%E8%87%BA%E5%8C%97%E4%BA%AC%E7%AB%99%E5%BA%97%20103013%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%80%E6%AE%B51%E8%99%9FB3%E6%A8%9330A&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/103013臺北市大同區承德路一段1號B3樓30A",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+Milksha+Plus%E8%87%BA%E5%8C%97%E4%BA%AC%E7%AB%99%E5%BA%97+3%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%80%E6%AE%B51%E8%99%9FB3%E6%A8%9330A&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -710,22 +710,68 @@
       "orderingSystems": [],
       "hasAnyOrderingSystem": false,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order blue online-order entry/searchviewer panel was found.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Official Milksha store locator provides this store and its Google Maps link.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com.tw/maps/place/103013臺北市大同區承德路一段1號B3樓30A",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+Milksha+Plus%E8%87%BA%E5%8C%97%E4%BA%AC%E7%AB%99%E5%BA%97+3%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%80%E6%AE%B51%E8%99%9FB3%E6%A8%9330A&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com.tw/maps/place/103013臺北市大同區承德路一段1號B3樓30A",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+Milksha+Plus%E8%87%BA%E5%8C%97%E4%BA%AC%E7%AB%99%E5%BA%97+3%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%80%E6%AE%B51%E8%99%9FB3%E6%A8%9330A&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "gmb_blue_button_browser",
-        "attemptCount": null,
-        "maxAttempts": null,
-        "attemptHistory": [],
-        "notes": "No Google Order blue online-order entry/searchviewer panel was found."
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 6,
+        "maxAttempts": 2,
+        "attemptHistory": [
+          {
+            "target": "googleSearch",
+            "attempt": 1,
+            "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "googleSearch",
+            "attempt": 2,
+            "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "mapsSearch",
+            "attempt": 1,
+            "status": "name_mismatch",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "mapsSearch",
+            "attempt": 2,
+            "status": "name_mismatch",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 2,
+            "status": "name_mismatch",
+            "buttonDetected": false,
+            "providersParsed": false
+          }
+        ],
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+Milksha+Plus%E8%87%BA%E5%8C%97%E4%BA%AC%E7%AB%99%E5%BA%97+3%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%80%E6%AE%B51%E8%99%9FB3%E6%A8%9330A&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -3615,9 +3661,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/235008新北市中和區中山路三段122號3F",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20Milksha%20Plus%20%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E7%92%B0%E7%90%83%E5%BA%97%20235008%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5122%E8%99%9F3F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/235008新北市中和區中山路三段122號3F",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+Milksha+Plus+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E7%92%B0%E7%90%83%E5%BA%97+8%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5122%E8%99%9F3F&hl=zh-TW",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -3635,26 +3681,56 @@
           "evidenceUrl": "https://milksha.nidin.shop/menu/26662",
           "label": "迷點連結 Nidin",
           "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+Milksha+Plus+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E7%92%B0%E7%90%83%E5%BA%97+8%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5122%E8%99%9F3F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJNZ1FZNTdMUk0zaVRlaFU1ZjNXT1hSWmlWNkRleVBpTFQ0WDU5UUszNTdOdzNXbWhtbVRGcVB2MFBhUFFmQnpHNkoxeG03d2ZZSVVXeWRkSVJxQkJsNmRhNEtTbUxwTzVDeXh3QS13UjdSUW1oTVQwEhdvclllYXVtYUtJU2R2cjBQaUkyQjRRYxoiQUpLTEZtSUJEYzlyeE50RFl4M01lcUIxWllXaFE5dzg2ZxIEODEyNBoBMyoAMAA4AUAAGCog4_GD7AxKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order blue online-order entry/searchviewer panel was found.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 26662.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com.tw/maps/place/235008新北市中和區中山路三段122號3F",
+      "gmbDeliveryProviders": [
+        "foodpanda"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+Milksha+Plus+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E7%92%B0%E7%90%83%E5%BA%97+8%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5122%E8%99%9F3F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJNZ1FZNTdMUk0zaVRlaFU1ZjNXT1hSWmlWNkRleVBpTFQ0WDU5UUszNTdOdzNXbWhtbVRGcVB2MFBhUFFmQnpHNkoxeG03d2ZZSVVXeWRkSVJxQkJsNmRhNEtTbUxwTzVDeXh3QS13UjdSUW1oTVQwEhdvclllYXVtYUtJU2R2cjBQaUkyQjRRYxoiQUpLTEZtSUJEYzlyeE50RFl4M01lcUIxWllXaFE5dzg2ZxIEODEyNBoBMyoAMAA4AUAAGCog4_GD7AxKAhAB",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com.tw/maps/place/235008新北市中和區中山路三段122號3F",
+        "buttonDetected": true,
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+Milksha+Plus+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E7%92%B0%E7%90%83%E5%BA%97+8%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5122%E8%99%9F3F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJNZ1FZNTdMUk0zaVRlaFU1ZjNXT1hSWmlWNkRleVBpTFQ0WDU5UUszNTdOdzNXbWhtbVRGcVB2MFBhUFFmQnpHNkoxeG03d2ZZSVVXeWRkSVJxQkJsNmRhNEtTbUxwTzVDeXh3QS13UjdSUW1oTVQwEhdvclllYXVtYUtJU2R2cjBQaUkyQjRRYxoiQUpLTEZtSUJEYzlyeE50RFl4M01lcUIxWllXaFE5dzg2ZxIEODEyNBoBMyoAMAA4AUAAGCog4_GD7AxKAhAB",
         "checkedAt": "2026-06-02",
-        "checkMethod": "gmb_blue_button_browser",
-        "attemptCount": null,
-        "maxAttempts": null,
-        "attemptHistory": [],
-        "notes": "No Google Order blue online-order entry/searchviewer panel was found."
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 2,
+        "maxAttempts": 2,
+        "attemptHistory": [
+          {
+            "target": "googleSearch",
+            "attempt": 1,
+            "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "googleSearch",
+            "attempt": 2,
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
+          }
+        ],
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+Milksha+Plus+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E7%92%B0%E7%90%83%E5%BA%97+8%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5122%E8%99%9F3F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -5527,9 +5603,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/臺北市信義區信義路五段7號89樓",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E8%87%BA%E5%8C%97101%E8%A7%80%E6%99%AF%E5%BA%97%28%E7%89%B9%E6%AE%8A%E9%96%80%E5%B8%82%29%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E4%BF%A1%E7%BE%A9%E8%B7%AF%E4%BA%94%E6%AE%B57%E8%99%9F89%E6%A8%93&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/臺北市信義區信義路五段7號89樓",
+      "gmbUrl": "https://www.google.com/maps/place/%E8%BF%B7%E5%AE%A2%E5%A4%8F+%E8%87%BA%E5%8C%97101%E8%A7%80%E6%99%AF%E5%8F%B0%E5%BA%97/@25.033976,121.5645389,17z/data=!3m1!4b1!4m6!3m5!1s0x3442abb6da431d7b:0xd2cf17b69d5e1429!8m2!3d25.033976!4d121.5645389!16s%2Fg%2F11y3sst78x?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "unavailable_or_blocked",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -5539,7 +5615,7 @@
       "orderingSystems": [],
       "hasAnyOrderingSystem": false,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order blue online-order entry/searchviewer panel was found.",
+      "manualReviewReason": "Timed out during named GMB match re-check.",
       "evidenceNotes": "Official Milksha store locator provides this store and its Google Maps link.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
@@ -5550,11 +5626,36 @@
         "providersParsed": false,
         "panelUrl": "https://www.google.com.tw/maps/place/臺北市信義區信義路五段7號89樓",
         "checkedAt": "2026-06-02",
-        "checkMethod": "gmb_blue_button_browser",
-        "attemptCount": null,
-        "maxAttempts": null,
-        "attemptHistory": [],
-        "notes": "No Google Order blue online-order entry/searchviewer panel was found."
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
+        "attemptHistory": [
+          {
+            "target": "googleSearch",
+            "attempt": 1,
+            "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "mapsSearch",
+            "attempt": 1,
+            "status": "name_mismatch",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "unavailable_or_blocked",
+            "buttonDetected": false,
+            "providersParsed": false
+          }
+        ],
+        "notes": "Timed out during named GMB match re-check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/maps/place/%E8%BF%B7%E5%AE%A2%E5%A4%8F+%E8%87%BA%E5%8C%97101%E8%A7%80%E6%99%AF%E5%8F%B0%E5%BA%97/@25.033976,121.5645389,17z/data=!3m1!4b1!4m6!3m5!1s0x3442abb6da431d7b:0xd2cf17b69d5e1429!8m2!3d25.033976!4d121.5645389!16s%2Fg%2F11y3sst78x?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -6064,7 +6165,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/桃園市龜山區復興街7號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E6%A1%83%E5%9C%92%E9%95%B7%E5%BA%9A%E8%BD%89%E9%81%8B%E7%AB%99%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E8%A1%977%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/桃園市龜山區復興街7號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E9%95%B7%E5%BA%9A%E8%BD%89%E9%81%8B%E7%AB%99%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E8%A1%977%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -6088,22 +6189,47 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order blue online-order entry/searchviewer panel was found.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 17570.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com.tw/maps/place/桃園市龜山區復興街7號",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E9%95%B7%E5%BA%9A%E8%BD%89%E9%81%8B%E7%AB%99%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E8%A1%977%E8%99%9F&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com.tw/maps/place/桃園市龜山區復興街7號",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E9%95%B7%E5%BA%9A%E8%BD%89%E9%81%8B%E7%AB%99%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E8%A1%977%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "gmb_blue_button_browser",
-        "attemptCount": null,
-        "maxAttempts": null,
-        "attemptHistory": [],
-        "notes": "No Google Order blue online-order entry/searchviewer panel was found."
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
+        "attemptHistory": [
+          {
+            "target": "googleSearch",
+            "attempt": 1,
+            "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "mapsSearch",
+            "attempt": 1,
+            "status": "name_mismatch",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
+            "buttonDetected": false,
+            "providersParsed": false
+          }
+        ],
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E9%95%B7%E5%BA%9A%E8%BD%89%E9%81%8B%E7%AB%99%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E8%A1%977%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -13303,9 +13429,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/70465 台南市北區育德路482號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97%E2%9D%84%20%EF%B8%8F%2070465%20%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/70465 台南市北區育德路482號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97+%EF%B8%8F+70465+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -13323,55 +13449,72 @@
           "evidenceUrl": "https://milksha.nidin.shop/menu/40",
           "label": "迷點連結 Nidin",
           "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97+%EF%B8%8F+70465+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW#sv=CAESzAEKuAEStQEKd0FNbjMteVFrUEVLbThjTkFzWUUtXzFtOElibm93UDJNNjlCbGwzaUp2OEMwaU1sX0R0MUIwckdkRkIxTkdwZXp4X0NrWjRuamhycG1LbU1pZkxEaDlwUkx4RG9ReC1RVDVLUUJBYk9EZExKQ243eHVmOFBvc2lZEhZSN2tlYXJMZUQtTER2cjBQMmNPcEdRGiJBSktMRm1Mclo1dVpOWDlhaTdfRW00Q1NwUXJ2NFpqUEZ3EgQ4MTI0GgEzKgAwADgBQAAYKiDYyP6QDEoCEAE",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97+%EF%B8%8F+70465+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW#sv=CAESzAEKuAEStQEKd0FNbjMteVFrUEVLbThjTkFzWUUtXzFtOElibm93UDJNNjlCbGwzaUp2OEMwaU1sX0R0MUIwckdkRkIxTkdwZXp4X0NrWjRuamhycG1LbU1pZkxEaDlwUkx4RG9ReC1RVDVLUUJBYk9EZExKQ243eHVmOFBvc2lZEhZSN2tlYXJMZUQtTER2cjBQMmNPcEdRGiJBSktMRm1Mclo1dVpOWDlhaTdfRW00Q1NwUXJ2NFpqUEZ3EgQ4MTI0GgEzKgAwADgBQAAYKiDYyP6QDEoCEAE",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97+%EF%B8%8F+70465+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW#sv=CAESzAEKuAEStQEKd0FNbjMteVFrUEVLbThjTkFzWUUtXzFtOElibm93UDJNNjlCbGwzaUp2OEMwaU1sX0R0MUIwckdkRkIxTkdwZXp4X0NrWjRuamhycG1LbU1pZkxEaDlwUkx4RG9ReC1RVDVLUUJBYk9EZExKQ243eHVmOFBvc2lZEhZSN2tlYXJMZUQtTER2cjBQMmNPcEdRGiJBSktMRm1Mclo1dVpOWDlhaTdfRW00Q1NwUXJ2NFpqUEZ3EgQ4MTI0GgEzKgAwADgBQAAYKiDYyP6QDEoCEAE",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 40.",
       "checkedAt": "2026-06-02",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97%E2%9D%84+%EF%B8%8F+70465+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97+%EF%B8%8F+70465+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW#sv=CAESzAEKuAEStQEKd0FNbjMteVFrUEVLbThjTkFzWUUtXzFtOElibm93UDJNNjlCbGwzaUp2OEMwaU1sX0R0MUIwckdkRkIxTkdwZXp4X0NrWjRuamhycG1LbU1pZkxEaDlwUkx4RG9ReC1RVDVLUUJBYk9EZExKQ243eHVmOFBvc2lZEhZSN2tlYXJMZUQtTER2cjBQMmNPcEdRGiJBSktMRm1Mclo1dVpOWDlhaTdfRW00Q1NwUXJ2NFpqUEZ3EgQ4MTI0GgEzKgAwADgBQAAYKiDYyP6QDEoCEAE",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97%E2%9D%84+%EF%B8%8F+70465+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW",
+        "buttonDetected": true,
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97+%EF%B8%8F+70465+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW#sv=CAESzAEKuAEStQEKd0FNbjMteVFrUEVLbThjTkFzWUUtXzFtOElibm93UDJNNjlCbGwzaUp2OEMwaU1sX0R0MUIwckdkRkIxTkdwZXp4X0NrWjRuamhycG1LbU1pZkxEaDlwUkx4RG9ReC1RVDVLUUJBYk9EZExKQ243eHVmOFBvc2lZEhZSN2tlYXJMZUQtTER2cjBQMmNPcEdRGiJBSktMRm1Mclo1dVpOWDlhaTdfRW00Q1NwUXJ2NFpqUEZ3EgQ4MTI0GgEzKgAwADgBQAAYKiDYyP6QDEoCEAE",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8D%97%E5%B0%8F%E5%8C%97%E5%BA%97+%EF%B8%8F+70465+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E8%82%B2%E5%BE%B7%E8%B7%AF482%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -14861,9 +15004,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/83057 高雄市鳳山區維新路83號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97%E2%9D%84%20%EF%B8%8F%2083057%20%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/83057 高雄市鳳山區維新路83號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97+%EF%B8%8F+83057+%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW&sei=ILUeapiCMszJ1e8P_4228QU",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -14881,55 +15024,72 @@
           "evidenceUrl": "https://milksha.nidin.shop/menu/84",
           "label": "迷點連結 Nidin",
           "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97+%EF%B8%8F+83057+%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW&sei=ILUeapiCMszJ1e8P_4228QU#sv=CAESzQEKuQEStgEKd0FNbjMteVF0d2FkMGtHc2RPb1B2bkMyWWw4TmRiRmhqZ1lIb0RETTNJTm56bHE4Zzg5WE5ZdEFjRWtnNDZrVHRocXdOSlhYVm94bUlhS2ZweXUwZFpfQUc1WHZ6Zk1iSmhTZjVkVDBEVzg5S2FoLU5Yc0VLd293EhdJTFVlYXFiZFBMbUQxZThQazhMcC1BURoiQUpLTEZtS3B6bHRlNlRzQ1VsRktoRS1OakRNVi1kOVBPURIEODEyNBoBMyoAMAA4AUAAGCogw4rR7wFKAhAB",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97+%EF%B8%8F+83057+%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW&sei=ILUeapiCMszJ1e8P_4228QU#sv=CAESzQEKuQEStgEKd0FNbjMteVF0d2FkMGtHc2RPb1B2bkMyWWw4TmRiRmhqZ1lIb0RETTNJTm56bHE4Zzg5WE5ZdEFjRWtnNDZrVHRocXdOSlhYVm94bUlhS2ZweXUwZFpfQUc1WHZ6Zk1iSmhTZjVkVDBEVzg5S2FoLU5Yc0VLd293EhdJTFVlYXFiZFBMbUQxZThQazhMcC1BURoiQUpLTEZtS3B6bHRlNlRzQ1VsRktoRS1OakRNVi1kOVBPURIEODEyNBoBMyoAMAA4AUAAGCogw4rR7wFKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97+%EF%B8%8F+83057+%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW&sei=ILUeapiCMszJ1e8P_4228QU#sv=CAESzQEKuQEStgEKd0FNbjMteVF0d2FkMGtHc2RPb1B2bkMyWWw4TmRiRmhqZ1lIb0RETTNJTm56bHE4Zzg5WE5ZdEFjRWtnNDZrVHRocXdOSlhYVm94bUlhS2ZweXUwZFpfQUc1WHZ6Zk1iSmhTZjVkVDBEVzg5S2FoLU5Yc0VLd293EhdJTFVlYXFiZFBMbUQxZThQazhMcC1BURoiQUpLTEZtS3B6bHRlNlRzQ1VsRktoRS1OakRNVi1kOVBPURIEODEyNBoBMyoAMAA4AUAAGCogw4rR7wFKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 84.",
       "checkedAt": "2026-06-02",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97%E2%9D%84+%EF%B8%8F+83057+%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97+%EF%B8%8F+83057+%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW&sei=ILUeapiCMszJ1e8P_4228QU#sv=CAESzQEKuQEStgEKd0FNbjMteVF0d2FkMGtHc2RPb1B2bkMyWWw4TmRiRmhqZ1lIb0RETTNJTm56bHE4Zzg5WE5ZdEFjRWtnNDZrVHRocXdOSlhYVm94bUlhS2ZweXUwZFpfQUc1WHZ6Zk1iSmhTZjVkVDBEVzg5S2FoLU5Yc0VLd293EhdJTFVlYXFiZFBMbUQxZThQazhMcC1BURoiQUpLTEZtS3B6bHRlNlRzQ1VsRktoRS1OakRNVi1kOVBPURIEODEyNBoBMyoAMAA4AUAAGCogw4rR7wFKAhAB",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97%E2%9D%84+%EF%B8%8F+83057+%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW",
+        "buttonDetected": true,
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97+%EF%B8%8F+83057+%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW&sei=ILUeapiCMszJ1e8P_4228QU#sv=CAESzQEKuQEStgEKd0FNbjMteVF0d2FkMGtHc2RPb1B2bkMyWWw4TmRiRmhqZ1lIb0RETTNJTm56bHE4Zzg5WE5ZdEFjRWtnNDZrVHRocXdOSlhYVm94bUlhS2ZweXUwZFpfQUc1WHZ6Zk1iSmhTZjVkVDBEVzg5S2FoLU5Yc0VLd293EhdJTFVlYXFiZFBMbUQxZThQazhMcC1BURoiQUpLTEZtS3B6bHRlNlRzQ1VsRktoRS1OakRNVi1kOVBPURIEODEyNBoBMyoAMAA4AUAAGCogw4rR7wFKAhAB",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 1,
         "maxAttempts": 2,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E9%B3%B3%E5%B1%B1%E5%BA%97+%EF%B8%8F+83057+%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E7%B6%AD%E6%96%B0%E8%B7%AF83%E8%99%9F&hl=zh-TW&sei=ILUeapiCMszJ1e8P_4228QU",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -14951,9 +15111,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/82061 高雄市岡山區大仁北路140號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97%E2%9D%84%20%EF%B8%8F%2082061%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/82061 高雄市岡山區大仁北路140號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97+%EF%B8%8F+82061+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -14971,55 +15131,72 @@
           "evidenceUrl": "https://milksha.nidin.shop/menu/26671",
           "label": "迷點連結 Nidin",
           "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97+%EF%B8%8F+82061+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJHVTAwYl9GZzZQU2VzbExSWkotb1FYUENIM2xjcXpGVXRSanVQd0tSeG9ydlZXTWVnTkg4blcxZ1MwRnl0UFN6dmp3Z0dXeDZXeklfVVpqNXNjOXI0aVBzT1lLbnFqaFQ5ZTJzN1RYcFh2bl9WbVQwEhdwTGtlYXVHRkZlWGMycm9QNnVUNS1BdxoiQUpLTEZtSVhBdERuVjNSN1V5V2FsYmMwX3E1cl9ZRzJ3URIEODEyNBoBMyoAMAA4AUAAGCog-uLCtw1KAhAB",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97+%EF%B8%8F+82061+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJHVTAwYl9GZzZQU2VzbExSWkotb1FYUENIM2xjcXpGVXRSanVQd0tSeG9ydlZXTWVnTkg4blcxZ1MwRnl0UFN6dmp3Z0dXeDZXeklfVVpqNXNjOXI0aVBzT1lLbnFqaFQ5ZTJzN1RYcFh2bl9WbVQwEhdwTGtlYXVHRkZlWGMycm9QNnVUNS1BdxoiQUpLTEZtSVhBdERuVjNSN1V5V2FsYmMwX3E1cl9ZRzJ3URIEODEyNBoBMyoAMAA4AUAAGCog-uLCtw1KAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97+%EF%B8%8F+82061+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJHVTAwYl9GZzZQU2VzbExSWkotb1FYUENIM2xjcXpGVXRSanVQd0tSeG9ydlZXTWVnTkg4blcxZ1MwRnl0UFN6dmp3Z0dXeDZXeklfVVpqNXNjOXI0aVBzT1lLbnFqaFQ5ZTJzN1RYcFh2bl9WbVQwEhdwTGtlYXVHRkZlWGMycm9QNnVUNS1BdxoiQUpLTEZtSVhBdERuVjNSN1V5V2FsYmMwX3E1cl9ZRzJ3URIEODEyNBoBMyoAMAA4AUAAGCog-uLCtw1KAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 26671.",
       "checkedAt": "2026-06-02",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97%E2%9D%84+%EF%B8%8F+82061+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97+%EF%B8%8F+82061+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJHVTAwYl9GZzZQU2VzbExSWkotb1FYUENIM2xjcXpGVXRSanVQd0tSeG9ydlZXTWVnTkg4blcxZ1MwRnl0UFN6dmp3Z0dXeDZXeklfVVpqNXNjOXI0aVBzT1lLbnFqaFQ5ZTJzN1RYcFh2bl9WbVQwEhdwTGtlYXVHRkZlWGMycm9QNnVUNS1BdxoiQUpLTEZtSVhBdERuVjNSN1V5V2FsYmMwX3E1cl9ZRzJ3URIEODEyNBoBMyoAMAA4AUAAGCog-uLCtw1KAhAB",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97%E2%9D%84+%EF%B8%8F+82061+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW",
+        "buttonDetected": true,
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97+%EF%B8%8F+82061+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJHVTAwYl9GZzZQU2VzbExSWkotb1FYUENIM2xjcXpGVXRSanVQd0tSeG9ydlZXTWVnTkg4blcxZ1MwRnl0UFN6dmp3Z0dXeDZXeklfVVpqNXNjOXI0aVBzT1lLbnFqaFQ5ZTJzN1RYcFh2bl9WbVQwEhdwTGtlYXVHRkZlWGMycm9QNnVUNS1BdxoiQUpLTEZtSVhBdERuVjNSN1V5V2FsYmMwX3E1cl9ZRzJ3URIEODEyNBoBMyoAMAA4AUAAGCog-uLCtw1KAhAB",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97+%EF%B8%8F+82061+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%A4%A7%E4%BB%81%E5%8C%97%E8%B7%AF140%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -15572,7 +15749,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/81268 高雄市小港區大鵬路117號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E9%AB%98%E9%9B%84%E5%B0%8F%E6%B8%AF%E5%BA%97%E2%9D%84%20%EF%B8%8F%2081268%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B0%8F%E6%B8%AF%E5%8D%80%E5%A4%A7%E9%B5%AC%E8%B7%AF117%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/81268 高雄市小港區大鵬路117號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B0%8F%E6%B8%AF%E5%BA%97+%EF%B8%8F+81268+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B0%8F%E6%B8%AF%E5%8D%80%E5%A4%A7%E9%B5%AC%E8%B7%AF117%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -15596,51 +15773,47 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 88.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B0%8F%E6%B8%AF%E5%BA%97%E2%9D%84+%EF%B8%8F+81268+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B0%8F%E6%B8%AF%E5%8D%80%E5%A4%A7%E9%B5%AC%E8%B7%AF117%E8%99%9F&hl=zh-TW",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B0%8F%E6%B8%AF%E5%BA%97+%EF%B8%8F+81268+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B0%8F%E6%B8%AF%E5%8D%80%E5%A4%A7%E9%B5%AC%E8%B7%AF117%E8%99%9F&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B0%8F%E6%B8%AF%E5%BA%97%E2%9D%84+%EF%B8%8F+81268+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B0%8F%E6%B8%AF%E5%8D%80%E5%A4%A7%E9%B5%AC%E8%B7%AF117%E8%99%9F&hl=zh-TW",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B0%8F%E6%B8%AF%E5%BA%97+%EF%B8%8F+81268+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B0%8F%E6%B8%AF%E5%8D%80%E5%A4%A7%E9%B5%AC%E8%B7%AF117%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
+            "target": "mapsSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%AB%98%E9%9B%84%E5%B0%8F%E6%B8%AF%E5%BA%97+%EF%B8%8F+81268+%E9%AB%98%E9%9B%84%E5%B8%82%E5%B0%8F%E6%B8%AF%E5%8D%80%E5%A4%A7%E9%B5%AC%E8%B7%AF117%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -17257,9 +17430,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/40351 台中市西區美村路一段131號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97%20%E2%9D%84%20%EF%B8%8F%2040351%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/40351 台中市西區美村路一段131號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97+%EF%B8%8F+40351+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -17277,55 +17450,72 @@
           "evidenceUrl": "https://milksha.nidin.shop/menu/160",
           "label": "迷點連結 Nidin",
           "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97+%EF%B8%8F+40351+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJOellLR2xZQ0szdldxcUZpT1ZpRjN2TzNvSUhVVk1UUndVbDdyOE53WklkLTZoYkoxdThjUnlUeW5UTURHSlpBazNYcG5vRU9qcWFfb3lwaDZnRG1uVXNrcGk2d2N5X0FPR0dPRlJnSnpWdGFEM3Q0EhdnN29lYXVuWUx2WGcycm9QdWIzNXFBSRoiQUpLTEZtS0xJdUlSaUduUTU4YTZ6ZlFwRngtTzhVOHAxQRIEODEyNBoBMyoAMAA4AUAAGCog8aGi-AxKAhAB",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97+%EF%B8%8F+40351+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJOellLR2xZQ0szdldxcUZpT1ZpRjN2TzNvSUhVVk1UUndVbDdyOE53WklkLTZoYkoxdThjUnlUeW5UTURHSlpBazNYcG5vRU9qcWFfb3lwaDZnRG1uVXNrcGk2d2N5X0FPR0dPRlJnSnpWdGFEM3Q0EhdnN29lYXVuWUx2WGcycm9QdWIzNXFBSRoiQUpLTEZtS0xJdUlSaUduUTU4YTZ6ZlFwRngtTzhVOHAxQRIEODEyNBoBMyoAMAA4AUAAGCog8aGi-AxKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97+%EF%B8%8F+40351+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJOellLR2xZQ0szdldxcUZpT1ZpRjN2TzNvSUhVVk1UUndVbDdyOE53WklkLTZoYkoxdThjUnlUeW5UTURHSlpBazNYcG5vRU9qcWFfb3lwaDZnRG1uVXNrcGk2d2N5X0FPR0dPRlJnSnpWdGFEM3Q0EhdnN29lYXVuWUx2WGcycm9QdWIzNXFBSRoiQUpLTEZtS0xJdUlSaUduUTU4YTZ6ZlFwRngtTzhVOHAxQRIEODEyNBoBMyoAMAA4AUAAGCog8aGi-AxKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 160.",
       "checkedAt": "2026-06-02",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97+%E2%9D%84+%EF%B8%8F+40351+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97+%EF%B8%8F+40351+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJOellLR2xZQ0szdldxcUZpT1ZpRjN2TzNvSUhVVk1UUndVbDdyOE53WklkLTZoYkoxdThjUnlUeW5UTURHSlpBazNYcG5vRU9qcWFfb3lwaDZnRG1uVXNrcGk2d2N5X0FPR0dPRlJnSnpWdGFEM3Q0EhdnN29lYXVuWUx2WGcycm9QdWIzNXFBSRoiQUpLTEZtS0xJdUlSaUduUTU4YTZ6ZlFwRngtTzhVOHAxQRIEODEyNBoBMyoAMAA4AUAAGCog8aGi-AxKAhAB",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97+%E2%9D%84+%EF%B8%8F+40351+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW",
+        "buttonDetected": true,
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97+%EF%B8%8F+40351+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJOellLR2xZQ0szdldxcUZpT1ZpRjN2TzNvSUhVVk1UUndVbDdyOE53WklkLTZoYkoxdThjUnlUeW5UTURHSlpBazNYcG5vRU9qcWFfb3lwaDZnRG1uVXNrcGk2d2N5X0FPR0dPRlJnSnpWdGFEM3Q0EhdnN29lYXVuWUx2WGcycm9QdWIzNXFBSRoiQUpLTEZtS0xJdUlSaUduUTU4YTZ6ZlFwRngtTzhVOHAxQRIEODEyNBoBMyoAMAA4AUAAGCog8aGi-AxKAhAB",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%8B%A4%E7%BE%8E%E5%BA%97+%EF%B8%8F+40351+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5131%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -17451,9 +17641,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/22067 新北市板橋區中山路二段114號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97%2022067%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/22067 新北市板橋區中山路二段114號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -17471,55 +17661,72 @@
           "evidenceUrl": "https://milksha.nidin.shop/menu/242",
           "label": "迷點連結 Nidin",
           "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNTQ09QOXlGUFI3UmJkYWh1X0x1NkxIM1Z0cV8tNkpLeWltVjJvQmp5T05yN2NMbERDVUhCQVFwWjZzY0FUQ3lnRVp3OXh0UzZxR25iWW5lRGJlbkgzZ2plUW5IUTFnSDBYbmVUQ215a0FIQWNkQlRJEhd4Ym9lYW9PRUY2VGwycm9QdHBpTjhRZxoiQUpLTEZtSUNMZ0o3SDVCY3o5NTE2aXFlaDQtOVBIbzdIZxIEODEyNBoBMyoAMAA4AUAAGCog1raMlwZKAhAB",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNTQ09QOXlGUFI3UmJkYWh1X0x1NkxIM1Z0cV8tNkpLeWltVjJvQmp5T05yN2NMbERDVUhCQVFwWjZzY0FUQ3lnRVp3OXh0UzZxR25iWW5lRGJlbkgzZ2plUW5IUTFnSDBYbmVUQ215a0FIQWNkQlRJEhd4Ym9lYW9PRUY2VGwycm9QdHBpTjhRZxoiQUpLTEZtSUNMZ0o3SDVCY3o5NTE2aXFlaDQtOVBIbzdIZxIEODEyNBoBMyoAMAA4AUAAGCog1raMlwZKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNTQ09QOXlGUFI3UmJkYWh1X0x1NkxIM1Z0cV8tNkpLeWltVjJvQmp5T05yN2NMbERDVUhCQVFwWjZzY0FUQ3lnRVp3OXh0UzZxR25iWW5lRGJlbkgzZ2plUW5IUTFnSDBYbmVUQ215a0FIQWNkQlRJEhd4Ym9lYW9PRUY2VGwycm9QdHBpTjhRZxoiQUpLTEZtSUNMZ0o3SDVCY3o5NTE2aXFlaDQtOVBIbzdIZxIEODEyNBoBMyoAMAA4AUAAGCog1raMlwZKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 242.",
       "checkedAt": "2026-06-02",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97+22067+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNTQ09QOXlGUFI3UmJkYWh1X0x1NkxIM1Z0cV8tNkpLeWltVjJvQmp5T05yN2NMbERDVUhCQVFwWjZzY0FUQ3lnRVp3OXh0UzZxR25iWW5lRGJlbkgzZ2plUW5IUTFnSDBYbmVUQ215a0FIQWNkQlRJEhd4Ym9lYW9PRUY2VGwycm9QdHBpTjhRZxoiQUpLTEZtSUNMZ0o3SDVCY3o5NTE2aXFlaDQtOVBIbzdIZxIEODEyNBoBMyoAMAA4AUAAGCog1raMlwZKAhAB",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97+22067+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW",
+        "buttonDetected": true,
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNTQ09QOXlGUFI3UmJkYWh1X0x1NkxIM1Z0cV8tNkpLeWltVjJvQmp5T05yN2NMbERDVUhCQVFwWjZzY0FUQ3lnRVp3OXh0UzZxR25iWW5lRGJlbkgzZ2plUW5IUTFnSDBYbmVUQ215a0FIQWNkQlRJEhd4Ym9lYW9PRUY2VGwycm9QdHBpTjhRZxoiQUpLTEZtSUNMZ0o3SDVCY3o5NTE2aXFlaDQtOVBIbzdIZxIEODEyNBoBMyoAMAA4AUAAGCog1raMlwZKAhAB",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5114%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -19401,7 +19608,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/30051 新竹市北區中正路352號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E6%96%B0%E7%AB%B9%E4%B8%AD%E6%AD%A3%E5%BA%97%2030051%20%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF352%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/30051 新竹市北區中正路352號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E4%B8%AD%E6%AD%A3%E5%BA%97+%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF352%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -19425,51 +19632,47 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 204.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E4%B8%AD%E6%AD%A3%E5%BA%97+30051+%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF352%E8%99%9F&hl=zh-TW",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E4%B8%AD%E6%AD%A3%E5%BA%97+%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF352%E8%99%9F&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E4%B8%AD%E6%AD%A3%E5%BA%97+30051+%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF352%E8%99%9F&hl=zh-TW",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E4%B8%AD%E6%AD%A3%E5%BA%97+%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF352%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
+            "target": "mapsSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E4%B8%AD%E6%AD%A3%E5%BA%97+%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF352%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -19769,9 +19972,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/33858 桃園市蘆竹區南崁路160號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97%E2%9D%84%20%EF%B8%8F%2033858%20%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/33858 桃園市蘆竹區南崁路160號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97+%EF%B8%8F+33858+%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -19789,55 +19992,72 @@
           "evidenceUrl": "https://milksha.nidin.shop/menu/222",
           "label": "迷點連結 Nidin",
           "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97+%EF%B8%8F+33858+%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNtNjhfZENhQUNXc2V0S1NFLVZuUmxaY2JkY1NKV3BvMDJkelpaa2N4OGc1eHdvQWZSWmRwbzhxdzJFWWlWMEVHeGplQkhmeWllMHZNeWVNYktjRXNCWk9xcU81dlpkTEdqSGdCanJnRGY3REJKdXhvEhdrOEFlYXN1TU1mYTYwLWtQbzlTenFRVRoiQUpLTEZtSWM2X2pjS0xaYnEzRkoxTE1DTDFSZnFmNzdwdxIEODEyNBoBMyoAMAA4AUAAGCognPPQjglKAhAB",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97+%EF%B8%8F+33858+%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNtNjhfZENhQUNXc2V0S1NFLVZuUmxaY2JkY1NKV3BvMDJkelpaa2N4OGc1eHdvQWZSWmRwbzhxdzJFWWlWMEVHeGplQkhmeWllMHZNeWVNYktjRXNCWk9xcU81dlpkTEdqSGdCanJnRGY3REJKdXhvEhdrOEFlYXN1TU1mYTYwLWtQbzlTenFRVRoiQUpLTEZtSWM2X2pjS0xaYnEzRkoxTE1DTDFSZnFmNzdwdxIEODEyNBoBMyoAMAA4AUAAGCognPPQjglKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97+%EF%B8%8F+33858+%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNtNjhfZENhQUNXc2V0S1NFLVZuUmxaY2JkY1NKV3BvMDJkelpaa2N4OGc1eHdvQWZSWmRwbzhxdzJFWWlWMEVHeGplQkhmeWllMHZNeWVNYktjRXNCWk9xcU81dlpkTEdqSGdCanJnRGY3REJKdXhvEhdrOEFlYXN1TU1mYTYwLWtQbzlTenFRVRoiQUpLTEZtSWM2X2pjS0xaYnEzRkoxTE1DTDFSZnFmNzdwdxIEODEyNBoBMyoAMAA4AUAAGCognPPQjglKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 222.",
       "checkedAt": "2026-06-02",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97%E2%9D%84+%EF%B8%8F+33858+%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97+%EF%B8%8F+33858+%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNtNjhfZENhQUNXc2V0S1NFLVZuUmxaY2JkY1NKV3BvMDJkelpaa2N4OGc1eHdvQWZSWmRwbzhxdzJFWWlWMEVHeGplQkhmeWllMHZNeWVNYktjRXNCWk9xcU81dlpkTEdqSGdCanJnRGY3REJKdXhvEhdrOEFlYXN1TU1mYTYwLWtQbzlTenFRVRoiQUpLTEZtSWM2X2pjS0xaYnEzRkoxTE1DTDFSZnFmNzdwdxIEODEyNBoBMyoAMAA4AUAAGCognPPQjglKAhAB",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97%E2%9D%84+%EF%B8%8F+33858+%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW",
+        "buttonDetected": true,
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97+%EF%B8%8F+33858+%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNtNjhfZENhQUNXc2V0S1NFLVZuUmxaY2JkY1NKV3BvMDJkelpaa2N4OGc1eHdvQWZSWmRwbzhxdzJFWWlWMEVHeGplQkhmeWllMHZNeWVNYktjRXNCWk9xcU81dlpkTEdqSGdCanJnRGY3REJKdXhvEhdrOEFlYXN1TU1mYTYwLWtQbzlTenFRVRoiQUpLTEZtSWM2X2pjS0xaYnEzRkoxTE1DTDFSZnFmNzdwdxIEODEyNBoBMyoAMAA4AUAAGCognPPQjglKAhAB",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97+%EF%B8%8F+33858+%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF160%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -20378,9 +20598,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/64050 雲林縣斗六市民生南路243號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97%2064050%20%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/64050 雲林縣斗六市民生南路243號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -20398,55 +20618,94 @@
           "evidenceUrl": "https://milksha.nidin.shop/menu/128",
           "label": "迷點連結 Nidin",
           "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJGNWpNOG96bEdJOGxwSkZJWEpZZ0w1bU1XRjVhVjFTOXh5ZXB0MFJhWm9za3RxMks1X1hrT0pOWjl6d1FvM1FELTlyOGFhS0h2cnVYWjh2ejIzR2dpNmpqYm1KYk4tYkpZYXZCY052cEsyTTRYbVBnEhdvcnNlYXFiakxlT3l2cjBQamU3em9BMBoiQUpLTEZtTGJPRlVUZERZLUNSS05kWXBwRmh4TW5CVHctQRIEODEyNBoBMyoAMAA4AUAAGCog17GhzgJKAhAB",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJGNWpNOG96bEdJOGxwSkZJWEpZZ0w1bU1XRjVhVjFTOXh5ZXB0MFJhWm9za3RxMks1X1hrT0pOWjl6d1FvM1FELTlyOGFhS0h2cnVYWjh2ejIzR2dpNmpqYm1KYk4tYkpZYXZCY052cEsyTTRYbVBnEhdvcnNlYXFiakxlT3l2cjBQamU3em9BMBoiQUpLTEZtTGJPRlVUZERZLUNSS05kWXBwRmh4TW5CVHctQRIEODEyNBoBMyoAMAA4AUAAGCog17GhzgJKAhAB",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJGNWpNOG96bEdJOGxwSkZJWEpZZ0w1bU1XRjVhVjFTOXh5ZXB0MFJhWm9za3RxMks1X1hrT0pOWjl6d1FvM1FELTlyOGFhS0h2cnVYWjh2ejIzR2dpNmpqYm1KYk4tYkpZYXZCY052cEsyTTRYbVBnEhdvcnNlYXFiakxlT3l2cjBQamU3em9BMBoiQUpLTEZtTGJPRlVUZERZLUNSS05kWXBwRmh4TW5CVHctQRIEODEyNBoBMyoAMAA4AUAAGCog17GhzgJKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJGNWpNOG96bEdJOGxwSkZJWEpZZ0w1bU1XRjVhVjFTOXh5ZXB0MFJhWm9za3RxMks1X1hrT0pOWjl6d1FvM1FELTlyOGFhS0h2cnVYWjh2ejIzR2dpNmpqYm1KYk4tYkpZYXZCY052cEsyTTRYbVBnEhdvcnNlYXFiakxlT3l2cjBQamU3em9BMBoiQUpLTEZtTGJPRlVUZERZLUNSS05kWXBwRmh4TW5CVHctQRIEODEyNBoBMyoAMAA4AUAAGCog17GhzgJKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJGNWpNOG96bEdJOGxwSkZJWEpZZ0w1bU1XRjVhVjFTOXh5ZXB0MFJhWm9za3RxMks1X1hrT0pOWjl6d1FvM1FELTlyOGFhS0h2cnVYWjh2ejIzR2dpNmpqYm1KYk4tYkpZYXZCY052cEsyTTRYbVBnEhdvcnNlYXFiakxlT3l2cjBQamU3em9BMBoiQUpLTEZtTGJPRlVUZERZLUNSS05kWXBwRmh4TW5CVHctQRIEODEyNBoBMyoAMAA4AUAAGCog17GhzgJKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 128.",
       "checkedAt": "2026-06-02",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+64050+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW",
+      "gmbPickupProviders": [
+        "foodpanda",
+        "Nidin"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats",
+        "Nidin"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJGNWpNOG96bEdJOGxwSkZJWEpZZ0w1bU1XRjVhVjFTOXh5ZXB0MFJhWm9za3RxMks1X1hrT0pOWjl6d1FvM1FELTlyOGFhS0h2cnVYWjh2ejIzR2dpNmpqYm1KYk4tYkpZYXZCY052cEsyTTRYbVBnEhdvcnNlYXFiakxlT3l2cjBQamU3em9BMBoiQUpLTEZtTGJPRlVUZERZLUNSS05kWXBwRmh4TW5CVHctQRIEODEyNBoBMyoAMAA4AUAAGCog17GhzgJKAhAB",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+64050+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW",
+        "buttonDetected": true,
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVJGNWpNOG96bEdJOGxwSkZJWEpZZ0w1bU1XRjVhVjFTOXh5ZXB0MFJhWm9za3RxMks1X1hrT0pOWjl6d1FvM1FELTlyOGFhS0h2cnVYWjh2ejIzR2dpNmpqYm1KYk4tYkpZYXZCY052cEsyTTRYbVBnEhdvcnNlYXFiakxlT3l2cjBQamU3em9BMBoiQUpLTEZtTGJPRlVUZERZLUNSS05kWXBwRmh4TW5CVHctQRIEODEyNBoBMyoAMAA4AUAAGCog17GhzgJKAhAB",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97+%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF243%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -20572,9 +20831,9 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/23548 新北市中和區員山路136號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97%2023548%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/23548 新北市中和區員山路136號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "no_gmb_order_button",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -20592,55 +20851,72 @@
           "evidenceUrl": "https://milksha.nidin.shop/menu/27631",
           "label": "迷點連結 Nidin",
           "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFsYnE1Qnd3Zno1WHJsRk1JcE5kbW92UF9MQ2tZUmdZS3RpLS0wSUFmaUV5ZUVPcUJacXY0TWxUZktmTS0yN3JDbE1HWS11ZWt4TEZsRUlTdGc0aW5FTXBERi1Xam5XNy1Dc05aMWRNcjQ2Ujd1MlJnEhdCYndlYXFLV0g2WGR2cjBQcXRuY3lBYxoiQUpLTEZtSUxFYjJUcmlTREJQbXZwMlZOSWc1SG14dHBXURIEODEyNBoBMyoAMAA4AUAAGCog0YGQ4QNKAhAB",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFsYnE1Qnd3Zno1WHJsRk1JcE5kbW92UF9MQ2tZUmdZS3RpLS0wSUFmaUV5ZUVPcUJacXY0TWxUZktmTS0yN3JDbE1HWS11ZWt4TEZsRUlTdGc0aW5FTXBERi1Xam5XNy1Dc05aMWRNcjQ2Ujd1MlJnEhdCYndlYXFLV0g2WGR2cjBQcXRuY3lBYxoiQUpLTEZtSUxFYjJUcmlTREJQbXZwMlZOSWc1SG14dHBXURIEODEyNBoBMyoAMAA4AUAAGCog0YGQ4QNKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFsYnE1Qnd3Zno1WHJsRk1JcE5kbW92UF9MQ2tZUmdZS3RpLS0wSUFmaUV5ZUVPcUJacXY0TWxUZktmTS0yN3JDbE1HWS11ZWt4TEZsRUlTdGc0aW5FTXBERi1Xam5XNy1Dc05aMWRNcjQ2Ujd1MlJnEhdCYndlYXFLV0g2WGR2cjBQcXRuY3lBYxoiQUpLTEZtSUxFYjJUcmlTREJQbXZwMlZOSWc1SG14dHBXURIEODEyNBoBMyoAMAA4AUAAGCog0YGQ4QNKAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 27631.",
       "checkedAt": "2026-06-02",
-      "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97+23548+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFsYnE1Qnd3Zno1WHJsRk1JcE5kbW92UF9MQ2tZUmdZS3RpLS0wSUFmaUV5ZUVPcUJacXY0TWxUZktmTS0yN3JDbE1HWS11ZWt4TEZsRUlTdGc0aW5FTXBERi1Xam5XNy1Dc05aMWRNcjQ2Ujd1MlJnEhdCYndlYXFLV0g2WGR2cjBQcXRuY3lBYxoiQUpLTEZtSUxFYjJUcmlTREJQbXZwMlZOSWc1SG14dHBXURIEODEyNBoBMyoAMAA4AUAAGCog0YGQ4QNKAhAB",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97+23548+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW",
+        "buttonDetected": true,
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVFsYnE1Qnd3Zno1WHJsRk1JcE5kbW92UF9MQ2tZUmdZS3RpLS0wSUFmaUV5ZUVPcUJacXY0TWxUZktmTS0yN3JDbE1HWS11ZWt4TEZsRUlTdGc0aW5FTXBERi1Xam5XNy1Dc05aMWRNcjQ2Ujd1MlJnEhdCYndlYXFLV0g2WGR2cjBQcXRuY3lBYxoiQUpLTEZtSUxFYjJUcmlTREJQbXZwMlZOSWc1SG14dHBXURIEODEyNBoBMyoAMAA4AUAAGCog0YGQ4QNKAhAB",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E4%B8%AD%E5%92%8C%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%93%A1%E5%B1%B1%E8%B7%AF136%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -23987,7 +24263,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/11163 台北市士林區文林路311號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E8%87%BA%E5%8C%97%E5%A3%AB%E6%9E%97%E5%BA%97%2011163%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E6%96%87%E6%9E%97%E8%B7%AF311%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/11163 台北市士林區文林路311號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E5%A3%AB%E6%9E%97%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E6%96%87%E6%9E%97%E8%B7%AF311%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -24011,51 +24287,47 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 282.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E5%A3%AB%E6%9E%97%E5%BA%97+11163+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E6%96%87%E6%9E%97%E8%B7%AF311%E8%99%9F&hl=zh-TW",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E5%A3%AB%E6%9E%97%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E6%96%87%E6%9E%97%E8%B7%AF311%E8%99%9F&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E5%A3%AB%E6%9E%97%E5%BA%97+11163+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E6%96%87%E6%9E%97%E8%B7%AF311%E8%99%9F&hl=zh-TW",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E5%A3%AB%E6%9E%97%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E6%96%87%E6%9E%97%E8%B7%AF311%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
+            "target": "mapsSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E5%A3%AB%E6%9E%97%E5%BA%97+%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E6%96%87%E6%9E%97%E8%B7%AF311%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -26525,7 +26797,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/40852 台中市南屯區嶺東路24號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E8%87%BA%E4%B8%AD%E5%B6%BA%E6%9D%B1%E5%BA%97%20%E2%9D%84%20%EF%B8%8F%2040852%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%B6%BA%E6%9D%B1%E8%B7%AF24%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/40852 台中市南屯區嶺東路24號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%B6%BA%E6%9D%B1%E5%BA%97+%EF%B8%8F+40852+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%B6%BA%E6%9D%B1%E8%B7%AF24%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -26549,51 +26821,47 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 375.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%B6%BA%E6%9D%B1%E5%BA%97+%E2%9D%84+%EF%B8%8F+40852+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%B6%BA%E6%9D%B1%E8%B7%AF24%E8%99%9F&hl=zh-TW",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%B6%BA%E6%9D%B1%E5%BA%97+%EF%B8%8F+40852+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%B6%BA%E6%9D%B1%E8%B7%AF24%E8%99%9F&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%B6%BA%E6%9D%B1%E5%BA%97+%E2%9D%84+%EF%B8%8F+40852+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%B6%BA%E6%9D%B1%E8%B7%AF24%E8%99%9F&hl=zh-TW",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%B6%BA%E6%9D%B1%E5%BA%97+%EF%B8%8F+40852+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%B6%BA%E6%9D%B1%E8%B7%AF24%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
+            "target": "mapsSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E4%B8%AD%E5%B6%BA%E6%9D%B1%E5%BA%97+%EF%B8%8F+40852+%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%B6%BA%E6%9D%B1%E8%B7%AF24%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -27343,7 +27611,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/24265 新北市新莊區八德街86號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E6%96%B0%E5%8C%97%E5%8D%97%E6%96%B0%E8%8E%8A%E5%BA%97%E2%9D%84%20%EF%B8%8F%2024265%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E8%8E%8A%E5%8D%80%E5%85%AB%E5%BE%B7%E8%A1%9786%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/24265 新北市新莊區八德街86號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E5%8D%97%E6%96%B0%E8%8E%8A%E5%BA%97+%EF%B8%8F+24265+%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E8%8E%8A%E5%8D%80%E5%85%AB%E5%BE%B7%E8%A1%9786%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -27367,51 +27635,47 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 21228.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E5%8D%97%E6%96%B0%E8%8E%8A%E5%BA%97%E2%9D%84+%EF%B8%8F+24265+%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E8%8E%8A%E5%8D%80%E5%85%AB%E5%BE%B7%E8%A1%9786%E8%99%9F&hl=zh-TW",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E5%8D%97%E6%96%B0%E8%8E%8A%E5%BA%97+%EF%B8%8F+24265+%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E8%8E%8A%E5%8D%80%E5%85%AB%E5%BE%B7%E8%A1%9786%E8%99%9F&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E5%8D%97%E6%96%B0%E8%8E%8A%E5%BA%97%E2%9D%84+%EF%B8%8F+24265+%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E8%8E%8A%E5%8D%80%E5%85%AB%E5%BE%B7%E8%A1%9786%E8%99%9F&hl=zh-TW",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E5%8D%97%E6%96%B0%E8%8E%8A%E5%BA%97+%EF%B8%8F+24265+%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E8%8E%8A%E5%8D%80%E5%85%AB%E5%BE%B7%E8%A1%9786%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
+            "target": "mapsSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E5%8C%97%E5%8D%97%E6%96%B0%E8%8E%8A%E5%BA%97+%EF%B8%8F+24265+%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E8%8E%8A%E5%8D%80%E5%85%AB%E5%BE%B7%E8%A1%9786%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -28993,7 +29257,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/11651 台北市文山區指南路二段59號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E8%87%BA%E5%8C%97%E6%94%BF%E5%A4%A7%E5%BA%97%20%E2%9D%84%20%EF%B8%8F%2011651%20%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%8C%87%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B559%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/11651 台北市文山區指南路二段59號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E6%94%BF%E5%A4%A7%E5%BA%97+%EF%B8%8F+11651+%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%8C%87%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B559%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -29005,51 +29269,47 @@
       "orderingSystems": [],
       "hasAnyOrderingSystem": false,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Official Milksha store locator provides this store and its Google Maps link.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E6%94%BF%E5%A4%A7%E5%BA%97+%E2%9D%84+%EF%B8%8F+11651+%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%8C%87%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B559%E8%99%9F&hl=zh-TW",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E6%94%BF%E5%A4%A7%E5%BA%97+%EF%B8%8F+11651+%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%8C%87%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B559%E8%99%9F&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E6%94%BF%E5%A4%A7%E5%BA%97+%E2%9D%84+%EF%B8%8F+11651+%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%8C%87%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B559%E8%99%9F&hl=zh-TW",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E6%94%BF%E5%A4%A7%E5%BA%97+%EF%B8%8F+11651+%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%8C%87%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B559%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
+            "target": "mapsSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E8%87%BA%E5%8C%97%E6%94%BF%E5%A4%A7%E5%BA%97+%EF%B8%8F+11651+%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%8C%87%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B559%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -29602,7 +29862,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/30041 新竹市東區中央路229號B1",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E6%96%B0%E7%AB%B9%E5%B7%A8%E5%9F%8E%E5%BA%97%28%E6%AB%83%E4%BD%8D%29%2030041%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF229%E8%99%9FB1&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/30041 新竹市東區中央路229號B1",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E5%B7%A8%E5%9F%8E%E5%BA%97%28%E6%AB%83%E4%BD%8D%29+%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF229%E8%99%9FB1&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -29626,37 +29886,47 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 2231.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E5%B7%A8%E5%9F%8E%E5%BA%97%28%E6%AB%83%E4%BD%8D%29+30041+%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF229%E8%99%9FB1&hl=zh-TW",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E5%B7%A8%E5%9F%8E%E5%BA%97%28%E6%AB%83%E4%BD%8D%29+%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF229%E8%99%9FB1&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E5%B7%A8%E5%9F%8E%E5%BA%97%28%E6%AB%83%E4%BD%8D%29+30041+%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF229%E8%99%9FB1&hl=zh-TW",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E5%B7%A8%E5%9F%8E%E5%BA%97%28%E6%AB%83%E4%BD%8D%29+%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF229%E8%99%9FB1&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
         "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
+            "target": "mapsSearch",
             "attempt": 1,
-            "target": "storedPanel",
             "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E6%96%B0%E7%AB%B9%E5%B7%A8%E5%9F%8E%E5%BA%97%28%E6%AB%83%E4%BD%8D%29+%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF229%E8%99%9FB1&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     },
     {
@@ -32763,7 +33033,7 @@
       "officialStoreUrl": "https://www.milksha.com/store_detail.php?uID=1",
       "officialMapUrl": "https://www.google.com.tw/maps/place/94644屏東縣恆春鎮墾丁路202號",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F%20Milksha%20%E5%B1%8F%E6%9D%B1%E5%A2%BE%E4%B8%81%E5%BA%97%E2%9D%84%20%EF%B8%8F%2094644%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%A2%BE%E4%B8%81%E8%B7%AF202%E8%99%9F&hl=zh-TW",
-      "gmbUrl": "https://www.google.com.tw/maps/place/94644屏東縣恆春鎮墾丁路202號",
+      "gmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E5%B1%8F%E6%9D%B1%E5%A2%BE%E4%B8%81%E5%BA%97+%EF%B8%8F+94644%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%A2%BE%E4%B8%81%E8%B7%AF202%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -32787,51 +33057,47 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting an address-only Maps page, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": "Matched official store to Milksha Nidin store id 23455.",
       "checkedAt": "2026-06-02",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E5%B1%8F%E6%9D%B1%E5%A2%BE%E4%B8%81%E5%BA%97%E2%9D%84+%EF%B8%8F+94644%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%A2%BE%E4%B8%81%E8%B7%AF202%E8%99%9F&hl=zh-TW",
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E5%B1%8F%E6%9D%B1%E5%A2%BE%E4%B8%81%E5%BA%97+%EF%B8%8F+94644%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%A2%BE%E4%B8%81%E8%B7%AF202%E8%99%9F&hl=zh-TW",
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E5%B1%8F%E6%9D%B1%E5%A2%BE%E4%B8%81%E5%BA%97%E2%9D%84+%EF%B8%8F+94644%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%A2%BE%E4%B8%81%E8%B7%AF202%E8%99%9F&hl=zh-TW",
+        "panelUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E5%B1%8F%E6%9D%B1%E5%A2%BE%E4%B8%81%E5%BA%97+%EF%B8%8F+94644%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%A2%BE%E4%B8%81%E8%B7%AF202%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 4,
-        "maxAttempts": 2,
+        "checkMethod": "milksha_named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
-            "attempt": 1,
             "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
+            "target": "mapsSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
+            "buttonDetected": false,
+            "providersParsed": false
+          },
+          {
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%BF%B7%E5%AE%A2%E5%A4%8F+Milksha+%E5%B1%8F%E6%9D%B1%E5%A2%BE%E4%B8%81%E5%BA%97+%EF%B8%8F+94644%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%A2%BE%E4%B8%81%E8%B7%AF202%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       }
     }
   ]

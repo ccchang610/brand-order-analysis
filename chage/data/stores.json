@@ -825,9 +825,9 @@
       "officialStoreUrl": "https://www.chage.com.tw/edcontent_d.php?lang=tw&tb=3&id=8939",
       "officialMapUrl": "",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A%20%E5%86%AC%E5%B1%B1%E5%8D%97%E8%88%88%E5%BA%97%20269%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%86%AC%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B5986%E5%B7%B712%E8%99%9F",
-      "gmbUrl": "https://share.google/4hpca4aBIeMoNsrir",
+      "gmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E5%86%AC%E5%B1%B1%E5%8D%97%E8%88%88%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%86%AC%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B5986%E5%B7%B712%E8%99%9F&hl=zh-TW&sei=EMYeaqTgF4Co2roPoYHN0AU",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "unavailable_or_blocked",
+      "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -837,7 +837,7 @@
       "orderingSystems": [],
       "hasAnyOrderingSystem": false,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "User supplied Google Business Profile share URL, but direct browser check reached Google sorry / unusual traffic page; kept as blocked manual review, not as no Google Order.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting address-only or embedded Maps leads, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": [
         "官方門市詳情頁提供 QuickClick 線上點餐入口。",
         "Google Order 供應商需另以人工節奏打開 Google 點餐面板確認；本次未把官網/平台連結回填成 Google Order provider。"
@@ -852,40 +852,43 @@
       "gmbSignals": {
         "buttonDetected": false,
         "providersParsed": false,
-        "panelUrl": "https://share.google/4hpca4aBIeMoNsrir",
+        "panelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E5%86%AC%E5%B1%B1%E5%8D%97%E8%88%88%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%86%AC%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B5986%E5%B7%B712%E8%99%9F&hl=zh-TW&sei=EMYeaqTgF4Co2roPoYHN0AU",
         "checkedAt": "2026-06-02",
-        "checkMethod": "user_supplied_gmb_share_url_bot_check",
+        "checkMethod": "named_gmb_match_recheck",
         "attemptCount": 3,
-        "maxAttempts": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
+            "target": "googleSearch",
             "attempt": 1,
-            "target": "googleSearch",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "googleSearch",
+            "target": "mapsSearch",
+            "attempt": 1,
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 3,
-            "target": "googleSearch",
+            "target": "storedGmbUrl",
+            "attempt": 1,
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "User supplied Google Business Profile share URL, but direct browser check reached Google sorry / unusual traffic page; kept as blocked manual review, not as no Google Order."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E5%86%AC%E5%B1%B1%E5%8D%97%E8%88%88%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%86%AC%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B5986%E5%B7%B712%E8%99%9F&hl=zh-TW&sei=EMYeaqTgF4Co2roPoYHN0AU",
+        "addressOnlyPageRejected": true
       },
       "storeId": "chage-008",
       "gmbPickupProviders": [],
       "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E5%86%AC%E5%B1%B1%E5%8D%97%E8%88%88%E5%BA%97+269+%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%86%AC%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B5986%E5%B7%B712%E8%99%9F&hl=zh-TW&sei=3PAdarKWApKB2roPs-DugQo"
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E5%86%AC%E5%B1%B1%E5%8D%97%E8%88%88%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%86%AC%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B5986%E5%B7%B712%E8%99%9F&hl=zh-TW&sei=EMYeaqTgF4Co2roPoYHN0AU"
     },
     {
       "brand": "茶聚 CHAGE",
@@ -905,9 +908,9 @@
       "officialStoreUrl": "https://www.chage.com.tw/edcontent_d.php?lang=tw&tb=3&id=3444",
       "officialMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.3532276269702!2d121.7678216!3d24.680381399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3467e7e138d62bc1%3A0xa0d034355830e5c!2z6Iy26IGaQ0hBR0XnvoXmnbHkuK3oj6_lupfvvZzpppnniYfpoJjlsI7lk4HniYzvvL_nvoXmnbHmiYvmkJbpo7LmlpnlupflpJbluLblpJbpgIHpo7LmlpnmjqjolqYg5a6c6Jit5Zyo5Zyw576O6aOf6aOy5paZ!5e0!3m2!1szh-TW!2stw!4v1742891060737!5m2!1szh-TW!2stw",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A%20%E7%BE%85%E6%9D%B1%E4%B8%AD%E8%8F%AF%E5%BA%97%20265%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E8%8F%AF%E8%B7%AF116%E8%99%9F",
-      "gmbUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.3532276269702!2d121.7678216!3d24.680381399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3467e7e138d62bc1%3A0xa0d034355830e5c!2z6Iy26IGaQ0hBR0XnvoXmnbHkuK3oj6_lupfvvZzpppnniYfpoJjlsI7lk4HniYzvvL_nvoXmnbHmiYvmkJbpo7LmlpnlupflpJbluLblpJbpgIHpo7LmlpnmjqjolqYg5a6c6Jit5Zyo5Zyw576O6aOf6aOy5paZ!5e0!3m2!1szh-TW!2stw!4v1742891060737!5m2!1szh-TW!2stw",
+      "gmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E7%BE%85%E6%9D%B1%E4%B8%AD%E8%8F%AF%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E8%8F%AF%E8%B7%AF116%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "button_confirmed_provider_pending",
+      "gmbOrderingStatus": "confirmed",
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -925,11 +928,21 @@
           "evidenceUrl": "https://order.quickclick.cc/tw/portals/CHAGE",
           "label": "線上點餐",
           "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E7%BE%85%E6%9D%B1%E4%B8%AD%E8%8F%AF%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E8%8F%AF%E8%B7%AF116%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNxYlVQcGFOT0JBYWRDT2ZwQkplcHduYWZlN3FWTV9mSW9Vb0o2TzV5d1VfS3I0SkxuUmZZWUI2d1BsUEt0SUpHNEYwVmVZbHpYaW9HWmtJM1ZlMndPTEZGdFYxMVR6ZDBGY0NHTlptZnUtUUVqQ1RREhduOFllYXU2cUtZX1cxZThQMUptTDBRZxoiQUpLTEZtSjRsbTdYZ2ZQclVfSEhvVkt0NnRQN09JOG5UdxIEODEyNBoBMyoAMAA4AUAAGCogj6eDxQ9KAhAB",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
         }
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": true,
-      "manualReviewReason": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review.",
+      "manualReviewReason": "Human-paced Google Order re-check opened the blue order flow and read providers.",
       "evidenceNotes": [
         "官方門市詳情頁提供 QuickClick 線上點餐入口。",
         "Google Order 供應商需另以人工節奏打開 Google 點餐面板確認；本次未把官網/平台連結回填成 Google Order provider。"
@@ -943,62 +956,32 @@
       "checkedAt": "2026-06-02",
       "gmbSignals": {
         "buttonDetected": true,
-        "providersParsed": false,
-        "panelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E7%BE%85%E6%9D%B1%E4%B8%AD%E8%8F%AF%E5%BA%97+265%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E8%8F%AF%E8%B7%AF116%E8%99%9F&hl=zh-TW&sei=SfMdat7XKI-4vr0PkdOsoA4#sv=CAESzQEKuQEStgEKd0FNbjMteVR1NFlFN3BUV21ZcGk2U2s2QkpjR1VIV2NITEJoN3lkRHFPa0JLZTlRVFJaM05IcHVWS3BLX0lYMTBVVTZUUlczZlI3LUR1aWo5ejhTTFNOZXpLczRYb2J3a1NWOFVuVWFVa2RUbDJud0RmR0xfTTFBEhdTZk1kYXRUWk1QTzN2cjBQeHVLQjJRTRoiQUpLTEZtSUxrWEtDTDk2S3pRZWliZVE5eWVJTHpNNUxBZxIEODEyNBoBMyoAMAA4AUAAGCog4qv93ANKAhAB",
+        "providersParsed": true,
+        "panelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E7%BE%85%E6%9D%B1%E4%B8%AD%E8%8F%AF%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E8%8F%AF%E8%B7%AF116%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNxYlVQcGFOT0JBYWRDT2ZwQkplcHduYWZlN3FWTV9mSW9Vb0o2TzV5d1VfS3I0SkxuUmZZWUI2d1BsUEt0SUpHNEYwVmVZbHpYaW9HWmtJM1ZlMndPTEZGdFYxMVR6ZDBGY0NHTlptZnUtUUVqQ1RREhduOFllYXU2cUtZX1cxZThQMUptTDBRZxoiQUpLTEZtSjRsbTdYZ2ZQclVfSEhvVkt0NnRQN09JOG5UdxIEODEyNBoBMyoAMAA4AUAAGCogj6eDxQ9KAhAB",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 6,
-        "maxAttempts": 3,
+        "checkMethod": "named_gmb_match_recheck",
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
+            "target": "googleSearch",
             "attempt": 1,
-            "target": "googleSearch",
-            "status": "button_confirmed_provider_pending",
+            "status": "confirmed",
             "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "button_confirmed_provider_pending",
-            "buttonDetected": true,
-            "providersParsed": false
-          },
-          {
-            "attempt": 1,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
+            "providersParsed": true
           }
         ],
-        "notes": "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review."
+        "notes": "Human-paced Google Order re-check opened the blue order flow and read providers.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E7%BE%85%E6%9D%B1%E4%B8%AD%E8%8F%AF%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E8%8F%AF%E8%B7%AF116%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       },
       "storeId": "chage-009",
       "gmbPickupProviders": [],
-      "gmbDeliveryProviders": [],
-      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E7%BE%85%E6%9D%B1%E4%B8%AD%E8%8F%AF%E5%BA%97+265%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E8%8F%AF%E8%B7%AF116%E8%99%9F&hl=zh-TW&sei=SfMdat7XKI-4vr0PkdOsoA4#sv=CAESzQEKuQEStgEKd0FNbjMteVR1NFlFN3BUV21ZcGk2U2s2QkpjR1VIV2NITEJoN3lkRHFPa0JLZTlRVFJaM05IcHVWS3BLX0lYMTBVVTZUUlczZlI3LUR1aWo5ejhTTFNOZXpLczRYb2J3a1NWOFVuVWFVa2RUbDJud0RmR0xfTTFBEhdTZk1kYXRUWk1QTzN2cjBQeHVLQjJRTRoiQUpLTEZtSUxrWEtDTDk2S3pRZWliZVE5eWVJTHpNNUxBZxIEODEyNBoBMyoAMAA4AUAAGCog4qv93ANKAhAB"
+      "gmbDeliveryProviders": [
+        "Uber Eats"
+      ],
+      "gmbOrderPanelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E7%BE%85%E6%9D%B1%E4%B8%AD%E8%8F%AF%E5%BA%97+%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%BE%85%E6%9D%B1%E9%8E%AE%E4%B8%AD%E8%8F%AF%E8%B7%AF116%E8%99%9F&hl=zh-TW#sv=CAESzQEKuQEStgEKd0FNbjMteVNxYlVQcGFOT0JBYWRDT2ZwQkplcHduYWZlN3FWTV9mSW9Vb0o2TzV5d1VfS3I0SkxuUmZZWUI2d1BsUEt0SUpHNEYwVmVZbHpYaW9HWmtJM1ZlMndPTEZGdFYxMVR6ZDBGY0NHTlptZnUtUUVqQ1RREhduOFllYXU2cUtZX1cxZThQMUptTDBRZxoiQUpLTEZtSjRsbTdYZ2ZQclVfSEhvVkt0NnRQN09JOG5UdxIEODEyNBoBMyoAMAA4AUAAGCogj6eDxQ9KAhAB"
     },
     {
       "brand": "茶聚 CHAGE",
@@ -3418,7 +3401,7 @@
       "officialStoreUrl": "https://www.chage.com.tw/edcontent_d.php?lang=tw&tb=3&id=3345",
       "officialMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.4392296155756!2d121.2113145759087!3d24.951166541621028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34682323a344550d%3A0x4cb62b5ada154e39!2z6Iy26IGaQ0hBR0XlubPpjq7nvqnmsJHlupfvvZzpppnniYfpoJjlsI7lk4HniYzvvL_lubPpjq7miYvmkJbpo7LmlpnlupflpJbluLblpJbpgIHpo7LmlpnmjqjolqYg5qGD5ZyS5Zyo5Zyw576O6aOf6aOy5paZ6Iy26aOy5Ym15qWt5Yqg55uf!5e0!3m2!1szh-TW!2stw!4v1729059835602!5m2!1szh-TW!2stw",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A%20%E5%B9%B3%E9%8E%AE%E7%BE%A9%E6%B0%91%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E7%BE%A9%E6%B0%91%E8%B7%AF239%E8%99%9F",
-      "gmbUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.4392296155756!2d121.2113145759087!3d24.951166541621028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34682323a344550d%3A0x4cb62b5ada154e39!2z6Iy26IGaQ0hBR0XlubPpjq7nvqnmsJHlupfvvZzpppnniYfpoJjlsI7lk4HniYzvvL_lubPpjq7miYvmkJbpo7LmlpnlupflpJbluLblpJbpgIHpo7LmlpnmjqjolqYg5qGD5ZyS5Zyo5Zyw576O6aOf6aOy5paZ6Iy26aOy5Ym15qWt5Yqg55uf!5e0!3m2!1szh-TW!2stw!4v1729059835602!5m2!1szh-TW!2stw",
+      "gmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E5%B9%B3%E9%8E%AE%E7%BE%A9%E6%B0%91%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E7%BE%A9%E6%B0%91%E8%B7%AF239%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -3442,7 +3425,7 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting address-only or embedded Maps leads, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": [
         "官方門市詳情頁提供 QuickClick 線上點餐入口。",
         "Google Order 供應商需另以人工節奏打開 Google 點餐面板確認；本次未把官網/平台連結回填成 Google Order provider。"
@@ -3459,54 +3442,36 @@
         "providersParsed": false,
         "panelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E5%B9%B3%E9%8E%AE%E7%BE%A9%E6%B0%91%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E7%BE%A9%E6%B0%91%E8%B7%AF239%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 6,
-        "maxAttempts": 3,
+        "checkMethod": "named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
+            "target": "googleSearch",
             "attempt": 1,
-            "target": "googleSearch",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
+            "target": "mapsSearch",
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E5%B9%B3%E9%8E%AE%E7%BE%A9%E6%B0%91%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E7%BE%A9%E6%B0%91%E8%B7%AF239%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       },
       "storeId": "chage-030",
       "gmbPickupProviders": [],
@@ -4435,7 +4400,7 @@
       "officialStoreUrl": "https://www.chage.com.tw/edcontent_d.php?lang=tw&tb=3&id=3722",
       "officialMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.3471354197836!2d121.36835898567887!3d25.056220880175715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7710e909d6f%3A0x3c0cea0d2afa0eaa!2z6Iy26IGaQ0hBR0XpvpzlsbHlvqnoiIjlupfvvZzpppnniYfpoJjlsI7lk4HniYzvvL_pvpzlsbHmiYvmkJbpo7LmlpnlupflpJbluLblpJbpgIHpo7LmlpnmjqjolqYg5qGD5ZyS5Zyo5Zyw576O6aOf6aOy5paZ!5e0!3m2!1szh-TW!2stw!4v1729059612348!5m2!1szh-TW!2stw",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A%20%E9%BE%9C%E5%B1%B1%E5%BE%A9%E8%88%88%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E4%BA%8C%E8%B7%AF103%E8%99%9F",
-      "gmbUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.3471354197836!2d121.36835898567887!3d25.056220880175715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7710e909d6f%3A0x3c0cea0d2afa0eaa!2z6Iy26IGaQ0hBR0XpvpzlsbHlvqnoiIjlupfvvZzpppnniYfpoJjlsI7lk4HniYzvvL_pvpzlsbHmiYvmkJbpo7LmlpnlupflpJbluLblpJbpgIHpo7LmlpnmjqjolqYg5qGD5ZyS5Zyo5Zyw576O6aOf6aOy5paZ!5e0!3m2!1szh-TW!2stw!4v1729059612348!5m2!1szh-TW!2stw",
+      "gmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E9%BE%9C%E5%B1%B1%E5%BE%A9%E8%88%88%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E4%BA%8C%E8%B7%AF103%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -4459,7 +4424,7 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting address-only or embedded Maps leads, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": [
         "官方門市詳情頁提供 QuickClick 線上點餐入口。",
         "Google Order 供應商需另以人工節奏打開 Google 點餐面板確認；本次未把官網/平台連結回填成 Google Order provider。"
@@ -4480,54 +4445,36 @@
         "providersParsed": false,
         "panelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E9%BE%9C%E5%B1%B1%E5%BE%A9%E8%88%88%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E4%BA%8C%E8%B7%AF103%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 6,
-        "maxAttempts": 3,
+        "checkMethod": "named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
+            "target": "googleSearch",
             "attempt": 1,
-            "target": "googleSearch",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
+            "target": "mapsSearch",
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E9%BE%9C%E5%B1%B1%E5%BE%A9%E8%88%88%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E4%BA%8C%E8%B7%AF103%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       },
       "storeId": "chage-039",
       "gmbPickupProviders": [],
@@ -4760,7 +4707,7 @@
       "officialStoreUrl": "https://www.chage.com.tw/edcontent_d.php?lang=tw&tb=3&id=2738",
       "officialMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.2549361895144!2d120.78627841499807!3d24.614896784170366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469ae6476ea8da7%3A0x7ae557d40973817c!2zMzU26IuX5qCX57ij5b6M6b6N6Y6u5Lit5YyX6KGXMjUw6Jmf!5e0!3m2!1szh-TW!2stw!4v1623997882209!5m2!1szh-TW!2stw",
       "googleSearchUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A%20%E8%8B%97%E6%A0%97%E5%BE%8C%E9%BE%8D%E5%BA%97%20%E8%8B%97%E6%A0%97%E7%B8%A3%E5%BE%8C%E9%BE%8D%E9%8E%AE%E4%B8%AD%E9%BE%8D%E9%87%8C%E4%B8%AD%E5%8C%97%E8%A1%97250%E4%B9%8B7%E8%99%9F",
-      "gmbUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.2549361895144!2d120.78627841499807!3d24.614896784170366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469ae6476ea8da7%3A0x7ae557d40973817c!2zMzU26IuX5qCX57ij5b6M6b6N6Y6u5Lit5YyX6KGXMjUw6Jmf!5e0!3m2!1szh-TW!2stw!4v1623997882209!5m2!1szh-TW!2stw",
+      "gmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E8%8B%97%E6%A0%97%E5%BE%8C%E9%BE%8D%E5%BA%97+%E8%8B%97%E6%A0%97%E7%B8%A3%E5%BE%8C%E9%BE%8D%E9%8E%AE%E4%B8%AD%E9%BE%8D%E9%87%8C%E4%B8%AD%E5%8C%97%E8%A1%97250%E4%B9%8B7%E8%99%9F&hl=zh-TW",
       "gmbStatus": "confirmed",
       "gmbOrderingStatus": "no_gmb_order_button",
       "sourceCoverage": {
@@ -4784,7 +4731,7 @@
       ],
       "hasAnyOrderingSystem": true,
       "hasGmbOrderingSystem": false,
-      "manualReviewReason": "No Google Order button was found during human-paced browser check.",
+      "manualReviewReason": "Named GMB profile was verified after rejecting address-only or embedded Maps leads, but no blue Google Order entry was visible during the re-check.",
       "evidenceNotes": [
         "官方門市詳情頁提供 QuickClick 線上點餐入口。",
         "Google Order 供應商需另以人工節奏打開 Google 點餐面板確認；本次未把官網/平台連結回填成 Google Order provider。"
@@ -4801,54 +4748,36 @@
         "providersParsed": false,
         "panelUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E8%8B%97%E6%A0%97%E5%BE%8C%E9%BE%8D%E5%BA%97+%E8%8B%97%E6%A0%97%E7%B8%A3%E5%BE%8C%E9%BE%8D%E9%8E%AE%E4%B8%AD%E9%BE%8D%E9%87%8C%E4%B8%AD%E5%8C%97%E8%A1%97250%E4%B9%8B7%E8%99%9F&hl=zh-TW",
         "checkedAt": "2026-06-02",
-        "checkMethod": "human_paced_gmb_recheck_multi_attempt",
-        "attemptCount": 6,
-        "maxAttempts": 3,
+        "checkMethod": "named_gmb_match_recheck",
+        "attemptCount": 3,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
+            "target": "googleSearch",
             "attempt": 1,
-            "target": "googleSearch",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "googleSearch",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
+            "target": "mapsSearch",
             "attempt": 1,
-            "target": "gmbUrl",
             "status": "no_gmb_order_button",
             "buttonDetected": false,
             "providersParsed": false
           },
           {
-            "attempt": 2,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
-            "buttonDetected": false,
-            "providersParsed": false
-          },
-          {
-            "attempt": 3,
-            "target": "gmbUrl",
-            "status": "no_gmb_order_button",
+            "target": "storedGmbUrl",
+            "attempt": 1,
+            "status": "name_mismatch",
             "buttonDetected": false,
             "providersParsed": false
           }
         ],
-        "notes": "No Google Order button was found during human-paced browser check."
+        "notes": "No Google Order button was found during human-paced browser check.",
+        "matchQuality": "named_gmb_profile",
+        "matchedGmbUrl": "https://www.google.com/search?q=%E8%8C%B6%E8%81%9A+CHAGE+%E8%8B%97%E6%A0%97%E5%BE%8C%E9%BE%8D%E5%BA%97+%E8%8B%97%E6%A0%97%E7%B8%A3%E5%BE%8C%E9%BE%8D%E9%8E%AE%E4%B8%AD%E9%BE%8D%E9%87%8C%E4%B8%AD%E5%8C%97%E8%A1%97250%E4%B9%8B7%E8%99%9F&hl=zh-TW",
+        "addressOnlyPageRejected": true
       },
       "storeId": "chage-042",
       "gmbPickupProviders": [],

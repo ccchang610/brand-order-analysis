@@ -81,6 +81,8 @@ Use this protocol whenever Google Order provider evidence matters.
    - use Taiwan locale and local timezone for Taiwan brands
    - search Google by brand name, store name, and address before trusting an official Maps link
    - verify the GMB profile name, address, phone, and photos match the intended store; official locator links may resolve to address-only pages or the wrong profile
+   - require a highly similar store name before setting `sourceCoverage.gmbFound: true`; a Google Maps address-only page, map pin, or generic place page is not a matching GMB profile
+   - when an address-only page shows a "located in this place" / store-card section, click the named store card and audit only that named profile
    - open the page normally instead of jumping directly to hidden dynamic URLs
    - wait for render, move the pointer, scroll, pause, then inspect visible buttons
    - click one-button online order flows or separate pickup and delivery buttons when present
@@ -92,9 +94,11 @@ Use this protocol whenever Google Order provider evidence matters.
    - department-store counters, mall stores, hospital/campus stores, airports, transport hubs, staff-only stores, restricted-access venues, and special production-site stores can remain `no_gmb_order_button` after a bounded check if no blue order entry is visible
    - record the context decision in `manualReviewReason` or `gmbSignals.notes` so the gap is auditable
 4. For stores that are `button_confirmed_provider_pending`, blocked, timed out, suspicious street-front `no_gmb_order_button`, or otherwise unresolved, run bounded multi-attempt re-checks before finalizing:
+   - for existing brand reports in this repository, use `scripts/recheck_named_gmb_match.py` with `--brand-root`, `--brand-query`, and brand aliases to reject address-only/wrong-name GMB leads before checking Google Order
    - default to at least 3 attempts per store when time permits
    - try the Google Search business card for the store name and address first, then the stored Google Order panel URL and known GMB/Maps URL
    - prefer the Google Search business card for unresolved stores because it may expose blue pickup/delivery buttons while the Maps place page only shows a website row
+   - for stored Google Maps URLs whose visible title is only an address, re-search by brand + store name + address and update `gmbUrl` to the named business profile or Google Search business card before checking buttons
    - if desktop checks disagree with user evidence or store context, retry with a mobile viewport and mobile user agent
    - retry both one-button and two-button flows because Google may expose pickup and delivery differently by store
    - click visible controls again on each attempt; do not treat stale button text from the full page as a completed provider check
@@ -108,6 +112,7 @@ Use this protocol whenever Google Order provider evidence matters.
    - provider names visible in the order panel and the mode is active/clickable: add `sourceType: gmb` claims by mode
    - blocked, timeout, bot-check, or page instability: `unavailable_or_blocked`, manual review
    - human-paced re-check completed and no blue order entry is visible: `no_gmb_order_button`
+   - no highly similar named GMB profile found: `no_gmb_profile_match`, `sourceCoverage.gmbFound: false`
 6. Use user-provided screenshots carefully:
    - if a screenshot shows the correct GMB profile and a visible online-order button, treat entry coverage as confirmed
    - if provider rows are not visible, set `button_confirmed_provider_pending`; do not infer providers from the button or surrounding page

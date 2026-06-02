@@ -456,6 +456,15 @@ def write_csv(stores: list[dict]) -> None:
             )
 
 
+def write_data_inline(stores: list[dict], summary: dict) -> None:
+    (OUT / "data-inline.js").write_text(
+        "window.DAMING_DATA = "
+        + json.dumps({"storesPayload": {"stores": stores}, "summary": summary}, ensure_ascii=False)
+        + ";\n",
+        encoding="utf-8",
+    )
+
+
 def write_html() -> None:
     (OUT / "index.html").write_text(
         """<!doctype html>
@@ -546,6 +555,7 @@ def write_html() -> None:
     </section>
   </main>
 
+  <script src="data-inline.js?v=1"></script>
   <script src="../assets/taiwan-map.js?v=31"></script>
   <script src="../assets/app.js?v=31"></script>
 </body>
@@ -564,6 +574,7 @@ def main() -> None:
     (DATA / "stores.json").write_text(json.dumps({"stores": stores}, ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     write_csv(stores)
+    write_data_inline(stores, summary)
     write_html()
     print(json.dumps({"official": len(stores), "nidinApi": len(nidin), "nidinMatched": nidin_matches}, ensure_ascii=False))
 

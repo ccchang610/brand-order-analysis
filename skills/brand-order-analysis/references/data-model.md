@@ -51,7 +51,7 @@ Use `sourceCoverage` to separate store discovery from ordering-system evidence:
 Field meanings:
 
 - `officialListed`: store exists in the official brand source or user-approved official dataset.
-- `gmbFound`: a matching GMB / Google Maps profile was found.
+- `gmbFound`: a matching named GMB / Google Maps profile was found. The visible profile name must be highly similar to the intended store name; an address-only Maps page, pin, or generic place page is not enough.
 - `googleFound`: store was found by Google search or Google Maps search, even if Google Order provider evidence is not available.
 - `thirdPartyFound`: store appears on marketplace, aggregator, ordering, or directory sources.
 
@@ -69,6 +69,13 @@ Use these fields when a brand analysis includes Google Business Profile / Google
 - `manualReviewReason`: required when status is pending, blocked, timed out, ambiguous, or no button was found after human-paced re-check.
 
 Do not use `orderingSystems` with `sourceType: gmb` for a provider unless the provider name was visible inside the opened Google Order panel. A confirmed blue order entry without readable providers should use `button_confirmed_provider_pending` instead of a guessed provider claim. Visible button text alone is entry evidence, not provider evidence; the audit must click the visible one-button or pickup/delivery control and wait for the Google Order panel/searchviewer flow before parsing providers.
+
+Before any Google Order check, validate the GMB match itself:
+
+- If Google Maps opens a page whose visible title is only the address, treat it as a lead, not a GMB match.
+- If that address page lists a named store card at the same location, click the card and audit the named profile.
+- If no highly similar named profile can be found after re-searching by brand + store name + address, set `gmbOrderingStatus: no_gmb_profile_match`, `gmbStatus: not_found`, `sourceCoverage.gmbFound: false`, and explain the mismatch in `manualReviewReason`.
+- Use `gmbSignals.matchQuality` values such as `named_gmb_profile`, `missing_named_gmb`, `wrong_store_name`, or `address_only_page_rejected` to keep the decision auditable.
 
 For `no_gmb_order_button`, include enough evidence to explain why the status is credible:
 
