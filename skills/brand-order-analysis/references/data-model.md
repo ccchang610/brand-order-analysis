@@ -70,6 +70,15 @@ Use these fields when a brand analysis includes Google Business Profile / Google
 
 Do not use `orderingSystems` with `sourceType: gmb` for a provider unless the provider name was visible inside the opened Google Order panel. A confirmed blue order entry without readable providers should use `button_confirmed_provider_pending` instead of a guessed provider claim. Visible button text alone is entry evidence, not provider evidence; the audit must click the visible one-button or pickup/delivery control and wait for the Google Order panel/searchviewer flow before parsing providers.
 
+For `no_gmb_order_button`, include enough evidence to explain why the status is credible:
+
+- `gmbSignals.storeContext`: suggested values include `street_front`, `mall_counter`, `department_store`, `hospital`, `campus`, `airport`, `transport_hub`, `staff_only`, `restricted_access`, `special_site`, or `unknown`.
+- `gmbSignals.matchQuality`: describe whether the checked GMB profile matched the intended store by name, address, phone, photos, or user-supplied URL.
+- Street-front stores should not remain `no_gmb_order_button` after only a quick pass. They should have a fresh-profile search-card re-check and, when useful, a mobile viewport/user-agent re-check.
+- Restricted-access or venue stores can remain `no_gmb_order_button` after a bounded human-paced check if no blue order entry is visible.
+
+User-provided screenshots may set `hasGmbOrderingSystem: true` only when the screenshot shows the correct GMB profile and a visible Google Order entry. If provider rows are not visible, use `button_confirmed_provider_pending` and do not create `sourceType: gmb` provider claims.
+
 For `orderMode`, count `pickup` or `delivery` only when that mode is active or can be selected in the Google Order panel. A greyed or disabled mode label does not count. Provider rows must be visible inside the Google Order dialog/panel; ignore provider names from background Google results, knowledge-panel snippets, official-site snippets, review widgets, or hidden text.
 
 `nidin.shop` or `order.nidin.shop` counts as `Nidin` only when it is a visible provider row inside the opened Google Order panel. The same domain in official ordering links, organic Google results, or Maps website rows is not Google Order evidence.
@@ -101,6 +110,8 @@ Example `gmbSignals`:
   "panelUrl": "https://www.google.com/search?...",
   "checkedAt": "2026-05-31",
   "checkMethod": "human_paced_gmb_recheck_multi_attempt",
+  "storeContext": "street_front",
+  "matchQuality": "Google Search business card matched store name and address.",
   "notes": "Blue Google Order entry confirmed, but provider names were not readable after bounded retries."
 }
 ```
@@ -231,7 +242,7 @@ GMB status:
 Google Order status:
 
 - `confirmed`
-- `no_gmb_order_button` (use only after human-paced checks, preferably including a fresh profile/session when resolving stale pending records, find no blue Google Order entry)
+- `no_gmb_order_button` (use only after human-paced checks find no blue Google Order entry; street-front stores should also get a fresh-profile search-card re-check, while restricted-access venues may be accepted after a bounded check)
 - `button_confirmed_provider_pending`
 - `panel_without_known_provider`
 - `no_ordering_system_found`

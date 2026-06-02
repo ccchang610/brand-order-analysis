@@ -79,16 +79,23 @@ Use this protocol whenever Google Order provider evidence matters.
 2. If no entry is found by a quick pass, do not finalize `no_gmb_order_button`. Run a human-paced re-check before deciding:
    - use a persistent browser profile when possible
    - use Taiwan locale and local timezone for Taiwan brands
+   - search Google by brand name, store name, and address before trusting an official Maps link
+   - verify the GMB profile name, address, phone, and photos match the intended store; official locator links may resolve to address-only pages or the wrong profile
    - open the page normally instead of jumping directly to hidden dynamic URLs
    - wait for render, move the pointer, scroll, pause, then inspect visible buttons
    - click one-button online order flows or separate pickup and delivery buttons when present
    - button visibility alone is not a provider signal; after clicking, wait for the Google Order panel/searchviewer flow and read only that panel
    - pickup/delivery visibility alone is not mode evidence; count a mode only if its control can be selected or is already active
    - parse provider names only from visible rows inside the Google Order dialog/panel, not from the background Google result page or knowledge panel
-3. For stores that are `button_confirmed_provider_pending`, blocked, timed out, or otherwise unresolved, run bounded multi-attempt re-checks before finalizing:
+3. Before accepting `no_gmb_order_button`, classify the store context:
+   - street-front stores should get at least one extra fresh-profile re-check; if still unresolved, also try Google Search business-card and mobile viewport/user-agent checks
+   - department-store counters, mall stores, hospital/campus stores, airports, transport hubs, staff-only stores, restricted-access venues, and special production-site stores can remain `no_gmb_order_button` after a bounded check if no blue order entry is visible
+   - record the context decision in `manualReviewReason` or `gmbSignals.notes` so the gap is auditable
+4. For stores that are `button_confirmed_provider_pending`, blocked, timed out, suspicious street-front `no_gmb_order_button`, or otherwise unresolved, run bounded multi-attempt re-checks before finalizing:
    - default to at least 3 attempts per store when time permits
    - try the Google Search business card for the store name and address first, then the stored Google Order panel URL and known GMB/Maps URL
    - prefer the Google Search business card for unresolved stores because it may expose blue pickup/delivery buttons while the Maps place page only shows a website row
+   - if desktop checks disagree with user evidence or store context, retry with a mobile viewport and mobile user agent
    - retry both one-button and two-button flows because Google may expose pickup and delivery differently by store
    - click visible controls again on each attempt; do not treat stale button text from the full page as a completed provider check
    - if a stored Google Order panel URL exists, re-open it and re-check active pickup/delivery modes before relying on older mode claims
@@ -96,15 +103,19 @@ Use this protocol whenever Google Order provider evidence matters.
    - if a persistent browser profile is blocked or stale, retry the unresolved stores in a fresh browser profile/session before finalizing
    - stop immediately when provider names are visible in the Google Order panel
    - never run an infinite loop; if fresh repeated attempts see no blue order entry, set `no_gmb_order_button`; if attempts are blocked or unstable, keep the store pending or blocked with `manualReviewReason`
-4. Record entry coverage separately from provider evidence:
+5. Record entry coverage separately from provider evidence:
    - blue order entry confirmed, providers unreadable: `button_confirmed_provider_pending`, `hasGmbOrderingSystem: true`
    - provider names visible in the order panel and the mode is active/clickable: add `sourceType: gmb` claims by mode
    - blocked, timeout, bot-check, or page instability: `unavailable_or_blocked`, manual review
    - human-paced re-check completed and no blue order entry is visible: `no_gmb_order_button`
-5. Do not parse provider names from the whole Google results page as Google Order providers. Page text can include official Nidin results, marketplace snippets, ads, or knowledge-panel links that are not the opened Google Order panel.
-6. Treat `nidin.shop` or `order.nidin.shop` as `Nidin` only when it is a visible provider row inside the opened Google Order panel. Do not count official Nidin links, organic results, or Maps website rows as Google Order evidence.
-7. Preserve prior confirmed Google Order provider claims when a later re-check is blocked.
-8. Store retry evidence in `gmbSignals`: `buttonDetected`, `providersParsed`, `attemptCount`, `maxAttempts`, `attemptHistory`, `panelUrl`, `checkedAt`, `checkMethod`, and notes. Use this in the HTML details table so "pending" stores show why they are pending and how many attempts were made.
+6. Use user-provided screenshots carefully:
+   - if a screenshot shows the correct GMB profile and a visible online-order button, treat entry coverage as confirmed
+   - if provider rows are not visible, set `button_confirmed_provider_pending`; do not infer providers from the button or surrounding page
+   - if provider rows are visible, record only those visible row providers and preserve the screenshot/source note in `gmbSignals`
+7. Do not parse provider names from the whole Google results page as Google Order providers. Page text can include official Nidin results, marketplace snippets, ads, or knowledge-panel links that are not the opened Google Order panel.
+8. Treat `nidin.shop` or `order.nidin.shop` as `Nidin` only when it is a visible provider row inside the opened Google Order panel. Do not count official Nidin links, organic results, or Maps website rows as Google Order evidence.
+9. Preserve prior confirmed Google Order provider claims when a later re-check is blocked.
+10. Store retry evidence in `gmbSignals`: `buttonDetected`, `providersParsed`, `attemptCount`, `maxAttempts`, `attemptHistory`, `panelUrl`, `checkedAt`, `checkMethod`, and notes. Use this in the HTML details table so "pending" stores show why they are pending and how many attempts were made.
 ## Provider Interpretation
 
 - `all-source ordering systems`: all confirmed ordering systems from official, Google, GMB, third-party, marketplace, LINE, or local platform evidence.
