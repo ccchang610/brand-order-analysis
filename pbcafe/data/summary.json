@@ -141,6 +141,7 @@
     "officialStoreCountEvidence": "The official franchise history says Peter Better Cafe reached 30 stores in 2025. No official store locator was found.",
     "googleMapsDiscovery": "Google Maps public search was used to identify named Taiwan store profiles.",
     "notes": "Google Order providers are counted only when provider rows were visible inside opened searchviewer panels.",
+    "googleOrderLinksAudit": "Google Order panel links are recorded separately in store.gmbOrderLinks. They include links visible after opening the Google Order button flow and do not alter Google Order provider counts unless they are provider rows.",
     "googleMapsListRecheck": "2026-06-17 Google Maps list recheck: current matching list-card online-order entries are authoritative for entry coverage; when a current matched card has no online-order entry, stale stored searchviewer/gmbOrderPanelUrl values are ignored and stale GMB provider claims are cleared."
   },
   "notes": [
@@ -148,6 +149,7 @@
     "The official website has no public store locator in this run; store-level population is therefore a Google/Maps-derived working list with explicit unresolved gaps.",
     "Closed or renamed historical stores such as Zhonghe Far Eastern and Xinzhuang Xintai were excluded from the active population.",
     "Google Order entry coverage and provider rows are separated from all-source ordering evidence.",
+    "Visible links inside the opened Google Order flow are preserved in gmbOrderLinks, including social ordering links such as Instagram or LINE when present.",
     "2026-06-17 Google Maps list recheck: current matching list-card online-order entries are authoritative for entry coverage; when a current matched card has no online-order entry, stale stored searchviewer/gmbOrderPanelUrl values are ignored and stale GMB provider claims are cleared."
   ]
 }

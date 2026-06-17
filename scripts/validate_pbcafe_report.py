@@ -94,6 +94,19 @@ def main() -> int:
     if no_button_artifacts:
         failures.append({"noButtonArtifacts": no_button_artifacts})
 
+    banqiao_wenhua = next((store for store in stores if store.get("storeId") == "pbcafe-022"), None)
+    if not banqiao_wenhua:
+        failures.append("Missing pbcafe-022 Banqiao Wenhua store")
+    else:
+        has_instagram_order_link = any(
+            link.get("platform") == "Instagram"
+            and "instagram.com/peterbetter_wenhua" in link.get("href", "")
+            and set(link.get("orderMode", [])) >= {"pickup", "delivery"}
+            for link in banqiao_wenhua.get("gmbOrderLinks", [])
+        )
+        if not has_instagram_order_link:
+            failures.append("pbcafe-022 missing Instagram gmbOrderLinks pickup/delivery evidence")
+
     result = {
         "ok": not failures,
         "failures": failures,
@@ -104,6 +117,7 @@ def main() -> int:
             "no_gmb_profile_match": summary["gmbOrderingStatusCounts"].get("no_gmb_profile_match"),
             "thirdPartyFoundCount": summary["thirdPartyFoundCount"],
             "gmbSystemCounts": summary["gmbSystemCounts"],
+            "gmbOrderLinkStores": sum(1 for store in stores if store.get("gmbOrderLinks")),
         },
         "metadataNotePresent": bool(summary.get("source", {}).get("googleMapsListRecheck")),
     }

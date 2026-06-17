@@ -896,6 +896,12 @@ td small {
   border: 1px solid #06c755;
 }
 
+.platform-logo.platform-instagram {
+  background: #e4405f;
+  color: #ffffff;
+  border: 1px solid #e4405f;
+}
+
 .platform-logo.platform-quickclick {
   background: #fcb900;
   color: #000000;
@@ -925,10 +931,44 @@ td small {
   border: 1px solid #06c755;
 }
 
+.platform-instagram {
+  background: #e4405f;
+  color: #ffffff;
+  border: 1px solid #e4405f;
+}
+
 .platform-quickclick {
   background: #fcb900;
   color: #000000;
   border: 1px solid #fcb900;
+}
+
+.order-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.order-link-list b {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.order-link-list a,
+.order-link-list span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+}
+
+.order-link-list small {
+  color: var(--muted);
+  font-size: 11px;
 }
 
 .pill.market {

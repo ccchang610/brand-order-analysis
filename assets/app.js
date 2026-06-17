@@ -199,7 +199,7 @@ function regionOf(city){return stores.find(store=>store.city===city)?.regionGrou
 function renderStoreDistribution(rows){const cityCounts=[...rows.reduce((map,store)=>map.set(store.city,(map.get(store.city)||0)+1),new Map()).entries()].sort((a,b)=>b[1]-a[1]).slice(0,12);byId("cityBars").innerHTML=bars(cityCounts,"");}
 function renderModeCharts(rows){byId("pickupBars").innerHTML=bars(countSystems(rows,{mode:"pickup"}),"",true);byId("deliveryBars").innerHTML=bars(countSystems(rows,{mode:"delivery"}),"alt",true);const regionRows=regions.filter(region=>region!==T.all).map(region=>{const scoped=rows.filter(store=>store.regionGroup===region);const adopted=scoped.filter(store=>store.hasAnyOrderingSystem).length;return[region,scoped.length?adopted/scoped.length:0,`${adopted}/${scoped.length}`];});byId("regionMatrix").innerHTML=regionRows.map(([region,rate,label])=>`<div class="matrix-row"><span>${region}</span><div class="matrix-track"><div class="matrix-fill" style="width:${rate*100}%"></div></div><b>${label}</b></div>`).join("");}
 function renderGmbCharts(rows){byId("gmbPickupBars").innerHTML=bars(countSystems(rows,{sourceType:"gmb",mode:"pickup"}),"",true);byId("gmbDeliveryBars").innerHTML=bars(countSystems(rows,{sourceType:"gmb",mode:"delivery"}),"alt",true);}
-function systemKey(system){const value=(system||"").toLowerCase().replace(/\s+/g,"");if(value==="nidin"||value.includes("nidin"))return"nidin";if(value==="ubereats"||value.includes("ubereats"))return"uber-eats";if(value==="foodpanda"||value.includes("foodpanda"))return"foodpanda";if(value==="line"||value.includes("line"))return"line";if(value==="quickclick"||value.includes("quickclick")||value.includes("快一點"))return"quickclick";return"other";}
+function systemKey(system){const value=(system||"").toLowerCase().replace(/\s+/g,"");if(value==="nidin"||value.includes("nidin"))return"nidin";if(value==="ubereats"||value.includes("ubereats"))return"uber-eats";if(value==="foodpanda"||value.includes("foodpanda"))return"foodpanda";if(value==="line"||value.includes("line"))return"line";if(value==="instagram"||value.includes("instagram"))return"instagram";if(value==="quickclick"||value.includes("quickclick")||value.includes("快一點"))return"quickclick";return"other";}
 function systemLogo(system){return`<span class="platform-logo platform-${systemKey(system)}">${system}</span>`;}
 function systemBadge(system){return`<span class="platform-chip platform-${systemKey(system)}">${system}</span>`;}
 function systemList(systems){return[...systems].map(systemBadge).join("");}
@@ -212,13 +212,15 @@ function renderDetails(rows){
     const gmbSummary=modeSummary(store.orderingSystems.filter(claim=>claim.sourceType==="gmb"));
     const gmbStatusLabel=store.gmbOrderingStatus==="button_confirmed_provider_pending"?"Google Order 有點餐入口，供應商待解析":store.gmbOrderingStatus==="unavailable_or_blocked"?"Google 阻擋/逾時，需人工複核":store.gmbOrderingStatus==="no_gmb_order_button"?"未找到 Google Order 藍色入口":store.gmbOrderingStatus;
     const links=store.orderingSystems.filter(claim=>claim.evidenceUrl).slice(0,5).map(claim=>`<a href="${claim.evidenceUrl}" target="_blank">${claim.label||claim.system}</a>`).join("、");
+    const orderLinks=(store.gmbOrderLinks||[]).slice(0,8).map(link=>{const modes=(link.orderMode||[]).map(mode=>mode==="pickup"?T.pickup:mode==="delivery"?T.delivery:mode).join("/");return link.href?`<a href="${link.href}" target="_blank">${systemBadge(link.platform)}<small>${modes}</small></a>`:`<span>${systemBadge(link.platform)}<small>${modes}</small></span>`;}).join("");
+    const orderLinkBlock=orderLinks?`<div class="order-link-list"><b>&#40670;&#39184;&#36899;&#32080;</b>${orderLinks}</div>`:"";
     const gmbLink=store.gmbUrl?`<a href="${store.gmbUrl}" target="_blank">GMB/Maps</a>`:`<span class="pill gap">${T.gmbNotFound}</span>`;
     const signal=store.gmbSignals||{};
     const panelUrl=store.gmbOrderPanelUrl||signal.panelUrl||"";
     const panelLink=panelUrl&&panelUrl!==store.gmbUrl?`<a href="${panelUrl}" target="_blank">Google Order 入口</a>`:"";
     const signalLabel=signal.buttonDetected&&!signal.providersParsed&&store.gmbOrderingStatus!=="button_confirmed_provider_pending"?`<span class="pill gap">已確認藍色按鈕</span>`:"";
     const reviewNote=store.manualReviewReason?`<small class="review-note">${store.manualReviewReason}</small>`:"";
-    const evidence=[gmbLink,panelLink,links].filter(Boolean).join("、");
+    const evidence=[gmbLink,panelLink,links,orderLinkBlock].filter(Boolean).join("、");
     return`<tr><td><b>${store.storeName}</b><br><small>${store.phone||""}</small></td><td>${store.regionGroup}<br>${store.city} ${store.district}</td><td>${store.address}</td><td>${allSummary||`<span class="pill gap">${T.noLink}</span>`}</td><td>${gmbSummary||`<span class="pill gap">${gmbStatusLabel}</span>`}${signalLabel}</td><td>${evidence}${reviewNote}</td></tr>`;
   }).join("");
 }

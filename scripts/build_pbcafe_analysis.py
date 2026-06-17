@@ -334,6 +334,7 @@ async def build() -> tuple[list[dict], dict]:
                 "gmbOrderPanelUrl": panel_url,
                 "gmbPickupProviders": pickup,
                 "gmbDeliveryProviders": delivery,
+                "gmbOrderLinks": [],
                 "gmbSignals": {
                     "buttonDetected": bool(profile.get("orderUrl")),
                     "providersParsed": has_gmb_provider,
@@ -465,6 +466,7 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
                 "gmbOrderingStatus",
                 "systems",
                 "gmbProviders",
+                "gmbOrderLinks",
                 "gmbUrl",
                 "manualReviewReason",
             ],
@@ -484,6 +486,15 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
                     "gmbOrderingStatus": store["gmbOrderingStatus"],
                     "systems": ", ".join(sorted({c["system"] for c in store["orderingSystems"]})),
                     "gmbProviders": ", ".join(sorted({c["system"] for c in store["orderingSystems"] if c["sourceType"] == "gmb"})),
+                    "gmbOrderLinks": ", ".join(
+                        sorted(
+                            {
+                                f"{link.get('platform', '')}: {link.get('href', '')}"
+                                for link in store.get("gmbOrderLinks", [])
+                                if link.get("href")
+                            }
+                        )
+                    ),
                     "gmbUrl": store["gmbUrl"],
                     "manualReviewReason": store["manualReviewReason"],
                 }
@@ -496,7 +507,7 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>彼得好咖啡點餐系統總覽</title>
-  <link rel="stylesheet" href="../assets/styles.css?v=31" />
+  <link rel="stylesheet" href="../assets/styles.css?v=32" />
 </head>
 <body>
   <header class="topbar">
@@ -578,9 +589,9 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
     </section>
   </main>
 
-  <script src="../assets/taiwan-map.js?v=31"></script>
+  <script src="../assets/taiwan-map.js?v=32"></script>
   <script src="data-inline.js"></script>
-  <script src="../assets/app.js?v=31"></script>
+  <script src="../assets/app.js?v=32"></script>
 </body>
 </html>
 """

@@ -7,6 +7,7 @@
     "officialStoreCountEvidence": "The official franchise history says Peter Better Cafe reached 30 stores in 2025. No official store locator was found.",
     "googleMapsDiscovery": "Google Maps public search was used to identify named Taiwan store profiles.",
     "notes": "Google Order providers are counted only when provider rows were visible inside opened searchviewer panels.",
+    "googleOrderLinksAudit": "Google Order panel links are recorded separately in store.gmbOrderLinks. They include links visible after opening the Google Order button flow and do not alter Google Order provider counts unless they are provider rows.",
     "googleMapsListRecheck": "2026-06-17 Google Maps list recheck: current matching list-card online-order entries are authoritative for entry coverage; when a current matched card has no online-order entry, stale stored searchviewer/gmbOrderPanelUrl values are ignored and stale GMB provider claims are cleared."
   },
   "stores": [
@@ -132,8 +133,44 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0cDM1azM2eRgAOgMI8A0%3D&g2lbs=AIBNGdWTBgZQD_rK-vwzy_9YYTUpfEIBOA-GDKyNyjoHg85NHE2V5RoRoAgHWGKq2vTz-ZYyCEDS&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "UberEats 可能須支付手續費 11 到 26 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E6%B0%91%E6%AC%8A%E4%B8%AD%E5%B1%B1%E5%BA%97/FppTFOunWsqEtHjk6Ag8zA?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnE8LAYK0JzoYRET5rTtle2lZssw4jP2h3GnvXomgSW6fUVW-TGMXYjokbvrdUiaVofyJ-bwer8pY3m3E-Tr81HJnGmyDg%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0cDM1azM2eRgAOgMI8A0%3D&g2lbs=AIBNGdWTBgZQD_rK-vwzy_9YYTUpfEIBOA-GDKyNyjoHg85NHE2V5RoRoAgHWGKq2vTz-ZYyCEDS&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-001",
+          "storeName": "彼得好咖啡 中山民權店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ab3v&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dab3v&adj_fallback=https://foodpanda.com.tw/restaurant/ab3v/bi-de-hao-ka-pei-zhong-shan-min-quan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ab3v/bi-de-hao-ka-pei-zhong-shan-min-quan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0cDM1azM2eRgAOgMI8A0%3D&g2lbs=AIBNGdWTBgZQD_rK-vwzy_9YYTUpfEIBOA-GDKyNyjoHg85NHE2V5RoRoAgHWGKq2vTz-ZYyCEDS&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-001",
+          "storeName": "彼得好咖啡 中山民權店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -208,7 +245,8 @@
             "orderUrl": ""
           }
         ]
-      }
+      },
+      "gmbOrderLinks": []
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -283,7 +321,8 @@
             "orderUrl": ""
           }
         ]
-      }
+      },
+      "gmbOrderLinks": []
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -419,8 +458,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwZHk1dm4yNBgAOgMI8A0%3D&g2lbs=AIBNGdXxVDEhJJgjXBboDApOe3P23SBsZrCrvLre_nuqn2Nbqml_GlNEcIHQ8xtHCu-hGEJZZ43t&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 14 到 29 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E4%B8%89%E5%89%B5%E9%96%80%E5%B8%82/47ZDQH4KT6W67ZbYNpl5WQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnFkBxKH_5Z8Oue7EjVVUCcFuSk5lfpzVk2RGORpimQlZqWB-lF9nHOtLMooC5N3CJr5cEwrTKnZKXri9ON3Di9HWFbYKQ%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwZHk1dm4yNBgAOgMI8A0%3D&g2lbs=AIBNGdXxVDEhJJgjXBboDApOe3P23SBsZrCrvLre_nuqn2Nbqml_GlNEcIHQ8xtHCu-hGEJZZ43t&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-004",
+          "storeName": "彼得好咖啡 三創門市"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 10 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=sfs1&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dsfs1&adj_fallback=https://foodpanda.com.tw/restaurant/sfs1/bi-de-hao-ka-pei-tai-bei-san-chuang-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/sfs1/bi-de-hao-ka-pei-tai-bei-san-chuang-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwZHk1dm4yNBgAOgMI8A0%3D&g2lbs=AIBNGdXxVDEhJJgjXBboDApOe3P23SBsZrCrvLre_nuqn2Nbqml_GlNEcIHQ8xtHCu-hGEJZZ43t&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-004",
+          "storeName": "彼得好咖啡 三創門市"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -532,8 +608,28 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuZl8xcGdrahgBOgMI8A0%3D&g2lbs=AIBNGdXaZvs9trRHKL04BlVlQT03NvZUQVKuYhQ3ljierpyqEMHxrzQ7JyT43DKTdZhmhzR3lYSd&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 16 到 31 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E6%B0%91%E7%94%9F%E9%9B%99%E9%80%A3%E5%BA%97/NtuxrmV0QNK8Xq8NBNtyRQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnEyjOe_5cdKezF1VCp-Nm4XIa6tZc2Bkv7K-C5_AzWi_ijyJKK4w6BsQsEzdQvWbXliTQfhGb3yJb7JHRhkJpNhTqoKQg%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuZl8xcGdrahgBOgMI8A0%3D&g2lbs=AIBNGdXaZvs9trRHKL04BlVlQT03NvZUQVKuYhQ3ljierpyqEMHxrzQ7JyT43DKTdZhmhzR3lYSd&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-005",
+          "storeName": "彼得好咖啡 民生雙連店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -600,7 +696,8 @@
             "orderUrl": ""
           }
         ]
-      }
+      },
+      "gmbOrderLinks": []
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -675,7 +772,8 @@
             "orderUrl": ""
           }
         ]
-      }
+      },
+      "gmbOrderLinks": []
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -787,8 +885,28 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0NDA5ZjEwNxgBOgMI8A0%3D&g2lbs=AIBNGdVDfUpQK04Kr9X1ND9lsoW76Qg6ash5MjN9oshBSAZFTE8cv8RCzWVLp6q8lksrDc1lDovP&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 11 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=azus&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dazus&adj_fallback=https://foodpanda.com.tw/restaurant/azus/bi-de-hao-ka-pei-dong-men-yong-kang-dian-azus?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/azus/bi-de-hao-ka-pei-dong-men-yong-kang-dian-azus?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0NDA5ZjEwNxgBOgMI8A0%3D&g2lbs=AIBNGdVDfUpQK04Kr9X1ND9lsoW76Qg6ash5MjN9oshBSAZFTE8cv8RCzWVLp6q8lksrDc1lDovP&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-008",
+          "storeName": "彼得好咖啡 東門永康門市"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -886,8 +1004,27 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnODFyMDVuaBgAOgMI8A0%3D&g2lbs=AIBNGdWeh9G6-8PXN35gwE_GWLx7OrzES3aoT5XB9kj4PcZFjkWJSjhqVcQpCWqx8_1p4CL6paHG&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "UberEats 可能須支付手續費 11 到 26 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E4%BF%A1%E7%BE%A9%E5%A4%A7%E5%AE%89%E5%BA%97/yseoORtURFidl3vQDMD9UQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnHKjK4UpvJAD3F-nRMwP02YSv3_AKcn9Vba9S0I2Pmv6C42QUd7NOaIvRC8g9N1GN9NhAEb-DcMPmIEkrK5iNXxDsd51A%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnODFyMDVuaBgAOgMI8A0%3D&g2lbs=AIBNGdWeh9G6-8PXN35gwE_GWLx7OrzES3aoT5XB9kj4PcZFjkWJSjhqVcQpCWqx8_1p4CL6paHG&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-009",
+          "storeName": "彼得好咖啡 信義大安店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -1023,8 +1160,60 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMGhfMmtrbRgAOgMI8A0%3D&g2lbs=AIBNGdVLNYB7FnGWvm2n-t3XWfM9rXAHZpB6i2DFKpmqxE0a2iq6dE6wShkv7iODKohzjXR6AmIb&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "LINE",
+          "kind": "social_order_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "lin.ee 可能提供取貨服務",
+          "href": "https://lin.ee/oaB4Yj8",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMGhfMmtrbRgAOgMI8A0%3D&g2lbs=AIBNGdVLNYB7FnGWvm2n-t3XWfM9rXAHZpB6i2DFKpmqxE0a2iq6dE6wShkv7iODKohzjXR6AmIb&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-010",
+          "storeName": "彼得好咖啡 小巨蛋店"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "UberEats 可能須支付手續費 11 到 26 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E5%B0%8F%E5%B7%A8%E8%9B%8B%E5%BA%97/PCCe_ZFJTTKD3HClvHsR6A?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnH1lOyXwauywpEueZuo2r787xlgM3mkEBgiC56wXC8LFaGBwhaABKDTLo7xuQ0AzgdVbAJbHnB8dW9agxLjVunMYU1Ohw%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMGhfMmtrbRgAOgMI8A0%3D&g2lbs=AIBNGdVLNYB7FnGWvm2n-t3XWfM9rXAHZpB6i2DFKpmqxE0a2iq6dE6wShkv7iODKohzjXR6AmIb&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-010",
+          "storeName": "彼得好咖啡 小巨蛋店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "foodpanda 可能須支付手續費 8 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=gsce&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dgsce&adj_fallback=https://foodpanda.com.tw/restaurant/gsce/bi-de-hao-ka-pei-song-shan-ju-dan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/gsce/bi-de-hao-ka-pei-song-shan-ju-dan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMGhfMmtrbRgAOgMI8A0%3D&g2lbs=AIBNGdVLNYB7FnGWvm2n-t3XWfM9rXAHZpB6i2DFKpmqxE0a2iq6dE6wShkv7iODKohzjXR6AmIb&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-010",
+          "storeName": "彼得好咖啡 小巨蛋店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -1136,8 +1325,28 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsa3gyZDFrXxgBOgMI8A0%3D&g2lbs=AIBNGdUZABnZd5T55jMHfh8DxxoIafzyYO1Pro-2ST9iSf1q5eOXjmNG2C4beCdUoJ19YINbl-2F&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 9 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=xuhk&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dxuhk&adj_fallback=https://foodpanda.com.tw/restaurant/xuhk/bi-de-hao-ka-pei-nei-hu-xing-shan-dian-xuhk?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/xuhk/bi-de-hao-ka-pei-nei-hu-xing-shan-dian-xuhk?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsa3gyZDFrXxgBOgMI8A0%3D&g2lbs=AIBNGdUZABnZd5T55jMHfh8DxxoIafzyYO1Pro-2ST9iSf1q5eOXjmNG2C4beCdUoJ19YINbl-2F&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-011",
+          "storeName": "彼得好咖啡 內湖行善店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -1273,8 +1482,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMTBqcXNoeRgAOgMI8A0%3D&g2lbs=AIBNGdX0sah_G1kvQX8AiD8Kf2Xgaz7M84yKHNpQ16dIihcmfsXN3ChdVsoXQBhWQ8KrKWIGlDEJ&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 15 到 30 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E5%8F%A4%E4%BA%AD%E5%BA%97/mGp3FwuDQACqRsnuAH4xqw?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnFD2H3_OE4coKIwwVI0ZR0p6taAj5HM9XYSgX81-D-F_ieH70dltXJRofmk0lplqzKAbhP4hMbFJwPvf0BOEHYuEYouOQ%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMTBqcXNoeRgAOgMI8A0%3D&g2lbs=AIBNGdX0sah_G1kvQX8AiD8Kf2Xgaz7M84yKHNpQ16dIihcmfsXN3ChdVsoXQBhWQ8KrKWIGlDEJ&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-012",
+          "storeName": "彼得好咖啡 古亭店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 8 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ku4m&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dku4m&adj_fallback=https://foodpanda.com.tw/restaurant/ku4m/bi-de-hao-ka-pei-tai-bei-gu-ting-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ku4m/bi-de-hao-ka-pei-tai-bei-gu-ting-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMTBqcXNoeRgAOgMI8A0%3D&g2lbs=AIBNGdX0sah_G1kvQX8AiD8Kf2Xgaz7M84yKHNpQ16dIihcmfsXN3ChdVsoXQBhWQ8KrKWIGlDEJ&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-012",
+          "storeName": "彼得好咖啡 古亭店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -1418,8 +1664,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcDdnYmxmOBgBOgMI8A0%3D&g2lbs=AIBNGdW6Gv4fmAkWNHyNZknol3Ae2mkvKF1k2DO1RAV2zDrBn4xXpd4qXvIkobbck0fQ0792GfGU&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 15 到 30 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E5%8D%97%E9%96%80%E5%BA%97/eMu1QiCTS3ODR8ti6ugc6Q?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnEFsxMp4_zVStVzqw-_g-6H00qNz6rEN8csoeXRgH2u0nU14g1y8AeQyM-jpa4dA75Qt_rkOup-r4eNMggWgaLpMJXjIQ%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcDdnYmxmOBgBOgMI8A0%3D&g2lbs=AIBNGdW6Gv4fmAkWNHyNZknol3Ae2mkvKF1k2DO1RAV2zDrBn4xXpd4qXvIkobbck0fQ0792GfGU&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-013",
+          "storeName": "彼得好咖啡 南門店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 11 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=f7j2&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Df7j2&adj_fallback=https://foodpanda.com.tw/restaurant/f7j2/bi-de-hao-ka-pei-tai-bei-nan-men-dian-f7j2?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/f7j2/bi-de-hao-ka-pei-tai-bei-nan-men-dian-f7j2?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcDdnYmxmOBgBOgMI8A0%3D&g2lbs=AIBNGdW6Gv4fmAkWNHyNZknol3Ae2mkvKF1k2DO1RAV2zDrBn4xXpd4qXvIkobbck0fQ0792GfGU&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-013",
+          "storeName": "彼得好咖啡 南門店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -1555,8 +1838,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwa2NmZzYxbRgBOgMI8A0%3D&g2lbs=AIBNGdUcEYI35YYXtLfPkYSgsOm16m9AKXFzAmRUzl_YaQnc-DpPg4WEbtL-C6rDEb0Rx9ZHp1au&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 10 到 25 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E5%85%A7%E7%A7%91%E6%B4%B2%E5%AD%90%E5%BA%97/FAffGg1FSXmfeiuE4mjqgA?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnEWI7KF9YcZMhho0CsV8OWYsfrjd35Y1cDdbL-8VsPnnGR9fGqvuDZy5Nt-Jx6Uk9d7Jbsb8U8fN5shZoS0ofE485fHmA%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwa2NmZzYxbRgBOgMI8A0%3D&g2lbs=AIBNGdUcEYI35YYXtLfPkYSgsOm16m9AKXFzAmRUzl_YaQnc-DpPg4WEbtL-C6rDEb0Rx9ZHp1au&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-014",
+          "storeName": "彼得好咖啡 內科洲子店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 9 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=zk9w&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dzk9w&adj_fallback=https://foodpanda.com.tw/restaurant/zk9w/bi-de-hao-ka-pei-nei-hu-zhou-zi-dian-zk9w?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/zk9w/bi-de-hao-ka-pei-nei-hu-zhou-zi-dian-zk9w?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwa2NmZzYxbRgBOgMI8A0%3D&g2lbs=AIBNGdUcEYI35YYXtLfPkYSgsOm16m9AKXFzAmRUzl_YaQnc-DpPg4WEbtL-C6rDEb0Rx9ZHp1au&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-014",
+          "storeName": "彼得好咖啡 內科洲子店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -1668,8 +1988,28 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3Zmp3X2Y3YhgBOgMI8A0%3D&g2lbs=AIBNGdXzkg2jVzOPygeBnmR13i-SThG3ONJ35cwxIG8uLzJ2Er_bIIwjVxN83AG1-c0gg-fwc4mx&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 14 到 29 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E5%8C%97%E6%8A%95%E5%BA%97/y6IhmNwUUf2GiMozi8FKXw?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnFJTX0CRslcTeawkFoL6wmljxKWD10BndjmYXNnc924ZDj96jxq1ANvTAy71VZQrKRrrDZAWbzjjl8A6r4pAgoVxV_HrQ%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3Zmp3X2Y3YhgBOgMI8A0%3D&g2lbs=AIBNGdXzkg2jVzOPygeBnmR13i-SThG3ONJ35cwxIG8uLzJ2Er_bIIwjVxN83AG1-c0gg-fwc4mx&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-015",
+          "storeName": "彼得好咖啡 北投店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -1805,8 +2145,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMDQ3dG1uaxgBOgMI8A0%3D&g2lbs=AIBNGdVzAuNfptX-1HvbESFYjhU-x6w-_6Siw4ec_aqmXP1oVipv4gL62uDi1B-3ZENQ85-_o8pa&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 21 到 36 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E5%B8%82%E5%BA%9C%E6%9D%BE%E8%8F%B8%E5%BA%97/Wx_BH68rQhGMBMzo1UOOCA?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnFZirnIsxMJXd-ipxf1nTE-8XMnmie5MqbwSrC4yZNMbdD67icAEoIRKjsjpcteXVE-Sc17keOUslToBeHSRTQgDn2DvQ%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMDQ3dG1uaxgBOgMI8A0%3D&g2lbs=AIBNGdVzAuNfptX-1HvbESFYjhU-x6w-_6Siw4ec_aqmXP1oVipv4gL62uDi1B-3ZENQ85-_o8pa&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-016",
+          "storeName": "彼得好咖啡 市府松菸店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 11 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=xphi&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dxphi&adj_fallback=https://foodpanda.com.tw/restaurant/xphi/bi-de-hao-ka-pei-shi-fu-song-yan-dian-xphi?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/xphi/bi-de-hao-ka-pei-shi-fu-song-yan-dian-xphi?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMDQ3dG1uaxgBOgMI8A0%3D&g2lbs=AIBNGdVzAuNfptX-1HvbESFYjhU-x6w-_6Siw4ec_aqmXP1oVipv4gL62uDi1B-3ZENQ85-_o8pa&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-016",
+          "storeName": "彼得好咖啡 市府松菸店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -1881,7 +2258,8 @@
             "orderUrl": ""
           }
         ]
-      }
+      },
+      "gmbOrderLinks": []
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2017,8 +2395,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoejFxX3FjaBgBOgMI8A0%3D&g2lbs=AIBNGdU_P8I6YIA0lifmqgsvSajiHbIxfovXOkxBF2MQXpNVe_YI1-UGaGmX66ARJxKsqSC2aGFu&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 12 到 27 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E4%B8%96%E8%B2%BF%E5%BA%97/m81-WfRkSPWKatC9rmSs5w?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnE8BfodHcRG4jkFT3O5I1qZPBi-wu_4x9EWfijWvRuM3ILJRhUX-oPXYJVqspcxwCg7BngrH3LV0PuSUsoEHPmVn-GDMg%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoejFxX3FjaBgBOgMI8A0%3D&g2lbs=AIBNGdU_P8I6YIA0lifmqgsvSajiHbIxfovXOkxBF2MQXpNVe_YI1-UGaGmX66ARJxKsqSC2aGFu&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-018",
+          "storeName": "彼得好咖啡 世貿店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 8 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=joot&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Djoot&adj_fallback=https://foodpanda.com.tw/restaurant/joot/bi-de-hao-ka-pei-tai-bei-shi-mao-dian-joot?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/joot/bi-de-hao-ka-pei-tai-bei-shi-mao-dian-joot?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoejFxX3FjaBgBOgMI8A0%3D&g2lbs=AIBNGdU_P8I6YIA0lifmqgsvSajiHbIxfovXOkxBF2MQXpNVe_YI1-UGaGmX66ARJxKsqSC2aGFu&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=71oyasPIE-qivr0P-JfBkAU&ei=71oyasPIE-qivr0P-JfBkAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-018",
+          "storeName": "彼得好咖啡 世貿店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2146,8 +2561,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmajA1emh3cBgAOgMI8A0%3D&g2lbs=AIBNGdUR8BH41M0YVlslRhsVGODVAyNwXWXGfUsXYjexcjekZ8ZpUlPE3VrvC-VwmSU59y36GZ5I&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 14 到 29 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E4%B8%89%E9%87%8D%E5%BA%97/sGUQsN_HRKKdfYZYMPBeoQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnFbZRX9r1vG_M6p4jPY1I_0em8VhsmfJC-cnnu5wrPGNjq4zerzHtJXcENnGMBR2M-UJohdmdealUGJ8PHjT4A1FTfBvg%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmajA1emh3cBgAOgMI8A0%3D&g2lbs=AIBNGdUR8BH41M0YVlslRhsVGODVAyNwXWXGfUsXYjexcjekZ8ZpUlPE3VrvC-VwmSU59y36GZ5I&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-019",
+          "storeName": "彼得好咖啡 三重三和店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 9 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=zvow&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dzvow&adj_fallback=https://foodpanda.com.tw/restaurant/zvow/bi-de-hao-ka-pei-san-zhong-san-he-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/zvow/bi-de-hao-ka-pei-san-zhong-san-he-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmajA1emh3cBgAOgMI8A0%3D&g2lbs=AIBNGdUR8BH41M0YVlslRhsVGODVAyNwXWXGfUsXYjexcjekZ8ZpUlPE3VrvC-VwmSU59y36GZ5I&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-019",
+          "storeName": "彼得好咖啡 三重三和店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2275,8 +2727,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2Ynd3bnk2ZBgAOgMI8A0%3D&g2lbs=AIBNGdUa_0nq4d85H46hnmqwGC1BdZq_6u2ZhDVIEtZVUiwtLA6KPSqHfkWT7eZSU2W0vFZh4WIY&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 15 到 30 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E6%B0%B8%E5%AE%89%E9%96%80%E5%B8%82/0wJ86eRTXQ-ed8A8j9bANQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGy-re_-2q17uGI_FJWZm58gbJjA9emTfu4rjvzq1J_Es-baEq3_E1fKcbAwoKSTaxfw4aHxpppc1Tq6-Mg9TaFENCmsw%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2Ynd3bnk2ZBgAOgMI8A0%3D&g2lbs=AIBNGdUa_0nq4d85H46hnmqwGC1BdZq_6u2ZhDVIEtZVUiwtLA6KPSqHfkWT7eZSU2W0vFZh4WIY&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-020",
+          "storeName": "彼得好咖啡 永安店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 10 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=h1ni&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dh1ni&adj_fallback=https://foodpanda.com.tw/restaurant/h1ni/bi-de-hao-ka-pei-zhong-he-yong-an-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/h1ni/bi-de-hao-ka-pei-zhong-he-yong-an-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2Ynd3bnk2ZBgAOgMI8A0%3D&g2lbs=AIBNGdUa_0nq4d85H46hnmqwGC1BdZq_6u2ZhDVIEtZVUiwtLA6KPSqHfkWT7eZSU2W0vFZh4WIY&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-020",
+          "storeName": "彼得好咖啡 永安店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2351,7 +2840,8 @@
             "orderUrl": ""
           }
         ]
-      }
+      },
+      "gmbOrderLinks": []
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2467,8 +2957,61 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrajcxMjg4eBgAOgMI8A0%3D&g2lbs=AIBNGdVmKXUOkO-gVxwclgDeO-lnIC5EAmYLLEANJ38Lfp7RMwIOY3jGnq9QE_gLnvBRYjYPLoAR&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Instagram",
+          "kind": "social_order_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "instagram.com 商家網站",
+          "href": "https://instagram.com/peterbetter_wenhua?igshid=NTc4MTIwNjQ2YQ==",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrajcxMjg4eBgAOgMI8A0%3D&g2lbs=AIBNGdVmKXUOkO-gVxwclgDeO-lnIC5EAmYLLEANJ38Lfp7RMwIOY3jGnq9QE_gLnvBRYjYPLoAR&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-022",
+          "storeName": "彼得好咖啡 板橋文化店"
+        },
+        {
+          "platform": "LINE",
+          "kind": "social_order_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "line.me",
+          "href": "https://page.line.me/489twnrn",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrajcxMjg4eBgAOgMI8A0%3D&g2lbs=AIBNGdVmKXUOkO-gVxwclgDeO-lnIC5EAmYLLEANJ38Lfp7RMwIOY3jGnq9QE_gLnvBRYjYPLoAR&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-022",
+          "storeName": "彼得好咖啡 板橋文化店"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "UberEats 可能須支付手續費 16 到 31 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E6%9D%BF%E6%A9%8B%E6%96%87%E5%8C%96%E5%BA%97/eIHzP6XIXkGhQ-CR14sXmA?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGWBKh1n3KpF0b9BUeJd2HBDwV9LH1L9tQNFH8PvTIt005iGG4Rp4brEb1ayvlJKU1MLmvDr-FeBpz0A743akOC7oSaBA%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrajcxMjg4eBgAOgMI8A0%3D&g2lbs=AIBNGdVmKXUOkO-gVxwclgDeO-lnIC5EAmYLLEANJ38Lfp7RMwIOY3jGnq9QE_gLnvBRYjYPLoAR&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-022",
+          "storeName": "彼得好咖啡 板橋文化店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2596,8 +3139,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF4OHJoZDk0ZxgBOgMI8A0%3D&g2lbs=AIBNGdWEbRZihGdUIc7uCphbotrv7gELlC7JKVuvgSXySKIPWo9-Zab_tJPN2g3-w9piJ70-EQ4M&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 11 到 26 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E8%BC%94%E5%A4%A7%E9%96%80%E5%B8%82/sajHgjhnWCSLopYrms_Jjg?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnH1qmX8I5sQPRX7Oh0lZiYiDSVDbw2drPBuJvEgEWVMUuVWTi_u5DqIPj_05wTRK6sIBB-3UurW5IEswgXnk4etW8As2Q%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF4OHJoZDk0ZxgBOgMI8A0%3D&g2lbs=AIBNGdWEbRZihGdUIc7uCphbotrv7gELlC7JKVuvgSXySKIPWo9-Zab_tJPN2g3-w9piJ70-EQ4M&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-023",
+          "storeName": "彼得好咖啡 新莊輔大店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 9 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=s3l8&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Ds3l8&adj_fallback=https://foodpanda.com.tw/restaurant/s3l8/bi-de-hao-ka-pei-xin-zhuang-fu-da-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/s3l8/bi-de-hao-ka-pei-xin-zhuang-fu-da-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF4OHJoZDk0ZxgBOgMI8A0%3D&g2lbs=AIBNGdWEbRZihGdUIc7uCphbotrv7gELlC7JKVuvgSXySKIPWo9-Zab_tJPN2g3-w9piJ70-EQ4M&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-023",
+          "storeName": "彼得好咖啡 新莊輔大店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2664,7 +3244,8 @@
             "orderUrl": ""
           }
         ]
-      }
+      },
+      "gmbOrderLinks": []
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2780,8 +3361,44 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXRmNTVreV8YADoDCPAN&g2lbs=AIBNGdWZTyicfxrVEgVFhtLAb9Xiwb4VAxdXPtBBTIJBXuW1BHohI8hLO75onkQd4-eLKfDUfnbw&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "UberEats 可能須支付手續費 14 到 29 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E6%9D%BF%E6%A9%8B%E5%BA%97/lncrBSy8QnqbOdD64AfW_g?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnH8EshKmZnMAgy8o7ModbcYadsiaYDpEGi8cwaECdRMT8nX5tE_fJlNkCx0rxzNVInkJ7M1CI9HwftBaFyEEtGe1UBYLw%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXRmNTVreV8YADoDCPAN&g2lbs=AIBNGdWZTyicfxrVEgVFhtLAb9Xiwb4VAxdXPtBBTIJBXuW1BHohI8hLO75onkQd4-eLKfDUfnbw&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-025",
+          "storeName": "彼得好咖啡 板橋新埔店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=eln0&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Deln0&adj_fallback=https://foodpanda.com.tw/restaurant/eln0/bi-de-hao-ka-pei-ban-qiao-xin-bu-dian-eln0?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/eln0/bi-de-hao-ka-pei-ban-qiao-xin-bu-dian-eln0?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXRmNTVreV8YADoDCPAN&g2lbs=AIBNGdWZTyicfxrVEgVFhtLAb9Xiwb4VAxdXPtBBTIJBXuW1BHohI8hLO75onkQd4-eLKfDUfnbw&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=-VoyavCOB6bl1e8PkpK-kAw&ei=-VoyavCOB6bl1e8PkpK-kAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-025",
+          "storeName": "彼得好咖啡 板橋新埔店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2875,8 +3492,43 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3d192OXY1eRgAOgMI8A0%3D&g2lbs=AIBNGdWaW2aIJyljwnpO3j0RAHaZKuCs4c1O9zDai80M5yy-TQurFOaXX-BSDiuRO8tCh0t9R6Uw&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=G1syarId_Yi-vQ_Uoa3pBQ&ei=G1syarId_Yi-vQ_Uoa3pBQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "UberEats 可能須支付手續費 13 到 28 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E6%9E%97%E5%8F%A3%E9%95%B7%E5%BA%9A%E5%BA%97/K6BBLcxEWiSYGFJRkkSHxg?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnFZYIjbMgB0uOxqes68Svb3EDeB9DcRF8ZQY6dPyT5wnzMhgL4hthU94JsVai2oBlIhwEDxUiu3FQvlEUg9yYbqx8O7GA%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3d192OXY1eRgAOgMI8A0%3D&g2lbs=AIBNGdWaW2aIJyljwnpO3j0RAHaZKuCs4c1O9zDai80M5yy-TQurFOaXX-BSDiuRO8tCh0t9R6Uw&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=G1syarId_Yi-vQ_Uoa3pBQ&ei=G1syarId_Yi-vQ_Uoa3pBQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-026",
+          "storeName": "彼得好咖啡 林口長庚店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "foodpanda 可能須支付手續費 12 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=dcbb&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Ddcbb&adj_fallback=https://foodpanda.com.tw/restaurant/dcbb/bi-de-hao-ka-pei-lin-kou-chang-geng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/dcbb/bi-de-hao-ka-pei-lin-kou-chang-geng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3d192OXY1eRgAOgMI8A0%3D&g2lbs=AIBNGdWaW2aIJyljwnpO3j0RAHaZKuCs4c1O9zDai80M5yy-TQurFOaXX-BSDiuRO8tCh0t9R6Uw&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=G1syarId_Yi-vQ_Uoa3pBQ&ei=G1syarId_Yi-vQ_Uoa3pBQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-026",
+          "storeName": "彼得好咖啡 林口長庚店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -2935,7 +3587,8 @@
             "orderUrl": ""
           }
         ]
-      }
+      },
+      "gmbOrderLinks": []
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -3047,8 +3700,45 @@
             ],
             "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NDQ4ZmxwZBgAOgMI8A0%3D&g2lbs=AIBNGdXoDhd4h6Oqi_KCXbO5_q4VAzdv1SCnIVUhmDlCMBbwYapA-5cmtluitzwLBNKqblK-KjZd&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=1lUyasOIMZjH1e8Pj_ny6Qk&ei=1lUyasOIMZjH1e8Pj_ny6Qk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp"
           }
-        ]
-      }
+        ],
+        "orderLinksAuditedAt": "2026-06-17"
+      },
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 15 到 30 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%BD%BC%E5%BE%97%E5%A5%BD%E5%92%96%E5%95%A1-%E5%8F%B0%E5%8D%97%E5%B4%87%E5%BE%B7%E5%BA%97/BgsmAMScWH-FEqUhPc6S3A?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnEftX6MrWQ3izrdQv66pJle76EnK7qfIk20udx7JIUMB192V8kHqyCorv81bSz-fynIxPsmsTo29_iEgcgbP4JrzaK_FA%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NDQ4ZmxwZBgAOgMI8A0%3D&g2lbs=AIBNGdXoDhd4h6Oqi_KCXbO5_q4VAzdv1SCnIVUhmDlCMBbwYapA-5cmtluitzwLBNKqblK-KjZd&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=1lUyasOIMZjH1e8Pj_ny6Qk&ei=1lUyasOIMZjH1e8Pj_ny6Qk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-028",
+          "storeName": "彼得好咖啡 台南崇德店"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 9 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=nyly&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dnyly&adj_fallback=https://foodpanda.com.tw/restaurant/nyly/bi-de-hao-ka-pei-tai-nan-chong-de-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/nyly/bi-de-hao-ka-pei-tai-nan-chong-de-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NDQ4ZmxwZBgAOgMI8A0%3D&g2lbs=AIBNGdXoDhd4h6Oqi_KCXbO5_q4VAzdv1SCnIVUhmDlCMBbwYapA-5cmtluitzwLBNKqblK-KjZd&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=1lUyasOIMZjH1e8Pj_ny6Qk&ei=1lUyasOIMZjH1e8Pj_ny6Qk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-17",
+          "confidence": "confirmed",
+          "note": "Visible after opening the Google Order button flow.",
+          "storeId": "pbcafe-028",
+          "storeName": "彼得好咖啡 台南崇德店"
+        }
+      ]
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -3098,7 +3788,8 @@
         "matchQuality": "missing_named_gmb",
         "notes": "Official franchise history states 30 Taiwan stores in 2025, but this store was not confirmed as a named Google Maps/GMB profile during bounded search.",
         "attemptHistory": []
-      }
+      },
+      "gmbOrderLinks": []
     },
     {
       "brand": "彼得好咖啡 Peter Better Cafe",
@@ -3148,7 +3839,8 @@
         "matchQuality": "missing_named_gmb",
         "notes": "Official franchise history states 30 Taiwan stores in 2025, but this store was not confirmed as a named Google Maps/GMB profile during bounded search.",
         "attemptHistory": []
-      }
+      },
+      "gmbOrderLinks": []
     }
   ]
 }
