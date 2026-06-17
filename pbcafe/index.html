@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>彼得好咖啡點餐系統總覽</title>
+  <link rel="stylesheet" href="../assets/styles.css?v=31" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Brand Order Analysis</p>
+      <h1>彼得好咖啡點餐系統總覽</h1>
+      <p class="subhead">官方展店總數、Google/Maps 門市盤點、Google Order 供應商與待人工複核缺口。<span class="version">pbcafe local audit</span></p>
+    </div>
+    <div class="meta">
+      <span id="generatedAt">Loading</span>
+      <a href="data/stores.csv">CSV</a>
+      <a href="data/summary.json">Summary JSON</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="segmented" id="regionFilters"></div>
+      <label>城市<select id="cityFilter"></select></label>
+      <label>系統<select id="systemFilter"></select></label>
+      <label>Google Order 狀態<select id="gmbFilter"><option value="all">全部</option><option value="confirmed">Google Order 有供應商</option><option value="gap">Google Order 供應商缺口</option><option value="no_gmb_found">GMB/Maps 未找到</option></select></label>
+      <label class="search">搜尋門市<input id="searchInput" type="search" placeholder="門市、地址、城市" /></label>
+    </section>
+
+    <section class="insight-strip" id="insightStrip"></section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">1. Store Footprint</p><h2>品牌門市總覽</h2></div>
+        <p>官方網站未提供門市清單；本版以官方加盟頁 2025 年 30 家門市作為分母，逐店資料來自 Google/Maps 可見門市與公開點餐面板。</p>
+      </div>
+      <div class="kpi-grid" id="storeKpis"></div>
+      <div class="split map-layout">
+        <div>
+          <h3>台灣門市地圖</h3>
+          <p class="map-source">地圖顯示已定位城市；官方提及但未能在 Google/Maps 確認的門市列於明細表。</p>
+          <div class="taiwan-map" id="taiwanMap"></div>
+        </div>
+        <div><h3>城市排行</h3><div class="bars" id="cityBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">2. All Sources</p><h2>品牌整體點餐系統</h2></div>
+        <p>本版已計入公開 Google Order 面板中實際可見供應商；未打開或未解析的藍色點餐入口保留為待複核。</p>
+      </div>
+      <div class="kpi-grid" id="allSourceKpis"></div>
+      <div class="split">
+        <div><h3>全來源自取系統</h3><div class="bars" id="pickupBars"></div></div>
+        <div><h3>全來源外送系統</h3><div class="bars" id="deliveryBars"></div></div>
+      </div>
+      <div class="split compact">
+        <div><h3>大區導入率</h3><div class="matrix" id="regionMatrix"></div></div>
+        <div><h3>解讀</h3><p class="note">Google Maps 門市卡上的「線上點餐」只算入口；foodpanda / Uber Eats 等供應商必須在打開 Google Order 面板後看見供應商列才計入 GMB provider。</p></div>
+      </div>
+    </section>
+
+    <section class="panel warning">
+      <div class="section-title">
+        <div><p class="eyebrow">3. Google Order</p><h2>Google Order 供應商總覽</h2></div>
+        <p>只計入 Google 商家頁藍色「線上點餐」按鈕點入後，在自取或運送面板實際看到的供應商。</p>
+      </div>
+      <div class="kpi-grid" id="gmbKpis"></div>
+      <div class="split">
+        <div><h3>Google Order 自取供應商</h3><div class="bars" id="gmbPickupBars"></div></div>
+        <div><h3>Google Order 外送供應商</h3><div class="bars" id="gmbDeliveryBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">4. Comparison</p><h2>全來源 vs Google Order 供應商</h2></div></div>
+      <div class="table-wrap"><table><thead><tr><th>系統</th><th>全來源門市</th><th>全來源導入率</th><th>Google Order 供應商門市</th><th>Google Order 供應商覆蓋率</th><th>差距</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">5. Store Details</p><h2>門市明細</h2></div><p id="detailCount"></p></div>
+      <div class="table-wrap"><table class="details"><thead><tr><th>門市</th><th>區域</th><th>地址</th><th>全來源系統</th><th>Google Order 供應商</th><th>證據 / 複核</th></tr></thead><tbody id="storeRows"></tbody></table></div>
+    </section>
+  </main>
+
+  <script src="../assets/taiwan-map.js?v=31"></script>
+  <script src="data-inline.js"></script>
+  <script src="../assets/app.js?v=31"></script>
+</body>
+</html>

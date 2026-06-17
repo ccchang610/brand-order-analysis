@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-06-17",
+  "brand": "彼得好咖啡 Peter Better Cafe",
+  "brandSlug": "pbcafe",
+  "market": "Taiwan",
+  "sitePath": "/brand-order-analysis/pbcafe/",
+  "officialStoreCount": 30,
+  "gmbFoundCount": 28,
+  "gmbMissingCount": 2,
+  "googleFoundCount": 28,
+  "thirdPartyFoundCount": 20,
+  "verificationGapCount": 10,
+  "anyOrderingSystemCount": 20,
+  "anyOrderingSystemAdoptionRate": 0.6667,
+  "googleOrderEntryCount": 20,
+  "googleOrderEntryRate": 0.6667,
+  "gmbOrderingSystemCount": 20,
+  "gmbOrderingSystemAdoptionRate": 0.6667,
+  "gmbCoverageGapCount": 10,
+  "unknownOrderingSystemCount": 10,
+  "cityCounts": {
+    "基隆市": 0,
+    "台北市": 19,
+    "新北市": 6,
+    "桃園市": 3,
+    "新竹市": 0,
+    "新竹縣": 0,
+    "苗栗縣": 0,
+    "台中市": 0,
+    "彰化縣": 0,
+    "南投縣": 0,
+    "雲林縣": 0,
+    "嘉義縣": 0,
+    "嘉義市": 0,
+    "台南市": 1,
+    "高雄市": 0,
+    "屏東縣": 0,
+    "宜蘭縣": 0,
+    "花蓮縣": 0,
+    "台東縣": 0,
+    "澎湖縣": 0,
+    "金門縣": 0,
+    "連江縣": 0,
+    "待確認": 1
+  },
+  "regionCounts": {
+    "北部": 28,
+    "中部": 0,
+    "南部": 1,
+    "東部": 0,
+    "離島": 0,
+    "待確認": 1
+  },
+  "allSourceSystemCounts": {
+    "foodpanda": 16,
+    "Uber Eats": 18,
+    "LINE": 2
+  },
+  "allSourcePickupSystemCounts": {
+    "foodpanda": 14,
+    "Uber Eats": 12,
+    "LINE": 2
+  },
+  "allSourceDeliverySystemCounts": {
+    "foodpanda": 16,
+    "Uber Eats": 18,
+    "LINE": 2
+  },
+  "gmbSystemCounts": {
+    "foodpanda": 16,
+    "Uber Eats": 18,
+    "LINE": 2
+  },
+  "gmbPickupSystemCounts": {
+    "foodpanda": 14,
+    "Uber Eats": 12,
+    "LINE": 2
+  },
+  "gmbDeliverySystemCounts": {
+    "foodpanda": 16,
+    "Uber Eats": 18,
+    "LINE": 2
+  },
+  "allSourceSystemAdoptionRates": {
+    "foodpanda": 0.5333,
+    "Uber Eats": 0.6,
+    "LINE": 0.0667
+  },
+  "gmbSystemAdoptionRates": {
+    "foodpanda": 0.5333,
+    "Uber Eats": 0.6,
+    "LINE": 0.0667
+  },
+  "systemComparison": [
+    {
+      "system": "LINE",
+      "allSourceStoreCount": 2,
+      "allSourceAdoptionRate": 0.0667,
+      "gmbStoreCount": 2,
+      "gmbAdoptionRate": 0.0667,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "Uber Eats",
+      "allSourceStoreCount": 18,
+      "allSourceAdoptionRate": 0.6,
+      "gmbStoreCount": 18,
+      "gmbAdoptionRate": 0.6,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "foodpanda",
+      "allSourceStoreCount": 16,
+      "allSourceAdoptionRate": 0.5333,
+      "gmbStoreCount": 16,
+      "gmbAdoptionRate": 0.5333,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    }
+  ],
+  "gmbStatusCounts": {
+    "confirmed": 28,
+    "not_found": 2
+  },
+  "gmbOrderingStatusCounts": {
+    "confirmed": 20,
+    "no_gmb_order_button": 8,
+    "no_gmb_profile_match": 2
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 30,
+    "gmbFound": 28,
+    "googleFound": 28,
+    "thirdPartyFound": 20
+  },
+  "source": {
+    "officialWebsite": "https://www.pbcafe.com.tw/",
+    "officialFranchisePage": "https://www.pbcafe.com.tw/pages/franchise",
+    "officialStoreCountEvidence": "The official franchise history says Peter Better Cafe reached 30 stores in 2025. No official store locator was found.",
+    "googleMapsDiscovery": "Google Maps public search was used to identify named Taiwan store profiles.",
+    "notes": "Google Order providers are counted only when provider rows were visible inside opened searchviewer panels.",
+    "googleMapsListRecheck": "2026-06-17 Google Maps list recheck: current matching list-card online-order entries are authoritative for entry coverage; when a current matched card has no online-order entry, stale stored searchviewer/gmbOrderPanelUrl values are ignored and stale GMB provider claims are cleared."
+  },
+  "notes": [
+    "Official store denominator is 30 based on the brand franchise page's 2025 expansion history.",
+    "The official website has no public store locator in this run; store-level population is therefore a Google/Maps-derived working list with explicit unresolved gaps.",
+    "Closed or renamed historical stores such as Zhonghe Far Eastern and Xinzhuang Xintai were excluded from the active population.",
+    "Google Order entry coverage and provider rows are separated from all-source ordering evidence.",
+    "2026-06-17 Google Maps list recheck: current matching list-card online-order entries are authoritative for entry coverage; when a current matched card has no online-order entry, stale stored searchviewer/gmbOrderPanelUrl values are ignored and stale GMB provider claims are cleared."
+  ]
+}
