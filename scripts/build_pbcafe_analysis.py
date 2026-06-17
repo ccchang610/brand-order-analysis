@@ -507,7 +507,7 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>彼得好咖啡點餐系統總覽</title>
-  <link rel="stylesheet" href="../assets/styles.css?v=32" />
+  <link rel="stylesheet" href="../assets/styles.css?v=33" />
 </head>
 <body>
   <header class="topbar">
@@ -589,9 +589,9 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
     </section>
   </main>
 
-  <script src="../assets/taiwan-map.js?v=32"></script>
+  <script src="../assets/taiwan-map.js?v=33"></script>
   <script src="data-inline.js"></script>
-  <script src="../assets/app.js?v=32"></script>
+  <script src="../assets/app.js?v=33"></script>
 </body>
 </html>
 """

@@ -21,11 +21,15 @@ async def main() -> int:
             () => {
                 const stores = window.DAMING_DATA?.storesPayload?.stores || [];
                 const banqiao = stores.find((store) => store.storeId === 'pbcafe-022') || {};
+                const banqiaoRow = [...document.querySelectorAll('#storeRows tr')]
+                    .find((row) => row.innerText.includes('板橋文化店'));
+                const googleOrderCell = banqiaoRow?.querySelectorAll('td')?.[4]?.innerText || '';
                 return {
                     stores: stores.length,
                     banqiaoLinks: (banqiao.gmbOrderLinks || []).map((link) => link.platform),
                     hasInstagramText: document.body.innerText.includes('Instagram'),
-                    hasOrderLinksLabel: document.body.innerText.includes('點餐連結')
+                    googleOrderCellHasInstagram: googleOrderCell.includes('Instagram'),
+                    googleOrderCell
                 };
             }
             """
@@ -37,7 +41,7 @@ async def main() -> int:
         and result.get("stores") == 30
         and "Instagram" in (result.get("banqiaoLinks") or [])
         and result.get("hasInstagramText")
-        and result.get("hasOrderLinksLabel")
+        and result.get("googleOrderCellHasInstagram")
     )
     print(json.dumps({"ok": ok, "errors": errors, "result": result}, ensure_ascii=False, indent=2))
     return 0 if ok else 1

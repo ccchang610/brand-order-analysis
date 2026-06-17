@@ -209,7 +209,7 @@ function renderDetails(rows){
   byId("detailCount").textContent=`${rows.length} ${T.stores}`;
   byId("storeRows").innerHTML=rows.map(store=>{
     const allSummary=modeSummary(store.orderingSystems);
-    const gmbSummary=modeSummary(store.orderingSystems.filter(claim=>claim.sourceType==="gmb"));
+    const gmbSummary=googleOrderSummary(store);
     const gmbStatusLabel=store.gmbOrderingStatus==="button_confirmed_provider_pending"?"Google Order 有點餐入口，供應商待解析":store.gmbOrderingStatus==="unavailable_or_blocked"?"Google 阻擋/逾時，需人工複核":store.gmbOrderingStatus==="no_gmb_order_button"?"未找到 Google Order 藍色入口":store.gmbOrderingStatus;
     const links=store.orderingSystems.filter(claim=>claim.evidenceUrl).slice(0,5).map(claim=>`<a href="${claim.evidenceUrl}" target="_blank">${claim.label||claim.system}</a>`).join("、");
     const orderLinks=(store.gmbOrderLinks||[]).slice(0,8).map(link=>{const modes=(link.orderMode||[]).map(mode=>mode==="pickup"?T.pickup:mode==="delivery"?T.delivery:mode).join("/");return link.href?`<a href="${link.href}" target="_blank">${systemBadge(link.platform)}<small>${modes}</small></a>`:`<span>${systemBadge(link.platform)}<small>${modes}</small></span>`;}).join("");
@@ -223,6 +223,22 @@ function renderDetails(rows){
     const evidence=[gmbLink,panelLink,links,orderLinkBlock].filter(Boolean).join("、");
     return`<tr><td><b>${store.storeName}</b><br><small>${store.phone||""}</small></td><td>${store.regionGroup}<br>${store.city} ${store.district}</td><td>${store.address}</td><td>${allSummary||`<span class="pill gap">${T.noLink}</span>`}</td><td>${gmbSummary||`<span class="pill gap">${gmbStatusLabel}</span>`}${signalLabel}</td><td>${evidence}${reviewNote}</td></tr>`;
   }).join("");
+}
+function googleOrderSummary(store){
+  const groups={pickup:new Set(),delivery:new Set(),unknown:new Set()};
+  store.orderingSystems.filter(claim=>claim.sourceType==="gmb").forEach(claim=>{
+    const modes=claim.orderMode.length?claim.orderMode:["unknown"];
+    modes.forEach(mode=>(groups[mode]||groups.unknown).add(claim.system));
+  });
+  (store.gmbOrderLinks||[]).forEach(link=>{
+    const modes=(link.orderMode||[]).length?link.orderMode:["unknown"];
+    modes.forEach(mode=>(groups[mode]||groups.unknown).add(link.platform));
+  });
+  const labels=[];
+  if(groups.pickup.size)labels.push(`<span class="mode-pill">${T.pickup}\uff1a${systemList(groups.pickup)}</span>`);
+  if(groups.delivery.size)labels.push(`<span class="mode-pill">${T.delivery}\uff1a${systemList(groups.delivery)}</span>`);
+  if(groups.unknown.size)labels.push(`<span class="mode-pill gap">${T.unknown}\uff1a${systemList(groups.unknown)}</span>`);
+  return labels.join("");
 }
 function modeSummary(claims){const groups={pickup:new Set(),delivery:new Set(),unknown:new Set()};claims.forEach(claim=>{const modes=claim.orderMode.length?claim.orderMode:["unknown"];modes.forEach(mode=>(groups[mode]||groups.unknown).add(claim.system));});const labels=[];if(groups.pickup.size)labels.push(`<span class="mode-pill">${T.pickup}\uff1a${systemList(groups.pickup)}</span>`);if(groups.delivery.size)labels.push(`<span class="mode-pill">${T.delivery}\uff1a${systemList(groups.delivery)}</span>`);if(groups.unknown.size)labels.push(`<span class="mode-pill gap">${T.unknown}\uff1a${systemList(groups.unknown)}</span>`);return labels.join("");}
 
