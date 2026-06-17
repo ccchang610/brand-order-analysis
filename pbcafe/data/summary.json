@@ -52,8 +52,8 @@
     "待確認": 1
   },
   "allSourceSystemCounts": {
-    "foodpanda": 16,
     "Uber Eats": 18,
+    "foodpanda": 16,
     "LINE": 2
   },
   "allSourcePickupSystemCounts": {
@@ -62,13 +62,13 @@
     "LINE": 2
   },
   "allSourceDeliverySystemCounts": {
-    "foodpanda": 16,
     "Uber Eats": 18,
+    "foodpanda": 16,
     "LINE": 2
   },
   "gmbSystemCounts": {
-    "foodpanda": 16,
     "Uber Eats": 18,
+    "foodpanda": 16,
     "LINE": 2
   },
   "gmbPickupSystemCounts": {
@@ -77,19 +77,43 @@
     "LINE": 2
   },
   "gmbDeliverySystemCounts": {
-    "foodpanda": 16,
     "Uber Eats": 18,
+    "foodpanda": 16,
     "LINE": 2
   },
+  "gmbOrderOptionCounts": {
+    "Uber Eats": 18,
+    "foodpanda": 16,
+    "LINE": 2,
+    "Instagram": 1
+  },
+  "gmbOrderPickupOptionCounts": {
+    "foodpanda": 14,
+    "Uber Eats": 12,
+    "LINE": 2,
+    "Instagram": 1
+  },
+  "gmbOrderDeliveryOptionCounts": {
+    "Uber Eats": 18,
+    "foodpanda": 16,
+    "LINE": 2,
+    "Instagram": 1
+  },
   "allSourceSystemAdoptionRates": {
-    "foodpanda": 0.5333,
     "Uber Eats": 0.6,
+    "foodpanda": 0.5333,
     "LINE": 0.0667
   },
   "gmbSystemAdoptionRates": {
-    "foodpanda": 0.5333,
     "Uber Eats": 0.6,
+    "foodpanda": 0.5333,
     "LINE": 0.0667
+  },
+  "gmbOrderOptionAdoptionRates": {
+    "Uber Eats": 0.6,
+    "foodpanda": 0.5333,
+    "LINE": 0.0667,
+    "Instagram": 0.0333
   },
   "systemComparison": [
     {
@@ -140,14 +164,16 @@
     "officialFranchisePage": "https://www.pbcafe.com.tw/pages/franchise",
     "officialStoreCountEvidence": "The official franchise history says Peter Better Cafe reached 30 stores in 2025. No official store locator was found.",
     "googleMapsDiscovery": "Google Maps public search was used to identify named Taiwan store profiles.",
-    "notes": "Google Order providers are counted only when provider rows were visible inside opened searchviewer panels.",
-    "googleOrderLinksAudit": "Google Order panel links are recorded separately in store.gmbOrderLinks. They include links visible after opening the Google Order button flow and do not alter Google Order provider counts unless they are provider rows.",
+    "notes": "Google Order provider rows remain tracked separately; Google Order overview charts include provider rows plus visible panel links from gmbOrderLinks such as Instagram, LINE, and merchant sites.",
+    "googleOrderLinksAudit": "Google Order panel links are recorded in store.gmbOrderLinks and included in Google Order overview option charts while remaining distinguishable from strict provider-row counts.",
     "googleMapsListRecheck": "2026-06-17 Google Maps list recheck: current matching list-card online-order entries are authoritative for entry coverage; when a current matched card has no online-order entry, stale stored searchviewer/gmbOrderPanelUrl values are ignored and stale GMB provider claims are cleared."
   },
   "notes": [
     "Official store denominator is 30 based on the brand franchise page's 2025 expansion history.",
     "The official website has no public store locator in this run; store-level population is therefore a Google/Maps-derived working list with explicit unresolved gaps.",
     "Closed or renamed historical stores such as Zhonghe Far Eastern and Xinzhuang Xintai were excluded from the active population.",
+    "Google Order entry coverage, provider rows, and visible panel links are separated from all-source ordering evidence.",
+    "Google Order overview charts include provider rows plus gmbOrderLinks so order-flow destinations such as Instagram are visible in the summary.",
     "Google Order entry coverage and provider rows are separated from all-source ordering evidence.",
     "Visible links inside the opened Google Order flow are preserved in gmbOrderLinks, including social ordering links such as Instagram or LINE when present.",
     "2026-06-17 Google Maps list recheck: current matching list-card online-order entries are authoritative for entry coverage; when a current matched card has no online-order entry, stale stored searchviewer/gmbOrderPanelUrl values are ignored and stale GMB provider claims are cleared."

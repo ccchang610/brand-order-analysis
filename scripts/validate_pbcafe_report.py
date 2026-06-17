@@ -19,6 +19,25 @@ def unique_systems(stores, source_type=None):
     return counts
 
 
+def google_order_options(stores, mode=None):
+    counts = {}
+    for store in stores:
+        systems = set()
+        for claim in store.get("orderingSystems", []):
+            if claim.get("sourceType") != "gmb":
+                continue
+            if mode and mode not in claim.get("orderMode", []):
+                continue
+            systems.add(claim.get("system"))
+        for link in store.get("gmbOrderLinks", []):
+            if mode and mode not in link.get("orderMode", []):
+                continue
+            systems.add(link.get("platform"))
+        for system in systems:
+            counts[system] = counts.get(system, 0) + 1
+    return counts
+
+
 def main() -> int:
     stores_payload = json.loads((DATA / "stores.json").read_text(encoding="utf-8"))
     summary = json.loads((DATA / "summary.json").read_text(encoding="utf-8"))
@@ -54,6 +73,14 @@ def main() -> int:
     gmb_system_counts = unique_systems(stores, "gmb")
     if gmb_system_counts != summary["gmbSystemCounts"]:
         failures.append(f"gmbSystemCounts {summary['gmbSystemCounts']} != {gmb_system_counts}")
+
+    pickup_options = google_order_options(stores, "pickup")
+    if pickup_options != summary.get("gmbOrderPickupOptionCounts"):
+        failures.append(f"gmbOrderPickupOptionCounts {summary.get('gmbOrderPickupOptionCounts')} != {pickup_options}")
+
+    delivery_options = google_order_options(stores, "delivery")
+    if delivery_options != summary.get("gmbOrderDeliveryOptionCounts"):
+        failures.append(f"gmbOrderDeliveryOptionCounts {summary.get('gmbOrderDeliveryOptionCounts')} != {delivery_options}")
 
     stale = []
     for store in stores:
@@ -117,6 +144,8 @@ def main() -> int:
             "no_gmb_profile_match": summary["gmbOrderingStatusCounts"].get("no_gmb_profile_match"),
             "thirdPartyFoundCount": summary["thirdPartyFoundCount"],
             "gmbSystemCounts": summary["gmbSystemCounts"],
+            "gmbOrderPickupOptionCounts": summary.get("gmbOrderPickupOptionCounts"),
+            "gmbOrderDeliveryOptionCounts": summary.get("gmbOrderDeliveryOptionCounts"),
             "gmbOrderLinkStores": sum(1 for store in stores if store.get("gmbOrderLinks")),
         },
         "metadataNotePresent": bool(summary.get("source", {}).get("googleMapsListRecheck")),

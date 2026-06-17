@@ -24,11 +24,17 @@ async def main() -> int:
                 const banqiaoRow = [...document.querySelectorAll('#storeRows tr')]
                     .find((row) => row.innerText.includes('板橋文化店'));
                 const googleOrderCell = banqiaoRow?.querySelectorAll('td')?.[4]?.innerText || '';
+                const gmbPickupBars = document.querySelector('#gmbPickupBars')?.innerText || '';
+                const gmbDeliveryBars = document.querySelector('#gmbDeliveryBars')?.innerText || '';
+                const systemOptions = [...document.querySelectorAll('#systemFilter option')].map((option) => option.textContent);
                 return {
                     stores: stores.length,
                     banqiaoLinks: (banqiao.gmbOrderLinks || []).map((link) => link.platform),
                     hasInstagramText: document.body.innerText.includes('Instagram'),
                     googleOrderCellHasInstagram: googleOrderCell.includes('Instagram'),
+                    gmbPickupChartHasInstagram: gmbPickupBars.includes('Instagram'),
+                    gmbDeliveryChartHasInstagram: gmbDeliveryBars.includes('Instagram'),
+                    systemFilterHasInstagram: systemOptions.includes('Instagram'),
                     googleOrderCell
                 };
             }
@@ -42,6 +48,9 @@ async def main() -> int:
         and "Instagram" in (result.get("banqiaoLinks") or [])
         and result.get("hasInstagramText")
         and result.get("googleOrderCellHasInstagram")
+        and result.get("gmbPickupChartHasInstagram")
+        and result.get("gmbDeliveryChartHasInstagram")
+        and result.get("systemFilterHasInstagram")
     )
     print(json.dumps({"ok": ok, "errors": errors, "result": result}, ensure_ascii=False, indent=2))
     return 0 if ok else 1

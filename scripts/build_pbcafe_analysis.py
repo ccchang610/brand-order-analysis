@@ -367,6 +367,24 @@ def count_systems(stores: list[dict], source_type: str | None = None, mode: str 
     return dict(counts)
 
 
+def count_google_order_options(stores: list[dict], mode: str | None = None) -> dict:
+    counts = Counter()
+    for store in stores:
+        systems = set()
+        for claim in store.get("orderingSystems", []):
+            if claim.get("sourceType") != "gmb":
+                continue
+            if mode and mode not in claim.get("orderMode", []):
+                continue
+            systems.add(claim.get("system"))
+        for link in store.get("gmbOrderLinks", []):
+            if mode and mode not in link.get("orderMode", []):
+                continue
+            systems.add(link.get("platform"))
+        counts.update(system for system in systems if system)
+    return dict(counts)
+
+
 def rebuild_summary(stores: list[dict]) -> dict:
     official_count = len(stores)
     city_counts = {city: 0 for city in TAIWAN_CITIES}
@@ -377,6 +395,7 @@ def rebuild_summary(stores: list[dict]) -> dict:
         region_counts[store["regionGroup"]] = region_counts.get(store["regionGroup"], 0) + 1
     all_counts = count_systems(stores)
     gmb_counts = count_systems(stores, source_type="gmb")
+    gmb_order_option_counts = count_google_order_options(stores)
     systems = sorted(set(all_counts) | set(gmb_counts))
     return {
         "generatedAt": CHECKED_AT,
@@ -406,8 +425,12 @@ def rebuild_summary(stores: list[dict]) -> dict:
         "gmbSystemCounts": gmb_counts,
         "gmbPickupSystemCounts": count_systems(stores, source_type="gmb", mode="pickup"),
         "gmbDeliverySystemCounts": count_systems(stores, source_type="gmb", mode="delivery"),
+        "gmbOrderOptionCounts": gmb_order_option_counts,
+        "gmbOrderPickupOptionCounts": count_google_order_options(stores, mode="pickup"),
+        "gmbOrderDeliveryOptionCounts": count_google_order_options(stores, mode="delivery"),
         "allSourceSystemAdoptionRates": {k: round(v / official_count, 4) for k, v in all_counts.items()},
         "gmbSystemAdoptionRates": {k: round(v / official_count, 4) for k, v in gmb_counts.items()},
+        "gmbOrderOptionAdoptionRates": {k: round(v / official_count, 4) for k, v in gmb_order_option_counts.items()},
         "systemComparison": [
             {
                 "system": system,
@@ -431,13 +454,14 @@ def rebuild_summary(stores: list[dict]) -> dict:
             "officialFranchisePage": FRANCHISE_URL,
             "officialStoreCountEvidence": "The official franchise history says Peter Better Cafe reached 30 stores in 2025. No official store locator was found.",
             "googleMapsDiscovery": "Google Maps public search was used to identify named Taiwan store profiles.",
-            "notes": "Google Order providers are counted only when provider rows were visible inside opened searchviewer panels.",
+            "notes": "Google Order provider rows remain tracked separately; the Google Order overview charts also include visible panel links from gmbOrderLinks such as Instagram, LINE, and merchant sites.",
         },
         "notes": [
             "Official store denominator is 30 based on the brand franchise page's 2025 expansion history.",
             "The official website has no public store locator in this run; store-level population is therefore a Google/Maps-derived working list with explicit unresolved gaps.",
             "Closed or renamed historical stores such as Zhonghe Far Eastern and Xinzhuang Xintai were excluded from the active population.",
-            "Google Order entry coverage and provider rows are separated from all-source ordering evidence.",
+            "Google Order entry coverage, provider rows, and visible panel links are separated from all-source ordering evidence.",
+            "Google Order overview charts include provider rows plus gmbOrderLinks so order-flow destinations such as Instagram are visible in the summary.",
         ],
     }
 
@@ -507,14 +531,14 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>彼得好咖啡點餐系統總覽</title>
-  <link rel="stylesheet" href="../assets/styles.css?v=33" />
+  <link rel="stylesheet" href="../assets/styles.css?v=34" />
 </head>
 <body>
   <header class="topbar">
     <div>
       <p class="eyebrow">Brand Order Analysis</p>
       <h1>彼得好咖啡點餐系統總覽</h1>
-      <p class="subhead">官方展店總數、Google/Maps 門市盤點、Google Order 供應商與待人工複核缺口。<span class="version">pbcafe local audit</span></p>
+      <p class="subhead">官方展店總數、Google/Maps 門市盤點、Google Order 供應商/連結與待人工複核缺口。<span class="version">pbcafe local audit</span></p>
     </div>
     <div class="meta">
       <span id="generatedAt">Loading</span>
@@ -568,13 +592,13 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
 
     <section class="panel warning">
       <div class="section-title">
-        <div><p class="eyebrow">3. Google Order</p><h2>Google Order 供應商總覽</h2></div>
-        <p>只計入 Google 商家頁藍色「線上點餐」按鈕點入後，在自取或運送面板實際看到的供應商。</p>
+        <div><p class="eyebrow">3. Google Order</p><h2>Google Order 供應商/連結總覽</h2></div>
+        <p>計入 Google 商家頁藍色「線上點餐」按鈕點入後，在自取或運送面板實際看到的供應商列與點餐連結。</p>
       </div>
       <div class="kpi-grid" id="gmbKpis"></div>
       <div class="split">
-        <div><h3>Google Order 自取供應商</h3><div class="bars" id="gmbPickupBars"></div></div>
-        <div><h3>Google Order 外送供應商</h3><div class="bars" id="gmbDeliveryBars"></div></div>
+        <div><h3>Google Order 自取供應商/連結</h3><div class="bars" id="gmbPickupBars"></div></div>
+        <div><h3>Google Order 外送供應商/連結</h3><div class="bars" id="gmbDeliveryBars"></div></div>
       </div>
     </section>
 
@@ -589,9 +613,9 @@ def write_outputs(stores: list[dict], summary: dict) -> None:
     </section>
   </main>
 
-  <script src="../assets/taiwan-map.js?v=33"></script>
+  <script src="../assets/taiwan-map.js?v=34"></script>
   <script src="data-inline.js"></script>
-  <script src="../assets/app.js?v=33"></script>
+  <script src="../assets/app.js?v=34"></script>
 </body>
 </html>
 """
