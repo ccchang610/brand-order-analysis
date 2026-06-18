@@ -55,6 +55,14 @@ Field meanings:
 - `googleFound`: store was found by Google search or Google Maps search, even if Google Order provider evidence is not available.
 - `thirdPartyFound`: store appears on marketplace, aggregator, ordering, or directory sources.
 
+## Active Store Population
+
+For current ordering-system reports, `stores.json`, CSV exports, KPI cards, maps, charts, and store details should include active stores only.
+
+Exclude a store from the active report population when a matching Google Maps/GMB profile, official source, or user-provided evidence clearly shows permanent closure, closed, or moved status. Excluded stores should not contribute to `officialStoreCount`, city counts, region counts, adoption rates, Google Order coverage rates, provider counts, or evidence-gap counts.
+
+Keep ambiguous, blocked, duplicate, or unverified stores in the active dataset with `manualReviewReason` until closure is confirmed. If the user asks for historical coverage, closed stores may be retained, but the report should clearly label that the denominator is historical rather than active.
+
 ## Google Order Entry Fields
 
 Use these fields when a brand analysis includes Google Business Profile / Google Order provider evidence.
@@ -270,7 +278,7 @@ Order audit status, when a separate field is needed:
 
 - `brandSlug`: stable lowercase URL directory for the brand report, such as `daming`, `chage`, or another user-approved slug.
 - `sitePath`: published relative path to the report directory, such as `/brand-order-analysis/chage/` or `./chage/` depending on the site context.
-- `officialStoreCount`: total records in the official store population after deduplication.
+- `officialStoreCount`: total active records in the official store population after deduplication and confirmed permanently closed / closed / moved store exclusion, unless historical coverage was explicitly requested.
 - `gmbFoundCount`: stores where `sourceCoverage.gmbFound` is true or `gmbStatus` is `confirmed`.
 - `googleFoundCount`: stores where `sourceCoverage.googleFound` is true.
 - `thirdPartyFoundCount`: stores where `sourceCoverage.thirdPartyFound` is true.
@@ -370,6 +378,7 @@ If evidence conflicts, keep the conflict in `evidenceNotes`, keep both source ty
 Before publishing or handing off:
 
 - `officialStoreCount` equals the number of store records.
+- No store confirmed as permanently closed, closed, or moved remains in active `stores.json`, CSV, KPI cards, maps, charts, or store details unless historical coverage was explicitly requested.
 - `cityCounts` sums to `officialStoreCount`.
 - `regionCounts` sums to `officialStoreCount`.
 - `anyOrderingSystemAdoptionRate` equals `anyOrderingSystemCount / officialStoreCount`.

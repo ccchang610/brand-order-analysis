@@ -1,0 +1,1881 @@
+{
+  "generatedAt": "2026-06-18",
+  "brand": "吐司男 TOAST MAN",
+  "source": {
+    "officialWebsite": "https://toastman.tw/",
+    "officialStorePage": "https://toastman.tw/store/",
+    "officialStoreCountEvidence": "Official store page text lists Taiwan milestone stores through 2024; the live 營業據點 section exposes only region headings in HTML during this run.",
+    "googleMapsDiscovery": "Google Maps public search was used to find named Taiwan store profiles and visible order entries.",
+    "notes": "Google Order provider rows are counted only when observed in an opened Google order/searchviewer panel. Other provider links visible from Maps/search are counted as all-source evidence, not strict GMB provider evidence.",
+    "activeStoreFilter": "Stores with Google Maps/GMB status closed_or_moved and user-confirmed permanently closed profiles are excluded from the active-store denominator and report output."
+  },
+  "stores": [
+    {
+      "brand": "吐司男 TOAST MAN",
+      "storeId": "toastman-001",
+      "storeName": "吐司男台中學士創始店-TOASTMAN",
+      "seedName": "吐司男 台中學士創始店",
+      "country": "Taiwan",
+      "market": "Taiwan",
+      "regionGroup": "中部",
+      "city": "台中市",
+      "county": "台中市",
+      "district": "北區",
+      "address": "40454臺中市北區建興里學士路238號1樓",
+      "latitude": null,
+      "longitude": null,
+      "phone": "",
+      "hours": "",
+      "officialSourceUrl": "https://toastman.tw/store/",
+      "officialStoreUrl": "",
+      "officialMapUrl": "",
+      "googleSearchUrl": "https://www.google.com/search?q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E5%AD%B8%E5%A3%AB%E5%89%B5%E5%A7%8B%E5%BA%97",
+      "gmbUrl": "https://www.google.com/maps/place/%E5%90%90%E5%8F%B8%E7%94%B7%E5%8F%B0%E4%B8%AD%E5%AD%B8%E5%A3%AB%E5%89%B5%E5%A7%8B%E5%BA%97-TOASTMAN/@24.1608348,120.681102,17z/data=!3m1!4b1!4m6!3m5!1s0x34693dca089588a3:0xc2a5143ce90eaf17!8m2!3d24.1608348!4d120.681102!16s%2Fg%2F11h07tv51n?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "gmbStatus": "confirmed",
+      "gmbOrderingStatus": "confirmed",
+      "sourceCoverage": {
+        "officialListed": true,
+        "gmbFound": true,
+        "googleFound": true,
+        "thirdPartyFound": true
+      },
+      "orderingSystems": [
+        {
+          "system": "LINE",
+          "sourceType": "line",
+          "orderMode": [
+            "unknown"
+          ],
+          "evidenceUrl": "https://lin.ee/pNofbXz",
+          "label": " 預約 lin.ee",
+          "confidence": "partial"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
+      "evidenceNotes": "Official page provides milestone store names; Google Maps/Google Order bounded checks enrich current address and order evidence.",
+      "checkedAt": "2026-06-18",
+      "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "gmbPickupProviders": [
+        "foodpanda",
+        "LINE",
+        "Uber Eats"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "LINE",
+        "Uber Eats"
+      ],
+      "gmbOrderLinks": [
+        {
+          "platform": "LINE",
+          "kind": "order_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "lin.ee",
+          "href": "https://lin.ee/GN6KCQV",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=l2gb&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dl2gb&adj_fallback=https://foodpanda.com.tw/restaurant/l2gb/tu-si-nan-xue-shi-chuang-shi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/l2gb/tu-si-nan-xue-shi-chuang-shi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 18 到 33 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E5%AD%B8%E5%A3%AB%E5%BA%97/jHis52EXRVeVsY7NJCFV8A?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGTf0Hh2_r3Shf9XJF_GE6OkSlKk02PoOYIXiyOr5Svclb7DnOEC07umSKR3-bdgkc0zbeDyAssES8Tof8jwBF2EofFCw%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        }
+      ],
+      "gmbSignals": {
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 2,
+        "maxAttempts": 4,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "desktop_google_search",
+            "url": "https://www.google.com/search?hl=zh-TW&gl=tw&pws=0&q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E5%AD%B8%E5%A3%AB%E5%89%B5%E5%A7%8B%E5%BA%97+40454%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%BB%BA%E8%88%88%E9%87%8C%E5%AD%B8%E5%A3%AB%E8%B7%AF238%E8%99%9F1%E6%A8%93",
+            "status": "blocked",
+            "buttonDetected": false,
+            "providersParsed": false,
+            "pickupProviders": [],
+            "deliveryProviders": [],
+            "unknownProviders": [],
+            "panelUrl": ""
+          },
+          {
+            "attempt": 2,
+            "target": "desktop_maps_search",
+            "url": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E5%AD%B8%E5%A3%AB%E5%89%B5%E5%A7%8B%E5%BA%97+40454%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%BB%BA%E8%88%88%E9%87%8C%E5%AD%B8%E5%A3%AB%E8%B7%AF238%E8%99%9F1%E6%A8%93?hl=zh-TW&gl=tw",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "pickupProviders": [
+              "foodpanda",
+              "LINE",
+              "Uber Eats"
+            ],
+            "deliveryProviders": [
+              "foodpanda",
+              "LINE",
+              "Uber Eats"
+            ],
+            "unknownProviders": [],
+            "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+            "clickMethod": "searchviewer_href",
+            "gmbOrderLinks": [
+              {
+                "platform": "LINE",
+                "kind": "order_link",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "lin.ee",
+                "href": "https://lin.ee/GN6KCQV",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "foodpanda",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "foodpanda",
+                "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=l2gb&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dl2gb&adj_fallback=https://foodpanda.com.tw/restaurant/l2gb/tu-si-nan-xue-shi-chuang-shi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/l2gb/tu-si-nan-xue-shi-chuang-shi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 可能須支付手續費 18 到 33 分鐘內送達",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E5%AD%B8%E5%A3%AB%E5%BA%97/jHis52EXRVeVsY7NJCFV8A?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGTf0Hh2_r3Shf9XJF_GE6OkSlKk02PoOYIXiyOr5Svclb7DnOEC07umSKR3-bdgkc0zbeDyAssES8Tof8jwBF2EofFCw%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              }
+            ]
+          }
+        ],
+        "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=VUIzaqiqM7Db1e8PkfzxkQQ&ei=VUIzaqiqM7Db1e8PkfzxkQQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+        "checkedAt": "2026-06-18",
+        "checkMethod": "google_search_maps_desktop_mobile_multi_attempt",
+        "storeContext": "street_front",
+        "matchQuality": "named_gmb_profile",
+        "notes": ""
+      }
+    },
+    {
+      "brand": "吐司男 TOAST MAN",
+      "storeId": "toastman-002",
+      "storeName": "吐司男 晨食專賣 中科店",
+      "seedName": "吐司男 台中中科店",
+      "country": "Taiwan",
+      "market": "Taiwan",
+      "regionGroup": "中部",
+      "city": "台中市",
+      "county": "台中市",
+      "district": "西屯區",
+      "address": "407臺中市西屯區永安里西屯路三段166-90號",
+      "latitude": null,
+      "longitude": null,
+      "phone": "",
+      "hours": "",
+      "officialSourceUrl": "https://toastman.tw/store/",
+      "officialStoreUrl": "",
+      "officialMapUrl": "",
+      "googleSearchUrl": "https://www.google.com/search?q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E4%B8%AD%E7%A7%91%E5%BA%97",
+      "gmbUrl": "https://www.google.com/maps/place/%E5%90%90%E5%8F%B8%E7%94%B7+%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3+%E4%B8%AD%E7%A7%91%E5%BA%97/@24.1910576,120.6111219,17z/data=!4m7!3m6!1s0x346915bcca98e52f:0xc30282a58953d50!8m2!3d24.1910576!4d120.6111219!10e1!16s%2Fg%2F11fqc_kx35?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "gmbStatus": "confirmed",
+      "gmbOrderingStatus": "confirmed",
+      "sourceCoverage": {
+        "officialListed": true,
+        "gmbFound": true,
+        "googleFound": true,
+        "thirdPartyFound": true
+      },
+      "orderingSystems": [
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
+      "evidenceNotes": "Official page provides milestone store names; Google Maps/Google Order bounded checks enrich current address and order evidence.",
+      "checkedAt": "2026-06-18",
+      "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "gmbPickupProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "Uber Eats"
+      ],
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=p9fj&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dp9fj&adj_fallback=https://foodpanda.com.tw/restaurant/p9fj/tu-si-nan-chen-shi-zhuan-mai-tai-zhong-zhong-ke-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/p9fj/tu-si-nan-chen-shi-zhuan-mai-tai-zhong-zhong-ke-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 15 到 30 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E4%B8%AD%E7%A7%91%E5%BA%97/nFXCUE2MTxGBqRdtj9iGjA?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnHzySsZ-P-yh8ex9mWJBkjPx5ensJ7vOdRSkqY_AcN-cSvpmSfMS4UlnYOETncwDQKqYW-ZFr9xzW370nHglRErwWos9g%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        }
+      ],
+      "gmbSignals": {
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 2,
+        "maxAttempts": 4,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "desktop_google_search",
+            "url": "https://www.google.com/search?hl=zh-TW&gl=tw&pws=0&q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E4%B8%AD%E7%A7%91%E5%BA%97+407%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%B0%B8%E5%AE%89%E9%87%8C%E8%A5%BF%E5%B1%AF%E8%B7%AF%E4%B8%89%E6%AE%B5166-90%E8%99%9F",
+            "status": "blocked",
+            "buttonDetected": false,
+            "providersParsed": false,
+            "pickupProviders": [],
+            "deliveryProviders": [],
+            "unknownProviders": [],
+            "panelUrl": ""
+          },
+          {
+            "attempt": 2,
+            "target": "desktop_maps_search",
+            "url": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E4%B8%AD%E7%A7%91%E5%BA%97+407%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%B0%B8%E5%AE%89%E9%87%8C%E8%A5%BF%E5%B1%AF%E8%B7%AF%E4%B8%89%E6%AE%B5166-90%E8%99%9F?hl=zh-TW&gl=tw",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "pickupProviders": [
+              "foodpanda",
+              "Uber Eats"
+            ],
+            "deliveryProviders": [
+              "foodpanda",
+              "Uber Eats"
+            ],
+            "unknownProviders": [],
+            "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+            "clickMethod": "searchviewer_href",
+            "gmbOrderLinks": [
+              {
+                "platform": "foodpanda",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "foodpanda",
+                "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=p9fj&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dp9fj&adj_fallback=https://foodpanda.com.tw/restaurant/p9fj/tu-si-nan-chen-shi-zhuan-mai-tai-zhong-zhong-ke-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/p9fj/tu-si-nan-chen-shi-zhuan-mai-tai-zhong-zhong-ke-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 可能須支付手續費 15 到 30 分鐘內送達",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E4%B8%AD%E7%A7%91%E5%BA%97/nFXCUE2MTxGBqRdtj9iGjA?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnHzySsZ-P-yh8ex9mWJBkjPx5ensJ7vOdRSkqY_AcN-cSvpmSfMS4UlnYOETncwDQKqYW-ZFr9xzW370nHglRErwWos9g%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              }
+            ]
+          }
+        ],
+        "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcWNfa3gzNRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=fkIzavKDBcCdvr0P6OW3UA&ei=fkIzavKDBcCdvr0P6OW3UA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+        "checkedAt": "2026-06-18",
+        "checkMethod": "google_search_maps_desktop_mobile_multi_attempt",
+        "storeContext": "street_front",
+        "matchQuality": "named_gmb_profile",
+        "notes": ""
+      }
+    },
+    {
+      "brand": "吐司男 TOAST MAN",
+      "storeId": "toastman-003",
+      "storeName": "吐司男 晨食專賣 彰化中山店",
+      "seedName": "吐司男 彰化中山店",
+      "country": "Taiwan",
+      "market": "Taiwan",
+      "regionGroup": "中部",
+      "city": "彰化縣",
+      "county": "彰化縣",
+      "district": "彰化市",
+      "address": "500彰化縣彰化市永福里中山路二段565號",
+      "latitude": null,
+      "longitude": null,
+      "phone": "",
+      "hours": "",
+      "officialSourceUrl": "https://toastman.tw/store/",
+      "officialStoreUrl": "",
+      "officialMapUrl": "",
+      "googleSearchUrl": "https://www.google.com/search?q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%BD%B0%E5%8C%96%E4%B8%AD%E5%B1%B1%E5%BA%97",
+      "gmbUrl": "https://www.google.com/maps/place/%E5%90%90%E5%8F%B8%E7%94%B7+%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3+%E5%BD%B0%E5%8C%96%E4%B8%AD%E5%B1%B1%E5%BA%97/@24.0796394,120.5450832,17z/data=!4m7!3m6!1s0x34693923d598e6c5:0x462fb75c3abd6899!8m2!3d24.0796394!4d120.5450832!10e1!16s%2Fg%2F11j43djr24?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "gmbStatus": "confirmed",
+      "gmbOrderingStatus": "confirmed",
+      "sourceCoverage": {
+        "officialListed": true,
+        "gmbFound": true,
+        "googleFound": true,
+        "thirdPartyFound": true
+      },
+      "orderingSystems": [
+        {
+          "system": "LINE",
+          "sourceType": "line",
+          "orderMode": [
+            "unknown"
+          ],
+          "evidenceUrl": "https://lin.ee/NKHhxPm",
+          "label": " 預約 lin.ee",
+          "confidence": "partial"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
+      "evidenceNotes": "Official page provides milestone store names; Google Maps/Google Order bounded checks enrich current address and order evidence.",
+      "checkedAt": "2026-06-18",
+      "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "gmbPickupProviders": [
+        "Uber Eats",
+        "foodpanda",
+        "LINE"
+      ],
+      "gmbDeliveryProviders": [
+        "Uber Eats",
+        "foodpanda",
+        "LINE"
+      ],
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=r0vu&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dr0vu&adj_fallback=https://foodpanda.com.tw/restaurant/r0vu/tu-si-nan-zhang-hua-zhong-shan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/r0vu/tu-si-nan-zhang-hua-zhong-shan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "LINE",
+          "kind": "order_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "lin.ee",
+          "href": "https://lin.ee/NKHhxPm",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 免費用 5 到 15 分鐘內完成備餐",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E5%BD%B0%E5%8C%96%E4%B8%AD%E5%B1%B1%E5%BA%97/yZtG8ot1Q1WEWTt4A33SLQ?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGGWEv9EcmrcSW4bLrucWf52vvIeK5RdmFNVDIMCe6h_pa0ddHSmLnr4GxBdEV8WqkSgGef9UMI39vtv7Q7l4IltTH-Aw%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 10 到 25 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E5%BD%B0%E5%8C%96%E4%B8%AD%E5%B1%B1%E5%BA%97/yZtG8ot1Q1WEWTt4A33SLQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnFYR-sT446HfqL-TmfK7agtsl_HKvKIWVydSbnGRPTPj394k2AioBtjYnrRNooSfbnijg7DRjEignZ_mGM2CQtH5A__Zw%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        }
+      ],
+      "gmbSignals": {
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 2,
+        "maxAttempts": 4,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "desktop_google_search",
+            "url": "https://www.google.com/search?hl=zh-TW&gl=tw&pws=0&q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%BD%B0%E5%8C%96%E4%B8%AD%E5%B1%B1%E5%BA%97+500%E5%BD%B0%E5%8C%96%E7%B8%A3%E5%BD%B0%E5%8C%96%E5%B8%82%E6%B0%B8%E7%A6%8F%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5565%E8%99%9F",
+            "status": "blocked",
+            "buttonDetected": false,
+            "providersParsed": false,
+            "pickupProviders": [],
+            "deliveryProviders": [],
+            "unknownProviders": [],
+            "panelUrl": ""
+          },
+          {
+            "attempt": 2,
+            "target": "desktop_maps_search",
+            "url": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%BD%B0%E5%8C%96%E4%B8%AD%E5%B1%B1%E5%BA%97+500%E5%BD%B0%E5%8C%96%E7%B8%A3%E5%BD%B0%E5%8C%96%E5%B8%82%E6%B0%B8%E7%A6%8F%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5565%E8%99%9F?hl=zh-TW&gl=tw",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "pickupProviders": [
+              "Uber Eats",
+              "foodpanda",
+              "LINE"
+            ],
+            "deliveryProviders": [
+              "Uber Eats",
+              "foodpanda",
+              "LINE"
+            ],
+            "unknownProviders": [],
+            "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+            "clickMethod": "searchviewer_href",
+            "gmbOrderLinks": [
+              {
+                "platform": "foodpanda",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "foodpanda",
+                "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=r0vu&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dr0vu&adj_fallback=https://foodpanda.com.tw/restaurant/r0vu/tu-si-nan-zhang-hua-zhong-shan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/r0vu/tu-si-nan-zhang-hua-zhong-shan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "LINE",
+                "kind": "order_link",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "lin.ee",
+                "href": "https://lin.ee/NKHhxPm",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 免費用 5 到 15 分鐘內完成備餐",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E5%BD%B0%E5%8C%96%E4%B8%AD%E5%B1%B1%E5%BA%97/yZtG8ot1Q1WEWTt4A33SLQ?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGGWEv9EcmrcSW4bLrucWf52vvIeK5RdmFNVDIMCe6h_pa0ddHSmLnr4GxBdEV8WqkSgGef9UMI39vtv7Q7l4IltTH-Aw%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 可能須支付手續費 10 到 25 分鐘內送達",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E5%BD%B0%E5%8C%96%E4%B8%AD%E5%B1%B1%E5%BA%97/yZtG8ot1Q1WEWTt4A33SLQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnFYR-sT446HfqL-TmfK7agtsl_HKvKIWVydSbnGRPTPj394k2AioBtjYnrRNooSfbnijg7DRjEignZ_mGM2CQtH5A__Zw%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              }
+            ]
+          }
+        ],
+        "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNDNkanIyNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pUIzaqiONv-pvr0PvNa_mAo&ei=pUIzaqiONv-pvr0PvNa_mAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+        "checkedAt": "2026-06-18",
+        "checkMethod": "google_search_maps_desktop_mobile_multi_attempt",
+        "storeContext": "street_front",
+        "matchQuality": "named_gmb_profile",
+        "notes": ""
+      }
+    },
+    {
+      "brand": "吐司男 TOAST MAN",
+      "storeId": "toastman-007",
+      "storeName": "吐司男 台中逢甲店",
+      "seedName": "吐司男 台中逢甲店",
+      "country": "Taiwan",
+      "market": "Taiwan",
+      "regionGroup": "中部",
+      "city": "台中市",
+      "county": "台中市",
+      "district": "西屯區",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "phone": "",
+      "hours": "",
+      "officialSourceUrl": "https://toastman.tw/store/",
+      "officialStoreUrl": "",
+      "officialMapUrl": "",
+      "googleSearchUrl": "https://www.google.com/search?q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E9%80%A2%E7%94%B2%E5%BA%97",
+      "gmbUrl": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E9%80%A2%E7%94%B2%E5%BA%97/@24.5509058,120.9191853,10z/data=!3m1!4b1?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "gmbStatus": "confirmed",
+      "gmbOrderingStatus": "confirmed",
+      "sourceCoverage": {
+        "officialListed": true,
+        "gmbFound": true,
+        "googleFound": true,
+        "thirdPartyFound": true
+      },
+      "orderingSystems": [
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
+      "evidenceNotes": "Official page provides milestone store names; Google Maps/Google Order bounded checks enrich current address and order evidence.",
+      "checkedAt": "2026-06-18",
+      "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "gmbPickupProviders": [
+        "foodpanda",
+        "LINE",
+        "Uber Eats"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "LINE",
+        "Uber Eats"
+      ],
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=l2gb&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dl2gb&adj_fallback=https://foodpanda.com.tw/restaurant/l2gb/tu-si-nan-xue-shi-chuang-shi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/l2gb/tu-si-nan-xue-shi-chuang-shi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "LINE",
+          "kind": "order_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "lin.ee",
+          "href": "https://lin.ee/GN6KCQV",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 18 到 33 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E5%AD%B8%E5%A3%AB%E5%BA%97/jHis52EXRVeVsY7NJCFV8A?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGHYpdAthS7pZ25iSr6lShYyuFiDhnBHInFdrkrfa4HBaePVKawqEyiv7x7kavQQ4fbg50Wj3qu3L3sdhNvyjgQvR3YfA%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        }
+      ],
+      "gmbSignals": {
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 2,
+        "maxAttempts": 4,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "desktop_google_search",
+            "url": "https://www.google.com/search?hl=zh-TW&gl=tw&pws=0&q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E9%80%A2%E7%94%B2%E5%BA%97",
+            "status": "blocked",
+            "buttonDetected": false,
+            "providersParsed": false,
+            "pickupProviders": [],
+            "deliveryProviders": [],
+            "unknownProviders": [],
+            "panelUrl": ""
+          },
+          {
+            "attempt": 2,
+            "target": "desktop_maps_search",
+            "url": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E9%80%A2%E7%94%B2%E5%BA%97?hl=zh-TW&gl=tw",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "pickupProviders": [
+              "foodpanda",
+              "LINE",
+              "Uber Eats"
+            ],
+            "deliveryProviders": [
+              "foodpanda",
+              "LINE",
+              "Uber Eats"
+            ],
+            "unknownProviders": [],
+            "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+            "clickMethod": "searchviewer_href",
+            "gmbOrderLinks": [
+              {
+                "platform": "foodpanda",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "foodpanda",
+                "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=l2gb&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dl2gb&adj_fallback=https://foodpanda.com.tw/restaurant/l2gb/tu-si-nan-xue-shi-chuang-shi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/l2gb/tu-si-nan-xue-shi-chuang-shi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "LINE",
+                "kind": "order_link",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "lin.ee",
+                "href": "https://lin.ee/GN6KCQV",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 可能須支付手續費 18 到 33 分鐘內送達",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E5%AD%B8%E5%A3%AB%E5%BA%97/jHis52EXRVeVsY7NJCFV8A?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGHYpdAthS7pZ25iSr6lShYyuFiDhnBHInFdrkrfa4HBaePVKawqEyiv7x7kavQQ4fbg50Wj3qu3L3sdhNvyjgQvR3YfA%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              }
+            ]
+          }
+        ],
+        "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoMDd0djUxbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ZkMzasXLG4721e8P8tf_2AQ&ei=ZkMzasXLG4721e8P8tf_2AQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+        "checkedAt": "2026-06-18",
+        "checkMethod": "google_search_maps_desktop_mobile_multi_attempt",
+        "storeContext": "street_front",
+        "matchQuality": "needs_manual_review",
+        "notes": ""
+      }
+    },
+    {
+      "brand": "吐司男 TOAST MAN",
+      "storeId": "toastman-009",
+      "storeName": "吐司男 沙鹿北勢東店",
+      "seedName": "吐司男 台中沙鹿北勢東店",
+      "country": "Taiwan",
+      "market": "Taiwan",
+      "regionGroup": "中部",
+      "city": "台中市",
+      "county": "台中市",
+      "district": "沙鹿區",
+      "address": "43342臺中市沙鹿區北勢東路301號",
+      "latitude": null,
+      "longitude": null,
+      "phone": "",
+      "hours": "",
+      "officialSourceUrl": "https://toastman.tw/store/",
+      "officialStoreUrl": "",
+      "officialMapUrl": "",
+      "googleSearchUrl": "https://www.google.com/search?q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E6%B2%99%E9%B9%BF%E5%8C%97%E5%8B%A2%E6%9D%B1%E5%BA%97",
+      "gmbUrl": "https://www.google.com/maps/place/%E5%90%90%E5%8F%B8%E7%94%B7+%E6%B2%99%E9%B9%BF%E5%8C%97%E5%8B%A2%E6%9D%B1%E5%BA%97/@24.2176324,120.5794475,17z/data=!4m7!3m6!1s0x346915cb965e1a29:0xb784a9d8c6d06a11!8m2!3d24.2176324!4d120.5794475!10e1!16s%2Fg%2F11mvxj_n07?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "gmbStatus": "confirmed",
+      "gmbOrderingStatus": "confirmed",
+      "sourceCoverage": {
+        "officialListed": true,
+        "gmbFound": true,
+        "googleFound": true,
+        "thirdPartyFound": true
+      },
+      "orderingSystems": [
+        {
+          "system": "LINE",
+          "sourceType": "line",
+          "orderMode": [
+            "unknown"
+          ],
+          "evidenceUrl": "https://lin.ee/MX1EdcA",
+          "label": " 預約 lin.ee",
+          "confidence": "partial"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
+      "evidenceNotes": "Official page provides milestone store names; Google Maps/Google Order bounded checks enrich current address and order evidence.",
+      "checkedAt": "2026-06-18",
+      "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "gmbPickupProviders": [
+        "Uber Eats",
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "Uber Eats",
+        "foodpanda"
+      ],
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda 可能須支付手續費 12 到 45 分鐘內送達",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=is9q&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dis9q&adj_fallback=https://foodpanda.com.tw/restaurant/is9q/tu-si-nan-tai-zhong-sha-lu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/is9q/tu-si-nan-tai-zhong-sha-lu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 16 到 31 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E6%B2%99%E9%B9%BF%E5%8C%97%E5%8B%A2%E6%9D%B1%E5%BA%97/04eaz-MPQtGJn71KpWIf3Q?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnHWgOCM3IHr8C_rbbZWYh_Ttx_WjaTCOlQq6SIu41MrB0yq3tflcmOsHfjn_8r7Y4EGr0GNcqR3ieGG-IJj73mcGE0Q9w%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        }
+      ],
+      "gmbSignals": {
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 2,
+        "maxAttempts": 4,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "desktop_google_search",
+            "url": "https://www.google.com/search?hl=zh-TW&gl=tw&pws=0&q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E6%B2%99%E9%B9%BF%E5%8C%97%E5%8B%A2%E6%9D%B1%E5%BA%97+43342%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B2%99%E9%B9%BF%E5%8D%80%E5%8C%97%E5%8B%A2%E6%9D%B1%E8%B7%AF301%E8%99%9F",
+            "status": "blocked",
+            "buttonDetected": false,
+            "providersParsed": false,
+            "pickupProviders": [],
+            "deliveryProviders": [],
+            "unknownProviders": [],
+            "panelUrl": ""
+          },
+          {
+            "attempt": 2,
+            "target": "desktop_maps_search",
+            "url": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E6%B2%99%E9%B9%BF%E5%8C%97%E5%8B%A2%E6%9D%B1%E5%BA%97+43342%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B2%99%E9%B9%BF%E5%8D%80%E5%8C%97%E5%8B%A2%E6%9D%B1%E8%B7%AF301%E8%99%9F?hl=zh-TW&gl=tw",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "pickupProviders": [
+              "Uber Eats",
+              "foodpanda"
+            ],
+            "deliveryProviders": [
+              "Uber Eats",
+              "foodpanda"
+            ],
+            "unknownProviders": [],
+            "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+            "clickMethod": "searchviewer_href",
+            "gmbOrderLinks": [
+              {
+                "platform": "foodpanda",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "foodpanda 可能須支付手續費 12 到 45 分鐘內送達",
+                "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=is9q&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dis9q&adj_fallback=https://foodpanda.com.tw/restaurant/is9q/tu-si-nan-tai-zhong-sha-lu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/is9q/tu-si-nan-tai-zhong-sha-lu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 可能須支付手續費 16 到 31 分鐘內送達",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E6%B2%99%E9%B9%BF%E5%8C%97%E5%8B%A2%E6%9D%B1%E5%BA%97/04eaz-MPQtGJn71KpWIf3Q?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnHWgOCM3IHr8C_rbbZWYh_Ttx_WjaTCOlQq6SIu41MrB0yq3tflcmOsHfjn_8r7Y4EGr0GNcqR3ieGG-IJj73mcGE0Q9w%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              }
+            ]
+          }
+        ],
+        "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdnhqX24wNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=xUMzavDTN6aNvr0P79KzsQs&ei=xUMzavDTN6aNvr0P79KzsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+        "checkedAt": "2026-06-18",
+        "checkMethod": "google_search_maps_desktop_mobile_multi_attempt",
+        "storeContext": "street_front",
+        "matchQuality": "named_gmb_profile",
+        "notes": ""
+      }
+    },
+    {
+      "brand": "吐司男 TOAST MAN",
+      "storeId": "toastman-011",
+      "storeName": "吐司男 台中黎明店 早餐.午餐.下午茶",
+      "seedName": "吐司男 台中黎明店",
+      "country": "Taiwan",
+      "market": "Taiwan",
+      "regionGroup": "中部",
+      "city": "台中市",
+      "county": "台中市",
+      "district": "南屯區",
+      "address": "408臺中市南屯區三和里黎明路二段366號",
+      "latitude": null,
+      "longitude": null,
+      "phone": "",
+      "hours": "",
+      "officialSourceUrl": "https://toastman.tw/store/",
+      "officialStoreUrl": "",
+      "officialMapUrl": "",
+      "googleSearchUrl": "https://www.google.com/search?q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E9%BB%8E%E6%98%8E%E5%BA%97",
+      "gmbUrl": "https://www.google.com/maps/place/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E9%BB%8E%E6%98%8E%E5%BA%97+%E6%97%A9%E9%A4%90.%E5%8D%88%E9%A4%90.%E4%B8%8B%E5%8D%88%E8%8C%B6/@24.1503607,120.6355522,17z/data=!4m7!3m6!1s0x346917876969781f:0xee77f24fdc22dc33!8m2!3d24.1503607!4d120.6355522!10e1!16s%2Fg%2F11rn4frfz3?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "gmbStatus": "confirmed",
+      "gmbOrderingStatus": "confirmed",
+      "sourceCoverage": {
+        "officialListed": true,
+        "gmbFound": true,
+        "googleFound": true,
+        "thirdPartyFound": true
+      },
+      "orderingSystems": [
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
+      "evidenceNotes": "Official page provides milestone store names; Google Maps/Google Order bounded checks enrich current address and order evidence.",
+      "checkedAt": "2026-06-18",
+      "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "gmbPickupProviders": [
+        "Uber Eats",
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "Uber Eats",
+        "foodpanda"
+      ],
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=koz1&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dkoz1&adj_fallback=https://foodpanda.com.tw/restaurant/koz1/tu-si-nan-tai-zhong-li-ming-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/koz1/tu-si-nan-tai-zhong-li-ming-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 免費用 14 到 29 分鐘內完成備餐",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E9%BB%8E%E6%98%8E%E5%BA%97/awhPnNcZUqWHGYP3j3nwRg?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGDhAA9eDTr8qMGlAo4x6synNaq2mT7UOKXoTkMailfrYKOXTJXNOG5TRrT6HIZq1_kUQwiWgNm7uy1Wdc5WQWML6uABw%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 18 到 33 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E9%BB%8E%E6%98%8E%E5%BA%97/awhPnNcZUqWHGYP3j3nwRg?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnHX9r6O-lf0Opc9NSByYNv3LnWZBGPuJzcx9lW4BoeLvTuA1U7elhtmYQwzW1MH5hqVSmJus56u9JxreOlBd98ju4GqhA%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        }
+      ],
+      "gmbSignals": {
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 2,
+        "maxAttempts": 4,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "desktop_google_search",
+            "url": "https://www.google.com/search?hl=zh-TW&gl=tw&pws=0&q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E9%BB%8E%E6%98%8E%E5%BA%97+408%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E4%B8%89%E5%92%8C%E9%87%8C%E9%BB%8E%E6%98%8E%E8%B7%AF%E4%BA%8C%E6%AE%B5366%E8%99%9F",
+            "status": "blocked",
+            "buttonDetected": false,
+            "providersParsed": false,
+            "pickupProviders": [],
+            "deliveryProviders": [],
+            "unknownProviders": [],
+            "panelUrl": ""
+          },
+          {
+            "attempt": 2,
+            "target": "desktop_maps_search",
+            "url": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E4%B8%AD%E9%BB%8E%E6%98%8E%E5%BA%97+408%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E4%B8%89%E5%92%8C%E9%87%8C%E9%BB%8E%E6%98%8E%E8%B7%AF%E4%BA%8C%E6%AE%B5366%E8%99%9F?hl=zh-TW&gl=tw",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "pickupProviders": [
+              "Uber Eats",
+              "foodpanda"
+            ],
+            "deliveryProviders": [
+              "Uber Eats",
+              "foodpanda"
+            ],
+            "unknownProviders": [],
+            "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+            "clickMethod": "searchviewer_href",
+            "gmbOrderLinks": [
+              {
+                "platform": "foodpanda",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "foodpanda",
+                "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=koz1&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dkoz1&adj_fallback=https://foodpanda.com.tw/restaurant/koz1/tu-si-nan-tai-zhong-li-ming-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/koz1/tu-si-nan-tai-zhong-li-ming-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 免費用 14 到 29 分鐘內完成備餐",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E9%BB%8E%E6%98%8E%E5%BA%97/awhPnNcZUqWHGYP3j3nwRg?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnGDhAA9eDTr8qMGlAo4x6synNaq2mT7UOKXoTkMailfrYKOXTJXNOG5TRrT6HIZq1_kUQwiWgNm7uy1Wdc5WQWML6uABw%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 可能須支付手續費 18 到 33 分鐘內送達",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E9%BB%8E%E6%98%8E%E5%BA%97/awhPnNcZUqWHGYP3j3nwRg?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnHX9r6O-lf0Opc9NSByYNv3LnWZBGPuJzcx9lW4BoeLvTuA1U7elhtmYQwzW1MH5hqVSmJus56u9JxreOlBd98ju4GqhA%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              }
+            ]
+          }
+        ],
+        "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybjRmcmZ6MxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JEQzau2qH8Kpvr0PqKql8A4&ei=JEQzau2qH8Kpvr0PqKql8A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+        "checkedAt": "2026-06-18",
+        "checkMethod": "google_search_maps_desktop_mobile_multi_attempt",
+        "storeContext": "street_front",
+        "matchQuality": "named_gmb_profile",
+        "notes": ""
+      }
+    },
+    {
+      "brand": "吐司男 TOAST MAN",
+      "storeId": "toastman-013",
+      "storeName": "TOASTMAN 吐司男 宜蘭大學店",
+      "seedName": "吐司男 宜蘭大學店",
+      "country": "Taiwan",
+      "market": "Taiwan",
+      "regionGroup": "北部",
+      "city": "宜蘭縣",
+      "county": "宜蘭縣",
+      "district": "宜蘭市",
+      "address": "260宜蘭縣宜蘭市思源里神農路一段1-1號",
+      "latitude": null,
+      "longitude": null,
+      "phone": "",
+      "hours": "",
+      "officialSourceUrl": "https://toastman.tw/store/",
+      "officialStoreUrl": "",
+      "officialMapUrl": "",
+      "googleSearchUrl": "https://www.google.com/search?q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%AE%9C%E8%98%AD%E5%A4%A7%E5%AD%B8%E5%BA%97",
+      "gmbUrl": "https://www.google.com/maps/place/TOASTMAN+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%AE%9C%E8%98%AD%E5%A4%A7%E5%AD%B8%E5%BA%97/@24.7464082,121.7489593,17z/data=!4m7!3m6!1s0x3467e55798cba43f:0x1856db8a5d661ae6!8m2!3d24.7464082!4d121.7489593!10e1!16s%2Fg%2F11t8050fr7?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "gmbStatus": "confirmed",
+      "gmbOrderingStatus": "confirmed",
+      "sourceCoverage": {
+        "officialListed": true,
+        "gmbFound": true,
+        "googleFound": true,
+        "thirdPartyFound": true
+      },
+      "orderingSystems": [
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ODA1MGZyNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=gUQzatflE-yzvr0P0fiF6Ag&ei=gUQzatflE-yzvr0P0fiF6Ag&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ODA1MGZyNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=gUQzatflE-yzvr0P0fiF6Ag&ei=gUQzatflE-yzvr0P0fiF6Ag&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
+      "evidenceNotes": "Official page provides milestone store names; Google Maps/Google Order bounded checks enrich current address and order evidence.",
+      "checkedAt": "2026-06-18",
+      "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ODA1MGZyNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=gUQzatflE-yzvr0P0fiF6Ag&ei=gUQzatflE-yzvr0P0fiF6Ag&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda"
+      ],
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=q18f&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dq18f&adj_fallback=https://foodpanda.com.tw/restaurant/q18f/tu-si-nan-chen-shi-zhuan-mai-yi-lan-da-xue-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/q18f/tu-si-nan-chen-shi-zhuan-mai-yi-lan-da-xue-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ODA1MGZyNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=gUQzatflE-yzvr0P0fiF6Ag&ei=gUQzatflE-yzvr0P0fiF6Ag&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        }
+      ],
+      "gmbSignals": {
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 2,
+        "maxAttempts": 4,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "desktop_google_search",
+            "url": "https://www.google.com/search?hl=zh-TW&gl=tw&pws=0&q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%AE%9C%E8%98%AD%E5%A4%A7%E5%AD%B8%E5%BA%97+260%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%AE%9C%E8%98%AD%E5%B8%82%E6%80%9D%E6%BA%90%E9%87%8C%E7%A5%9E%E8%BE%B2%E8%B7%AF%E4%B8%80%E6%AE%B51-1%E8%99%9F",
+            "status": "blocked",
+            "buttonDetected": false,
+            "providersParsed": false,
+            "pickupProviders": [],
+            "deliveryProviders": [],
+            "unknownProviders": [],
+            "panelUrl": ""
+          },
+          {
+            "attempt": 2,
+            "target": "desktop_maps_search",
+            "url": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%AE%9C%E8%98%AD%E5%A4%A7%E5%AD%B8%E5%BA%97+260%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%AE%9C%E8%98%AD%E5%B8%82%E6%80%9D%E6%BA%90%E9%87%8C%E7%A5%9E%E8%BE%B2%E8%B7%AF%E4%B8%80%E6%AE%B51-1%E8%99%9F?hl=zh-TW&gl=tw",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "pickupProviders": [
+              "foodpanda"
+            ],
+            "deliveryProviders": [
+              "foodpanda"
+            ],
+            "unknownProviders": [],
+            "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ODA1MGZyNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=gUQzatflE-yzvr0P0fiF6Ag&ei=gUQzatflE-yzvr0P0fiF6Ag&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+            "clickMethod": "searchviewer_href",
+            "gmbOrderLinks": [
+              {
+                "platform": "foodpanda",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "foodpanda",
+                "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=q18f&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dq18f&adj_fallback=https://foodpanda.com.tw/restaurant/q18f/tu-si-nan-chen-shi-zhuan-mai-yi-lan-da-xue-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/q18f/tu-si-nan-chen-shi-zhuan-mai-yi-lan-da-xue-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ODA1MGZyNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=gUQzatflE-yzvr0P0fiF6Ag&ei=gUQzatflE-yzvr0P0fiF6Ag&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              }
+            ]
+          }
+        ],
+        "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0ODA1MGZyNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=gUQzatflE-yzvr0P0fiF6Ag&ei=gUQzatflE-yzvr0P0fiF6Ag&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+        "checkedAt": "2026-06-18",
+        "checkMethod": "google_search_maps_desktop_mobile_multi_attempt",
+        "storeContext": "street_front",
+        "matchQuality": "named_gmb_profile",
+        "notes": ""
+      }
+    },
+    {
+      "brand": "吐司男 TOAST MAN",
+      "storeId": "toastman-014",
+      "storeName": "吐司男台南金華店TOASTMAN｜台南早午餐｜厚吐司",
+      "seedName": "吐司男 台南金華店",
+      "country": "Taiwan",
+      "market": "Taiwan",
+      "regionGroup": "南部",
+      "city": "台南市",
+      "county": "台南市",
+      "district": "南區",
+      "address": "702臺南市南區金華里金華路二段141號",
+      "latitude": null,
+      "longitude": null,
+      "phone": "",
+      "hours": "",
+      "officialSourceUrl": "https://toastman.tw/store/",
+      "officialStoreUrl": "",
+      "officialMapUrl": "",
+      "googleSearchUrl": "https://www.google.com/search?q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E5%8D%97%E9%87%91%E8%8F%AF%E5%BA%97",
+      "gmbUrl": "https://www.google.com/maps/place/%E5%90%90%E5%8F%B8%E7%94%B7%E5%8F%B0%E5%8D%97%E9%87%91%E8%8F%AF%E5%BA%97TOASTMAN%EF%BD%9C%E5%8F%B0%E5%8D%97%E6%97%A9%E5%8D%88%E9%A4%90%EF%BD%9C%E5%8E%9A%E5%90%90%E5%8F%B8/@22.9805951,120.1911349,17z/data=!4m7!3m6!1s0x346e75b35340385b:0x2703e5cef05664b7!8m2!3d22.9805951!4d120.1911349!10e1!16s%2Fg%2F11kjpnq7qy?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "gmbStatus": "confirmed",
+      "gmbOrderingStatus": "confirmed",
+      "sourceCoverage": {
+        "officialListed": true,
+        "gmbFound": true,
+        "googleFound": true,
+        "thirdPartyFound": true
+      },
+      "orderingSystems": [
+        {
+          "system": "LINE",
+          "sourceType": "line",
+          "orderMode": [
+            "unknown"
+          ],
+          "evidenceUrl": "https://lin.ee/dbjJOZh",
+          "label": " 預約 lin.ee",
+          "confidence": "partial"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
+      "evidenceNotes": "Official page provides milestone store names; Google Maps/Google Order bounded checks enrich current address and order evidence.",
+      "checkedAt": "2026-06-18",
+      "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "gmbPickupProviders": [
+        "foodpanda",
+        "LINE",
+        "Uber Eats"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda",
+        "LINE",
+        "Uber Eats"
+      ],
+      "gmbOrderLinks": [
+        {
+          "platform": "LINE",
+          "kind": "order_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "lin.ee 商家首選",
+          "href": "https://lin.ee/dbjJOZh",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ra0s&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dra0s&adj_fallback=https://foodpanda.com.tw/restaurant/ra0s/tu-si-nan-chen-shi-zhuan-mai-tai-nan-jin-hua-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ra0s/tu-si-nan-chen-shi-zhuan-mai-tai-nan-jin-hua-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 13 到 28 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E9%87%91%E8%8F%AF%E5%BA%97/5MjYhO0IWW6Fr6sG_SK0sQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnHoP1Rh0BHfSgeX1x7aPo-qzZhp6M9aQj0dXiOvRUUBcgdNjlwxTJikl9Uv2hC9bJy54R6IdM0DpxY-s3maAaKMhAEAzA%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        }
+      ],
+      "gmbSignals": {
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 2,
+        "maxAttempts": 4,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "desktop_google_search",
+            "url": "https://www.google.com/search?hl=zh-TW&gl=tw&pws=0&q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E5%8D%97%E9%87%91%E8%8F%AF%E5%BA%97+702%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E9%87%91%E8%8F%AF%E9%87%8C%E9%87%91%E8%8F%AF%E8%B7%AF%E4%BA%8C%E6%AE%B5141%E8%99%9F",
+            "status": "blocked",
+            "buttonDetected": false,
+            "providersParsed": false,
+            "pickupProviders": [],
+            "deliveryProviders": [],
+            "unknownProviders": [],
+            "panelUrl": ""
+          },
+          {
+            "attempt": 2,
+            "target": "desktop_maps_search",
+            "url": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E5%8F%B0%E5%8D%97%E9%87%91%E8%8F%AF%E5%BA%97+702%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E9%87%91%E8%8F%AF%E9%87%8C%E9%87%91%E8%8F%AF%E8%B7%AF%E4%BA%8C%E6%AE%B5141%E8%99%9F?hl=zh-TW&gl=tw",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "pickupProviders": [
+              "foodpanda",
+              "LINE",
+              "Uber Eats"
+            ],
+            "deliveryProviders": [
+              "foodpanda",
+              "LINE",
+              "Uber Eats"
+            ],
+            "unknownProviders": [],
+            "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+            "clickMethod": "searchviewer_href",
+            "gmbOrderLinks": [
+              {
+                "platform": "LINE",
+                "kind": "order_link",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "lin.ee 商家首選",
+                "href": "https://lin.ee/dbjJOZh",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "foodpanda",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "foodpanda",
+                "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ra0s&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dra0s&adj_fallback=https://foodpanda.com.tw/restaurant/ra0s/tu-si-nan-chen-shi-zhuan-mai-tai-nan-jin-hua-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ra0s/tu-si-nan-chen-shi-zhuan-mai-tai-nan-jin-hua-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 可能須支付手續費 13 到 28 分鐘內送達",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E9%87%91%E8%8F%AF%E5%BA%97/5MjYhO0IWW6Fr6sG_SK0sQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnHoP1Rh0BHfSgeX1x7aPo-qzZhp6M9aQj0dXiOvRUUBcgdNjlwxTJikl9Uv2hC9bJy54R6IdM0DpxY-s3maAaKMhAEAzA%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              }
+            ]
+          }
+        ],
+        "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFranBucTdxeRgAOgMI8A0%3D&g2lbs=AIBNGdVMfaxG7_TUXnF9D9jwAYdDgzuM7LCVkAkkfFzbeIm54nvPzAbzkwff2GlXA3cg0muLI3qn&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qkQzapD0DsKBvr0P9bjB-QE&ei=qkQzapD0DsKBvr0P9bjB-QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+        "checkedAt": "2026-06-18",
+        "checkMethod": "google_search_maps_desktop_mobile_multi_attempt",
+        "storeContext": "street_front",
+        "matchQuality": "named_gmb_profile",
+        "notes": ""
+      }
+    },
+    {
+      "brand": "吐司男 TOAST MAN",
+      "storeId": "toastman-016",
+      "storeName": "吐司男 高雄承億店",
+      "seedName": "吐司男 高雄承億店",
+      "country": "Taiwan",
+      "market": "Taiwan",
+      "regionGroup": "南部",
+      "city": "高雄市",
+      "county": "高雄市",
+      "district": "前鎮區",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "phone": "",
+      "hours": "",
+      "officialSourceUrl": "https://toastman.tw/store/",
+      "officialStoreUrl": "",
+      "officialMapUrl": "",
+      "googleSearchUrl": "https://www.google.com/search?q=%E5%90%90%E5%8F%B8%E7%94%B7+%E9%AB%98%E9%9B%84%E6%89%BF%E5%84%84%E5%BA%97",
+      "gmbUrl": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E9%AB%98%E9%9B%84%E6%89%BF%E5%84%84%E5%BA%97/@23.8307041,120.9114728,8z/data=!3m1!4b1?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D",
+      "gmbStatus": "confirmed",
+      "gmbOrderingStatus": "confirmed",
+      "sourceCoverage": {
+        "officialListed": true,
+        "gmbFound": true,
+        "googleFound": true,
+        "thirdPartyFound": true
+      },
+      "orderingSystems": [
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuYzh4eXJ0chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=B0UzavOpBPGevr0PoPGa2As&ei=B0UzavOpBPGevr0PoPGa2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order pickup",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Uber Eats",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery"
+          ],
+          "evidenceUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuYzh4eXJ0chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=B0UzavOpBPGevr0PoPGa2As&ei=B0UzavOpBPGevr0PoPGa2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "label": "Google Order delivery",
+          "confidence": "confirmed"
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
+      "evidenceNotes": "Official page provides milestone store names; Google Maps/Google Order bounded checks enrich current address and order evidence.",
+      "checkedAt": "2026-06-18",
+      "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuYzh4eXJ0chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=B0UzavOpBPGevr0PoPGa2As&ei=B0UzavOpBPGevr0PoPGa2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "gmbPickupProviders": [
+        "Uber Eats"
+      ],
+      "gmbDeliveryProviders": [
+        "Uber Eats"
+      ],
+      "gmbOrderLinks": [
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 免費用 5 到 20 分鐘內完成備餐",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E8%97%9D%E6%96%87%E5%BA%97/9OBlmZSqVBe_s5uQRFkoEQ?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnF7FsfiHNbPYIh8UsIm_g8d_J_56mrLtVDOtqMRGIzliOryYFxS6-MuivP1GN5Gd2ptU2Jk7yBQ52M6OZybuty5tFNWrA%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuYzh4eXJ0chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=B0UzavOpBPGevr0PoPGa2As&ei=B0UzavOpBPGevr0PoPGa2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "Uber Eats",
+          "kind": "marketplace",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "label": "UberEats 可能須支付手續費 23 到 38 分鐘內送達",
+          "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E8%97%9D%E6%96%87%E5%BA%97/9OBlmZSqVBe_s5uQRFkoEQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnEMqu4szjTxQmmMJigeDYMLAax_DtDHEBu7ck9xclP4IZSMOf1UXsgJVbFZ5fAa1g3VrsJ5za2OKoe6utEiHT7hP9Tizg%3D%3D",
+          "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuYzh4eXJ0chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=B0UzavOpBPGevr0PoPGa2As&ei=B0UzavOpBPGevr0PoPGa2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+          "observedAt": "2026-06-18",
+          "confidence": "confirmed"
+        }
+      ],
+      "gmbSignals": {
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 2,
+        "maxAttempts": 4,
+        "attemptHistory": [
+          {
+            "attempt": 1,
+            "target": "desktop_google_search",
+            "url": "https://www.google.com/search?hl=zh-TW&gl=tw&pws=0&q=%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E9%AB%98%E9%9B%84%E6%89%BF%E5%84%84%E5%BA%97",
+            "status": "blocked",
+            "buttonDetected": false,
+            "providersParsed": false,
+            "pickupProviders": [],
+            "deliveryProviders": [],
+            "unknownProviders": [],
+            "panelUrl": ""
+          },
+          {
+            "attempt": 2,
+            "target": "desktop_maps_search",
+            "url": "https://www.google.com/maps/search/%E5%90%90%E5%8F%B8%E7%94%B7+%E5%90%90%E5%8F%B8%E7%94%B7+%E9%AB%98%E9%9B%84%E6%89%BF%E5%84%84%E5%BA%97?hl=zh-TW&gl=tw",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "pickupProviders": [
+              "Uber Eats"
+            ],
+            "deliveryProviders": [
+              "Uber Eats"
+            ],
+            "unknownProviders": [],
+            "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuYzh4eXJ0chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=B0UzavOpBPGevr0PoPGa2As&ei=B0UzavOpBPGevr0PoPGa2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+            "clickMethod": "searchviewer_href",
+            "gmbOrderLinks": [
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 免費用 5 到 20 分鐘內完成備餐",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E8%97%9D%E6%96%87%E5%BA%97/9OBlmZSqVBe_s5uQRFkoEQ?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnF7FsfiHNbPYIh8UsIm_g8d_J_56mrLtVDOtqMRGIzliOryYFxS6-MuivP1GN5Gd2ptU2Jk7yBQ52M6OZybuty5tFNWrA%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuYzh4eXJ0chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=B0UzavOpBPGevr0PoPGa2As&ei=B0UzavOpBPGevr0PoPGa2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              },
+              {
+                "platform": "Uber Eats",
+                "kind": "marketplace",
+                "sourceType": "gmb_order_panel",
+                "orderMode": [
+                  "delivery",
+                  "pickup"
+                ],
+                "label": "UberEats 可能須支付手續費 23 到 38 分鐘內送達",
+                "href": "https://www.ubereats.com/tw/store/%E5%90%90%E5%8F%B8%E7%94%B7-%E6%99%A8%E9%A3%9F%E5%B0%88%E8%B3%A3-%E8%97%9D%E6%96%87%E5%BA%97/9OBlmZSqVBe_s5uQRFkoEQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AFd1xnEMqu4szjTxQmmMJigeDYMLAax_DtDHEBu7ck9xclP4IZSMOf1UXsgJVbFZ5fAa1g3VrsJ5za2OKoe6utEiHT7hP9Tizg%3D%3D",
+                "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuYzh4eXJ0chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=B0UzavOpBPGevr0PoPGa2As&ei=B0UzavOpBPGevr0PoPGa2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+                "observedAt": "2026-06-18",
+                "confidence": "confirmed"
+              }
+            ]
+          }
+        ],
+        "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFuYzh4eXJ0chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=B0UzavOpBPGevr0PoPGa2As&ei=B0UzavOpBPGevr0PoPGa2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+        "checkedAt": "2026-06-18",
+        "checkMethod": "google_search_maps_desktop_mobile_multi_attempt",
+        "storeContext": "street_front",
+        "matchQuality": "needs_manual_review",
+        "notes": ""
+      }
+    }
+  ]
+}

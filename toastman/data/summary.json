@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-06-18",
+  "brand": "吐司男 TOAST MAN",
+  "brandSlug": "toastman",
+  "market": "Taiwan",
+  "sitePath": "/brand-order-analysis/toastman/",
+  "officialStoreCount": 9,
+  "gmbFoundCount": 9,
+  "gmbMissingCount": 0,
+  "googleFoundCount": 9,
+  "thirdPartyFoundCount": 9,
+  "verificationGapCount": 0,
+  "anyOrderingSystemCount": 9,
+  "anyOrderingSystemAdoptionRate": 1.0,
+  "googleOrderEntryCount": 9,
+  "googleOrderEntryRate": 1.0,
+  "gmbOrderingSystemCount": 9,
+  "gmbOrderingSystemAdoptionRate": 1.0,
+  "gmbCoverageGapCount": 0,
+  "unknownOrderingSystemCount": 0,
+  "cityCounts": {
+    "基隆市": 0,
+    "台北市": 0,
+    "新北市": 0,
+    "桃園市": 0,
+    "新竹市": 0,
+    "新竹縣": 0,
+    "苗栗縣": 0,
+    "台中市": 5,
+    "彰化縣": 1,
+    "南投縣": 0,
+    "雲林縣": 0,
+    "嘉義縣": 0,
+    "嘉義市": 0,
+    "台南市": 1,
+    "高雄市": 1,
+    "屏東縣": 0,
+    "宜蘭縣": 1,
+    "花蓮縣": 0,
+    "台東縣": 0,
+    "澎湖縣": 0,
+    "金門縣": 0,
+    "連江縣": 0
+  },
+  "regionCounts": {
+    "北部": 1,
+    "中部": 6,
+    "南部": 2,
+    "東部": 0,
+    "離島": 0
+  },
+  "allSourceSystemCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 8,
+    "LINE": 4
+  },
+  "allSourcePickupSystemCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 8
+  },
+  "allSourceDeliverySystemCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 8
+  },
+  "gmbSystemCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 8
+  },
+  "gmbPickupSystemCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 8
+  },
+  "gmbDeliverySystemCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 8
+  },
+  "gmbOrderOptionCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 8,
+    "LINE": 4
+  },
+  "gmbOrderPickupOptionCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 8,
+    "LINE": 4
+  },
+  "gmbOrderDeliveryOptionCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 8,
+    "LINE": 4
+  },
+  "allSourceSystemAdoptionRates": {
+    "Uber Eats": 0.8889,
+    "foodpanda": 0.8889,
+    "LINE": 0.4444
+  },
+  "gmbSystemAdoptionRates": {
+    "Uber Eats": 0.8889,
+    "foodpanda": 0.8889
+  },
+  "gmbOrderOptionAdoptionRates": {
+    "Uber Eats": 0.8889,
+    "foodpanda": 0.8889,
+    "LINE": 0.4444
+  },
+  "systemComparison": [
+    {
+      "system": "LINE",
+      "allSourceStoreCount": 4,
+      "allSourceAdoptionRate": 0.4444,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 4,
+      "percentagePointGap": 0.4444
+    },
+    {
+      "system": "Uber Eats",
+      "allSourceStoreCount": 8,
+      "allSourceAdoptionRate": 0.8889,
+      "gmbStoreCount": 8,
+      "gmbAdoptionRate": 0.8889,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "foodpanda",
+      "allSourceStoreCount": 8,
+      "allSourceAdoptionRate": 0.8889,
+      "gmbStoreCount": 8,
+      "gmbAdoptionRate": 0.8889,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    }
+  ],
+  "gmbStatusCounts": {
+    "confirmed": 9
+  },
+  "gmbOrderingStatusCounts": {
+    "confirmed": 9
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 9,
+    "gmbFound": 9,
+    "googleFound": 9,
+    "thirdPartyFound": 9
+  },
+  "source": {
+    "officialWebsite": "https://toastman.tw/",
+    "officialStorePage": "https://toastman.tw/store/",
+    "officialStoreCountEvidence": "Official store page text lists Taiwan milestone stores through 2024; the live 營業據點 section exposes only region headings in HTML during this run.",
+    "googleMapsDiscovery": "Google Maps public search was used to find named Taiwan store profiles and visible order entries.",
+    "notes": "Google Order provider rows are counted only when observed in an opened Google order/searchviewer panel. Other provider links visible from Maps/search are counted as all-source evidence, not strict GMB provider evidence.",
+    "activeStoreFilter": "Stores with Google Maps/GMB status closed_or_moved and user-confirmed permanently closed profiles are excluded from the active-store denominator and report output."
+  },
+  "notes": [
+    "Official denominator is 16 Taiwan stores from the brand store page milestone text, excluding Hong Kong stores and the explicitly marked 誠品南西快閃店.",
+    "The current official 營業據點 section does not expose store names or addresses in the page text; Google/Maps is therefore used to enrich address and ordering evidence.",
+    "Blocked, ambiguous, closed, or no-button Google Order checks are counted as coverage gaps, not proof of no ordering system.",
+    "Visible Google Order panel links are preserved in gmbOrderLinks and included in Google Order option charts without changing strict provider-row counts.",
+    "User-confirmed permanently closed profile excluded: toastman-012 新竹埔頂店."
+  ]
+}

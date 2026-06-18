@@ -36,40 +36,44 @@ Record evidence URLs and source types. Do not collapse official, Google, GMB, an
 ## Execution Steps
 
 1. Build the official store population and deduplicate stores.
-2. Normalize store identity and geography: store ID, store name, address, phone, city/county, district, and region group.
-3. For Taiwan, assign every store to one of 北部, 中部, 南部, 東部, 離島 when possible.
-4. Add `sourceCoverage` for each store:
+2. Classify the active store population before computing the report denominator:
+   - exclude stores whose matching Google Maps/GMB profile, official source, or user-provided evidence clearly shows permanent closure, closed, or moved status
+   - keep ambiguous, blocked, or unverified stores in active data with review status until closure is confirmed
+   - preserve excluded closed-store evidence in notes or an auxiliary audit trail when useful, but do not include excluded stores in `stores.json`, CSV, KPI cards, maps, charts, or store details unless the user asks for historical coverage
+3. Normalize active store identity and geography: store ID, store name, address, phone, city/county, district, and region group.
+4. For Taiwan, assign every active store to one of 北部, 中部, 南部, 東部, 離島 when possible.
+5. Add `sourceCoverage` for each active store:
    - `officialListed`
    - `gmbFound`
    - `googleFound`
    - `thirdPartyFound`
-5. Add public source URLs, including official source URL, official store URL, Google/GMB URL, and provider evidence URLs.
-6. Audit ordering systems from all available sources.
-7. Add each ordering-system claim to `orderingSystems` with:
+6. Add public source URLs, including official source URL, official store URL, Google/GMB URL, and provider evidence URLs.
+7. Audit ordering systems from all available sources.
+8. Add each ordering-system claim to `orderingSystems` with:
    - `system`
    - `sourceType`
    - `orderMode`
    - `evidenceUrl`
    - `confidence`
-8. Compute per-store booleans:
+9. Compute per-store booleans:
    - `hasAnyOrderingSystem`
    - `hasGmbOrderingSystem`
-9. Compute GMB/Google Order status fields:
+10. Compute GMB/Google Order status fields:
    - `gmbStatus`
    - `gmbOrderingStatus`
    - `manualReviewReason` when blocked, ambiguous, or unresolved
-10. Generate `data/stores.json`, `data/summary.json`, and CSV if useful.
-11. Build the dashboard HTML only after the dataset and summary formulas are stable.
+11. Generate `data/stores.json`, `data/summary.json`, and CSV if useful.
+12. Build the dashboard HTML only after the dataset and summary formulas are stable.
 
 ## Adoption and Counting Rules
 
-Use official store count as the denominator for adoption rates.
+Use active official store count as the denominator for adoption rates. Active official store count excludes stores clearly confirmed as permanently closed, closed, or moved unless historical coverage was explicitly requested.
 
-- Overall adoption rate = stores where `hasAnyOrderingSystem` is true / official store count.
-- Google Order provider coverage rate = stores with `sourceType: gmb` provider evidence / official store count.
+- Overall adoption rate = active stores where `hasAnyOrderingSystem` is true / active official store count.
+- Google Order provider coverage rate = active stores with `sourceType: gmb` provider evidence / active official store count.
 - Google Order provider evidence gap = stores where GMB was not found, Google was blocked or timed out, matches were ambiguous, or the blue Google Order entry/provider panel could not be confirmed after human-paced re-check. Stores with `button_confirmed_provider_pending` are not gaps.
 - Google Order provider evidence gaps are not non-adoption. Keep them separate from stores confirmed to have no ordering system.
-- Provider counts count a system once per store, even if multiple evidence URLs mention it.
+- Provider counts count a system once per active store, even if multiple evidence URLs mention it.
 
 ## Google Order Re-Check Protocol
 
@@ -275,6 +279,7 @@ Before publishing:
 
 - Generated JSON files parse.
 - `officialStoreCount` equals the number of store records.
+- Permanently closed, closed, or moved stores are excluded from active store records and denominator unless historical coverage was explicitly requested.
 - Overall adoption rate uses official store count as denominator.
 - Google Order provider coverage rate uses official store count as denominator.
 - Google Order provider evidence gaps are counted separately from confirmed non-adoption.

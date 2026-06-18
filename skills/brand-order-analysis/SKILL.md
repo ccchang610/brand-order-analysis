@@ -1,6 +1,6 @@
 ---
 name: brand-order-analysis
-description: Build or update reusable brand ordering-system overview analyses. Use when the user wants to analyze a brand's official store population, Taiwan city or region store distribution, Google Business Profile / Google Maps / GMB store coverage, ordering-system adoption from official sites, Google search, GMB, marketplaces, LINE links, or local ordering platforms, generate stores.json / summary.json / CSV datasets, compare all-source ordering systems against Google Order provider evidence, create Taiwan maps with region and city filters, build an internal dashboard-style HTML report, or publish the analysis as a static site such as GitHub Pages.
+description: Build or update reusable brand ordering-system overview analyses. Use when the user wants to analyze a brand's official store population, active store population after excluding permanently closed Google Business Profile / Google Maps stores, Taiwan city or region store distribution, Google Business Profile / Google Maps / GMB store coverage, ordering-system adoption from official sites, Google search, GMB, marketplaces, LINE links, or local ordering platforms, generate stores.json / summary.json / CSV datasets, compare all-source ordering systems against Google Order provider evidence, create Taiwan maps with region and city filters, build an internal dashboard-style HTML report, or publish the analysis as a static site such as GitHub Pages.
 ---
 
 # Brand Order Analysis
@@ -22,22 +22,23 @@ Read `references/workflow.md` for the full execution and HTML report structure. 
 
 1. Identify the brand, target market, and target geography.
 2. Build the official store population from the most authoritative source, preferably the brand website, official store locator, official API, or user-provided source.
-3. Normalize store name, address, phone, city/county, district, and Taiwan region group when applicable.
-4. Capture source coverage for each store:
+3. Classify active stores before computing the report denominator. Exclude stores that Google Maps/GMB or user-provided evidence clearly marks as permanently closed, closed, or moved unless the user explicitly requests historical coverage.
+4. Normalize store name, address, phone, city/county, district, and Taiwan region group when applicable.
+5. Capture source coverage for each active store:
    - official listed
    - Google search found
    - GMB / Google Maps found
    - third-party or marketplace found
-5. Audit ordering systems from all available public sources: official ordering, store pages, Google results, GMB, marketplace pages, LINE/order links, and local ordering platforms.
-6. Store each ordering-system claim as structured evidence with `system`, `sourceType`, `orderMode`, `evidenceUrl`, and `confidence`.
-7. Compute two separate ordering views:
+6. Audit ordering systems from all available public sources: official ordering, store pages, Google results, GMB, marketplace pages, LINE/order links, and local ordering platforms.
+7. Store each ordering-system claim as structured evidence with `system`, `sourceType`, `orderMode`, `evidenceUrl`, and `confidence`.
+8. Compute two separate ordering views:
    - all-source ordering systems
    - Google Order provider evidence
-8. Calculate adoption rates using official store count as the denominator.
-9. Treat missing or blocked Google Order provider evidence as a coverage gap, not as proof that the store has no ordering system.
-10. Generate `data/stores.json`, `data/summary.json`, and optionally `data/stores.csv`.
-11. If the user asks for an HTML output, build a dashboard-style report with store overview, all-source ordering overview, Google Order provider overview, comparison table, and store details.
-12. For multi-brand static sites, keep the repository root as the brand selector and place each brand report in its own stable slug directory.
+9. Calculate adoption rates using active official store count as the denominator.
+10. Treat missing or blocked Google Order provider evidence as a coverage gap, not as proof that the store has no ordering system.
+11. Generate `data/stores.json`, `data/summary.json`, and optionally `data/stores.csv`.
+12. If the user asks for an HTML output, build a dashboard-style report with store overview, all-source ordering overview, Google Order provider overview, comparison table, and store details.
+13. For multi-brand static sites, keep the repository root as the brand selector and place each brand report in its own stable slug directory.
 
 ## Source Rules
 
@@ -50,6 +51,7 @@ Read `references/workflow.md` for the full execution and HTML report structure. 
 - Do not infer unavailable dynamic Google Order entries. Mark them as `no_gmb_order_button`, `unavailable_or_blocked`, or `needs_manual_review`. If Google blocks a re-check but prior confirmed blue-button evidence exists, preserve the confirmed evidence and note the block.
 - Do not rely only on an official-site Maps link. Official links may open an address page or the wrong GMB profile. When a GMB result does not match the store name/address, search again by brand, store name, and address, then update `gmbUrl` or record the mismatch in `manualReviewReason`.
 - Count `sourceCoverage.gmbFound` only after a named Google Business Profile / Maps profile is visible and the profile name is highly similar to the intended store. A Google Maps address-only page, pin, or generic place page is only a lead; click the listed store card or re-search by brand + store name + address before counting GMB coverage or auditing Google Order.
+- If a matching GMB/Google Maps profile or user-provided screenshot clearly shows permanent closure, closed, or moved status, exclude that store from the active report population and active denominator. Preserve the exclusion in notes or an auxiliary audit trail when useful, but do not leave the closed store in `stores.json`, CSV, KPI cards, map counts, charts, or store details unless the user explicitly asks for historical stores.
 - Keep uncertain stores in the dataset instead of deleting them.
 
 ## Google Order Audit Rule
@@ -142,6 +144,7 @@ Before calling the work complete:
 
 - Verify generated JSON files parse successfully.
 - Confirm official store count equals the number of store records.
+- Confirm permanently closed, closed, or moved stores are excluded from the active store records and denominator unless historical coverage was explicitly requested.
 - Confirm all-source adoption rate equals stores with any ordering system divided by official store count.
 - Confirm Google Order provider coverage rate equals stores with `sourceType: gmb` provider evidence divided by official store count.
 - Confirm GMB profile missing stores and blocked Google Order checks are counted as coverage gaps, not as non-adoption.

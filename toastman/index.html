@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>吐司男點餐系統總覽</title>
+  <link rel="stylesheet" href="../assets/styles.css?v=34" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Brand Order Analysis</p>
+      <h1>吐司男點餐系統總覽</h1>
+      <p class="subhead">以官網門市頁品牌歷程列出的台灣門市為基準，彙整 Google/Maps、Google Order、Nidin、Uber Eats、foodpanda、LINE、QuickClick 等公開點餐證據。<span class="version">toastman local audit</span></p>
+    </div>
+    <div class="meta">
+      <span id="generatedAt">Loading</span>
+      <a href="data/stores.csv">CSV</a>
+      <a href="data/summary.json">Summary JSON</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="segmented" id="regionFilters"></div>
+      <label>城市<select id="cityFilter"></select></label>
+      <label>系統<select id="systemFilter"></select></label>
+      <label>Google Order 狀態<select id="gmbFilter"><option value="all">全部</option><option value="confirmed">Google Order 有證據</option><option value="gap">Google Order 證據缺口</option><option value="no_gmb_found">GMB/Maps 未找到</option></select></label>
+      <label class="search">搜尋門市<input id="searchInput" type="search" placeholder="門市、地址、城市" /></label>
+    </section>
+
+    <section class="insight-strip" id="insightStrip"></section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">1. Store Footprint</p><h2>官方門市與地理分布</h2></div>
+        <p>官網目前可讀文字提供品牌歷程與台灣門市名稱；營業據點區塊在 HTML 中僅露出北/中/南區標題，因此地址與 GMB 狀態以 Google/Maps bounded check 補強。</p>
+      </div>
+      <div class="kpi-grid" id="storeKpis"></div>
+      <div class="split map-layout">
+        <div>
+          <h3>台灣門市地圖</h3>
+          <p class="map-source">所有城市維持 22 縣市框架，0 代表本次官方種子未列該縣市門市。</p>
+          <div class="taiwan-map" id="taiwanMap"></div>
+        </div>
+        <div><h3>城市排行</h3><div class="bars" id="cityBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">2. All Sources</p><h2>全來源點餐系統</h2></div>
+        <p>全來源證據包含 Google/Maps 上可見的點餐、平台或 LINE/Nidin 連結；這些不會自動轉成 Google Order provider row。</p>
+      </div>
+      <div class="kpi-grid" id="allSourceKpis"></div>
+      <div class="split">
+        <div><h3>自取系統</h3><div class="bars" id="pickupBars"></div></div>
+        <div><h3>外送系統</h3><div class="bars" id="deliveryBars"></div></div>
+      </div>
+      <div class="split compact">
+        <div><h3>區域導入率</h3><div class="matrix" id="regionMatrix"></div></div>
+        <div><h3>判讀說明</h3><p class="note">Google Order provider 僅在開啟藍色點餐流程後、面板內可見 provider row 時才計入；一般 Maps 網站列或有機結果只作為全來源證據。</p></div>
+      </div>
+    </section>
+
+    <section class="panel warning">
+      <div class="section-title">
+        <div><p class="eyebrow">3. Google Order</p><h2>Google Order provider/link 視圖</h2></div>
+        <p>下列統計保留 strict provider row 與面板可見連結兩個層次。證據缺口代表未讀到 Google Order provider，不等於門市沒有點餐系統。</p>
+      </div>
+      <div class="kpi-grid" id="gmbKpis"></div>
+      <div class="split">
+        <div><h3>Google Order 自取選項</h3><div class="bars" id="gmbPickupBars"></div></div>
+        <div><h3>Google Order 外送選項</h3><div class="bars" id="gmbDeliveryBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">4. Comparison</p><h2>全來源 vs Google Order provider</h2></div></div>
+      <div class="table-wrap"><table><thead><tr><th>系統</th><th>全來源門市</th><th>全來源率</th><th>Google Order provider 門市</th><th>Google Order provider 率</th><th>缺口</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">5. Store Details</p><h2>門市明細</h2></div><p id="detailCount"></p></div>
+      <div class="table-wrap"><table class="details"><thead><tr><th>門市</th><th>區域</th><th>地址</th><th>全來源點餐</th><th>Google Order 證據</th><th>連結 / 複核</th></tr></thead><tbody id="storeRows"></tbody></table></div>
+    </section>
+  </main>
+
+  <script src="../assets/taiwan-map.js?v=34"></script>
+  <script src="data-inline.js"></script>
+  <script src="../assets/app.js?v=34"></script>
+</body>
+</html>
