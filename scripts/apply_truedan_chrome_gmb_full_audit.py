@@ -19,6 +19,13 @@ FULL_AUDIT_PATH = DATA / "chrome_gmb_full_order_audit.json"
 
 NOW = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 NO_BUTTON_STATUSES = {"online_text_without_button", "no_gmb_order_button"}
+MANUAL_GMB_OVERRIDES = {
+    "truedan-tw-14-02": {
+        "providers": ["foodpanda"],
+        "modes": ["pickup", "delivery"],
+        "note": "User-supplied correction on 2026-06-23: Linkou Chang Gung has Google Order pickup and delivery, both foodpanda only.",
+    }
+}
 
 
 def load(path: Path):
@@ -291,6 +298,104 @@ def apply_no_button(store: dict, audit_row: dict, maps_audit: dict, mode_audit: 
     }
 
 
+def apply_manual_override(store: dict, override: dict, maps_audit: dict, mode_audit: dict, audit_rows: list[dict]) -> None:
+    clear_strict_gmb(store)
+    modes = override["modes"]
+    providers = override["providers"]
+    evidence_url = store.get("gmbUrl") or store.get("googleSearchUrl") or store.get("officialSourceUrl") or ""
+    store["orderingSystems"].extend(
+        {
+            "system": provider,
+            "sourceType": "gmb",
+            "orderMode": modes,
+            "evidenceUrl": evidence_url,
+            "confidence": "confirmed",
+            "evidenceNote": override["note"],
+        }
+        for provider in providers
+    )
+    store["gmbPickupProviders"] = sorted(providers if "pickup" in modes else [])
+    store["gmbDeliveryProviders"] = sorted(providers if "delivery" in modes else [])
+    store["gmbOrderModesConfirmed"] = modes
+    store["gmbStatus"] = "confirmed"
+    store["gmbOrderingStatus"] = "confirmed"
+    store["hasGmbOrderingSystem"] = True
+    store["hasAnyOrderingSystem"] = True
+    store["manualReviewReason"] = ""
+    store.setdefault("sourceCoverage", {}).update(
+        {"officialListed": True, "gmbFound": True, "googleFound": True, "thirdPartyFound": True}
+    )
+    store["gmbSignals"] = {
+        "buttonDetected": True,
+        "providersParsed": True,
+        "attemptCount": 1,
+        "maxAttempts": 1,
+        "attemptHistory": [
+            {
+                "attempt": 1,
+                "target": "user_supplied_gmb_provider_evidence",
+                "status": "confirmed",
+                "buttonDetected": True,
+                "providersParsed": True,
+                "notes": [override["note"]],
+            }
+        ],
+        "panelUrl": store.get("gmbOrderPanelUrl") or "",
+        "checkedAt": NOW,
+        "checkMethod": "user_supplied_gmb_provider_evidence",
+        "matchQuality": "user_supplied_store_specific_gmb_evidence",
+        "storeContext": "hospital_or_venue_counter",
+        "notes": override["note"],
+    }
+    maps_audit[store["storeId"]] = {
+        "storeId": store["storeId"],
+        "storeName": store.get("storeName"),
+        "address": store.get("address"),
+        "checkedAt": NOW,
+        "gmbStatus": "confirmed",
+        "gmbOrderingStatus": "confirmed",
+        "gmbUrl": evidence_url,
+        "panelUrl": store.get("gmbOrderPanelUrl") or "",
+        "buttonDetected": True,
+        "providers": providers,
+        "pickupProviders": store["gmbPickupProviders"],
+        "deliveryProviders": store["gmbDeliveryProviders"],
+        "notes": [override["note"]],
+    }
+    provider_rows = [
+        {"provider": provider, "label": provider, "href": evidence_url}
+        for provider in providers
+    ]
+    mode_audit[store["storeId"]] = {
+        "storeId": store["storeId"],
+        "storeName": store.get("storeName"),
+        "panelUrl": store.get("gmbOrderPanelUrl") or "",
+        "checkedAt": NOW,
+        "modes": {
+            mode: {"clicked": True, "providers": provider_rows if mode in modes else []}
+            for mode in ("pickup", "delivery")
+        },
+        "notes": [override["note"]],
+    }
+    for audit_row in audit_rows:
+        if audit_row.get("storeId") == store["storeId"]:
+            audit_row["checkedAt"] = NOW
+            audit_row["status"] = "confirmed"
+            audit_row["modes"] = {
+                mode: {
+                    "mode": mode,
+                    "providers": provider_rows if mode in modes else [],
+                    "clicked": mode in modes,
+                    "url": evidence_url,
+                }
+                for mode in ("pickup", "delivery")
+            }
+            audit_row["providers"] = providers
+            audit_row["notes"] = list(dict.fromkeys((audit_row.get("notes") or []) + [override["note"]]))
+            audit_row.setdefault("entry", {})["manualOverride"] = True
+            break
+
+
 def validate(stores: list[dict], audit_rows: list[dict]) -> dict:
     total = len(stores)
     status_counts = Counter(row.get("status") for row in audit_rows)
@@ -319,6 +424,8 @@ def main() -> None:
             apply_confirmed(store, audit_row, maps_audit, mode_audit)
         elif audit_row.get("status") in NO_BUTTON_STATUSES:
             apply_no_button(store, audit_row, maps_audit, mode_audit)
+    for store_id, override in MANUAL_GMB_OVERRIDES.items():
+        apply_manual_override(stores_by_id[store_id], override, maps_audit, mode_audit, audit_rows)
 
     summary = rebuild_summary(stores)
     summary["generatedAt"] = NOW
@@ -332,6 +439,7 @@ def main() -> None:
     save(SUMMARY_PATH, summary)
     save(MAPS_AUDIT_PATH, list(maps_audit.values()))
     save(MODE_AUDIT_PATH, list(mode_audit.values()))
+    save(FULL_AUDIT_PATH, audit_rows)
     print(json.dumps(validate(stores, audit_rows), ensure_ascii=False, indent=2))
 
 

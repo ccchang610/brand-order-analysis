@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T16:34:35Z",
+  "generatedAt": "2026-06-22T16:56:30Z",
   "brand": "珍煮丹 TRUEDAN",
   "brandSlug": "truedan",
   "market": "Taiwan",
@@ -11,9 +11,9 @@
   "verificationGapCount": 0,
   "anyOrderingSystemCount": 66,
   "anyOrderingSystemAdoptionRate": 1.0,
-  "gmbOrderingSystemCount": 65,
-  "gmbOrderingSystemAdoptionRate": 0.9848,
-  "gmbCoverageGapCount": 1,
+  "gmbOrderingSystemCount": 66,
+  "gmbOrderingSystemAdoptionRate": 1.0,
+  "gmbCoverageGapCount": 0,
   "unknownOrderingSystemCount": 0,
   "cityCounts": {
     "基隆市": 2,
@@ -47,49 +47,49 @@
     "離島": 2
   },
   "allSourceSystemCounts": {
-    "foodpanda": 65,
+    "foodpanda": 66,
     "Ocard": 65,
     "Uber Eats": 60,
     "Nidin": 17
   },
   "gmbSystemCounts": {
-    "foodpanda": 65,
+    "foodpanda": 66,
     "Uber Eats": 60,
     "Nidin": 14,
     "Ocard": 6
   },
   "gmbOrderOptionCounts": {
-    "foodpanda": 65,
+    "foodpanda": 66,
     "Uber Eats": 60,
     "Nidin": 14,
     "Ocard": 6
   },
   "gmbOrderPickupOptionCounts": {
-    "foodpanda": 64,
+    "foodpanda": 65,
     "Nidin": 13,
     "Ocard": 6,
     "Uber Eats": 1
   },
   "gmbOrderDeliveryOptionCounts": {
-    "foodpanda": 65,
+    "foodpanda": 66,
     "Uber Eats": 60,
     "Nidin": 14,
     "Ocard": 6
   },
   "allSourceSystemAdoptionRates": {
-    "foodpanda": 0.9848,
+    "foodpanda": 1.0,
     "Ocard": 0.9848,
     "Uber Eats": 0.9091,
     "Nidin": 0.2576
   },
   "gmbSystemAdoptionRates": {
-    "foodpanda": 0.9848,
+    "foodpanda": 1.0,
     "Uber Eats": 0.9091,
     "Nidin": 0.2121,
     "Ocard": 0.0909
   },
   "gmbOrderOptionAdoptionRates": {
-    "foodpanda": 0.9848,
+    "foodpanda": 1.0,
     "Uber Eats": 0.9091,
     "Nidin": 0.2121,
     "Ocard": 0.0909
@@ -124,10 +124,10 @@
     },
     {
       "system": "foodpanda",
-      "allSourceStoreCount": 65,
-      "allSourceAdoptionRate": 0.9848,
-      "gmbStoreCount": 65,
-      "gmbAdoptionRate": 0.9848,
+      "allSourceStoreCount": 66,
+      "allSourceAdoptionRate": 1.0,
+      "gmbStoreCount": 66,
+      "gmbAdoptionRate": 1.0,
       "countGap": 0,
       "percentagePointGap": 0.0
     }
@@ -136,8 +136,7 @@
     "confirmed": 66
   },
   "gmbOrderingStatusCounts": {
-    "confirmed": 65,
-    "no_gmb_order_button": 1
+    "confirmed": 66
   },
   "sourceCoverageCounts": {
     "officialListed": 66,
@@ -356,28 +355,28 @@
     }
   },
   "gmbMissingCount": 0,
-  "googleOrderEntryCount": 65,
-  "googleOrderEntryRate": 0.9848,
+  "googleOrderEntryCount": 66,
+  "googleOrderEntryRate": 1.0,
   "allSourcePickupSystemCounts": {
+    "foodpanda": 65,
     "Ocard": 65,
-    "foodpanda": 64,
     "Nidin": 13,
     "Uber Eats": 1
   },
   "allSourceDeliverySystemCounts": {
-    "foodpanda": 65,
+    "foodpanda": 66,
     "Ocard": 64,
     "Uber Eats": 60,
     "Nidin": 14
   },
   "gmbPickupSystemCounts": {
-    "foodpanda": 64,
+    "foodpanda": 65,
     "Nidin": 13,
     "Ocard": 6,
     "Uber Eats": 1
   },
   "gmbDeliverySystemCounts": {
-    "foodpanda": 65,
+    "foodpanda": 66,
     "Uber Eats": 60,
     "Nidin": 14,
     "Ocard": 6
