@@ -315,7 +315,7 @@ def report_html() -> str:
 
   <script src="data-inline.js?v=1"></script>
   <script src="../assets/taiwan-map.js?v=35"></script>
-  <script src="../assets/app.js?v=35"></script>
+  <script src="../assets/app.js?v=36"></script>
 </body>
 </html>
 """

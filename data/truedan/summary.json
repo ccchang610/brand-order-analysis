@@ -263,6 +263,93 @@
     "本版已用官網 per-city pages 建立官方台灣門市母體與縣市分布。",
     "官網未提供逐店平台點餐 URL；Google Order、Uber Eats、foodpanda、Nidin、LINE、QuickClick 需後續逐店定位查核。",
     "官網 HTML 註解保留 store.truedan.com.tw 連結；2026-06-22 抓取該網域回 502，因此標示為需人工複查，不列入 confirmed adoption。",
-    "Started store-by-store platform audit: truedan-tw-43-01 was opened on Google Search/GMB, Google Maps embed, Uber Eats, foodpanda, and public Nidin/LINE search. Google/Uber/foodpanda were blocked by anti-bot or access verification, so remaining stores are still needs_manual_review until a logged-in/manual browser pass is available."
-  ]
+    "Platform-direct rerun: Ocard brand API was checked directly and matched against every official active store. This is counted separately from Google Order provider evidence and includes pickup/delivery mode fields.",
+    "Ocard currently returns 66 platform stores; 65 match the official active store population. Official Hanshin Arena is not listed on Ocard, while Ocard has one platform-only Xinzhuang Xintai entry."
+  ],
+  "platformDirectAudit": {
+    "checkedAt": "2026-06-22T09:12:49Z",
+    "platformsChecked": [
+      "Ocard",
+      "Nidin",
+      "QuickClick",
+      "LINE",
+      "Uber Eats",
+      "foodpanda"
+    ],
+    "Ocard": {
+      "brandUrl": "https://order.ocard.co/truedan?a=&utm_medium=line&utm_source=bot",
+      "apiUrl": "https://api-order.ocard.co/brand/get",
+      "platformStoreCount": 66,
+      "officialStoreMatchedCount": 65,
+      "pickupMatchedCount": 65,
+      "deliveryMatchedCount": 64,
+      "officialStoresNotListed": [
+        {
+          "storeId": "truedan-tw-5-07",
+          "storeName": "漢神巨蛋店",
+          "address": "高雄市左營區博愛二路777號B1"
+        }
+      ],
+      "platformStoresNotInOfficialList": [
+        {
+          "token": "mOvblQ",
+          "name": "新莊新泰店",
+          "address": "新北市新莊區新泰路100-5號1樓",
+          "pickup": "ASAP",
+          "delivery": "ASAP",
+          "evidenceUrl": "https://order.ocard.co/truedan/mOvblQ"
+        }
+      ]
+    },
+    "Nidin": {
+      "brandUrl": "https://order.nidin.shop/brand/truedan",
+      "status": "brand_page_active_location_required",
+      "storesWithDirectUrlsFromGoogleOrderLinks": 5
+    },
+    "QuickClick": {
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://order.quickclick.cc/tw/portals/TRUEDAN",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "status": "not_found",
+          "detail": "HTTP 200"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/truedan",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "status": "not_found",
+          "detail": "HTTP 200"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/TrueDan",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "status": "not_found",
+          "detail": "HTTP 200"
+        }
+      ],
+      "checkedAt": "2026-06-22T09:12:49Z"
+    },
+    "LINE": {
+      "status": "official_link_routes_to_ocard",
+      "evidenceUrl": "https://order.ocard.co/truedan?a=&utm_medium=line&utm_source=bot"
+    },
+    "Uber Eats": {
+      "status": "brand_page_found_but_direct_crawl_blocked",
+      "evidenceUrl": "https://www.ubereats.com/tw/brand/truedan"
+    },
+    "foodpanda": {
+      "status": "store_pages_found_by_public_search_chain_api_not_exhaustive",
+      "evidenceUrl": "https://www.foodpanda.com.tw/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9"
+    },
+    "storePlatformStatusCounts": {
+      "LINE:official_link_routes_to_ocard": 66,
+      "Nidin:brand_page_active_location_required": 61,
+      "Nidin:direct_urls_seen_in_google_order_links": 5,
+      "Ocard:confirmed": 65,
+      "Ocard:not_listed_for_official_store": 1,
+      "Uber Eats:unavailable_or_blocked": 1,
+      "foodpanda:unavailable_or_blocked": 1
+    }
+  }
 }
