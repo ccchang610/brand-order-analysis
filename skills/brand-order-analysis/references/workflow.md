@@ -110,8 +110,11 @@ Use this protocol whenever Google Order provider evidence matters.
    - click one-button online order flows or separate pickup and delivery buttons when present
    - button visibility alone is not a provider signal; after clicking, wait for the Google Order panel/searchviewer flow and read only that panel
    - first successful panel/searchviewer open must read pickup and delivery modes in the same pass; click/select `pickup` and `delivery`, parse provider rows per mode, and write `orderMode`, `gmbPickupProviders`, `gmbDeliveryProviders`, and mode-specific `gmbOrderLinks` immediately
+   - provider extraction must be scoped to the smallest visible Google Order panel/dialog that contains both the online-order heading and provider-list text such as `選擇下單對象`; ignore background Google Search results, Knowledge Panel website rows, snippets, ads, and generic `網站` links
+   - merchant-site rows such as `ocard.co` or `order.ocard.co` are valid Google Order provider rows when they appear inside that scoped panel, including when Google marks them as merchant preferred; the same links outside the panel remain all-source evidence only
    - do not perform a provider-only Google Order sweep and then run a second mode-classification sweep by default; a second pass is only for blocked, timed-out, stale, or mode-control-missing panels
-   - pickup/delivery visibility alone is not mode evidence; count a mode only if its control can be selected or is already active
+   - pickup/delivery visibility alone is not mode evidence; count a mode only if its control can be selected or is already active/pressed
+   - in one-button flows, inspect the inner `自取` / `運送` active and disabled states after the panel opens; if only delivery is active, write delivery only, and if mode state is unreadable, use `unknown` rather than copying provider rows into both modes
    - parse provider names only from visible rows inside the Google Order dialog/panel, not from the background Google result page or knowledge panel
    - record every visible href/link inside the opened Google Order flow in `gmbOrderLinks`, including Instagram, LINE, marketplace, merchant website, and similar order-flow destinations
 3. Before accepting `no_gmb_order_button`, classify the store context:
@@ -155,7 +158,7 @@ Use this protocol whenever Google Order provider evidence matters.
 - `Google Order provider evidence`: only systems where `sourceType` is `gmb`.
 - `Google Order panel links`: links visible after opening the Google Order button flow. Keep them in `gmbOrderLinks`, show them in store details, and include them in Google Order provider/link overview charts. Do not count them as strict provider rows unless they are visible provider rows.
 - A claim may use `sourceType: gmb` only if it was observed inside the Google Business Profile blue online-order button flow. The button may appear as one `線上點餐` button or as separate `點餐外帶` and `點餐外送` buttons. Open the button, read the pickup or delivery panel, then record only the providers visible there. Official Nidin links, marketplace URLs, embedded Maps links, Google search snippets, or known provider pages must remain `official`, `marketplace`, `third_party`, or `google`; never backfill them as Google Order.
-- A Google Order panel row labelled `nidin.shop` / `order.nidin.shop` is a valid `Nidin` Google Order provider row. The same domain outside the opened panel is not valid Google Order evidence.
+- Google Order panel rows labelled `nidin.shop` / `order.nidin.shop`, `ocard.co` / `order.ocard.co`, or another merchant ordering domain are valid Google Order provider rows only when visible inside the opened panel. The same domains outside the opened panel are not valid Google Order evidence.
 - `orderMode` may include `pickup`, `delivery`, `dine_in`, `reservation`, or `unknown`.
 - Put messaging, loyalty, menu-only, or reservation links in ordering evidence only when they support ordering or the user asks to track them.
 - Keep official ordering providers separate from marketplace providers through `sourceType`.

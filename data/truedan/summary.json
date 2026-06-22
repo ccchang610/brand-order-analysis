@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T15:16:04Z",
+  "generatedAt": "2026-06-22T16:34:35Z",
   "brand": "珍煮丹 TRUEDAN",
   "brandSlug": "truedan",
   "market": "Taiwan",
@@ -8,12 +8,12 @@
   "gmbFoundCount": 66,
   "googleFoundCount": 66,
   "thirdPartyFoundCount": 66,
-  "verificationGapCount": 45,
+  "verificationGapCount": 0,
   "anyOrderingSystemCount": 66,
   "anyOrderingSystemAdoptionRate": 1.0,
-  "gmbOrderingSystemCount": 45,
-  "gmbOrderingSystemAdoptionRate": 0.6818,
-  "gmbCoverageGapCount": 0,
+  "gmbOrderingSystemCount": 65,
+  "gmbOrderingSystemAdoptionRate": 0.9848,
+  "gmbCoverageGapCount": 1,
   "unknownOrderingSystemCount": 0,
   "cityCounts": {
     "基隆市": 2,
@@ -47,80 +47,87 @@
     "離島": 2
   },
   "allSourceSystemCounts": {
+    "foodpanda": 65,
     "Ocard": 65,
-    "Uber Eats": 17,
-    "foodpanda": 45,
-    "Nidin": 12
+    "Uber Eats": 60,
+    "Nidin": 17
   },
   "gmbSystemCounts": {
-    "Uber Eats": 17,
-    "foodpanda": 45,
-    "Nidin": 9
+    "foodpanda": 65,
+    "Uber Eats": 60,
+    "Nidin": 14,
+    "Ocard": 6
   },
   "gmbOrderOptionCounts": {
-    "Uber Eats": 17,
-    "foodpanda": 45,
-    "Nidin": 9
+    "foodpanda": 65,
+    "Uber Eats": 60,
+    "Nidin": 14,
+    "Ocard": 6
   },
   "gmbOrderPickupOptionCounts": {
-    "foodpanda": 24,
-    "Nidin": 4
+    "foodpanda": 64,
+    "Nidin": 13,
+    "Ocard": 6,
+    "Uber Eats": 1
   },
   "gmbOrderDeliveryOptionCounts": {
-    "Uber Eats": 17,
-    "foodpanda": 24,
-    "Nidin": 5
+    "foodpanda": 65,
+    "Uber Eats": 60,
+    "Nidin": 14,
+    "Ocard": 6
   },
   "allSourceSystemAdoptionRates": {
+    "foodpanda": 0.9848,
     "Ocard": 0.9848,
-    "Uber Eats": 0.2576,
-    "foodpanda": 0.6818,
-    "Nidin": 0.1818
+    "Uber Eats": 0.9091,
+    "Nidin": 0.2576
   },
   "gmbSystemAdoptionRates": {
-    "Uber Eats": 0.2576,
-    "foodpanda": 0.6818,
-    "Nidin": 0.1364
+    "foodpanda": 0.9848,
+    "Uber Eats": 0.9091,
+    "Nidin": 0.2121,
+    "Ocard": 0.0909
   },
   "gmbOrderOptionAdoptionRates": {
-    "Uber Eats": 0.2576,
-    "foodpanda": 0.6818,
-    "Nidin": 0.1364
+    "foodpanda": 0.9848,
+    "Uber Eats": 0.9091,
+    "Nidin": 0.2121,
+    "Ocard": 0.0909
   },
   "systemComparison": [
     {
       "system": "Nidin",
-      "allSourceStoreCount": 12,
-      "allSourceAdoptionRate": 0.1818,
-      "gmbStoreCount": 9,
-      "gmbAdoptionRate": 0.1364,
+      "allSourceStoreCount": 17,
+      "allSourceAdoptionRate": 0.2576,
+      "gmbStoreCount": 14,
+      "gmbAdoptionRate": 0.2121,
       "countGap": 3,
-      "percentagePointGap": 0.0454
+      "percentagePointGap": 0.0455
     },
     {
       "system": "Ocard",
       "allSourceStoreCount": 65,
       "allSourceAdoptionRate": 0.9848,
-      "gmbStoreCount": 0,
-      "gmbAdoptionRate": 0.0,
-      "countGap": 65,
-      "percentagePointGap": 0.9848
+      "gmbStoreCount": 6,
+      "gmbAdoptionRate": 0.0909,
+      "countGap": 59,
+      "percentagePointGap": 0.8939
     },
     {
       "system": "Uber Eats",
-      "allSourceStoreCount": 17,
-      "allSourceAdoptionRate": 0.2576,
-      "gmbStoreCount": 17,
-      "gmbAdoptionRate": 0.2576,
+      "allSourceStoreCount": 60,
+      "allSourceAdoptionRate": 0.9091,
+      "gmbStoreCount": 60,
+      "gmbAdoptionRate": 0.9091,
       "countGap": 0,
       "percentagePointGap": 0.0
     },
     {
       "system": "foodpanda",
-      "allSourceStoreCount": 45,
-      "allSourceAdoptionRate": 0.6818,
-      "gmbStoreCount": 45,
-      "gmbAdoptionRate": 0.6818,
+      "allSourceStoreCount": 65,
+      "allSourceAdoptionRate": 0.9848,
+      "gmbStoreCount": 65,
+      "gmbAdoptionRate": 0.9848,
       "countGap": 0,
       "percentagePointGap": 0.0
     }
@@ -129,8 +136,8 @@
     "confirmed": 66
   },
   "gmbOrderingStatusCounts": {
-    "confirmed": 24,
-    "button_confirmed_provider_pending": 42
+    "confirmed": 65,
+    "no_gmb_order_button": 1
   },
   "sourceCoverageCounts": {
     "officialListed": 66,
@@ -259,7 +266,8 @@
     "官網 HTML 註解保留 store.truedan.com.tw 連結；2026-06-22 抓取該網域回 502，因此標示為需人工複查，不列入 confirmed adoption。",
     "Platform-direct rerun: Ocard brand API was checked directly and matched against every official active store. This is counted separately from Google Order provider evidence and includes pickup/delivery mode fields.",
     "Ocard currently returns 66 platform stores; 65 match the official active store population. Official Hanshin Arena is not listed on Ocard, while Ocard has one platform-only Xinzhuang Xintai entry.",
-    "Fixed dashboard output mirrors the shared brand-order-analysis layout used by chage, with Taiwan map, region/city filters, all-source counts, Google Order pickup/delivery provider views, and store-level evidence."
+    "Fixed dashboard output mirrors the shared brand-order-analysis layout used by chage, with Taiwan map, region/city filters, all-source counts, Google Order pickup/delivery provider views, and store-level evidence.",
+    "Full Chrome GMB rerun applied: provider rows are scoped to the Google Order panel and pickup/delivery are counted only after the inner mode control is active or clicked."
   ],
   "platformDirectAudit": {
     "checkedAt": "2026-06-22T09:12:49Z",
@@ -348,26 +356,30 @@
     }
   },
   "gmbMissingCount": 0,
-  "googleOrderEntryCount": 66,
-  "googleOrderEntryRate": 1.0,
+  "googleOrderEntryCount": 65,
+  "googleOrderEntryRate": 0.9848,
   "allSourcePickupSystemCounts": {
-    "foodpanda": 24,
     "Ocard": 65,
-    "Nidin": 4
+    "foodpanda": 64,
+    "Nidin": 13,
+    "Uber Eats": 1
   },
   "allSourceDeliverySystemCounts": {
-    "Uber Eats": 17,
-    "foodpanda": 24,
+    "foodpanda": 65,
     "Ocard": 64,
-    "Nidin": 5
+    "Uber Eats": 60,
+    "Nidin": 14
   },
   "gmbPickupSystemCounts": {
-    "foodpanda": 24,
-    "Nidin": 4
+    "foodpanda": 64,
+    "Nidin": 13,
+    "Ocard": 6,
+    "Uber Eats": 1
   },
   "gmbDeliverySystemCounts": {
-    "Uber Eats": 17,
-    "foodpanda": 24,
-    "Nidin": 5
+    "foodpanda": 65,
+    "Uber Eats": 60,
+    "Nidin": 14,
+    "Ocard": 6
   }
 }

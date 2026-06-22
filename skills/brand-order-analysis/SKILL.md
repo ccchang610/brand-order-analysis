@@ -67,6 +67,9 @@ For Google Business Profile / Google Order, keep these principles in the top-lev
 - If a profile is missing, re-search Google by `brand + store name` and, when useful, `brand + store name + address`; accept a highly similar, non-duplicate GMB result and record why it matched.
 - Separate Google Order entry coverage from provider evidence. A blue order button confirms entry only; provider claims require visible provider rows inside the opened panel.
 - First successful Google Order panel reads must be mode-aware: inspect pickup and delivery before writing provider evidence.
+- Scope provider extraction to the visible Google Order panel/dialog containing the online-order provider list. Do not parse provider names from the background Google results page, Knowledge Panel website row, snippets, ads, or generic `網站` links.
+- Treat merchant-site rows such as `ocard.co` as valid Google Order provider evidence only when the row is visible inside the active Google Order pickup/delivery panel; outside that panel they remain all-source evidence.
+- For one-button Google Order flows, read the active/pressed/disabled state of the inner `自取` / `運送` controls. Count only the active or successfully selected mode; if the mode cannot be determined, use `unknown` instead of copying providers into both modes.
 - Preserve visible post-click order-flow links in `gmbOrderLinks`, but keep strict `gmbSystemCounts` limited to visible provider rows.
 - Blocked, timed-out, ambiguous, provider-pending, or no-button checks stay reviewable with `gmbSignals`; do not treat them as no ordering system.
 ## Output Requirements

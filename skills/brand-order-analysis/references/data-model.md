@@ -98,11 +98,11 @@ For `no_gmb_order_button`, include enough evidence to explain why the status is 
 
 User-provided screenshots may set `hasGmbOrderingSystem: true` only when the screenshot shows the correct GMB profile and a visible Google Order entry. If provider rows are not visible, use `button_confirmed_provider_pending` and do not create `sourceType: gmb` provider claims.
 
-For `orderMode`, count `pickup` or `delivery` only when that mode is active or can be selected in the Google Order panel. A greyed or disabled mode label does not count. Provider rows must be visible inside the Google Order dialog/panel; ignore provider names from background Google results, knowledge-panel snippets, official-site snippets, review widgets, or hidden text.
+For `orderMode`, count `pickup` or `delivery` only when that mode is active, pressed, or can be selected in the Google Order panel. A greyed or disabled mode label does not count. In one-button Google Order flows, inspect the inner `自取` / `運送` controls after the panel opens; if only one mode is active, write only that mode. Provider rows must be visible inside the scoped Google Order dialog/panel; ignore provider names from background Google results, knowledge-panel snippets, official-site snippets, ads, generic website rows, review widgets, or hidden text.
 
 First-pass mode rule: when the Google Order panel or `google.com/searchviewer` flow opens and pickup/delivery controls are available, select/read both modes before writing `orderingSystems`. Each `sourceType: gmb` claim should carry the exact modes where that provider row was visible. Use `unknown` only when provider rows are visible but mode controls are absent, blocked, or unreadable.
 
-`nidin.shop` or `order.nidin.shop` counts as `Nidin` only when it is a visible provider row inside the opened Google Order panel. The same domain in official ordering links, organic Google results, or Maps website rows is not Google Order evidence.
+`nidin.shop` / `order.nidin.shop` counts as `Nidin`, and `ocard.co` / `order.ocard.co` counts as `Ocard`, only when it is a visible provider row inside the opened Google Order panel. Merchant-preferred rows are valid when they are panel rows. The same domains in official ordering links, organic Google results, or Maps website rows are not Google Order evidence.
 
 ## Google Order Panel Links
 

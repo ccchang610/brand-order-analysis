@@ -19,6 +19,7 @@ PROVIDERS = {
     "Uber Eats": ["Uber Eats", "ubereats.com"],
     "foodpanda": ["foodpanda", "foodpanda.com.tw"],
     "Nidin": ["Nidin", "nidin", "nidin.shop", "order.nidin.shop"],
+    "Ocard": ["Ocard", "ocard.co", "order.ocard.co"],
     "LINE": ["LINE", "line.me", "lin.ee", "liff.line.me"],
     "QuickClick": ["QuickClick", "quickclick", "\u5feb\u4e00\u9ede"],
 }
@@ -39,8 +40,31 @@ def provider_for(text, href):
             return provider
     return ""
 
-def visible_provider_links(page):
-    links = page.evaluate("""() => Array.from(document.querySelectorAll('a')).map(a => ({text:(a.innerText||a.textContent||'').trim(), href:a.href || a.getAttribute('href') || ''})).filter(x => x.text || x.href)""")
+def scoped_google_order_provider_links(page):
+    """Return provider links only from the visible Google Order panel/dialog.
+
+    The Google results page can contain official links, marketplace snippets, and
+    Knowledge Panel website rows. Those are not Google Order provider evidence.
+    """
+    links = page.evaluate(
+        """() => {
+          const visible = (el) => {
+            const rect = el.getBoundingClientRect();
+            const style = window.getComputedStyle(el);
+            return rect.width > 240 && rect.height > 160 &&
+              style.visibility !== 'hidden' && style.display !== 'none';
+          };
+          const panel = Array.from(document.querySelectorAll('div, section, dialog, [role="dialog"]'))
+            .map(el => ({ el, text: (el.innerText || el.textContent || '').trim(), rect: el.getBoundingClientRect() }))
+            .filter(x => visible(x.el) && x.text.includes('線上點餐') && x.text.includes('選擇下單對象'))
+            .sort((a, b) => (a.rect.width * a.rect.height) - (b.rect.width * b.rect.height))[0]?.el;
+          if (!panel) return [];
+          return Array.from(panel.querySelectorAll('a'))
+            .map(a => ({ text: (a.innerText || a.textContent || '').trim(), href: a.href || a.getAttribute('href') || '' }))
+            .filter(x => x.text || x.href)
+            .filter(x => !/^網站$|^Website$/i.test(x.text));
+        }"""
+    )
     rows = []
     for item in links:
         provider = provider_for(item.get("text", ""), item.get("href", ""))
@@ -70,7 +94,7 @@ def parse_modes(page, panel_url):
                 page.wait_for_timeout(2800 + random.randint(0, 1000))
         except Exception as exc:
             result["notes"].append(f"{mode_key} click failed: {type(exc).__name__}")
-        providers = visible_provider_links(page)
+        providers = scoped_google_order_provider_links(page) if clicked else []
         result["modes"][mode_key] = {"clicked": clicked, "providers": providers}
     return result
 
