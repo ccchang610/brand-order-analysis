@@ -1,0 +1,45 @@
+[
+  {
+    "checkedAt": "2026-06-22T03:08:59Z",
+    "storeId": "truedan-tw-43-01",
+    "storeName": "南投埔里店",
+    "address": "南投縣埔里鎮大城里中山路三段267號",
+    "attempts": [
+      {
+        "target": "Google Search / GMB",
+        "url": "https://www.google.com/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8D%97%E6%8A%95%E5%9F%94%E9%87%8C%E5%BA%97%20%E5%8D%97%E6%8A%95%E7%B8%A3%E5%9F%94%E9%87%8C%E9%8E%AE%E5%A4%A7%E5%9F%8E%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5267%E8%99%9F",
+        "method": "Playwright Chromium headless, then headed persistent context retry",
+        "status": "unavailable_or_blocked",
+        "evidence": "Google returned the unusual traffic / bot-check page in both headless and headed retries. No GMB profile or Google Order panel could be inspected."
+      },
+      {
+        "target": "Official Google Maps embed URL",
+        "url": "https://www.google.com/maps?q=%E5%8D%97%E6%8A%95%E7%B8%A3%E5%9F%94%E9%87%8C%E9%8E%AE%E5%A4%A7%E5%9F%8E%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5267%E8%99%9F&hl=zh-TW&z=14&t=&output=embed",
+        "method": "Playwright Chromium direct navigation",
+        "status": "not_usable_as_gmb_evidence",
+        "evidence": "Direct navigation returned 'The Google Maps Embed API must be used in an iframe.' The official embed URL is only an address-map lead, not named GMB evidence."
+      },
+      {
+        "target": "Uber Eats",
+        "url": "https://www.ubereats.com/tw/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8D%97%E6%8A%95%E5%9F%94%E9%87%8C%E5%BA%97",
+        "method": "Playwright Chromium",
+        "status": "unavailable_or_blocked",
+        "evidence": "Uber Eats returned a Cloudflare security verification page before results were visible."
+      },
+      {
+        "target": "foodpanda",
+        "url": "https://www.foodpanda.com.tw/restaurants/new?query=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8D%97%E6%8A%95%E5%9F%94%E9%87%8C%E5%BA%97",
+        "method": "Playwright Chromium",
+        "status": "unavailable_or_blocked",
+        "evidence": "foodpanda returned an access denied / human verification page before results were visible."
+      },
+      {
+        "target": "Nidin / LINE public web search",
+        "url": "web search: \"珍煮丹\" \"南投埔里店\" \"Nidin\" and \"LINE\" \"點餐\"",
+        "method": "public web search",
+        "status": "not_found_in_public_index",
+        "evidence": "No public indexed result was returned for the exact store plus Nidin or LINE ordering terms."
+      }
+    ]
+  }
+]

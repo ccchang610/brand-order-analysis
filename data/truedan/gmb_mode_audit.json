@@ -1,0 +1,1455 @@
+[
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsa2ZwMzhiMRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=AbY4avPbHbC-vr0Pn4SMoAY&ei=AbY4avPbHbC-vr0Pn4SMoAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=kefi&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dkefi&adj_fallback=https://foodpanda.com.tw/restaurant/kefi/zhen-zhu-dan-nan-tou-bu-li-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/kefi/zhen-zhu-dan-nan-tou-bu-li-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n7 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=kefi&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dkefi&adj_fallback=https://foodpanda.com.tw/restaurant/kefi/zhen-zhu-dan-nan-tou-bu-li-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/kefi/zhen-zhu-dan-nan-tou-bu-li-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n11 到 26 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8D%97%E6%8A%95%E5%9F%94%E9%87%8C%E5%BA%97/cdGuvS2nQqqZb1OAJ8_F8g?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_icsb5CqpJykge05gGZtkVD0fS-gUBnTYxzYa9syxo69O0WxI4wSo1GFYHKKH8Ui5-BOFlwbYCGSjBHR1c9Ww25c59jYA%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-43-01",
+    "storeName": "南投埔里店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNXprenR3ahgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=IbY4arT2L8nt1e8PxpCCmAU&ei=IbY4arT2L8nt1e8PxpCCmAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=lhtb&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dlhtb&adj_fallback=https://foodpanda.com.tw/restaurant/lhtb/zhen-zhu-dan-tai-zhong-zhong-gong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/lhtb/zhen-zhu-dan-tai-zhong-zhong-gong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n10 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=lhtb&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dlhtb&adj_fallback=https://foodpanda.com.tw/restaurant/lhtb/zhen-zhu-dan-tai-zhong-zhong-gong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/lhtb/zhen-zhu-dan-tai-zhong-zhong-gong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Nidin",
+            "label": "nidin.shop\n可能須支付手續費\n商家首選",
+            "href": "https://order.nidin.shop/menu/7696"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n14 到 29 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E4%B8%AD%E4%B8%AD%E5%B7%A5%E5%BA%97/daLqEk5oRX2z43nDQ96wtQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_gJ8g3OxvQQrofbrO0F3rUHJAZ-FyZ7G6u5O--6jRJTsfXx7n-NrCIfy1o9fEE3KOwbYchPjkusY4XS1hs6x5D3AP59cQ%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-12-03",
+    "storeName": "台中中工店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFyZ2w2OHMwZxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=NbY4aq2gBOjX1e8PmIupkQE&ei=NbY4aq2gBOjX1e8PmIupkQE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ajln&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dajln&adj_fallback=https://foodpanda.com.tw/restaurant/ajln/zhen-zhu-dan-tai-zhong-nan-tun-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ajln/zhen-zhu-dan-tai-zhong-nan-tun-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n10 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ajln&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dajln&adj_fallback=https://foodpanda.com.tw/restaurant/ajln/zhen-zhu-dan-tai-zhong-nan-tun-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ajln/zhen-zhu-dan-tai-zhong-nan-tun-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-12-06",
+    "storeName": "台中南屯店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0OXBja3p4aBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=RbY4av6zMc7u1e8Pto-OsAQ&ei=RbY4av6zMc7u1e8Pto-OsAQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=yp8i&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dyp8i&adj_fallback=https://foodpanda.com.tw/restaurant/yp8i/zhen-zhu-dan-tai-zhong-jian-he-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/yp8i/zhen-zhu-dan-tai-zhong-jian-he-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n8 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=yp8i&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dyp8i&adj_fallback=https://foodpanda.com.tw/restaurant/yp8i/zhen-zhu-dan-tai-zhong-jian-he-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/yp8i/zhen-zhu-dan-tai-zhong-jian-he-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n10 到 25 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E4%B8%AD%E5%BB%BA%E5%92%8C%E5%BA%97/-D2j1mwhU-CqdemZOfR94Q?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_iBfUjv1KP99k_Ks40qp7xLeDVkRSg8r8s_XIi2nlCzXABgsaL7leZI-CsQ0rkgs5Sk06kuOJvQWRVAxKe_EBbVdFwQMw%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-12-04",
+    "storeName": "台中建和店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqcDA2c3d6NRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=V7Y4at6jBtipvr0PjfeBsAI&ei=V7Y4at6jBtipvr0PjfeBsAI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "Nidin",
+            "label": "nidin.shop\n可能提供取貨服務\n商家首選",
+            "href": "http://order.nidin.shop/ustore/6602"
+          },
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=fz45&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dfz45&adj_fallback=https://foodpanda.com.tw/restaurant/fz45/zhen-zhu-dan-tai-zhong-chang-ping-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/fz45/zhen-zhu-dan-tai-zhong-chang-ping-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "Nidin",
+            "label": "nidin.shop\n可能提供外送服務\n商家首選",
+            "href": "http://order.nidin.shop/ustore/6602"
+          },
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n11 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=fz45&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dfz45&adj_fallback=https://foodpanda.com.tw/restaurant/fz45/zhen-zhu-dan-tai-zhong-chang-ping-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/fz45/zhen-zhu-dan-tai-zhong-chang-ping-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n16 到 31 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E4%B8%AD%E6%98%8C%E5%B9%B3%E5%BA%97/JESPZ7lXSHexG5Fk80ApvA?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_hu1qj27KledLU0XNNlIE79XFc9kLGQ5Vr41AsK7ZittPebDBBiHq95d3SpMJyARSrSx9VK2nyh3b_vku-eumUrYFV4ag%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-12-05",
+    "storeName": "台中昌平店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoZHY2MGZ4dBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Z7Y4auayJJzt1e8P0YKy-QQ&ei=Z7Y4auayJJzt1e8P0YKy-QQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=r5wa&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dr5wa&adj_fallback=https://foodpanda.com.tw/restaurant/r5wa/zhen-zhu-dan-tai-zhong-jing-cheng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/r5wa/zhen-zhu-dan-tai-zhong-jing-cheng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n11 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=r5wa&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dr5wa&adj_fallback=https://foodpanda.com.tw/restaurant/r5wa/zhen-zhu-dan-tai-zhong-jing-cheng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/r5wa/zhen-zhu-dan-tai-zhong-jing-cheng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n21 到 36 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E4%B8%AD%E7%B2%BE%E8%AA%A0%E5%BA%97/fVA7hLRBShi_RBVi5QfrIw?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_jZGTFtbKe6_Uwuv1lrqAUWoJPW28wAtNoW62iswE6vnwcVj_AdDWKF2oIDH3dpAewEqQsb_3pJVEdQNvvrqg2Qi4RyKw%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-12-02",
+    "storeName": "台中精誠店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqbGY2OXdiNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=eLY4av_JC-rV1e8P3biBqAc&ei=eLY4av_JC-rV1e8P3biBqAc&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=mpew&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dmpew&adj_fallback=https://foodpanda.com.tw/restaurant/mpew/zhen-zhu-dan-tai-zhong-feng-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/mpew/zhen-zhu-dan-tai-zhong-feng-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n8 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=mpew&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dmpew&adj_fallback=https://foodpanda.com.tw/restaurant/mpew/zhen-zhu-dan-tai-zhong-feng-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/mpew/zhen-zhu-dan-tai-zhong-feng-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n12 到 27 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E4%B8%AD%E8%B1%90%E5%8E%9F%E5%BA%97/GPRPI7qcWsuIzNNijWjb-g?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_hTrRBWN2yjKBgM7l29nkGkDCq8A5fdY2Y6EwJzp1fDYInZVkZuOI5Xrbk6HAQ9ESrZsGwNvQpK2pmE1cKXF3H9L_zNDg%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-12-01",
+    "storeName": "台中豐原店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFyemZqN3p0bRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=h7Y4at2CCPTW1e8PwvyBuAo&ei=h7Y4at2CCPTW1e8PwvyBuAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=camg&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dcamg&adj_fallback=https://foodpanda.com.tw/restaurant/camg/zhen-zhu-dan-yun-lin-dou-liu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/camg/zhen-zhu-dan-yun-lin-dou-liu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n5 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=camg&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dcamg&adj_fallback=https://foodpanda.com.tw/restaurant/camg/zhen-zhu-dan-yun-lin-dou-liu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/camg/zhen-zhu-dan-yun-lin-dou-liu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n11 到 26 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97/kO3GeKxiU7aC2fEirtPOnw?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_hLx6tGxFofuEnbpuhBrAFPbp5HLVjFQHHZlXYlRTaWOry-O8rzEOQ3X_RQvdLaloXytaIojFQdfV5co_iJuiUZ_7xG0g%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-54-01",
+    "storeName": "雲林斗六店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5ODY1a21zNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=mLY4arutEOXO1e8P-eaCsAY&ei=mLY4arutEOXO1e8P-eaCsAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=j1zb&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dj1zb&adj_fallback=https://foodpanda.com.tw/restaurant/j1zb/zhen-zhu-dan-zhong-shan-chi-feng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/j1zb/zhen-zhu-dan-zhong-shan-chi-feng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n12 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=j1zb&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dj1zb&adj_fallback=https://foodpanda.com.tw/restaurant/j1zb/zhen-zhu-dan-zhong-shan-chi-feng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/j1zb/zhen-zhu-dan-zhong-shan-chi-feng-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n15 到 30 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E4%B8%AD%E5%B1%B1%E8%B5%A4%E5%B3%B0%E5%BA%97/B-yqXpN-UdaT-59H5A5FcQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_jtlC3lzylDirZd_0eZcIf2e-fejd-cEGitX9OW2RFmUmgx2lgY3Y6zLJ0huwMqwqTO8V9yhyeDsXpuxNTI75oeRIdY0Q%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-01",
+    "storeName": "中山赤峰店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnOGxwZG1xdxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qbY4avSLK63i1e8PvYuEiAc&ei=qbY4avSLK63i1e8PvYuEiAc&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=sbvd&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dsbvd&adj_fallback=https://foodpanda.com.tw/restaurant/sbvd/zhen-zhu-dan-zhong-zheng-nan-men-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/sbvd/zhen-zhu-dan-zhong-zheng-nan-men-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n12 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=sbvd&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dsbvd&adj_fallback=https://foodpanda.com.tw/restaurant/sbvd/zhen-zhu-dan-zhong-zheng-nan-men-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/sbvd/zhen-zhu-dan-zhong-zheng-nan-men-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n18 到 33 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E4%B8%AD%E6%AD%A3%E5%8D%97%E9%96%80%E5%BA%97/2UUfIhH7SvmXDcHRsQHkAQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_ihM_FlB0wE8eSnqV75-LyqEhfJFUrUi55TdHAUFMe7DfP-PzpKnScZZaHXtztgkdifjYVHrlDkJnPEYc1whvHeA3pphw%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-13",
+    "storeName": "中正南門店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnOW5sOXlfMBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ubY4apbBDOO7vr0PxtuPiA4&ei=ubY4apbBDOO7vr0PxtuPiA4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=dap9&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Ddap9&adj_fallback=https://foodpanda.com.tw/restaurant/dap9/zhen-zhu-dan-xin-yi-shi-fu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/dap9/zhen-zhu-dan-xin-yi-shi-fu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n9 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=dap9&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Ddap9&adj_fallback=https://foodpanda.com.tw/restaurant/dap9/zhen-zhu-dan-xin-yi-shi-fu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/dap9/zhen-zhu-dan-xin-yi-shi-fu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-03",
+    "storeName": "信義市府店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNmd5N3A4YxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ybY4arSeN8mOvr0P0f-BUA&ei=ybY4arSeN8mOvr0P0f-BUA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=mblz&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dmblz&adj_fallback=https://foodpanda.com.tw/restaurant/mblz/zhen-zhu-dan-nei-hu-yuan-qu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/mblz/zhen-zhu-dan-nei-hu-yuan-qu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Nidin",
+            "label": "nidin.shop",
+            "href": "https://order.nidin.shop/store/3861"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "Nidin",
+            "label": "nidin.shop\n可能須支付手續費\n商家首選",
+            "href": "https://order.nidin.shop/store/3861"
+          },
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n8 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=mblz&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dmblz&adj_fallback=https://foodpanda.com.tw/restaurant/mblz/zhen-zhu-dan-nei-hu-yuan-qu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/mblz/zhen-zhu-dan-nei-hu-yuan-qu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-05",
+    "storeName": "內湖園區店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjczBybTJnbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=27Y4aql26dnV7w_UtIOIDA&ei=27Y4aql26dnV7w_UtIOIDA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=zqdt&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dzqdt&adj_fallback=https://foodpanda.com.tw/restaurant/zqdt/zhen-zhu-dan-nei-hu-jiang-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/zqdt/zhen-zhu-dan-nei-hu-jiang-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n9 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=zqdt&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dzqdt&adj_fallback=https://foodpanda.com.tw/restaurant/zqdt/zhen-zhu-dan-nei-hu-jiang-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/zqdt/zhen-zhu-dan-nei-hu-jiang-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n12 到 27 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%85%A7%E6%B9%96%E6%B1%9F%E5%8D%97%E5%BA%97/EMcFzap5QPqYpkRa2vIqlA?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_gm2JZSzXQHzNUO2T4Gs0QXityFncPDs1DjbvbWeXtUwY2oQ2O2M8cZjDTnxxgKdVZvghVs6Of8ShOtAuFcAGktqOvCCw%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-04",
+    "storeName": "內湖江南店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoc3ZzcTFzeBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=67Y4asTnNoTc1e8PwNGBqAY&ei=67Y4asTnNoTc1e8PwNGBqAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=t17u&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dt17u&adj_fallback=https://foodpanda.com.tw/restaurant/t17u/zhen-zhu-dan-nan-gang-yuan-qu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/t17u/zhen-zhu-dan-nan-gang-yuan-qu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n10 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=t17u&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dt17u&adj_fallback=https://foodpanda.com.tw/restaurant/t17u/zhen-zhu-dan-nan-gang-yuan-qu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/t17u/zhen-zhu-dan-nan-gang-yuan-qu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n18 到 33 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8D%97%E6%B8%AF%E5%9C%92%E5%8D%80%E5%BA%97/9beFXdCxQQSRsp7WNyAcow?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_ithf2IWea85nLHLF9lx24fsiay_wAUKLaPRb2AxNXxlvOPFF9Cc7zMJt-jRwF4vNQYJMtNEqQD6-ArrzGl7-5PMdOjDA%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-15",
+    "storeName": "南港園區店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoOTdnOHJ0YhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=_bY4ap_ZFsP41e8PtJ-coAw&ei=_bY4ap_ZFsP41e8PtJ-coAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=m4r3&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dm4r3&adj_fallback=https://foodpanda.com.tw/restaurant/m4r3/zhen-zhu-dan-tai-bei-bei-yi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/m4r3/zhen-zhu-dan-tai-bei-bei-yi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n10 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=m4r3&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dm4r3&adj_fallback=https://foodpanda.com.tw/restaurant/m4r3/zhen-zhu-dan-tai-bei-bei-yi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/m4r3/zhen-zhu-dan-tai-bei-bei-yi-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n11 到 26 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E5%8C%97%E5%8C%97%E9%86%AB%E5%BA%97/Tbl0_cFDWbeR8aG6PRjDYA?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_iauceNkHLmTSpHUpoW_oFeOpetkLQw0FzpyBh2Tgbi7ORph9WQUA6HET-zeE7-E0xjYIRo6oeVzgIbbOAOCldqx02WXA%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-07",
+    "storeName": "台北北醫店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqOWN5dzZiYhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Drc4arrXDJPr1e8P__eB6AI&ei=Drc4arrXDJPr1e8P__eB6AI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=cirv&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dcirv&adj_fallback=https://foodpanda.com.tw/restaurant/cirv/zhen-zhu-dan-tai-bei-nan-jing-dian-cirv?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/cirv/zhen-zhu-dan-tai-bei-nan-jing-dian-cirv?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n5 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=cirv&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dcirv&adj_fallback=https://foodpanda.com.tw/restaurant/cirv/zhen-zhu-dan-tai-bei-nan-jing-dian-cirv?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/cirv/zhen-zhu-dan-tai-bei-nan-jing-dian-cirv?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-09",
+    "storeName": "台北南京店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqZ185cTlocxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=HLc4asuTJ4vr1e8P2qGC8Ao&ei=HLc4asuTJ4vr1e8P2qGC8Ao&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=mk5j&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dmk5j&adj_fallback=https://foodpanda.com.tw/restaurant/mk5j/zhen-zhu-dan-tai-bei-he-jiang-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/mk5j/zhen-zhu-dan-tai-bei-he-jiang-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Nidin",
+            "label": "nidin.shop",
+            "href": "https://order.nidin.shop/menu/3859"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n7 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=mk5j&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dmk5j&adj_fallback=https://foodpanda.com.tw/restaurant/mk5j/zhen-zhu-dan-tai-bei-he-jiang-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/mk5j/zhen-zhu-dan-tai-bei-he-jiang-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n17 到 32 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E5%8C%97%E5%90%88%E6%B1%9F%E5%BA%97/mpqkEpjHTAeRf_OX0kApLQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_jpOL8z9iCFLEVvGhkTmjfe3hVLYFA9XqWiaBx892QMJ9pnphyuKoWGU95_Azuk5vYIyJ-JJBSxxypd32A31iXUIB5JhA%3D%3D"
+          },
+          {
+            "provider": "Nidin",
+            "label": "nidin.shop\n可能須支付手續費",
+            "href": "https://order.nidin.shop/menu/3859"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-06",
+    "storeName": "台北合江店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFycGRkbWRqMhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Lbc4auzXJ-eIvr0Pk6KB2AU&ei=Lbc4auzXJ-eIvr0Pk6KB2AU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=qwlp&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dqwlp&adj_fallback=https://foodpanda.com.tw/restaurant/qwlp/zhen-zhu-dan-tai-bei-yan-ping-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/qwlp/zhen-zhu-dan-tai-bei-yan-ping-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n10 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=qwlp&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dqwlp&adj_fallback=https://foodpanda.com.tw/restaurant/qwlp/zhen-zhu-dan-tai-bei-yan-ping-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/qwlp/zhen-zhu-dan-tai-bei-yan-ping-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n23 到 38 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E5%8C%97%E5%BB%B6%E5%B9%B3%E5%8D%97%E5%BA%97/4ceDr-EiVZGkYdZ9q1NkzQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_grHBTKbA9L6pNWFarQeAcTbczN2lkBSo_Rc1Ohejw0VW60LAvCLB0feuDdYwMiUSLlXnE0dLzpNqtGrHI-c6nBzhsCOA%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-11",
+    "storeName": "台北延平南店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcmR6cDk1chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Prc4aqbKKvP_1e8Pi8Wx-Qc&ei=Prc4aqbKKvP_1e8Pi8Wx-Qc&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=uabh&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Duabh&adj_fallback=https://foodpanda.com.tw/restaurant/uabh/zhen-zhu-dan-tai-bei-ji-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/uabh/zhen-zhu-dan-tai-bei-ji-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Nidin",
+            "label": "nidin.shop\n可能提供取貨服務",
+            "href": "https://order.nidin.shop/ustore/6566"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n6 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=uabh&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Duabh&adj_fallback=https://foodpanda.com.tw/restaurant/uabh/zhen-zhu-dan-tai-bei-ji-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/uabh/zhen-zhu-dan-tai-bei-ji-nan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Nidin",
+            "label": "nidin.shop\n可能提供外送服務",
+            "href": "https://order.nidin.shop/ustore/6566"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n12 到 27 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E5%8C%97%E6%BF%9F%E5%8D%97%E5%BA%97/9fNUjaRvVKOr5lYDkbBLFg?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_g7aZfevgGP2UD58cfKHCCVSrmn1a6ndVUeIR_Kgi4iB9cSMGfz9sT86QAzhLR57Yn3upO3U6umW5dS9wkTUiCFkaTKiQ%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-12",
+    "storeName": "台北濟南店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqYmMzZjBuZBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=T7c4asWdFPWivr0PjYqqgAk&ei=T7c4asWdFPWivr0PjYqqgAk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ey2w&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dey2w&adj_fallback=https://foodpanda.com.tw/restaurant/ey2w/zhen-zhu-dan-tai-bei-shi-pai-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ey2w/zhen-zhu-dan-tai-bei-shi-pai-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n37 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ey2w&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dey2w&adj_fallback=https://foodpanda.com.tw/restaurant/ey2w/zhen-zhu-dan-tai-bei-shi-pai-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ey2w/zhen-zhu-dan-tai-bei-shi-pai-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n15 到 30 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E5%8C%97%E7%9F%B3%E7%89%8C%E5%BA%97/bsmZsfQwRMKB8A-c3bVjfw?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_juXWca1q0q6qdhnOMdVvGTaEdDgzqAg0hrN4j31oAtOJo73CVMPGP87vh54Na36Su5vCa0nHthOoKUAdC8QoyBaSaIRA%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-14",
+    "storeName": "台北石牌店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjNncwd3cyehgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Ybc4aqD7AqDl1e8P4tOPsAY&ei=Ybc4aqD7AqDl1e8P4tOPsAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:43:09Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=w082&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dw082&adj_fallback=https://foodpanda.com.tw/restaurant/w082/zhen-zhu-dan-tai-bei-liao-zhu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/w082/zhen-zhu-dan-tai-bei-liao-zhu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda\n可能須支付手續費\n9 到 45 分鐘內送達",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=w082&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dw082&adj_fallback=https://foodpanda.com.tw/restaurant/w082/zhen-zhu-dan-tai-bei-liao-zhu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/w082/zhen-zhu-dan-tai-bei-liao-zhu-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          },
+          {
+            "provider": "Uber Eats",
+            "label": "UberEats\n可能須支付手續費\n16 到 31 分鐘內送達",
+            "href": "https://www.ubereats.com/tw/store/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E9%81%BC%E5%AF%A7%E5%BA%97/dyoI_06AVNCfAEBTDGj_vQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_iZ-TVoq9gcAHqUltjWc3c43OabIcsPSKCfuLvYrv1vEhrKFDFdNZceNRFs74CFSsdXnamZ6W8jbiC_TKwmdP95dzt46g%3D%3D"
+          }
+        ]
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-10",
+    "storeName": "台北遼寧店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjMHJnbHdkaxgAOgMI8A0%3D&g2lbs=AEzIGDs-3DjT7NaKjvK9p9cMK9Nfl8-82GRNJxr4m_nSzPuUai-aI4Ngab234pO4BTm7Jjze51Q2&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4b04auKiPLafvr0Pn8-P4Aw&ei=4b04auKiPLafvr0Pn8-P4Aw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-02",
+    "storeName": "士林大北店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjNTVyZmp6ZxgAOgMI8A0%3D&g2lbs=AEzIGDto04LIRO1m_AJaL7MH3-iNarD-XBDoyMlzK7LgQYazb_N_mg6Uw9UBfc-OmJsfJfIThPRC&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=7704araEGuTC1e8Pht6CqAQ&ei=7704araEGuTC1e8Pht6CqAQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-08",
+    "storeName": "大安復興店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnYmtyZGR3MhgAOgMI8A0%3D&g2lbs=AEzIGDtZWVxxyRR7546NOcfuWBS3r7hK1yAAVHkK5S3hqqGL-kWwMlgAnDphcnwDFqS1Pxe4KqTp&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=_b04aqSZEP7c1e8P5teCEA&ei=_b04aqSZEP7c1e8P5teCEA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-16-16",
+    "storeName": "文山木新店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5cXI4cWM4axgAOgMI8A0%3D&g2lbs=AEzIGDsuAvQcp9q5tEGimwRL1ZwTLMJIcSoHXSQDO5VyqNImzaIQdxaLcBjMyyJ4l_dFMVxwkEWT&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=C744aqvhGJP31e8P-rKEiAc&ei=C744aqvhGJP31e8P-rKEiAc&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-58-01",
+    "storeName": "基隆新豐店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqOWN5ZnljcxgAOgMI8A0%3D&g2lbs=AEzIGDs28QzGd020YQdgXw1A6NRSN-Me3nrcoq6gE1mEpiZsyiBVJJbXoipf2z1e4Z3thKJOem4o&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=GL44asmHFaHfosUPyKmC4Ac&ei=GL44asmHFaHfosUPyKmC4Ac&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-58-02",
+    "storeName": "基隆義二店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoNGt0X3lyNhgAOgMI8A0%3D&g2lbs=AEzIGDvwikMvhvugxoePOcRUKRHz4ve3yeFvSB4bo5jqNtY-9Wyp7mVpf7dTPft8dYWzfV10SffE&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JL44asadPPn51e8P4dP2qAs&ei=JL44asadPPn51e8P4dP2qAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-15-08",
+    "storeName": "三峽北大店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5eGdrYmRfYhgAOgMI8A0%3D&g2lbs=AEzIGDtH91Pl4zKSYx2BC_xFDU2XR2NHfiLVhL0ya7fjWHbjVljcVFkyAevyk8FQ1qNliz5LHgX2&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ML44auqbPODe1e8P0YOE4Aw&ei=ML44auqbPODe1e8P0YOE4Aw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-15-01",
+    "storeName": "三重中正北店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdDU2MmIwcxgAOgMI8A0%3D&g2lbs=AEzIGDuymkYpWZHfE1MYxN2J9_OwdBl1UGBHaMswKeC_BwdWQnG58r38tsY9bJ6gK6M7-pqaehvx&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Pr44atPxH4rR1e8Po_3w2AM&ei=Pr44atPxH4rR1e8Po_3w2AM&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-15-02",
+    "storeName": "中和南勢角店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFkeGt5MnRyNxgAOgMI8A0%3D&g2lbs=AEzIGDvO3oMqhipS2tP_-RQ2tYE1bcMSyA81Cv9Cts1wXPiuCxz2ll2Q-G65GaJM6jHezDkccM7B&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=S744aub_K4eYvr0PzcKCoAM&ei=S744aub_K4eYvr0PzcKCoAM&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-15-07",
+    "storeName": "中和連城店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxbnZqdDUzeBgAOgMI8A0%3D&g2lbs=AEzIGDsYnU2HYyRv7v76Lkjf-aFeDxwEY-zTp4NmrKC5-tN9tMX3Yx3ygYrsa4hOgRpr1JL2jI2u&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=WL44arLZIu6Fvr0PnruEqAw&ei=WL44arLZIu6Fvr0PnruEqAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-15-04",
+    "storeName": "土城海山店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsZ3lmZnA2NBgAOgMI8A0%3D&g2lbs=AEzIGDsuAnZg0DWc6Bxx6n0HGiwuuY9EW7kEaOeqknMHRhNLbXk-6nK-zyUieYt-17CgpLUD7Sg-&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Zr44arTYIriMvr0PjfTL-Ak&ei=Zr44arTYIriMvr0PjfTL-Ak&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-15-05",
+    "storeName": "新店大坪林店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrMHQwaDEwNRgAOgMI8A0%3D&g2lbs=AEzIGDtXHlsJIFMKr1Fgf7CGuZXWleEAdc80nrSwYkqjniR9BWOx4WdhJeho6KIUch9CPL-_j92d&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=cr44au-lOd-h1e8PipKpwAk&ei=cr44au-lOd-h1e8PipKpwAk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-15-06",
+    "storeName": "林口文化店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcjRyZ19taBgAOgMI8A0%3D&g2lbs=AEzIGDtdBipogcSRm5cYyRNP6O-BMEN_EqMEvZKnbPMGj1Lgp29JnF330RguKE-LpG5E-c6ZRmsZ&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=f744aoGnMPqnvr0P07OBiA4&ei=f744aoGnMPqnvr0P07OBiA4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-15-09",
+    "storeName": "汐止中興店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqeGJoeHh6dxgAOgMI8A0%3D&g2lbs=AEzIGDsW3awlnwYUyTnRizZBz8ZyegJ-aiT_a7selbpoIPMWnOmfWL5faxoIQ7UtureKWIacsG1Z&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=i744atuUL8ri1e8Pr5ez8Ao&ei=i744atuUL8ri1e8Pr5ez8Ao&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-13-02",
+    "storeName": "新竹清大店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMnc1bG1sZhgAOgMI8A0%3D&g2lbs=AEzIGDsUK3Ai5BsEeKvMgW0PihlTfTPykVaVzEbEySk9EV_lItOh4p29u1SgYcx6qwXi7T7fs9f8&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=mb44atmQHIqWvr0P1qaW6A8&ei=mb44atmQHIqWvr0P1qaW6A8&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-13-03",
+    "storeName": "竹北三民店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxbnQ4c3BicRgAOgMI8A0%3D&g2lbs=AEzIGDurCJJX1BoAPJnkJCkhgC9IUdNC3OwEY_AzyYWCNOyh4nZohvOJ2fpxho3kkmclKRM1xja6&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pr44avffFdC5vr0P2cPNsQs&ei=pr44avffFdC5vr0P2cPNsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-13-01",
+    "storeName": "竹北文興店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybmRtaDFoehgAOgMI8A0%3D&g2lbs=AEzIGDtA5VBQF-kdMUiMEwnBD3G-d8_Ep0YMn1NYpfR4HKEi9DJ7XPUwzrKeE8XC_QQb5M6vaS_P&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=s744atfIBtP21e8PosCB4Ao&ei=s744atfIBtP21e8PosCB4Ao&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-14-09",
+    "storeName": "內壢中華店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNGtyN3RiZBgAOgMI8A0%3D&g2lbs=AEzIGDvGI3nw51tZp1f6wzvb8ysVN9idJpy9PwYqIQvnb14i_V3k3472Z74V9KimGnRxzAVjK0Mf&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=v744avqCMqzc1e8Ph5yDkAE&ei=v744avqCMqzc1e8Ph5yDkAE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-14-02",
+    "storeName": "林口長庚店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF6MjU3cm5fcRgAOgMI8A0%3D&g2lbs=AEzIGDtlEeh0pGRdhfd9aZe4JqIlgpcy1fE7gH7ebhRhtePXwVNu5p0NhsVPd1JzdkBP-pW412qL&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=zb44arXQBqe7vr0Pu9qwgAY&ei=zb44arXQBqe7vr0Pu9qwgAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-14-01",
+    "storeName": "桃園八德興豐店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmM25scG5yeRgAOgMI8A0%3D&g2lbs=AEzIGDvJI21n82ql5Jy7T1no7L7bcA0YrBWkHkGttUBFGMJbgZyz-DcNczgGTDiijw2lH5pmn3f5&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=2b44ar2VNvmavr0P1-iDoAs&ei=2b44ar2VNvmavr0P1-iDoAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-14-07",
+    "storeName": "桃園南崁店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMHNxOTF4dhgAOgMI8A0%3D&g2lbs=AEzIGDudgbPhCfKtstL9uzFPde2Vmfv4-32cburLAc4TlesPwu9fVSi9TXQhINnCI07lHhuvR0tA&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=5r44aprDIfT31e8PweyBsAU&ei=5r44aprDIfT31e8PweyBsAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-14-08",
+    "storeName": "桃園南平店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxeWdoeTJscRgAOgMI8A0%3D&g2lbs=AEzIGDsC9Jxce5tK_YsZB7d6gpznwgUZZNUtWhiifT-do9cIEpnYL5TuvQpkgxcQExTGmTNjKrlF&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8744avftBuulvr0P9tKwsQE&ei=8744avftBuulvr0P9tKwsQE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-14-04",
+    "storeName": "桃園桃鶯店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxcjV0M2RkZxgAOgMI8A0%3D&g2lbs=AEzIGDvDwRj9M1Ma53NATeT_UTZP-bDWbFwd9BmTw1lz4fj7QMPbGl1r8LezskSkCTjVO65UyBGB&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=_744ao7BGZ2evr0Pr-mqwA4&ei=_744ao7BGZ2evr0Pr-mqwA4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-14-03",
+    "storeName": "桃園永安店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoNHRuXzFxahgAOgMI8A0%3D&g2lbs=AEzIGDsqiGcfi04wNU4FuYg4zByFKu5HdKTlxu0JB3DWruAj-qEMv7DYlxOaT9-M6eZ9Dq6bkj04&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=DL84aumKCeeh1e8Pre6VSQ&ei=DL84aumKCeeh1e8Pre6VSQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-14-06",
+    "storeName": "桃園龍潭店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqMl9fdl9icBgAOgMI8A0%3D&g2lbs=AEzIGDuzGJOGWWmmA1tQjDHRb1wbpnFeC5wqlkZpK70emFYCusZZzqZn2pvGuSjYfbEugY4i9n_m&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Gb84at6EFqqkvr0PjtuTgAM&ei=Gb84at6EFqqkvr0PjtuTgAM&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-39-02",
+    "storeName": "苗栗竹南店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5MmR4NHZtMxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Gbk4avvyOaLh1e8PnNWC8A0&ei=Gbk4avvyOaLh1e8PnNWC8A0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:32:27Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-39-01",
+    "storeName": "苗栗竹南科專店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNTM1bXdmcRgAOgMI8A0%3D&g2lbs=AEzIGDvLBGpM5Gusz6CihUJQ6px0hDH02nlLDfiEzct1LOB2Fw8_h1mijWQzkHytg93QSlxKTR6c&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=K784arixHbifvr0PjrSB2As&ei=K784arixHbifvr0PjrSB2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-9-03",
+    "storeName": "台南國華店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzN3owNGhwZhgAOgMI8A0%3D&g2lbs=AEzIGDu3bE58jErfLFKsDa6FRPPV_ZXD7VG9Rbs-rLLZgmTrqgn7EfiA6BwblMuT5wqTtQ2h5wzA&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Ob84at6PAuGovr0Pyry8oQM&ei=Ob84at6PAuGovr0Pyry8oQM&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-9-02",
+    "storeName": "台南大灣店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5ZnM3czNnORgBOgMI8A0%3D&g2lbs=AEzIGDuE7iYts4ilEboosDjSRHmYaWTCBVVjhhLXgHIxcZ3-X4hVpNwuk4qnP8mak3w0HBKnOjxc&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=RL84asXUJ7amvr0Pkt2SiAY&ei=RL84asXUJ7amvr0Pkt2SiAY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-9-01",
+    "storeName": "台南誠品店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrNWJjbjlwaBgAOgMI8A0%3D&g2lbs=AEzIGDsq9oJt49rX9T3t8jsD7xmE_jW9KVKH1PWe9mhS0oRah0y1_FYvXADnFPywAu4EOjinalhN&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Ub84atC7Ia_a1e8PyKqe-A4&ei=Ub84atC7Ia_a1e8PyKqe-A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-9-04",
+    "storeName": "永康中華店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwMGNrNzh0ORgAOgMI8A0%3D&g2lbs=AEzIGDuE-Eh7Qj5YVjZdtqAMghfBhb22U7QqabsjAycrCjEbIMZfAfq7iJAfi-siUtLiofcOe0Xy&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Xr84apnrD4y8vr0PvruJmAI&ei=Xr84apnrD4y8vr0PvruJmAI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-10-01",
+    "storeName": "嘉義民雄店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqMnJndF82ehgAOgMI8A0%3D&g2lbs=AEzIGDuyoIj7w_S7WTNOczLS1yaEB6s4j3UyLCvOIXMNRmgDgyyNaySWb1P4bitDMHYDPvwqtHvm&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a784aoTwE5nr1e8PqcqFuA0&ei=a784aoTwE5nr1e8PqcqFuA0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-40-01",
+    "storeName": "屏東中正店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqdms2ZnFscxgAOgMI8A0%3D&g2lbs=AEzIGDuQi80DzynnrlljEd7mQ5D1cSBw_X_MK9VtJqT7hxmq_FDW6t6kgrRR8xVZD1pUb-mKCXwU&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=eL84aprcNbSOvr0PtbbMuAE&ei=eL84aprcNbSOvr0PtbbMuAE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-5-05",
+    "storeName": "小港漢民店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxbjd2N2RfZBgAOgMI8A0%3D&g2lbs=AEzIGDs_N4b5GX_vjKF9h5K_YiatIwFsE5ssCx6nszx85ZDo0OETQbKaumJVNbnbCsMLLMU26Bxw&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=hb84asSzPPGzvr0PhM_y-AI&ei=hb84asSzPPGzvr0PhM_y-AI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-5-04",
+    "storeName": "楠梓德賢店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwd3k5Z3kxMhgAOgMI8A0%3D&g2lbs=AEzIGDtSoFW5blJzlxBUP6BKquFyafPQWfFtguCLLZ6KAGQLt7r36DIC0NcS8dTvVd036CKVqCbP&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=k784atj_ENO4vr0PpK6D6A0&ei=k784atj_ENO4vr0PpK6D6A0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-5-03",
+    "storeName": "高雄岡山店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcDhqbXhnchgAOgMI8A0%3D&g2lbs=AEzIGDu5qHHr-T2doANjmpeIPqb_HID6NT1NznPhhYZ822iT1nfkP5GFsc1CKiiD-b0R691MsgVb&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=oL84asiMIp2Mvr0Pw-2B4A4&ei=oL84asiMIp2Mvr0Pw-2B4A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-5-06",
+    "storeName": "高雄左營店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2eDNqeHZxcxgAOgMI8A0%3D&g2lbs=AEzIGDshSaTL774SwBqeExcmHOo8qy7xg3NpJgIPVo7f1bhQ3frwTDpWcIp_sLcTEcYvtSnRujnJ&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=rr84apXAF_7r1e8Pk8GL8Ag&ei=rr84apXAF_7r1e8Pk8GL8Ag&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-5-01",
+    "storeName": "高雄旗山店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqMzAxc3NxMRgAOgMI8A0%3D&g2lbs=AEzIGDtbAZs_zPs3i3Vkz6k3oc2RlnDRHG246xvFV1xqzYGdZFooq2ed79vGyZQJI377nUCfBZ9h&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=u784ar-CA-Xo1e8P1b-B2AI&ei=u784ar-CA-Xo1e8P1b-B2AI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-5-08",
+    "storeName": "高雄苓雅店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0X2d2a192aBgAOgMI8A0%3D&g2lbs=AEzIGDs66CwDEu31Rpo1qtOvDVVTk2RfTwLsmce9AT0tvjQcVv-wmrJn2RE7oe-L1TRaF43cWxM5&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=yL84aoV_iNXV7w_-z5apBQ&ei=yL84aoV_iNXV7w_-z5apBQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-5-02",
+    "storeName": "高雄路竹店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoel9rc2JkdBgAOgMI8A0%3D&g2lbs=AEzIGDuiREedzutYDjR3QXSgxZlDkzcs_13Y_WYoz0FI0-ty8dvOYHR8vFTJdJlduyJTUR4V5JLx&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=1L84at6xIbifvr0PjrSB2As&ei=1L84at6xIbifvr0PjrSB2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-6-01",
+    "storeName": "花蓮中正店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsbDQyMWhtchgAOgMI8A0%3D&g2lbs=AEzIGDtZ2TFnKFG5cgWqY997GeXjosWfSXHFJFxjr7_0r4xg7NtJ4ladrACe2P-a-K82T65raIi4&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4b84au6BHduRvr0P79nxcQ&ei=4b84au6BHduRvr0P79nxcQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-45-01",
+    "storeName": "澎湖馬公店"
+  },
+  {
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2d2dicHZnbRgAOgMI8A0%3D&g2lbs=AEzIGDs3LIFzwECZ90aEu7RCyu-UErmzO3AhIYPe5YoTkMpw7215cuKZ4qJQ6O2z7_cbaHvbouKc&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=7r84as_3Maeavr0Pl4rE6Ao&ei=7r84as_3Maeavr0Pl4rE6Ao&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "checkedAt": "2026-06-22T04:45:20Z",
+    "modes": {
+      "pickup": {
+        "clicked": false,
+        "providers": []
+      },
+      "delivery": {
+        "clicked": false,
+        "providers": []
+      }
+    },
+    "notes": [],
+    "storeId": "truedan-tw-59-01",
+    "storeName": "金門金湖店"
+  }
+]

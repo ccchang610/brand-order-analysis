@@ -1,0 +1,1066 @@
+[
+  {
+    "checkedAt": "2026-06-22T04:11:43Z",
+    "storeId": "truedan-tw-43-01",
+    "storeName": "南投埔里店",
+    "address": "南投縣埔里鎮大城里中山路三段267號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8D%97%E6%8A%95%E5%9F%94%E9%87%8C%E5%BA%97%20%E5%8D%97%E6%8A%95%E7%B8%A3%E5%9F%94%E9%87%8C%E9%8E%AE%E5%A4%A7%E5%9F%8E%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5267%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%8D%97%E6%8A%95%E5%9F%94%E9%87%8C%E5%BA%97/@23.9684427,120.9585211,17z/data=!3m1!4b1!4m6!3m5!1s0x3468d99056c7be8d:0xdfe41f9b4328fadc!8m2!3d23.9684427!4d120.9585211!16s%2Fg%2F11lkfp38b1?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹南投埔里店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsa2ZwMzhiMRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=AbY4avPbHbC-vr0Pn4SMoAY&ei=AbY4avPbHbC-vr0Pn4SMoAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹南投埔里店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-12-03",
+    "storeName": "台中中工店",
+    "address": "台中市西屯區中工三路42-1號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E4%B8%AD%E4%B8%AD%E5%B7%A5%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%B8%AD%E5%B7%A5%E4%B8%89%E8%B7%AF42-1%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E4%B8%AD%E4%B8%AD%E5%B7%A5%E5%BA%97/@24.1800031,120.6191448,17z/data=!3m1!4b1!4m6!3m5!1s0x346915093904ac71:0x82e225b6b2868056!8m2!3d24.1800031!4d120.6191448!16s%2Fg%2F11j5zkztwj?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台中中工店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNXprenR3ahgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=IbY4arT2L8nt1e8PxpCCmAU&ei=IbY4arT2L8nt1e8PxpCCmAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台中中工店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-12-06",
+    "storeName": "台中南屯店",
+    "address": "台中市南屯區南屯路二段393號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E4%B8%AD%E5%8D%97%E5%B1%AF%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%8D%97%E5%B1%AF%E8%B7%AF%E4%BA%8C%E6%AE%B5393%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E4%B8%AD%E5%8D%97%E5%B1%AF%E5%BA%97/@24.1381556,120.6437195,17z/data=!3m1!4b1!4m6!3m5!1s0x34693db2d41ef923:0x905df841f4b8ab33!8m2!3d24.1381556!4d120.6437195!16s%2Fg%2F11rgl68s0g?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台中南屯店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFyZ2w2OHMwZxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=NbY4aq2gBOjX1e8PmIupkQE&ei=NbY4aq2gBOjX1e8PmIupkQE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台中南屯店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-12-04",
+    "storeName": "台中建和店",
+    "address": "台中市北屯區建和路二段26號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E4%B8%AD%E5%BB%BA%E5%92%8C%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E5%BB%BA%E5%92%8C%E8%B7%AF%E4%BA%8C%E6%AE%B526%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%EF%BC%88%E5%8F%B0%E4%B8%AD%E5%BB%BA%E5%92%8C%E5%BA%97%EF%BC%89/@24.1672837,120.7246177,17z/data=!3m1!4b1!4m6!3m5!1s0x3469192f3dfa0d21:0x664142d64a498e21!8m2!3d24.1672837!4d120.7246177!16s%2Fg%2F11t9pckzxh?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹（台中建和店）\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0OXBja3p4aBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=RbY4av6zMc7u1e8Pto-OsAQ&ei=RbY4av6zMc7u1e8Pto-OsAQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹（台中建和店） - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-12-05",
+    "storeName": "台中昌平店",
+    "address": "台中市北屯區昌平路一段200號一樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E4%B8%AD%E6%98%8C%E5%B9%B3%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%98%8C%E5%B9%B3%E8%B7%AF%E4%B8%80%E6%AE%B5200%E8%99%9F%E4%B8%80%E6%A8%93",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E4%B8%AD%E6%98%8C%E5%B9%B3%E5%BA%97/@24.1696397,120.6919304,17z/data=!3m1!4b1!4m6!3m5!1s0x346917848a99f48f:0x3bc410ef09362d2f!8m2!3d24.1696397!4d120.6919304!16s%2Fg%2F11jp06swz5?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "Nidin",
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台中昌平店\n自取\n運送\n選擇下單對象：\nnidin.shop\n可能提供取貨服務\n商家首選\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqcDA2c3d6NRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=V7Y4at6jBtipvr0PjfeBsAI&ei=V7Y4at6jBtipvr0PjfeBsAI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台中昌平店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-12-02",
+    "storeName": "台中精誠店",
+    "address": "台中市西區精誠路196號1F",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E4%B8%AD%E7%B2%BE%E8%AA%A0%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%B2%BE%E8%AA%A0%E8%B7%AF196%E8%99%9F1F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E4%B8%AD%E7%B2%BE%E8%AA%A0%E5%BA%97/@24.1515142,120.6549975,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d5a6fdb813d:0x453c08f6f0ad9b80!8m2!3d24.1515142!4d120.6549975!16s%2Fg%2F11hdv60fxt?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台中精誠店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoZHY2MGZ4dBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Z7Y4auayJJzt1e8P0YKy-QQ&ei=Z7Y4auayJJzt1e8P0YKy-QQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台中精誠店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-12-01",
+    "storeName": "台中豐原店",
+    "address": "台中市豐原區豐榮里三民路157號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E4%B8%AD%E8%B1%90%E5%8E%9F%E5%BA%97%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E8%B1%90%E6%A6%AE%E9%87%8C%E4%B8%89%E6%B0%91%E8%B7%AF157%E8%99%9F1%E6%A8%93",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E4%B8%AD%E8%B1%90%E5%8E%9F%E5%BA%97/@24.253178,120.71823,17z/data=!3m1!4b1!4m6!3m5!1s0x34691b4175134e31:0x281e4a8bc9fd96bf!8m2!3d24.253178!4d120.71823!16s%2Fg%2F11jlf69wb4?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台中豐原店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqbGY2OXdiNBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=eLY4av_JC-rV1e8P3biBqAc&ei=eLY4av_JC-rV1e8P3biBqAc&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台中豐原店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-54-01",
+    "storeName": "雲林斗六店",
+    "address": "雲林縣斗六市民生南路207號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97%20%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E6%B0%91%E7%94%9F%E5%8D%97%E8%B7%AF207%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97/@23.7000369,120.5371018,17z/data=!3m1!4b1!4m6!3m5!1s0x346ec9c208ae038b:0xbbeaa434de62970d!8m2!3d23.7000369!4d120.5371018!16s%2Fg%2F11rzfj7ztm?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 雲林斗六店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFyemZqN3p0bRgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=h7Y4at2CCPTW1e8PwvyBuAo&ei=h7Y4at2CCPTW1e8PwvyBuAo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 雲林斗六店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-01",
+    "storeName": "中山赤峰店",
+    "address": "台北市大同區承德路二段1巷38號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E4%B8%AD%E5%B1%B1%E8%B5%A4%E5%B3%B0%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%BA%8C%E6%AE%B51%E5%B7%B738%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E4%B8%AD%E5%B1%B1%E8%B5%A4%E5%B3%B0%E5%BA%97/@25.0533484,121.5190495,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a9142ad41055:0x53760f5d9840e87d!8m2!3d25.0533484!4d121.5190495!16s%2Fg%2F11y865kms7?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹中山赤峰店\n自取\n運送\n選擇下單對象：\nfoodpanda\nocard.co",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5ODY1a21zNxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=mLY4arutEOXO1e8P-eaCsAY&ei=mLY4arutEOXO1e8P-eaCsAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹中山赤峰店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-13",
+    "storeName": "中正南門店",
+    "address": "台北市中正區羅斯福路一段12號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E4%B8%AD%E6%AD%A3%E5%8D%97%E9%96%80%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E7%BE%85%E6%96%AF%E7%A6%8F%E8%B7%AF%E4%B8%80%E6%AE%B512%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E4%B8%AD%E6%AD%A3%E5%8D%97%E9%96%80%E5%BA%97/@25.0319699,121.5185634,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a99eb45633a3:0x8f1fbe4641ec4c47!8m2!3d25.0319699!4d121.5185634!16s%2Fg%2F11g8lpdmqw?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 中正南門店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnOGxwZG1xdxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=qbY4avSLK63i1e8PvYuEiAc&ei=qbY4avSLK63i1e8PvYuEiAc&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 中正南門店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-03",
+    "storeName": "信義市府店",
+    "address": "台北市信義區忠孝東路五段17號之1",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E4%BF%A1%E7%BE%A9%E5%B8%82%E5%BA%9C%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E4%BA%94%E6%AE%B517%E8%99%9F%E4%B9%8B1",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E4%BF%A1%E7%BE%A9%E5%B8%82%E5%BA%9C%E5%BA%97/@25.0414512,121.5656269,17z/data=!3m1!4b1!4m6!3m5!1s0x3442abb8ffffffff:0x95d55b126063744e!8m2!3d25.0414512!4d121.5656269!16s%2Fg%2F11g9nl9y_0?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 信義市府店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnOW5sOXlfMBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ubY4apbBDOO7vr0PxtuPiA4&ei=ubY4apbBDOO7vr0PxtuPiA4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 信義市府店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-05",
+    "storeName": "內湖園區店",
+    "address": "台北市內湖區內湖路一段411巷8號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%85%A7%E6%B9%96%E5%9C%92%E5%8D%80%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E5%85%A7%E6%B9%96%E8%B7%AF%E4%B8%80%E6%AE%B5411%E5%B7%B78%E8%99%9F1%E6%A8%93",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%85%A7%E6%B9%96%E5%9C%92%E5%8D%80%E5%BA%97/@25.0820921,121.5710158,17z/data=!3m1!4b1!4m6!3m5!1s0x3442ad610b21d5c3:0x7eee63b2f9eeeaa5!8m2!3d25.0820921!4d121.5710158!16s%2Fg%2F11j6gy7p8c?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "Nidin",
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 內湖園區店\n自取\n運送\n選擇下單對象：\nfoodpanda\nnidin.shop",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNmd5N3A4YxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ybY4arSeN8mOvr0P0f-BUA&ei=ybY4arSeN8mOvr0P0f-BUA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 內湖園區店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-04",
+    "storeName": "內湖江南店",
+    "address": "台北市內湖區江南街108號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%85%A7%E6%B9%96%E6%B1%9F%E5%8D%97%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E6%B1%9F%E5%8D%97%E8%A1%97108%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%85%A7%E6%B9%96%E6%B1%9F%E5%8D%97%E5%BA%97/@25.0767932,121.5766132,17z/data=!3m1!4b1!4m6!3m5!1s0x3442ac64abf70f37:0xb49ddd695f569309!8m2!3d25.0767932!4d121.5766132!16s%2Fg%2F11cs0rm2gn?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 內湖江南店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjczBybTJnbhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=27Y4aql26dnV7w_UtIOIDA&ei=27Y4aql26dnV7w_UtIOIDA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 內湖江南店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-15",
+    "storeName": "南港園區店",
+    "address": "台北市南港區新民街58號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8D%97%E6%B8%AF%E5%9C%92%E5%8D%80%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E6%96%B0%E6%B0%91%E8%A1%9758%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8D%97%E6%B8%AF%E5%9C%92%E5%8D%80%E5%BA%97/@25.0559593,121.6117307,17z/data=!3m1!4b1!4m6!3m5!1s0x3442ab9784a1b19d:0x2211d51d43b4c3aa!8m2!3d25.0559593!4d121.6117307!16s%2Fg%2F11hsvsq1sx?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 南港園區店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoc3ZzcTFzeBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=67Y4asTnNoTc1e8PwNGBqAY&ei=67Y4asTnNoTc1e8PwNGBqAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 南港園區店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-07",
+    "storeName": "台北北醫店",
+    "address": "台北市信義區莊敬路318號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8C%97%E5%8C%97%E9%86%AB%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E8%8E%8A%E6%95%AC%E8%B7%AF318%E8%99%9F1%E6%A8%93",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9-%E5%8F%B0%E5%8C%97%E5%8C%97%E9%86%AB%E5%BA%97(%E5%8F%AF%E4%BD%BF%E7%94%A8Ocard%E7%B7%9A%E4%B8%8A%E9%BB%9E%E9%A4%90%EF%BC%89/@25.028119,121.563306,17z/data=!3m1!4b1!4m6!3m5!1s0x3442ab45e5dc9031:0x578823a47746fe23!8m2!3d25.028119!4d121.563306!16s%2Fg%2F11h97g8rtb?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹-台北北醫店(可使用Ocard線上點餐）\n自取\n運送\n選擇下單對象：\nfoodpanda\nocard.co\n商家首選",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoOTdnOHJ0YhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=_bY4ap_ZFsP41e8PtJ-coAw&ei=_bY4ap_ZFsP41e8PtJ-coAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹-台北北醫店(可使用Ocard線上點餐） - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-09",
+    "storeName": "台北南京店",
+    "address": "台北市松山區南京東路四段108號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8C%97%E5%8D%97%E4%BA%AC%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E5%8D%97%E4%BA%AC%E6%9D%B1%E8%B7%AF%E5%9B%9B%E6%AE%B5108%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E5%8C%97%E5%8D%97%E4%BA%AC%E5%BA%97/@25.0514395,121.5545223,17z/data=!3m1!4b1!4m6!3m5!1s0x3442ab4194c84cb5:0xee3d9e8fa0f9dac2!8m2!3d25.0514395!4d121.5545223!16s%2Fg%2F11j9cyw6bb?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台北南京店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqOWN5dzZiYhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Drc4arrXDJPr1e8P__eB6AI&ei=Drc4arrXDJPr1e8P__eB6AI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台北南京店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-06",
+    "storeName": "台北合江店",
+    "address": "台北市合江街152號一樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8C%97%E5%90%88%E6%B1%9F%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%90%88%E6%B1%9F%E8%A1%97152%E8%99%9F%E4%B8%80%E6%A8%93",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E5%8C%97%E5%90%88%E6%B1%9F%E5%BA%97/@25.060014,121.5391088,17z/data=!3m1!4b1!4m6!3m5!1s0x3442ab5d29f7a76b:0x15afdf8d10a6e4da!8m2!3d25.060014!4d121.5391088!16s%2Fg%2F11jg_9q9hs?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "Nidin",
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台北合江店\n自取\n運送\n選擇下單對象：\nfoodpanda\nnidin.shop",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqZ185cTlocxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=HLc4asuTJ4vr1e8P2qGC8Ao&ei=HLc4asuTJ4vr1e8P2qGC8Ao&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台北合江店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-11",
+    "storeName": "台北延平南店",
+    "address": "台北市中正區延平南路238號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8C%97%E5%BB%B6%E5%B9%B3%E5%8D%97%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%BB%B6%E5%B9%B3%E5%8D%97%E8%B7%AF238%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E5%8C%97%E5%BB%B6%E5%B9%B3%E5%8D%97%E5%BA%97/@25.0337731,121.5073047,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a97952aed931:0x4a5b3969d576e983!8m2!3d25.0337731!4d121.5073047!16s%2Fg%2F11rpddmdj2?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台北延平南店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFycGRkbWRqMhgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Lbc4auzXJ-eIvr0Pk6KB2AU&ei=Lbc4auzXJ-eIvr0Pk6KB2AU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台北延平南店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-12",
+    "storeName": "台北濟南店",
+    "address": "台北市中正區濟南路二段60之1號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8C%97%E6%BF%9F%E5%8D%97%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E6%BF%9F%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B560%E4%B9%8B1%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E5%8C%97%E6%BF%9F%E5%8D%97%E5%BA%97/@25.0401612,121.5319473,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a9bd3140ee9f:0xeaa45c4717d6492b!8m2!3d25.0401612!4d121.5319473!16s%2Fg%2F11frdzp95r?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "Nidin",
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台北濟南店\n自取\n運送\n選擇下單對象：\nfoodpanda\nnidin.shop\n可能提供取貨服務",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcmR6cDk1chgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Prc4aqbKKvP_1e8Pi8Wx-Qc&ei=Prc4aqbKKvP_1e8Pi8Wx-Qc&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台北濟南店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-14",
+    "storeName": "台北石牌店",
+    "address": "台北市北投區石牌路一段164之1號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8C%97%E7%9F%B3%E7%89%8C%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E7%9F%B3%E7%89%8C%E8%B7%AF%E4%B8%80%E6%AE%B5164%E4%B9%8B1%E8%99%9F",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E5%8C%97%E7%9F%B3%E7%89%8C%E5%BA%97/@25.1143349,121.5135057,17z/data=!3m1!4b1!4m6!3m5!1s0x3442afdaf1a92951:0x2532deed3d1e5ff7!8m2!3d25.1143349!4d121.5135057!16s%2Fg%2F11jbc3f0nd?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台北石牌店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqYmMzZjBuZBgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=T7c4asWdFPWivr0PjYqqgAk&ei=T7c4asWdFPWivr0PjYqqgAk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台北石牌店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-16-10",
+    "storeName": "台北遼寧店",
+    "address": "台北市中山區遼寧街27號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8C%97%E9%81%BC%E5%AF%A7%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E9%81%BC%E5%AF%A7%E8%A1%9727%E8%99%9F1%E6%A8%93",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E5%8C%97%E9%81%BC%E5%AF%A7%E5%BA%97/@25.0479564,121.5422227,17z/data=!3m1!4b1!4m6!3m5!1s0x3442abde9bd515ab:0x9cdb214ee4417ffe!8m2!3d25.0479564!4d121.5422227!16s%2Fg%2F11c6w0ww2z?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelTextSample": "線上點餐\n珍煮丹 台北遼寧店\n自取\n運送\n選擇下單對象：\nfoodpanda",
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjNncwd3cyehgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Ybc4aqD7AqDl1e8P4tOPsAY&ei=Ybc4aqD7AqDl1e8P4tOPsAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "title": "珍煮丹 台北遼寧店 - Google 地圖",
+    "notes": [
+      "Visible online-order entry detected. Opened via searchviewer href."
+    ]
+  },
+  {
+    "storeId": "truedan-tw-16-02",
+    "storeName": "士林大北店",
+    "address": "台北市士林區大北路54號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%A3%AB%E6%9E%97%E5%A4%A7%E5%8C%97%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%A4%A7%E5%8C%97%E8%B7%AF54%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%A3%AB%E6%9E%97%E5%A4%A7%E5%8C%97%E5%BA%97/@25.090084,121.525658,17z/data=!3m1!4b1!4m6!3m5!1s0x3442aea534c10c05:0x117208e1878977ce!8m2!3d25.090084!4d121.525658!16s%2Fg%2F11c0rglwdk?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 士林大北店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjMHJnbHdkaxgAOgMI8A0%3D&g2lbs=AEzIGDs-3DjT7NaKjvK9p9cMK9Nfl8-82GRNJxr4m_nSzPuUai-aI4Ngab234pO4BTm7Jjze51Q2&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4b04auKiPLafvr0Pn8-P4Aw&ei=4b04auKiPLafvr0Pn8-P4Aw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-16-08",
+    "storeName": "大安復興店",
+    "address": "台北市大安區信義路三段200號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%A4%A7%E5%AE%89%E5%BE%A9%E8%88%88%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E4%BF%A1%E7%BE%A9%E8%B7%AF%E4%B8%89%E6%AE%B5200%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%A4%A7%E5%AE%89%E5%BE%A9%E8%88%88%E5%BA%97/@25.0330886,121.5432814,17z/data=!3m1!4b1!4m6!3m5!1s0x3442abd3650b4fa1:0x7ec3b33757c18334!8m2!3d25.0330886!4d121.5432814!16s%2Fg%2F11c55rfjzg?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 大安復興店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjNTVyZmp6ZxgAOgMI8A0%3D&g2lbs=AEzIGDto04LIRO1m_AJaL7MH3-iNarD-XBDoyMlzK7LgQYazb_N_mg6Uw9UBfc-OmJsfJfIThPRC&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=7704araEGuTC1e8Pht6CqAQ&ei=7704araEGuTC1e8Pht6CqAQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-16-16",
+    "storeName": "文山木新店",
+    "address": "台北市文山區木新路三段160號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%96%87%E5%B1%B1%E6%9C%A8%E6%96%B0%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%9C%A8%E6%96%B0%E8%B7%AF%E4%B8%89%E6%AE%B5160%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%96%87%E5%B1%B1%E6%9C%A8%E6%96%B0%E5%BA%97/@24.9819693,121.5610978,17z/data=!3m1!4b1!4m6!3m5!1s0x3442aa13bb1c7035:0xb7232430df9df4aa!8m2!3d24.9819693!4d121.5610978!16s%2Fg%2F11gbkrddw2?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 文山木新店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnYmtyZGR3MhgAOgMI8A0%3D&g2lbs=AEzIGDtZWVxxyRR7546NOcfuWBS3r7hK1yAAVHkK5S3hqqGL-kWwMlgAnDphcnwDFqS1Pxe4KqTp&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=_b04aqSZEP7c1e8P5teCEA&ei=_b04aqSZEP7c1e8P5teCEA&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-58-01",
+    "storeName": "基隆新豐店",
+    "address": "基隆市中正區新豐街351號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%9F%BA%E9%9A%86%E6%96%B0%E8%B1%90%E5%BA%97%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E6%96%B0%E8%B1%90%E8%A1%97351%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%9F%BA%E9%9A%86%E6%96%B0%E8%B1%90%E5%BA%97/@25.1355965,121.7865893,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4f87a598a65d:0xc0745a5c185192dd!8m2!3d25.1355965!4d121.7865893!16s%2Fg%2F11yqr8qc8k?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹基隆新豐店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5cXI4cWM4axgAOgMI8A0%3D&g2lbs=AEzIGDsuAvQcp9q5tEGimwRL1ZwTLMJIcSoHXSQDO5VyqNImzaIQdxaLcBjMyyJ4l_dFMVxwkEWT&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=C744aqvhGJP31e8P-rKEiAc&ei=C744aqvhGJP31e8P-rKEiAc&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-58-02",
+    "storeName": "基隆義二店",
+    "address": "基隆市中正區義二路16號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%9F%BA%E9%9A%86%E7%BE%A9%E4%BA%8C%E5%BA%97%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E7%BE%A9%E4%BA%8C%E8%B7%AF16%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%9F%BA%E9%9A%86%E7%BE%A9%E4%BA%8C%E5%BA%97/@25.1307395,121.745375,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4fcb0362c41f:0xe5cb568ad0970e1e!8m2!3d25.1307395!4d121.745375!16s%2Fg%2F11j9cyfycs?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹基隆義二店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqOWN5ZnljcxgAOgMI8A0%3D&g2lbs=AEzIGDs28QzGd020YQdgXw1A6NRSN-Me3nrcoq6gE1mEpiZsyiBVJJbXoipf2z1e4Z3thKJOem4o&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=GL44asmHFaHfosUPyKmC4Ac&ei=GL44asmHFaHfosUPyKmC4Ac&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-15-08",
+    "storeName": "三峽北大店",
+    "address": "新北市三峽區大學路145號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E4%B8%89%E5%B3%BD%E5%8C%97%E5%A4%A7%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E5%B3%BD%E5%8D%80%E5%A4%A7%E5%AD%B8%E8%B7%AF145%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E4%B8%89%E5%B3%BD%E5%8C%97%E5%A4%A7%E5%BA%97/@24.9439864,121.3741868,17z/data=!3m1!4b1!4m6!3m5!1s0x34681d81e077c171:0x42e7304d68d7485d!8m2!3d24.9439864!4d121.3741868!16s%2Fg%2F11h4kt_yr6?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 三峽北大店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoNGt0X3lyNhgAOgMI8A0%3D&g2lbs=AEzIGDvwikMvhvugxoePOcRUKRHz4ve3yeFvSB4bo5jqNtY-9Wyp7mVpf7dTPft8dYWzfV10SffE&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=JL44asadPPn51e8P4dP2qAs&ei=JL44asadPPn51e8P4dP2qAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-15-01",
+    "storeName": "三重中正北店",
+    "address": "新北市三重區中正北路53號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E4%B8%89%E9%87%8D%E4%B8%AD%E6%AD%A3%E5%8C%97%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E9%87%8D%E5%8D%80%E4%B8%AD%E6%AD%A3%E5%8C%97%E8%B7%AF53%E8%99%9F1%E6%A8%93",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E4%B8%89%E9%87%8D%E4%B8%AD%E6%AD%A3%E5%8C%97%E5%BA%97/@25.062989,121.490784,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a91647ceaef7:0xb17568ae60ff3da3!8m2!3d25.062989!4d121.490784!16s%2Fg%2F11yxgkbd_b?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹三重中正北店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5eGdrYmRfYhgAOgMI8A0%3D&g2lbs=AEzIGDtH91Pl4zKSYx2BC_xFDU2XR2NHfiLVhL0ya7fjWHbjVljcVFkyAevyk8FQ1qNliz5LHgX2&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=ML44auqbPODe1e8P0YOE4Aw&ei=ML44auqbPODe1e8P0YOE4Aw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-15-02",
+    "storeName": "中和南勢角店",
+    "address": "新北市中和區興南路一段94號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E4%B8%AD%E5%92%8C%E5%8D%97%E5%8B%A2%E8%A7%92%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E8%88%88%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B594%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E4%B8%AD%E5%92%8C%E5%8D%97%E5%8B%A2%E8%A7%92%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E8%88%88%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B594%E8%99%9F/@24.9956305,121.5043709,16z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 中和南勢角店 新北市中和區興南路一段94號 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtdDU2MmIwcxgAOgMI8A0%3D&g2lbs=AEzIGDuymkYpWZHfE1MYxN2J9_OwdBl1UGBHaMswKeC_BwdWQnG58r38tsY9bJ6gK6M7-pqaehvx&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Pr44atPxH4rR1e8Po_3w2AM&ei=Pr44atPxH4rR1e8Po_3w2AM&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-15-07",
+    "storeName": "中和連城店",
+    "address": "新北市中和區連城路17號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E4%B8%AD%E5%92%8C%E9%80%A3%E5%9F%8E%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E9%80%A3%E5%9F%8E%E8%B7%AF17%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E4%B8%AD%E5%92%8C%E9%80%A3%E5%9F%8E%E5%BA%97(%E5%8F%AF%E4%BD%BF%E7%94%A8Ocard%E7%B7%9A%E4%B8%8A%E9%BB%9E%E9%A4%90)/@25.0021161,121.4989568,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a9d6f657cf13:0x6386e450af8601ff!8m2!3d25.0021161!4d121.4989568!16s%2Fg%2F11dxky2tr7?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 中和連城店(可使用Ocard線上點餐) - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFkeGt5MnRyNxgAOgMI8A0%3D&g2lbs=AEzIGDvO3oMqhipS2tP_-RQ2tYE1bcMSyA81Cv9Cts1wXPiuCxz2ll2Q-G65GaJM6jHezDkccM7B&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=S744aub_K4eYvr0PzcKCoAM&ei=S744aub_K4eYvr0PzcKCoAM&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-15-04",
+    "storeName": "土城海山店",
+    "address": "土城區裕民路85號1F",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%9C%9F%E5%9F%8E%E6%B5%B7%E5%B1%B1%E5%BA%97%20%E5%9C%9F%E5%9F%8E%E5%8D%80%E8%A3%95%E6%B0%91%E8%B7%AF85%E8%99%9F1F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%9C%9F%E5%9F%8E%E6%B5%B7%E5%B1%B1%E5%BA%97+(%E5%A4%96%E9%80%81%E8%AB%8B%E4%BD%BF%E7%94%A8Ocard%E4%B8%8B%E5%96%AE)/@24.9873527,121.4501846,17z/data=!3m1!4b1!4m6!3m5!1s0x3468038925c2d4e3:0xd54346d34734166e!8m2!3d24.9873527!4d121.4501846!16s%2Fg%2F11qnvjt53x?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 土城海山店 (外送請使用Ocard下單) - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxbnZqdDUzeBgAOgMI8A0%3D&g2lbs=AEzIGDsYnU2HYyRv7v76Lkjf-aFeDxwEY-zTp4NmrKC5-tN9tMX3Yx3ygYrsa4hOgRpr1JL2jI2u&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=WL44arLZIu6Fvr0PnruEqAw&ei=WL44arLZIu6Fvr0PnruEqAw&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-15-05",
+    "storeName": "新店大坪林店",
+    "address": "新北市新店區北新路三段85號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%96%B0%E5%BA%97%E5%A4%A7%E5%9D%AA%E6%9E%97%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E5%BA%97%E5%8D%80%E5%8C%97%E6%96%B0%E8%B7%AF%E4%B8%89%E6%AE%B585%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%96%B0%E5%BA%97%E5%A4%A7%E5%9D%AA%E6%9E%97%E5%BA%97/@24.9815512,121.5414618,17z/data=!3m1!4b1!4m6!3m5!1s0x34680136bca22a4b:0xe99417e0361a5b3!8m2!3d24.9815512!4d121.5414618!16s%2Fg%2F11lgyffp64?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 新店大坪林店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsZ3lmZnA2NBgAOgMI8A0%3D&g2lbs=AEzIGDsuAnZg0DWc6Bxx6n0HGiwuuY9EW7kEaOeqknMHRhNLbXk-6nK-zyUieYt-17CgpLUD7Sg-&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Zr44arTYIriMvr0PjfTL-Ak&ei=Zr44arTYIriMvr0PjfTL-Ak&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-15-03",
+    "storeName": "板橋府中店",
+    "address": "新北市板橋區中山路一段29號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%9D%BF%E6%A9%8B%E5%BA%9C%E4%B8%AD%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B529%E8%99%9F1%E6%A8%93",
+    "gmbStatus": "not_found",
+    "gmbOrderingStatus": "not_found",
+    "gmbUrl": "",
+    "buttonDetected": false,
+    "providers": [],
+    "panelTextSample": "",
+    "panelUrl": "",
+    "title": "珍煮丹府中店 - Google 地圖",
+    "notes": [
+      "No matching store name/address visible in Maps result text."
+    ]
+  },
+  {
+    "storeId": "truedan-tw-15-06",
+    "storeName": "林口文化店",
+    "address": "新北市林口區文化二路一段62號1樓之1",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%9E%97%E5%8F%A3%E6%96%87%E5%8C%96%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9E%97%E5%8F%A3%E5%8D%80%E6%96%87%E5%8C%96%E4%BA%8C%E8%B7%AF%E4%B8%80%E6%AE%B562%E8%99%9F1%E6%A8%93%E4%B9%8B1",
+    "gmbUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%9E%97%E5%8F%A3%E6%96%87%E5%8C%96%E5%BA%97+%E6%96%B0%E5%8C%97%E5%B8%82%E6%9E%97%E5%8F%A3%E5%8D%80%E6%96%87%E5%8C%96%E4%BA%8C%E8%B7%AF%E4%B8%80%E6%AE%B562%E8%99%9F1%E6%A8%93%E4%B9%8B1/@25.0650846,121.3664452,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 林口文化店 新北市林口區文化二路一段62號1樓之1 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrMHQwaDEwNRgAOgMI8A0%3D&g2lbs=AEzIGDtXHlsJIFMKr1Fgf7CGuZXWleEAdc80nrSwYkqjniR9BWOx4WdhJeho6KIUch9CPL-_j92d&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=cr44au-lOd-h1e8PipKpwAk&ei=cr44au-lOd-h1e8PipKpwAk&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-15-09",
+    "storeName": "汐止中興店",
+    "address": "新北市汐止區中興路204號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%B1%90%E6%AD%A2%E4%B8%AD%E8%88%88%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%B1%90%E6%AD%A2%E5%8D%80%E4%B8%AD%E8%88%88%E8%B7%AF204%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%B1%90%E6%AD%A2%E4%B8%AD%E8%88%88%E5%BA%97/@25.0661839,121.6314189,17z/data=!3m1!4b1!4m6!3m5!1s0x345d53b041444bcb:0x19ce20c9177d5631!8m2!3d25.0661839!4d121.6314189!16s%2Fg%2F11fr4rg_mh?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 汐止中興店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcjRyZ19taBgAOgMI8A0%3D&g2lbs=AEzIGDtdBipogcSRm5cYyRNP6O-BMEN_EqMEvZKnbPMGj1Lgp29JnF330RguKE-LpG5E-c6ZRmsZ&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=f744aoGnMPqnvr0P07OBiA4&ei=f744aoGnMPqnvr0P07OBiA4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-13-02",
+    "storeName": "新竹清大店",
+    "address": "新竹市建功一路45-3號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%96%B0%E7%AB%B9%E6%B8%85%E5%A4%A7%E5%BA%97%20%E6%96%B0%E7%AB%B9%E5%B8%82%E5%BB%BA%E5%8A%9F%E4%B8%80%E8%B7%AF45-3%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%96%B0%E7%AB%B9%E6%B8%85%E5%A4%A7%E5%BA%97/@24.7980048,120.9977792,17z/data=!3m1!4b1!4m6!3m5!1s0x3468373fc634ac99:0x7d93819d9b270130!8m2!3d24.7980048!4d120.9977792!16s%2Fg%2F11jxbhxxzw?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 新竹清大店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqeGJoeHh6dxgAOgMI8A0%3D&g2lbs=AEzIGDsW3awlnwYUyTnRizZBz8ZyegJ-aiT_a7selbpoIPMWnOmfWL5faxoIQ7UtureKWIacsG1Z&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=i744atuUL8ri1e8Pr5ez8Ao&ei=i744atuUL8ri1e8Pr5ez8Ao&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-13-03",
+    "storeName": "竹北三民店",
+    "address": "新竹縣竹北市三民路276號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E7%AB%B9%E5%8C%97%E4%B8%89%E6%B0%91%E5%BA%97%20%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AB%B9%E5%8C%97%E5%B8%82%E4%B8%89%E6%B0%91%E8%B7%AF276%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E7%AB%B9%E5%8C%97%E4%B8%89%E6%B0%91%E5%BA%97/@24.8340236,121.0105074,17z/data=!3m1!4b1!4m6!3m5!1s0x34683700a378b1c7:0x289eb83dd13c1cb1!8m2!3d24.8340236!4d121.0105074!16s%2Fg%2F11g2w5lmlf?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 竹北三民店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMnc1bG1sZhgAOgMI8A0%3D&g2lbs=AEzIGDsUK3Ai5BsEeKvMgW0PihlTfTPykVaVzEbEySk9EV_lItOh4p29u1SgYcx6qwXi7T7fs9f8&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=mb44atmQHIqWvr0P1qaW6A8&ei=mb44atmQHIqWvr0P1qaW6A8&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-13-01",
+    "storeName": "竹北文興店",
+    "address": "新竹縣竹北市文興路一段271號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E7%AB%B9%E5%8C%97%E6%96%87%E8%88%88%E5%BA%97%20%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AB%B9%E5%8C%97%E5%B8%82%E6%96%87%E8%88%88%E8%B7%AF%E4%B8%80%E6%AE%B5271%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E7%AB%B9%E5%8C%97%E6%96%87%E8%88%88%E5%BA%97/@24.8091521,121.0316114,17z/data=!3m1!4b1!4m6!3m5!1s0x346837c1d1b7bf49:0x49b20b41e46761d7!8m2!3d24.8091521!4d121.0316114!16s%2Fg%2F11qnt8spbq?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹竹北文興店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxbnQ4c3BicRgAOgMI8A0%3D&g2lbs=AEzIGDurCJJX1BoAPJnkJCkhgC9IUdNC3OwEY_AzyYWCNOyh4nZohvOJ2fpxho3kkmclKRM1xja6&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=pr44avffFdC5vr0P2cPNsQs&ei=pr44avffFdC5vr0P2cPNsQs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-14-09",
+    "storeName": "內壢中華店",
+    "address": "桃園市中壢區中華路一段242號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%85%A7%E5%A3%A2%E4%B8%AD%E8%8F%AF%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%B8%AD%E8%8F%AF%E8%B7%AF%E4%B8%80%E6%AE%B5242%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%85%A7%E5%A3%A2%E4%B8%AD%E8%8F%AF%E5%BA%97/@24.9732775,121.258503,17z/data=!3m1!4b1!4m6!3m5!1s0x34682138944359b3:0xf19959160f7427d!8m2!3d24.9732775!4d121.258503!16s%2Fg%2F11rndmh1hz?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹內壢中華店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFybmRtaDFoehgAOgMI8A0%3D&g2lbs=AEzIGDtA5VBQF-kdMUiMEwnBD3G-d8_Ep0YMn1NYpfR4HKEi9DJ7XPUwzrKeE8XC_QQb5M6vaS_P&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=s744atfIBtP21e8PosCB4Ao&ei=s744atfIBtP21e8PosCB4Ao&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-14-02",
+    "storeName": "林口長庚店",
+    "address": "桃園市龜山區復興街5號B1(林口長庚醫院地下美食街)",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%9E%97%E5%8F%A3%E9%95%B7%E5%BA%9A%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E8%A1%975%E8%99%9FB1%28%E6%9E%97%E5%8F%A3%E9%95%B7%E5%BA%9A%E9%86%AB%E9%99%A2%E5%9C%B0%E4%B8%8B%E7%BE%8E%E9%A3%9F%E8%A1%97%29",
+    "gmbUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%9E%97%E5%8F%A3%E9%95%B7%E5%BA%9A%E5%BA%97+%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E8%A1%975%E8%99%9FB1(%E6%9E%97%E5%8F%A3%E9%95%B7%E5%BA%9A%E9%86%AB%E9%99%A2%E5%9C%B0%E4%B8%8B%E7%BE%8E%E9%A3%9F%E8%A1%97)/@25.0618245,121.3676652,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 林口長庚店 桃園市龜山區復興街5號B1(林口長庚醫院地下美食街) - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNGtyN3RiZBgAOgMI8A0%3D&g2lbs=AEzIGDvGI3nw51tZp1f6wzvb8ysVN9idJpy9PwYqIQvnb14i_V3k3472Z74V9KimGnRxzAVjK0Mf&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=v744avqCMqzc1e8Ph5yDkAE&ei=v744avqCMqzc1e8Ph5yDkAE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-14-01",
+    "storeName": "桃園八德興豐店",
+    "address": "桃園市八德區興豐路656號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E5%85%AB%E5%BE%B7%E8%88%88%E8%B1%90%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%85%AB%E5%BE%B7%E5%8D%80%E8%88%88%E8%B1%90%E8%B7%AF656%E8%99%9F1%E6%A8%93",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%A1%83%E5%9C%92%E5%85%AB%E5%BE%B7%E8%88%88%E8%B1%90%E5%BA%97/@24.9308628,121.2955728,17z/data=!3m1!4b1!4m6!3m5!1s0x3468195f0061e3f3:0x3d4ddba12ee082d7!8m2!3d24.9308628!4d121.2955728!16s%2Fg%2F11z257rn_q?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 桃園八德興豐店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF6MjU3cm5fcRgAOgMI8A0%3D&g2lbs=AEzIGDtlEeh0pGRdhfd9aZe4JqIlgpcy1fE7gH7ebhRhtePXwVNu5p0NhsVPd1JzdkBP-pW412qL&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=zb44arXQBqe7vr0Pu9qwgAY&ei=zb44arXQBqe7vr0Pu9qwgAY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-14-07",
+    "storeName": "桃園南崁店",
+    "address": "桃園市蘆竹區南崁路227號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF227%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E6%A1%83%E5%9C%92%E5%8D%97%E5%B4%81%E5%BA%97/@25.0485992,121.2933627,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a07638262d51:0xc8ecbd97679fa05a!8m2!3d25.0485992!4d121.2933627!16s%2Fg%2F11f3nlpnry?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹桃園南崁店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmM25scG5yeRgAOgMI8A0%3D&g2lbs=AEzIGDvJI21n82ql5Jy7T1no7L7bcA0YrBWkHkGttUBFGMJbgZyz-DcNczgGTDiijw2lH5pmn3f5&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=2b44ar2VNvmavr0P1-iDoAs&ei=2b44ar2VNvmavr0P1-iDoAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-14-08",
+    "storeName": "桃園南平店",
+    "address": "桃園市桃園區南平路215號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E5%8D%97%E5%B9%B3%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E5%8D%97%E5%B9%B3%E8%B7%AF215%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%A1%83%E5%9C%92%E5%8D%97%E5%B9%B3%E5%BA%97/@25.019121,121.3010895,17z/data=!3m1!4b1!4m6!3m5!1s0x34681ffeb7a83543:0x18c0e46bf6cd2a0c!8m2!3d25.019121!4d121.3010895!16s%2Fg%2F11g0sq91xv?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 桃園南平店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnMHNxOTF4dhgAOgMI8A0%3D&g2lbs=AEzIGDudgbPhCfKtstL9uzFPde2Vmfv4-32cburLAc4TlesPwu9fVSi9TXQhINnCI07lHhuvR0tA&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=5r44aprDIfT31e8PweyBsAU&ei=5r44aprDIfT31e8PweyBsAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-14-05",
+    "storeName": "桃園大園店",
+    "address": "桃園市大園區仁壽路27號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E5%A4%A7%E5%9C%92%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E5%9C%92%E5%8D%80%E4%BB%81%E5%A3%BD%E8%B7%AF27%E8%99%9F",
+    "gmbStatus": "not_found",
+    "gmbOrderingStatus": "not_found",
+    "gmbUrl": "",
+    "buttonDetected": false,
+    "providers": [],
+    "panelTextSample": "",
+    "panelUrl": "",
+    "title": "珍煮丹大園店 - Google 地圖",
+    "notes": [
+      "No matching store name/address visible in Maps result text."
+    ]
+  },
+  {
+    "storeId": "truedan-tw-14-04",
+    "storeName": "桃園桃鶯店",
+    "address": "桃園市桃園區桃鶯路355號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E6%A1%83%E9%B6%AF%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%A1%83%E9%B6%AF%E8%B7%AF355%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%A1%83%E5%9C%92%E6%A1%83%E9%B6%AF%E5%BA%97/@24.9811214,121.3196863,17z/data=!3m1!4b1!4m6!3m5!1s0x34681f743cd2c39d:0x7cc4c54adaa0b7e0!8m2!3d24.9811214!4d121.3196863!16s%2Fg%2F11qyghy2lq?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 桃園桃鶯店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxeWdoeTJscRgAOgMI8A0%3D&g2lbs=AEzIGDsC9Jxce5tK_YsZB7d6gpznwgUZZNUtWhiifT-do9cIEpnYL5TuvQpkgxcQExTGmTNjKrlF&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8744avftBuulvr0P9tKwsQE&ei=8744avftBuulvr0P9tKwsQE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-14-03",
+    "storeName": "桃園永安店",
+    "address": "桃園市桃園區永安路777號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E6%B0%B8%E5%AE%89%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%B0%B8%E5%AE%89%E8%B7%AF777%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%A1%83%E5%9C%92%E6%B0%B8%E5%AE%89%E5%BA%97/@25.0078528,121.2902719,17z/data=!3m1!4b1!4m6!3m5!1s0x34681ff903a7c6b7:0xc7c6c0b7f362d8b8!8m2!3d25.0078528!4d121.2902719!16s%2Fg%2F11qr5t3ddg?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 桃園永安店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxcjV0M2RkZxgAOgMI8A0%3D&g2lbs=AEzIGDvDwRj9M1Ma53NATeT_UTZP-bDWbFwd9BmTw1lz4fj7QMPbGl1r8LezskSkCTjVO65UyBGB&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=_744ao7BGZ2evr0Pr-mqwA4&ei=_744ao7BGZ2evr0Pr-mqwA4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-14-06",
+    "storeName": "桃園龍潭店",
+    "address": "桃園市龍潭區北龍路156號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E9%BE%8D%E6%BD%AD%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%8D%E6%BD%AD%E5%8D%80%E5%8C%97%E9%BE%8D%E8%B7%AF156%E8%99%9F1%E6%A8%93",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%A1%83%E5%9C%92%E9%BE%8D%E6%BD%AD%E5%BA%97/@24.8664719,121.2148443,17z/data=!3m1!4b1!4m6!3m5!1s0x34683d3c86124575:0xdd07ea9eb0d76414!8m2!3d24.8664719!4d121.2148443!16s%2Fg%2F11h4tn_1qj?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 桃園龍潭店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoNHRuXzFxahgAOgMI8A0%3D&g2lbs=AEzIGDsqiGcfi04wNU4FuYg4zByFKu5HdKTlxu0JB3DWruAj-qEMv7DYlxOaT9-M6eZ9Dq6bkj04&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=DL84aumKCeeh1e8Pre6VSQ&ei=DL84aumKCeeh1e8Pre6VSQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-39-02",
+    "storeName": "苗栗竹南店",
+    "address": "苗栗縣竹南鎮照南里博愛街44號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E8%8B%97%E6%A0%97%E7%AB%B9%E5%8D%97%E5%BA%97%20%E8%8B%97%E6%A0%97%E7%B8%A3%E7%AB%B9%E5%8D%97%E9%8E%AE%E7%85%A7%E5%8D%97%E9%87%8C%E5%8D%9A%E6%84%9B%E8%A1%9744%E8%99%9F1%E6%A8%93",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E8%8B%97%E6%A0%97%E7%AB%B9%E5%8D%97%E5%BA%97/@24.6869154,120.8787136,17z/data=!3m1!4b1!4m6!3m5!1s0x3469b3c89bf160ab:0xdc8421d7819a9a61!8m2!3d24.6869154!4d120.8787136!16s%2Fg%2F11j2__v_bp?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 苗栗竹南店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqMl9fdl9icBgAOgMI8A0%3D&g2lbs=AEzIGDuzGJOGWWmmA1tQjDHRb1wbpnFeC5wqlkZpK70emFYCusZZzqZn2pvGuSjYfbEugY4i9n_m&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Gb84at6EFqqkvr0PjtuTgAM&ei=Gb84at6EFqqkvr0PjtuTgAM&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-39-01",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E8%8B%97%E6%A0%97%E7%AB%B9%E5%8D%97%E7%A7%91%E5%B0%88%E5%BA%97%20%E8%8B%97%E6%A0%97%E7%B8%A3%E7%AB%B9%E5%8D%97%E9%8E%AE%E7%A7%91%E5%B0%88%E4%B8%83%E8%B7%AF448%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E7%AB%B9%E5%8D%97%E7%A7%91%E5%B0%88%E5%BA%97/@24.7056469,120.8987723,17z/data=!3m1!4b1!4m6!3m5!1s0x34684d0e7a360151:0xefec0da1da794c48!8m2!3d24.7056469!4d120.8987723!16s%2Fg%2F11y2dx4vm3?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 竹南科專店 - Google 地圖",
+    "nameMatch": false,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5MmR4NHZtMxgAOgMI8A0%3D&g2lbs=AEzIGDs4IR5pw9KDZ8m9oM6dYLSalaJrpX8bZug5QMv1L_XL8IdGBXKZJugCqgOG1vUc9emB8_Ed&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Jb84atiCOvn51e8P4dP2qAs&ei=Jb84atiCOvn51e8P4dP2qAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "not_found",
+    "gmbOrderingStatus": "not_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-9-03",
+    "storeName": "台南國華店",
+    "address": "台南市中西區淺草里國華街三段21號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8D%97%E5%9C%8B%E8%8F%AF%E5%BA%97%20%E5%8F%B0%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%B7%BA%E8%8D%89%E9%87%8C%E5%9C%8B%E8%8F%AF%E8%A1%97%E4%B8%89%E6%AE%B521%E8%99%9F1%E6%A8%93",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E5%8D%97%E5%9C%8B%E8%8F%AF%E5%BA%97/@22.9938255,120.1975354,17z/data=!3m1!4b1!4m6!3m5!1s0x346e775e03088837:0x8f3df06c93030ecb!8m2!3d22.9938255!4d120.1975354!16s%2Fg%2F11j535mwfq?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 台南國華店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNTM1bXdmcRgAOgMI8A0%3D&g2lbs=AEzIGDvLBGpM5Gusz6CihUJQ6px0hDH02nlLDfiEzct1LOB2Fw8_h1mijWQzkHytg93QSlxKTR6c&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=K784arixHbifvr0PjrSB2As&ei=K784arixHbifvr0PjrSB2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-9-02",
+    "storeName": "台南大灣店",
+    "address": "台南市永康區大灣路906之1號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8D%97%E5%A4%A7%E7%81%A3%E5%BA%97%20%E5%8F%B0%E5%8D%97%E5%B8%82%E6%B0%B8%E5%BA%B7%E5%8D%80%E5%A4%A7%E7%81%A3%E8%B7%AF906%E4%B9%8B1%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E5%8D%97%E5%A4%A7%E7%81%A3%E5%BA%97/@22.9996909,120.2557617,17z/data=!3m1!4b1!4m6!3m5!1s0x346e716966c777fb:0xc4da9880b3614002!8m2!3d22.9996909!4d120.2557617!16s%2Fg%2F11s7z04hpf?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 台南大灣店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzN3owNGhwZhgAOgMI8A0%3D&g2lbs=AEzIGDu3bE58jErfLFKsDa6FRPPV_ZXD7VG9Rbs-rLLZgmTrqgn7EfiA6BwblMuT5wqTtQ2h5wzA&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Ob84at6PAuGovr0Pyry8oQM&ei=Ob84at6PAuGovr0Pyry8oQM&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-9-01",
+    "storeName": "台南誠品店",
+    "address": "台南市南區中華西路一段76號2樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%8F%B0%E5%8D%97%E8%AA%A0%E5%93%81%E5%BA%97%20%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E4%B8%AD%E8%8F%AF%E8%A5%BF%E8%B7%AF%E4%B8%80%E6%AE%B576%E8%99%9F2%E6%A8%93",
+    "gmbUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%8F%B0%E5%8D%97%E8%AA%A0%E5%93%81%E5%BA%97+%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E4%B8%AD%E8%8F%AF%E8%A5%BF%E8%B7%AF%E4%B8%80%E6%AE%B576%E8%99%9F2%E6%A8%93/@22.9830202,120.1908496,15z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 台南誠品店 台南市南區中華西路一段76號2樓 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5ZnM3czNnORgBOgMI8A0%3D&g2lbs=AEzIGDuE7iYts4ilEboosDjSRHmYaWTCBVVjhhLXgHIxcZ3-X4hVpNwuk4qnP8mak3w0HBKnOjxc&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=RL84asXUJ7amvr0Pkt2SiAY&ei=RL84asXUJ7amvr0Pkt2SiAY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-9-04",
+    "storeName": "永康中華店",
+    "address": "台南市永康區中華路479號一樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%B0%B8%E5%BA%B7%E4%B8%AD%E8%8F%AF%E5%BA%97%20%E5%8F%B0%E5%8D%97%E5%B8%82%E6%B0%B8%E5%BA%B7%E5%8D%80%E4%B8%AD%E8%8F%AF%E8%B7%AF479%E8%99%9F%E4%B8%80%E6%A8%93",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%B0%B8%E5%BA%B7%E4%B8%AD%E8%8F%AF%E5%BA%97/@23.0113883,120.2319179,17z/data=!3m1!4b1!4m6!3m5!1s0x346e773f343b3045:0x95e34152d13e7260!8m2!3d23.0113883!4d120.2319179!16s%2Fg%2F11k5bcn9ph?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 永康中華店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrNWJjbjlwaBgAOgMI8A0%3D&g2lbs=AEzIGDsq9oJt49rX9T3t8jsD7xmE_jW9KVKH1PWe9mhS0oRah0y1_FYvXADnFPywAu4EOjinalhN&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Ub84atC7Ia_a1e8PyKqe-A4&ei=Ub84atC7Ia_a1e8PyKqe-A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-10-01",
+    "storeName": "嘉義民雄店",
+    "address": "嘉義縣民雄鄉中樂村民生路3號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%98%89%E7%BE%A9%E6%B0%91%E9%9B%84%E5%BA%97%20%E5%98%89%E7%BE%A9%E7%B8%A3%E6%B0%91%E9%9B%84%E9%84%89%E4%B8%AD%E6%A8%82%E6%9D%91%E6%B0%91%E7%94%9F%E8%B7%AF3%E8%99%9F1%E6%A8%93",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E5%98%89%E7%BE%A9%E6%B0%91%E9%9B%84%E5%BA%97/@23.5564387,120.4308047,17z/data=!3m1!4b1!4m6!3m5!1s0x346ebdf835992489:0xdcf17cf9e77db0ec!8m2!3d23.5564387!4d120.4308047!16s%2Fg%2F11p0ck78t9?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 嘉義民雄店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwMGNrNzh0ORgAOgMI8A0%3D&g2lbs=AEzIGDuE-Eh7Qj5YVjZdtqAMghfBhb22U7QqabsjAycrCjEbIMZfAfq7iJAfi-siUtLiofcOe0Xy&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Xr84apnrD4y8vr0PvruJmAI&ei=Xr84apnrD4y8vr0PvruJmAI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-40-01",
+    "storeName": "屏東中正店",
+    "address": "屏東市中正路141-1號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%B1%8F%E6%9D%B1%E4%B8%AD%E6%AD%A3%E5%BA%97%20%E5%B1%8F%E6%9D%B1%E5%B8%82%E4%B8%AD%E6%AD%A3%E8%B7%AF141-1%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%B1%8F%E6%9D%B1%E4%B8%AD%E6%AD%A3%E5%BA%97/@22.6762476,120.4899891,17z/data=!3m1!4b1!4m6!3m5!1s0x346e177335d96dc3:0xe46f2ddaf855d8ae!8m2!3d22.6762476!4d120.4899891!16s%2Fg%2F11j2rgt_6z?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹屏東中正店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqMnJndF82ehgAOgMI8A0%3D&g2lbs=AEzIGDuyoIj7w_S7WTNOczLS1yaEB6s4j3UyLCvOIXMNRmgDgyyNaySWb1P4bitDMHYDPvwqtHvm&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a784aoTwE5nr1e8PqcqFuA0&ei=a784aoTwE5nr1e8PqcqFuA0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-5-05",
+    "storeName": "小港漢民店",
+    "address": "高雄市小港區漢民路733-1號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E5%B0%8F%E6%B8%AF%E6%BC%A2%E6%B0%91%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B0%8F%E6%B8%AF%E5%8D%80%E6%BC%A2%E6%B0%91%E8%B7%AF733-1%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%B0%8F%E6%B8%AF%E6%BC%A2%E6%B0%91%E5%BA%97/@22.568095,120.3630017,17z/data=!3m1!4b1!4m6!3m5!1s0x346e1d58dfc4e765:0xaa8d5ab7f5a0e252!8m2!3d22.568095!4d120.3630017!16s%2Fg%2F11jvk6fqls?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹小港漢民店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqdms2ZnFscxgAOgMI8A0%3D&g2lbs=AEzIGDuQi80DzynnrlljEd7mQ5D1cSBw_X_MK9VtJqT7hxmq_FDW6t6kgrRR8xVZD1pUb-mKCXwU&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=eL84aprcNbSOvr0PtbbMuAE&ei=eL84aprcNbSOvr0PtbbMuAE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-5-04",
+    "storeName": "楠梓德賢店",
+    "address": "高雄市楠梓區德賢路247號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A5%A0%E6%A2%93%E5%BE%B7%E8%B3%A2%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E6%A5%A0%E6%A2%93%E5%8D%80%E5%BE%B7%E8%B3%A2%E8%B7%AF247%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E6%A5%A0%E6%A2%93%E5%BE%B7%E8%B3%A2%E5%BA%97/@22.7262286,120.3049141,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0fc6c8a7bc51:0x50e4d5b7250f7ef6!8m2!3d22.7262286!4d120.3049141!16s%2Fg%2F11qn7v7d_d?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹楠梓德賢店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxbjd2N2RfZBgAOgMI8A0%3D&g2lbs=AEzIGDs_N4b5GX_vjKF9h5K_YiatIwFsE5ssCx6nszx85ZDo0OETQbKaumJVNbnbCsMLLMU26Bxw&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=hb84asSzPPGzvr0PhM_y-AI&ei=hb84asSzPPGzvr0PhM_y-AI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "checkedAt": "2026-06-22T04:12:16Z",
+    "storeId": "truedan-tw-5-07",
+    "storeName": "漢神巨蛋店",
+    "address": "高雄市左營區博愛二路777號B1",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E5%8D%80%E5%8D%9A%E6%84%9B%E4%BA%8C%E8%B7%AF777%E8%99%9FB1",
+    "gmbStatus": "not_found",
+    "gmbOrderingStatus": "not_found",
+    "gmbUrl": "",
+    "buttonDetected": false,
+    "providers": [],
+    "panelTextSample": "",
+    "panelUrl": "",
+    "title": "珍煮丹 高雄漢神巨蛋購物廣場店 - Google 地圖",
+    "notes": [
+      "No matching store name/address visible in Maps result text."
+    ]
+  },
+  {
+    "storeId": "truedan-tw-5-03",
+    "storeName": "高雄岡山店",
+    "address": "高雄市岡山區公園西路三段45號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E5%8D%80%E5%85%AC%E5%9C%92%E8%A5%BF%E8%B7%AF%E4%B8%89%E6%AE%B545%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E5%BA%97/@22.7952725,120.2851862,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0d8a09a32b65:0x5bbe647be99a7aad!8m2!3d22.7952725!4d120.2851862!16s%2Fg%2F11pwy9gy12?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹高雄岡山店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwd3k5Z3kxMhgAOgMI8A0%3D&g2lbs=AEzIGDtSoFW5blJzlxBUP6BKquFyafPQWfFtguCLLZ6KAGQLt7r36DIC0NcS8dTvVd036CKVqCbP&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=k784atj_ENO4vr0PpK6D6A0&ei=k784atj_ENO4vr0PpK6D6A0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-5-06",
+    "storeName": "高雄左營店",
+    "address": "高雄市左營區華夏路710號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E9%AB%98%E9%9B%84%E5%B7%A6%E7%87%9F%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E5%8D%80%E8%8F%AF%E5%A4%8F%E8%B7%AF710%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E5%B7%A6%E7%87%9F%E5%BA%97/@22.677876,120.3022796,17z/data=!3m1!4b1!4m6!3m5!1s0x346e05583b125439:0x32097b439fae8b49!8m2!3d22.677876!4d120.3022796!16s%2Fg%2F11fp8jmxgr?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 高雄左營店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmcDhqbXhnchgAOgMI8A0%3D&g2lbs=AEzIGDu5qHHr-T2doANjmpeIPqb_HID6NT1NznPhhYZ822iT1nfkP5GFsc1CKiiD-b0R691MsgVb&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=oL84asiMIp2Mvr0Pw-2B4A4&ei=oL84asiMIp2Mvr0Pw-2B4A4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-5-01",
+    "storeName": "高雄旗山店",
+    "address": "高雄市旗山區延平一路645號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E9%AB%98%E9%9B%84%E6%97%97%E5%B1%B1%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E6%97%97%E5%B1%B1%E5%8D%80%E5%BB%B6%E5%B9%B3%E4%B8%80%E8%B7%AF645%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%97%97%E5%B1%B1%E5%BA%97/@22.8846366,120.4832314,17z/data=!3m1!4b1!4m6!3m5!1s0x346e6b003255604b:0x7f7b778efd662717!8m2!3d22.8846366!4d120.4832314!16s%2Fg%2F11vx3jxvqs?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 高雄旗山店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2eDNqeHZxcxgAOgMI8A0%3D&g2lbs=AEzIGDshSaTL774SwBqeExcmHOo8qy7xg3NpJgIPVo7f1bhQ3frwTDpWcIp_sLcTEcYvtSnRujnJ&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=rr84apXAF_7r1e8Pk8GL8Ag&ei=rr84apXAF_7r1e8Pk8GL8Ag&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-5-08",
+    "storeName": "高雄苓雅店",
+    "address": "高雄市苓雅區自強3路177號1樓",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E9%AB%98%E9%9B%84%E8%8B%93%E9%9B%85%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E8%8B%93%E9%9B%85%E5%8D%80%E8%87%AA%E5%BC%B73%E8%B7%AF177%E8%99%9F1%E6%A8%93",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E8%8B%93%E9%9B%85%E5%BA%97/@22.6180843,120.2979538,17z/data=!3m1!4b1!4m6!3m5!1s0x346e050c810106e5:0x891e53df1c21e41c!8m2!3d22.6180843!4d120.2979538!16s%2Fg%2F11j301ssq1?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 高雄苓雅店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqMzAxc3NxMRgAOgMI8A0%3D&g2lbs=AEzIGDtbAZs_zPs3i3Vkz6k3oc2RlnDRHG246xvFV1xqzYGdZFooq2ed79vGyZQJI377nUCfBZ9h&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=u784ar-CA-Xo1e8P1b-B2AI&ei=u784ar-CA-Xo1e8P1b-B2AI&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-5-02",
+    "storeName": "高雄路竹店",
+    "address": "高雄市路竹區大社路83號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E9%AB%98%E9%9B%84%E8%B7%AF%E7%AB%B9%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E8%B7%AF%E7%AB%B9%E5%8D%80%E5%A4%A7%E7%A4%BE%E8%B7%AF83%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/TRUEDAN/@22.8638092,120.262501,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0d849cbc8129:0xc6ae904d5c7f88f6!8m2!3d22.8638092!4d120.262501!16s%2Fg%2F11t_gvk_vh?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "TRUEDAN - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF0X2d2a192aBgAOgMI8A0%3D&g2lbs=AEzIGDs66CwDEu31Rpo1qtOvDVVTk2RfTwLsmce9AT0tvjQcVv-wmrJn2RE7oe-L1TRaF43cWxM5&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=yL84aoV_iNXV7w_-z5apBQ&ei=yL84aoV_iNXV7w_-z5apBQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-6-01",
+    "storeName": "花蓮中正店",
+    "address": "花蓮市中正路567號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E8%8A%B1%E8%93%AE%E4%B8%AD%E6%AD%A3%E5%BA%97%20%E8%8A%B1%E8%93%AE%E5%B8%82%E4%B8%AD%E6%AD%A3%E8%B7%AF567%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E8%8A%B1%E8%93%AE%E4%B8%AD%E6%AD%A3%E5%BA%97/@23.9776397,121.607749,17z/data=!3m1!4b1!4m6!3m5!1s0x34689ff18e76369b:0x24d7968853323c41!8m2!3d23.9776397!4d121.607749!16s%2Fg%2F11hz_ksbdt?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹花蓮中正店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoel9rc2JkdBgAOgMI8A0%3D&g2lbs=AEzIGDuiREedzutYDjR3QXSgxZlDkzcs_13Y_WYoz0FI0-ty8dvOYHR8vFTJdJlduyJTUR4V5JLx&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=1L84at6xIbifvr0PjrSB2As&ei=1L84at6xIbifvr0PjrSB2As&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-45-01",
+    "storeName": "澎湖馬公店",
+    "address": "澎湖縣馬公市中正路42號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%BE%8E%E6%B9%96%E9%A6%AC%E5%85%AC%E5%BA%97%20%E6%BE%8E%E6%B9%96%E7%B8%A3%E9%A6%AC%E5%85%AC%E5%B8%82%E4%B8%AD%E6%AD%A3%E8%B7%AF42%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9+%E6%BE%8E%E6%B9%96%E9%A6%AC%E5%85%AC%E5%BA%97/@23.5656958,119.5654261,17z/data=!3m1!4b1!4m6!3m5!1s0x346c5b17faf56207:0xeb3bd4415ffc6cba!8m2!3d23.5656958!4d119.5654261!16s%2Fg%2F11ll421hmr?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹 澎湖馬公店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsbDQyMWhtchgAOgMI8A0%3D&g2lbs=AEzIGDtZ2TFnKFG5cgWqY997GeXjosWfSXHFJFxjr7_0r4xg7NtJ4ladrACe2P-a-K82T65raIi4&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=4b84au6BHduRvr0P79nxcQ&ei=4b84au6BHduRvr0P79nxcQ&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  },
+  {
+    "storeId": "truedan-tw-59-01",
+    "storeName": "金門金湖店",
+    "address": "金門縣金湖鎮太湖路二段203號",
+    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E9%87%91%E9%96%80%E9%87%91%E6%B9%96%E5%BA%97%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E6%B9%96%E9%8E%AE%E5%A4%AA%E6%B9%96%E8%B7%AF%E4%BA%8C%E6%AE%B5203%E8%99%9F",
+    "gmbUrl": "https://www.google.com/maps/place/%E7%8F%8D%E7%85%AE%E4%B8%B9%E9%87%91%E9%96%80%E9%87%91%E6%B9%96%E5%BA%97/@24.4389454,118.4183073,17z/data=!3m1!4b1!4m6!3m5!1s0x3414a50065a2e827:0x64363d74cd0dbae6!8m2!3d24.4389454!4d118.4183073!16s%2Fg%2F11vwgbpvgm?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "珍煮丹金門金湖店 - Google 地圖",
+    "nameMatch": true,
+    "hasOnlineOrderText": true,
+    "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2d2dicHZnbRgAOgMI8A0%3D&g2lbs=AEzIGDs3LIFzwECZ90aEu7RCyu-UErmzO3AhIYPe5YoTkMpw7215cuKZ4qJQ6O2z7_cbaHvbouKc&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=7r84as_3Maeavr0Pl4rE6Ao&ei=7r84as_3Maeavr0Pl4rE6Ao&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "panel_found",
+    "checkedAt": "2026-06-22T04:45:20Z"
+  }
+]
