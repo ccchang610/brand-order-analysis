@@ -258,6 +258,8 @@ Filters should include:
 
 ## Static Site Checklist
 
+
+- Fixed HTML output means the brand report is generated into `<brand-slug>/index.html` with matching `<brand-slug>/data-inline.js` and `<brand-slug>/data/` exports, and it reuses shared root assets when the repository already has them. Do not create only a root-level standalone HTML for a new brand in a multi-brand report site.
 For a static report site:
 
 - If the site is intended to hold more than one brand, keep the repository root as the brand selector and put each brand report in a sibling slug directory.

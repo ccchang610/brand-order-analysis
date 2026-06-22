@@ -85,6 +85,9 @@ When producing datasets, include:
 
 For GitHub Pages or other reusable multi-brand static sites:
 
+Fixed HTML output for reusable multi-brand report repositories means each brand must produce a stable sibling directory with `index.html`, `data-inline.js`, `data/stores.json`, `data/summary.json`, and `data/stores.csv`, loading shared root assets such as `../assets/styles.css`, `../assets/taiwan-map.js`, and `../assets/app.js` when they exist. Do not leave a new brand as only a root-level one-off HTML file when the repository already uses shared brand folders such as `chage/` or `toastman/`.
+
+
 - Use the repository or site root as the brand entry page, such as `/brand-order-analysis/`.
 - Put every brand in a sibling slug directory, such as `/brand-order-analysis/daming/`, `/brand-order-analysis/chage/`, and `/brand-order-analysis/<brand-slug>/`.
 - Do not nest a new brand under an existing brand directory.

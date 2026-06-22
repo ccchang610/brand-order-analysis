@@ -174,6 +174,9 @@ Allowed `confidence` values:
 - `blocked`
 - `needs_manual_review`
 
+
+For fixed HTML dashboard output in a reusable multi-brand repository, the frontend payload should be available as `<brand-slug>/data-inline.js` and as `<brand-slug>/data/stores.json` with a top-level `stores` array so the shared dashboard loader can render the same table, map, filters, and charts across brands. The canonical source dataset may still be preserved elsewhere when live-audit scripts need a different raw shape.
+
 ## Summary Fields
 
 `data/summary.json` should include:
