@@ -177,6 +177,33 @@ Allowed `confidence` values:
 
 For fixed HTML dashboard output in a reusable multi-brand repository, the frontend payload should be available as `<brand-slug>/data-inline.js` and as `<brand-slug>/data/stores.json` with a top-level `stores` array so the shared dashboard loader can render the same table, map, filters, and charts across brands. The canonical source dataset may still be preserved elsewhere when live-audit scripts need a different raw shape.
 
+## Platform Direct Audit Fields
+
+Use `platformAudit` to record direct checks against Nidin, QuickClick, LINE ordering, official ordering portals, marketplace chain pages, or other local ordering platforms. This is separate from Google Order evidence.
+
+Example:
+
+```json
+{
+  "platform": "Nidin",
+  "status": "confirmed",
+  "sourceType": "official",
+  "orderMode": ["pickup", "delivery"],
+  "evidenceUrl": "https://example.nidin.shop/store/123",
+  "matchedBy": ["storeName", "address"],
+  "checkedAt": "2026-06-22",
+  "notes": "Matched direct platform store page to official store."
+}
+```
+
+Rules:
+
+- Platform-direct evidence should create or support `orderingSystems` claims with non-GMB `sourceType` values.
+- Absence from Google Order is not platform absence. Nidin, QuickClick, LINE ordering, official portals, foodpanda, and Uber Eats must be checked through direct platform or brand sources when they are in scope or discovered.
+- A brand-level platform hit is a lead, not proof of every store. Match each active official store or mark that store's platform status as `not_found`, `blocked`, `ambiguous`, or `needs_manual_review` in `platformAudit`.
+- `allSourceSystemCounts` and `hasAnyOrderingSystem` should include confirmed platform-direct claims even when the same provider never appears in Google Order.
+- `gmbSystemCounts` must remain strict Google Order provider-row evidence only.
+
 ## Summary Fields
 
 `data/summary.json` should include:

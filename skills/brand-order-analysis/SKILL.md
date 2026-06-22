@@ -54,6 +54,10 @@ Read `references/workflow.md` for the full execution and HTML report structure. 
 - If a matching GMB/Google Maps profile or user-provided screenshot clearly shows permanent closure, closed, or moved status, exclude that store from the active report population and active denominator. Preserve the exclusion in notes or an auxiliary audit trail when useful, but do not leave the closed store in `stores.json`, CSV, KPI cards, map counts, charts, or store details unless the user explicitly asks for historical stores.
 - Keep uncertain stores in the dataset instead of deleting them.
 
+## Platform Direct Audit Rule
+
+All-source ordering adoption must include platform-direct checks, not only Google/GMB evidence. If any candidate ordering platform appears for the brand, such as Nidin, QuickClick, LINE ordering, an official ordering portal, foodpanda, Uber Eats, or another local platform, search or open the platform or brand ordering entry directly and attempt to match every official active store by store name, address, phone, or platform store ID. Do not infer chain-wide coverage from one matched store, but do not treat absence from Google Order as absence from the platform. Store platform-direct evidence as `sourceType: official`, `marketplace`, `line`, or `third_party`, and keep it separate from strict `sourceType: gmb` Google Order provider rows.
+
 ## Google Order Audit Rule
 
 For Google Business Profile / Google Order, always separate entry coverage from provider evidence.

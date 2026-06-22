@@ -33,6 +33,18 @@ Use public sources in this order:
 
 Record evidence URLs and source types. Do not collapse official, Google, GMB, and third-party claims into one opaque provider list.
 
+## Platform Direct Audit Protocol
+
+Use this protocol before finalizing all-source adoption counts whenever any ordering platform is requested or discovered.
+
+1. Build a candidate platform list from the user request, official site links, store pages, Google snippets, GMB website rows, known local providers, and prior evidence. For Taiwan beverage and restaurant brands this usually includes Nidin, QuickClick, LINE ordering, foodpanda, Uber Eats, official ordering domains, and brand-specific subdomains.
+2. For each candidate platform, find the strongest direct source: official ordering portal, platform brand page, platform API, store locator/search endpoint, LINE OA/order URL, or marketplace chain page.
+3. Query that platform directly for the brand and then match against every active official store by normalized store name, address, phone, city/district, or platform store ID.
+4. Write confirmed matches as normal `orderingSystems` evidence with `sourceType: official`, `marketplace`, `line`, or `third_party`; use `sourceType: gmb` only for visible provider rows inside Google Order.
+5. Write non-matches or blocked platform checks to `platformAudit` / `manualReviewReason` instead of assuming the store has no platform ordering.
+6. Do not infer all stores are on a platform from one matched store. Use brand-level portal/API coverage when available, and otherwise mark unverified stores as platform-direct gaps or needs manual review.
+7. Only after platform-direct checks and Google Order checks are both represented should the report compare all-source adoption against Google Order provider evidence.
+
 ## Execution Steps
 
 1. Build the official store population and deduplicate stores.
