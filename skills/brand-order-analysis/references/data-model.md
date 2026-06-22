@@ -25,6 +25,7 @@ Each store record should keep at least:
 - `gmbUrl`
 - `gmbStatus`
 - `gmbOrderingStatus`
+- `gmbOrderLinks`
 - `sourceCoverage`
 - `orderingSystems`
 - `hasAnyOrderingSystem`
@@ -72,7 +73,9 @@ Use these fields when a brand analysis includes Google Business Profile / Google
 - `gmbOrderModesConfirmed`: optional array such as `pickup`, `delivery`, or `unknown` when the entry exists but providers are pending.
 - `gmbPickupProviders`: providers confirmed from the pickup panel only.
 - `gmbDeliveryProviders`: providers confirmed from the delivery panel only.
+- `gmbOrderModesConfirmed`: record modes actually selected/read in the current first pass, such as `pickup` and `delivery`; do not leave mode as `unknown` when mode tabs were available and readable.
 - `gmbOrderPanelUrl`: URL observed after opening the Google Order flow when available.
+- `gmbOrderLinks`: visible links observed inside the opened Google Order flow, such as marketplace, LINE, Instagram, or merchant-site links. These preserve order-flow destinations, appear in Google Order provider/link overview charts, and do not count as strict provider evidence by themselves.
 - `gmbSignals`: audit metadata for the Google Order check, especially when the store is pending or blocked.
 - `manualReviewReason`: required when status is pending, blocked, timed out, ambiguous, or no button was found after human-paced re-check.
 
@@ -82,6 +85,7 @@ Before any Google Order check, validate the GMB match itself:
 
 - If Google Maps opens a page whose visible title is only the address, treat it as a lead, not a GMB match.
 - If that address page lists a named store card at the same location, click the card and audit the named profile.
+- If the official Maps link, address query, or first Google result cannot be matched, search Google with `brand name + store name`. A highly similar named GMB profile can be recognized when it is not competing with another plausible duplicate for the same official store. Store the matched URL, query, and match rationale in `gmbUrl` and `gmbSignals`.
 - If no highly similar named profile can be found after re-searching by brand + store name + address, set `gmbOrderingStatus: no_gmb_profile_match`, `gmbStatus: not_found`, `sourceCoverage.gmbFound: false`, and explain the mismatch in `manualReviewReason`.
 - Use `gmbSignals.matchQuality` values such as `named_gmb_profile`, `missing_named_gmb`, `wrong_store_name`, or `address_only_page_rejected` to keep the decision auditable.
 
@@ -96,7 +100,38 @@ User-provided screenshots may set `hasGmbOrderingSystem: true` only when the scr
 
 For `orderMode`, count `pickup` or `delivery` only when that mode is active or can be selected in the Google Order panel. A greyed or disabled mode label does not count. Provider rows must be visible inside the Google Order dialog/panel; ignore provider names from background Google results, knowledge-panel snippets, official-site snippets, review widgets, or hidden text.
 
+First-pass mode rule: when the Google Order panel or `google.com/searchviewer` flow opens and pickup/delivery controls are available, select/read both modes before writing `orderingSystems`. Each `sourceType: gmb` claim should carry the exact modes where that provider row was visible. Use `unknown` only when provider rows are visible but mode controls are absent, blocked, or unreadable.
+
 `nidin.shop` or `order.nidin.shop` counts as `Nidin` only when it is a visible provider row inside the opened Google Order panel. The same domain in official ordering links, organic Google results, or Maps website rows is not Google Order evidence.
+
+## Google Order Panel Links
+
+Use `gmbOrderLinks` to preserve links visible only after opening the Google Order button/searchviewer flow. This includes marketplace links, LINE links, Instagram links, merchant-site links, and other visible destinations shown in the opened order flow.
+
+Example:
+
+```json
+{
+  "platform": "Instagram",
+  "kind": "social_order_link",
+  "sourceType": "gmb_order_panel",
+  "orderMode": ["pickup", "delivery"],
+  "label": "instagram.com merchant site",
+  "href": "https://instagram.com/example_store",
+  "panelUrl": "https://www.google.com/searchviewer/...",
+  "observedAt": "2026-06-17",
+  "confidence": "confirmed"
+}
+```
+
+Rules:
+
+- Add a `gmbOrderLinks` row only when the link is visible after clicking/opening the Google Order flow for the correct matched store profile.
+- Include `orderMode` only for active/clickable modes observed in the panel.
+- Do not add `gmbOrderLinks` from background page text, organic Google results, Maps website rows, knowledge-panel website buttons, official store pages, or hidden DOM text outside the opened order flow.
+- Do not count `gmbOrderLinks` in strict `gmbSystemCounts`, `allSourceSystemCounts`, `hasAnyOrderingSystem`, or `hasGmbOrderingSystem` unless the same item also meets the stricter `orderingSystems` evidence rules.
+- Display `gmbOrderLinks` in the store-detail Google Order provider/evidence cell and Google Order provider/link overview charts by mode, even though strict provider counts and adoption rates remain tied to provider rows.
+- If a fresh matching Google Maps/GMB result has no online-order entry, clear stale `gmbOrderLinks` from older searchviewer URLs unless the fresh check is blocked and the prior evidence is intentionally preserved with a block note.
 
 Example `gmbSignals`:
 
@@ -228,8 +263,12 @@ Rules:
 - `regionCounts`
 - `allSourceSystemCounts`
 - `gmbSystemCounts`
+- `gmbOrderOptionCounts`
+- `gmbOrderPickupOptionCounts`
+- `gmbOrderDeliveryOptionCounts`
 - `allSourceSystemAdoptionRates`
 - `gmbSystemAdoptionRates`
+- `gmbOrderOptionAdoptionRates`
 - `systemComparison`
 - `gmbStatusCounts`
 - `gmbOrderingStatusCounts`
@@ -323,7 +362,11 @@ Order audit status, when a separate field is needed:
 Provider counts:
 
 - `allSourceSystemCounts`: count each `system` once per store across all source types.
-- `gmbSystemCounts`: count each `system` once per store only where `sourceType` is `gmb`. Do not count provider-pending Google Order entries here.
+- `gmbSystemCounts`: count each `system` once per store only where `sourceType` is `gmb`. Do not count provider-pending Google Order entries or panel links here.
+- `gmbOrderOptionCounts`: count each platform/system once per store from strict `sourceType: gmb` provider rows plus `gmbOrderLinks`. Use this for Google Order provider/link overview charts that should reflect what appears after clicking the order flow.
+- `gmbOrderPickupOptionCounts` and `gmbOrderDeliveryOptionCounts`: same as `gmbOrderOptionCounts`, filtered to active/clickable pickup or delivery mode.
+- Mode-specific counts should be produced from the first successful Google Order panel/searchviewer read whenever possible. Avoid generating provider-only counts first and backfilling mode counts later, because that doubles live checks and can create stale evidence.
+- `gmbOrderLinks`: do not use these links for strict provider counts or adoption rates by themselves. They are link provenance, not provider evidence.
 - Adoption rates for individual systems use official store count as the denominator.
 - Do not count duplicate evidence URLs as additional stores.
 
@@ -415,4 +458,6 @@ Before publishing or handing off:
 - `gmbOrderingSystemAdoptionRate` equals `gmbOrderingSystemCount / officialStoreCount`.
 - Google Order provider evidence gaps are counted separately from confirmed no-ordering-system stores.
 - `allSourceSystemCounts` and `gmbSystemCounts` count unique stores per system, not evidence links.
+- No store with `gmbOrderingStatus: no_gmb_order_button` should retain stale `gmbOrderLinks`, `gmbOrderPanelUrl`, or `sourceType: gmb` provider claims from an older searchviewer URL.
+- `gmbOrderLinks` should parse as arrays of structured link objects, should appear in Google Order provider/link overview counts by mode, and should not change strict `gmbSystemCounts` unless a corresponding visible provider row exists in `orderingSystems`.
 

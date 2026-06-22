@@ -5,8 +5,8 @@
   "market": "Taiwan",
   "sitePath": "./truedan/",
   "officialStoreCount": 66,
-  "gmbFoundCount": 62,
-  "googleFoundCount": 63,
+  "gmbFoundCount": 66,
+  "googleFoundCount": 66,
   "thirdPartyFoundCount": 65,
   "verificationGapCount": 45,
   "anyOrderingSystemCount": 65,
@@ -126,18 +126,17 @@
     }
   ],
   "gmbStatusCounts": {
-    "confirmed": 62,
-    "not_found": 4
+    "confirmed": 66
   },
   "gmbOrderingStatusCounts": {
     "confirmed": 21,
-    "button_confirmed_provider_pending": 41,
-    "not_found": 4
+    "button_confirmed_provider_pending": 42,
+    "needs_manual_review": 3
   },
   "sourceCoverageCounts": {
     "officialListed": 66,
-    "gmbFound": 62,
-    "googleFound": 63,
+    "gmbFound": 66,
+    "googleFound": 66,
     "thirdPartyFound": 65
   },
   "source": {
@@ -349,7 +348,7 @@
       "foodpanda:unavailable_or_blocked": 1
     }
   },
-  "gmbMissingCount": 4,
+  "gmbMissingCount": 0,
   "googleOrderEntryCount": 63,
   "googleOrderEntryRate": 0.9545,
   "allSourcePickupSystemCounts": {

@@ -5076,14 +5076,14 @@
     "officialStoreUrl": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=15",
     "officialMapUrl": "https://www.google.com/maps?q=%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B529%E8%99%9F1%E6%A8%93&hl=zh-TW&z=14&t=&output=embed",
     "googleSearchUrl": "https://www.google.com/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%9D%BF%E6%A9%8B%E5%BA%9C%E4%B8%AD%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B529%E8%99%9F1%E6%A8%93",
-    "gmbUrl": "",
-    "gmbStatus": "not_found",
-    "gmbOrderingStatus": "not_found",
+    "gmbUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "needs_manual_review",
     "gmbOrderLinks": [],
     "sourceCoverage": {
       "officialListed": true,
-      "gmbFound": false,
-      "googleFound": false,
+      "gmbFound": true,
+      "googleFound": true,
       "thirdPartyFound": true,
       "officialOrderingFound": true
     },
@@ -5103,15 +5103,16 @@
     ],
     "hasAnyOrderingSystem": true,
     "hasGmbOrderingSystem": false,
-    "manualReviewReason": "No matching store name/address visible in Maps result text.",
+    "manualReviewReason": "User-supplied GMB profile confirmed; Google Order provider panel has not been audited after this match update.",
     "evidenceNotes": [
-      "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。"
+      "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。",
+      "User supplied matching GMB profile on 2026-06-22: https://share.google/MmRDBl3N8JAONyuSQ -> /g/11mvqqw_mq."
     ],
-    "checkedAt": "2026-06-22T09:12:49Z",
+    "checkedAt": "2026-06-22T09:27:00Z",
     "gmbSignals": {
       "buttonDetected": false,
       "providersParsed": false,
-      "attemptCount": 1,
+      "attemptCount": 2,
       "maxAttempts": 3,
       "attemptHistory": [
         {
@@ -5124,13 +5125,27 @@
           "notes": [
             "No matching store name/address visible in Maps result text."
           ]
+        },
+        {
+          "attempt": 2,
+          "target": "user_supplied_gmb_share_url",
+          "status": "gmb_profile_confirmed",
+          "buttonDetected": false,
+          "providersParsed": false,
+          "title": "珍煮丹府中店",
+          "notes": [
+            "User supplied GMB share URL resolved to kgmid /g/11mvqqw_mq."
+          ]
         }
       ],
       "panelUrl": "",
-      "checkedAt": "2026-06-22T04:12:16Z",
-      "checkMethod": "playwright_google_maps_search",
-      "matchQuality": "not_found",
-      "notes": "No matching store name/address visible in Maps result text."
+      "checkedAt": "2026-06-22T09:27:00Z",
+      "checkMethod": "user_supplied_gmb_profile_match",
+      "matchQuality": "user_supplied_named_gmb_profile",
+      "notes": "User supplied a matching Google Business Profile URL. Provider rows were not inferred from the profile URL.",
+      "userSuppliedGmbShareUrl": "https://share.google/MmRDBl3N8JAONyuSQ",
+      "resolvedGmbUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1",
+      "kgmid": "/g/11mvqqw_mq"
     },
     "platformAudit": {
       "Ocard": {
@@ -5162,7 +5177,8 @@
         "checkedAt": "2026-06-22T09:12:49Z",
         "evidence": "The current public Ocard entry is distributed with utm_source=line; no separate LINE ordering store list was found."
       }
-    }
+    },
+    "gmbShareUrl": "https://share.google/MmRDBl3N8JAONyuSQ"
   },
   {
     "brand": "珍煮丹",
@@ -6371,14 +6387,14 @@
     "officialStoreUrl": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=14",
     "officialMapUrl": "https://www.google.com/maps?q=%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E5%9C%92%E5%8D%80%E4%BB%81%E5%A3%BD%E8%B7%AF27%E8%99%9F&hl=zh-TW&z=14&t=&output=embed",
     "googleSearchUrl": "https://www.google.com/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E5%A4%A7%E5%9C%92%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E5%9C%92%E5%8D%80%E4%BB%81%E5%A3%BD%E8%B7%AF27%E8%99%9F",
-    "gmbUrl": "",
-    "gmbStatus": "not_found",
-    "gmbOrderingStatus": "not_found",
+    "gmbUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "needs_manual_review",
     "gmbOrderLinks": [],
     "sourceCoverage": {
       "officialListed": true,
-      "gmbFound": false,
-      "googleFound": false,
+      "gmbFound": true,
+      "googleFound": true,
       "thirdPartyFound": true,
       "officialOrderingFound": true
     },
@@ -6398,15 +6414,16 @@
     ],
     "hasAnyOrderingSystem": true,
     "hasGmbOrderingSystem": false,
-    "manualReviewReason": "No matching store name/address visible in Maps result text.",
+    "manualReviewReason": "User-supplied GMB profile confirmed; Google Order provider panel has not been audited after this match update.",
     "evidenceNotes": [
-      "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。"
+      "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。",
+      "User supplied matching GMB profile on 2026-06-22: https://share.google/nuueoPAtFr2sRhCSb -> /g/11frdw_yxp."
     ],
-    "checkedAt": "2026-06-22T09:12:49Z",
+    "checkedAt": "2026-06-22T09:27:00Z",
     "gmbSignals": {
       "buttonDetected": false,
       "providersParsed": false,
-      "attemptCount": 1,
+      "attemptCount": 2,
       "maxAttempts": 3,
       "attemptHistory": [
         {
@@ -6419,13 +6436,27 @@
           "notes": [
             "No matching store name/address visible in Maps result text."
           ]
+        },
+        {
+          "attempt": 2,
+          "target": "user_supplied_gmb_share_url",
+          "status": "gmb_profile_confirmed",
+          "buttonDetected": false,
+          "providersParsed": false,
+          "title": "珍煮丹大園店",
+          "notes": [
+            "User supplied GMB share URL resolved to kgmid /g/11frdw_yxp."
+          ]
         }
       ],
       "panelUrl": "",
-      "checkedAt": "2026-06-22T04:12:16Z",
-      "checkMethod": "playwright_google_maps_search",
-      "matchQuality": "not_found",
-      "notes": "No matching store name/address visible in Maps result text."
+      "checkedAt": "2026-06-22T09:27:00Z",
+      "checkMethod": "user_supplied_gmb_profile_match",
+      "matchQuality": "user_supplied_named_gmb_profile",
+      "notes": "User supplied a matching Google Business Profile URL. Provider rows were not inferred from the profile URL.",
+      "userSuppliedGmbShareUrl": "https://share.google/nuueoPAtFr2sRhCSb",
+      "resolvedGmbUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1",
+      "kgmid": "/g/11frdw_yxp"
     },
     "platformAudit": {
       "Ocard": {
@@ -6457,7 +6488,8 @@
         "checkedAt": "2026-06-22T09:12:49Z",
         "evidence": "The current public Ocard entry is distributed with utm_source=line; no separate LINE ordering store list was found."
       }
-    }
+    },
+    "gmbShareUrl": "https://share.google/nuueoPAtFr2sRhCSb"
   },
   {
     "brand": "珍煮丹",
@@ -6914,13 +6946,13 @@
     "officialStoreUrl": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=39",
     "officialMapUrl": "https://www.google.com/maps?q=%E8%8B%97%E6%A0%97%E7%B8%A3%E7%AB%B9%E5%8D%97%E9%8E%AE%E7%A7%91%E5%B0%88%E4%B8%83%E8%B7%AF448%E8%99%9F&hl=zh-TW&z=14&t=&output=embed",
     "googleSearchUrl": "https://www.google.com/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E8%8B%97%E6%A0%97%E7%AB%B9%E5%8D%97%E7%A7%91%E5%B0%88%E5%BA%97%20%E8%8B%97%E6%A0%97%E7%B8%A3%E7%AB%B9%E5%8D%97%E9%8E%AE%E7%A7%91%E5%B0%88%E4%B8%83%E8%B7%AF448%E8%99%9F",
-    "gmbUrl": "",
-    "gmbStatus": "not_found",
-    "gmbOrderingStatus": "not_found",
+    "gmbUrl": "https://www.google.com/search?kgmid=/g/11y2dx4vm3&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E7%AB%B9%E5%8D%97%E7%A7%91%E5%B0%88%E5%BA%97&source=sh/x/loc/uni/m1/1",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "button_confirmed_provider_pending",
     "gmbOrderLinks": [],
     "sourceCoverage": {
       "officialListed": true,
-      "gmbFound": false,
+      "gmbFound": true,
       "googleFound": true,
       "thirdPartyFound": true,
       "officialOrderingFound": true
@@ -6941,15 +6973,16 @@
     ],
     "hasAnyOrderingSystem": true,
     "hasGmbOrderingSystem": true,
-    "manualReviewReason": "Google Maps online-order entry was visible/opened, but provider rows were not safely parsed. Manual review needed.",
+    "manualReviewReason": "User-supplied GMB profile confirmed; Google Order entry was previously visible, but provider rows still need manual review.",
     "evidenceNotes": [
-      "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。"
+      "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。",
+      "User supplied matching GMB profile on 2026-06-22: https://share.google/RUIAeq9kMXxjlQnTF -> /g/11y2dx4vm3."
     ],
-    "checkedAt": "2026-06-22T09:12:49Z",
+    "checkedAt": "2026-06-22T09:27:00Z",
     "gmbSignals": {
       "buttonDetected": true,
       "providersParsed": false,
-      "attemptCount": 1,
+      "attemptCount": 2,
       "maxAttempts": 3,
       "attemptHistory": [
         {
@@ -6964,13 +6997,27 @@
             "Visible online-order entry detected. Opened via searchviewer href.",
             "Order entry opened, but provider rows were not safely parsed."
           ]
+        },
+        {
+          "attempt": 2,
+          "target": "user_supplied_gmb_share_url",
+          "status": "gmb_profile_confirmed",
+          "buttonDetected": true,
+          "providersParsed": false,
+          "title": "珍煮丹 竹南科專店",
+          "notes": [
+            "User supplied GMB share URL resolved to kgmid /g/11y2dx4vm3."
+          ]
         }
       ],
       "panelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5MmR4NHZtMxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Gbk4avvyOaLh1e8PnNWC8A0&ei=Gbk4avvyOaLh1e8PnNWC8A0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
-      "checkedAt": "2026-06-22T04:12:16Z",
-      "checkMethod": "playwright_google_maps_search",
-      "matchQuality": "needs_manual_review",
-      "notes": "Address appears but named GMB match was not clearly confirmed.; Visible online-order entry detected. Opened via searchviewer href.; Order entry opened, but provider rows were not safely parsed."
+      "checkedAt": "2026-06-22T09:27:00Z",
+      "checkMethod": "user_supplied_gmb_profile_match",
+      "matchQuality": "user_supplied_named_gmb_profile",
+      "notes": "User supplied a matching Google Business Profile URL. Provider rows were not inferred from the profile URL.",
+      "userSuppliedGmbShareUrl": "https://share.google/RUIAeq9kMXxjlQnTF",
+      "resolvedGmbUrl": "https://www.google.com/search?kgmid=/g/11y2dx4vm3&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E7%AB%B9%E5%8D%97%E7%A7%91%E5%B0%88%E5%BA%97&source=sh/x/loc/uni/m1/1",
+      "kgmid": "/g/11y2dx4vm3"
     },
     "gmbOrderPanelUrl": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5MmR4NHZtMxgAOgMI8A0%3D&hl=zh-Hant-TW&gl=tw&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Gbk4avvyOaLh1e8PnNWC8A0&ei=Gbk4avvyOaLh1e8PnNWC8A0&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
     "platformAudit": {
@@ -7003,7 +7050,8 @@
         "checkedAt": "2026-06-22T09:12:49Z",
         "evidence": "The current public Ocard entry is distributed with utm_source=line; no separate LINE ordering store list was found."
       }
-    }
+    },
+    "gmbShareUrl": "https://share.google/RUIAeq9kMXxjlQnTF"
   },
   {
     "brand": "珍煮丹",
@@ -7896,29 +7944,30 @@
     "officialStoreUrl": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=5",
     "officialMapUrl": "https://www.google.com/maps?q=%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E5%8D%80%E5%8D%9A%E6%84%9B%E4%BA%8C%E8%B7%AF777%E8%99%9FB1&hl=zh-TW&z=14&t=&output=embed",
     "googleSearchUrl": "https://www.google.com/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E5%8D%80%E5%8D%9A%E6%84%9B%E4%BA%8C%E8%B7%AF777%E8%99%9FB1",
-    "gmbUrl": "",
-    "gmbStatus": "not_found",
-    "gmbOrderingStatus": "not_found",
+    "gmbUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "needs_manual_review",
     "gmbOrderLinks": [],
     "sourceCoverage": {
       "officialListed": true,
-      "gmbFound": false,
-      "googleFound": false,
+      "gmbFound": true,
+      "googleFound": true,
       "thirdPartyFound": false,
       "officialOrderingFound": false
     },
     "orderingSystems": [],
     "hasAnyOrderingSystem": false,
     "hasGmbOrderingSystem": false,
-    "manualReviewReason": "No matching store name/address visible in Maps result text.",
+    "manualReviewReason": "User-supplied GMB profile confirmed; Google Order provider panel has not been audited after this match update.",
     "evidenceNotes": [
-      "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。"
+      "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。",
+      "User supplied matching GMB profile on 2026-06-22: https://share.google/itPACHE47fOSn90ti -> /g/11lh6g80vv."
     ],
-    "checkedAt": "2026-06-22T09:12:49Z",
+    "checkedAt": "2026-06-22T09:27:00Z",
     "gmbSignals": {
       "buttonDetected": false,
       "providersParsed": false,
-      "attemptCount": 1,
+      "attemptCount": 2,
       "maxAttempts": 3,
       "attemptHistory": [
         {
@@ -7931,13 +7980,27 @@
           "notes": [
             "No matching store name/address visible in Maps result text."
           ]
+        },
+        {
+          "attempt": 2,
+          "target": "user_supplied_gmb_share_url",
+          "status": "gmb_profile_confirmed",
+          "buttonDetected": false,
+          "providersParsed": false,
+          "title": "珍煮丹 高雄漢神巨蛋購物廣場店",
+          "notes": [
+            "User supplied GMB share URL resolved to kgmid /g/11lh6g80vv."
+          ]
         }
       ],
       "panelUrl": "",
-      "checkedAt": "2026-06-22T04:12:16Z",
-      "checkMethod": "playwright_google_maps_search",
-      "matchQuality": "not_found",
-      "notes": "No matching store name/address visible in Maps result text."
+      "checkedAt": "2026-06-22T09:27:00Z",
+      "checkMethod": "user_supplied_gmb_profile_match",
+      "matchQuality": "user_supplied_named_gmb_profile",
+      "notes": "User supplied a matching Google Business Profile URL. Provider rows were not inferred from the profile URL.",
+      "userSuppliedGmbShareUrl": "https://share.google/itPACHE47fOSn90ti",
+      "resolvedGmbUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1",
+      "kgmid": "/g/11lh6g80vv"
     },
     "platformAudit": {
       "Ocard": {
@@ -7961,7 +8024,8 @@
         "checkedAt": "2026-06-22T09:12:49Z",
         "evidence": "The current public Ocard entry is distributed with utm_source=line; no separate LINE ordering store list was found."
       }
-    }
+    },
+    "gmbShareUrl": "https://share.google/itPACHE47fOSn90ti"
   },
   {
     "brand": "珍煮丹",

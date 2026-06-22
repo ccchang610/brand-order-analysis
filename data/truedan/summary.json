@@ -1,20 +1,20 @@
 {
   "generatedAt": "2026-06-22T04:45:20Z",
-  "brand": "珍煮丹",
+  "brand": "珍煮丹 TRUEDAN",
   "brandSlug": "truedan",
   "market": "Taiwan",
-  "sitePath": "./",
+  "sitePath": "./truedan/",
   "officialStoreCount": 66,
-  "gmbFoundCount": 62,
-  "googleFoundCount": 63,
-  "thirdPartyFoundCount": 0,
-  "verificationGapCount": 66,
-  "anyOrderingSystemCount": 42,
-  "anyOrderingSystemAdoptionRate": 0.6364,
-  "gmbOrderingSystemCount": 63,
-  "gmbOrderingSystemAdoptionRate": 0.9545,
+  "gmbFoundCount": 66,
+  "googleFoundCount": 66,
+  "thirdPartyFoundCount": 65,
+  "verificationGapCount": 45,
+  "anyOrderingSystemCount": 65,
+  "anyOrderingSystemAdoptionRate": 0.9848,
+  "gmbOrderingSystemCount": 42,
+  "gmbOrderingSystemAdoptionRate": 0.6364,
   "gmbCoverageGapCount": 3,
-  "unknownOrderingSystemCount": 66,
+  "unknownOrderingSystemCount": 1,
   "cityCounts": {
     "基隆市": 2,
     "台北市": 16,
@@ -47,6 +47,7 @@
     "離島": 2
   },
   "allSourceSystemCounts": {
+    "Ocard": 65,
     "foodpanda": 42,
     "Uber Eats": 17,
     "Nidin": 9
@@ -56,215 +57,210 @@
     "Uber Eats": 17,
     "Nidin": 9
   },
-  "gmbOrderOptionCounts": {},
+  "gmbOrderOptionCounts": {
+    "foodpanda": 42,
+    "Uber Eats": 17,
+    "Nidin": 9
+  },
   "gmbOrderPickupOptionCounts": {
     "foodpanda": 21,
     "Nidin": 4
   },
   "gmbOrderDeliveryOptionCounts": {
-    "Uber Eats": 17,
     "foodpanda": 21,
+    "Uber Eats": 17,
     "Nidin": 5
   },
-  "allSourceSystemAdoptionRates": {},
-  "gmbSystemAdoptionRates": {},
-  "gmbOrderOptionAdoptionRates": {},
+  "allSourceSystemAdoptionRates": {
+    "Ocard": 0.9848,
+    "foodpanda": 0.6364,
+    "Uber Eats": 0.2576,
+    "Nidin": 0.1364
+  },
+  "gmbSystemAdoptionRates": {
+    "foodpanda": 0.6364,
+    "Uber Eats": 0.2576,
+    "Nidin": 0.1364
+  },
+  "gmbOrderOptionAdoptionRates": {
+    "foodpanda": 0.6364,
+    "Uber Eats": 0.2576,
+    "Nidin": 0.1364
+  },
   "systemComparison": [
     {
       "system": "Nidin",
-      "allSourceStoreCount": 0,
-      "allSourceAdoptionRate": 0,
-      "gmbStoreCount": 0,
-      "gmbAdoptionRate": 0,
+      "allSourceStoreCount": 9,
+      "allSourceAdoptionRate": 0.1364,
+      "gmbStoreCount": 9,
+      "gmbAdoptionRate": 0.1364,
       "countGap": 0,
-      "percentagePointGap": 0
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "Ocard",
+      "allSourceStoreCount": 65,
+      "allSourceAdoptionRate": 0.9848,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 65,
+      "percentagePointGap": 0.9848
     },
     {
       "system": "Uber Eats",
-      "allSourceStoreCount": 0,
-      "allSourceAdoptionRate": 0,
-      "gmbStoreCount": 0,
-      "gmbAdoptionRate": 0,
+      "allSourceStoreCount": 17,
+      "allSourceAdoptionRate": 0.2576,
+      "gmbStoreCount": 17,
+      "gmbAdoptionRate": 0.2576,
       "countGap": 0,
-      "percentagePointGap": 0
+      "percentagePointGap": 0.0
     },
     {
       "system": "foodpanda",
-      "allSourceStoreCount": 0,
-      "allSourceAdoptionRate": 0,
-      "gmbStoreCount": 0,
-      "gmbAdoptionRate": 0,
+      "allSourceStoreCount": 42,
+      "allSourceAdoptionRate": 0.6364,
+      "gmbStoreCount": 42,
+      "gmbAdoptionRate": 0.6364,
       "countGap": 0,
-      "percentagePointGap": 0
-    },
-    {
-      "system": "LINE",
-      "allSourceStoreCount": 0,
-      "allSourceAdoptionRate": 0,
-      "gmbStoreCount": 0,
-      "gmbAdoptionRate": 0,
-      "countGap": 0,
-      "percentagePointGap": 0
-    },
-    {
-      "system": "QuickClick",
-      "allSourceStoreCount": 0,
-      "allSourceAdoptionRate": 0,
-      "gmbStoreCount": 0,
-      "gmbAdoptionRate": 0,
-      "countGap": 0,
-      "percentagePointGap": 0
-    },
-    {
-      "system": "Foodomo",
-      "allSourceStoreCount": 0,
-      "allSourceAdoptionRate": 0,
-      "gmbStoreCount": 0,
-      "gmbAdoptionRate": 0,
-      "countGap": 0,
-      "percentagePointGap": 0
-    },
-    {
-      "system": "官方點餐",
-      "allSourceStoreCount": 0,
-      "allSourceAdoptionRate": 0,
-      "gmbStoreCount": 0,
-      "gmbAdoptionRate": 0,
-      "countGap": 0,
-      "percentagePointGap": 0
+      "percentagePointGap": 0.0
     }
   ],
   "gmbStatusCounts": {
-    "confirmed": 62,
-    "not_found": 4
+    "confirmed": 66
   },
   "gmbOrderingStatusCounts": {
     "confirmed": 21,
-    "button_confirmed_provider_pending": 41,
-    "not_found": 4
+    "button_confirmed_provider_pending": 42,
+    "needs_manual_review": 3
   },
   "sourceCoverageCounts": {
     "officialListed": 66,
-    "gmbFound": 62,
-    "googleFound": 63,
-    "thirdPartyFound": 0
+    "gmbFound": 66,
+    "googleFound": 66,
+    "thirdPartyFound": 65
   },
-  "source": [
-    {
-      "city": "金門",
-      "cityId": 59,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=59",
-      "storeCount": 1
-    },
-    {
-      "city": "基隆",
-      "cityId": 58,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=58",
-      "storeCount": 2
-    },
-    {
-      "city": "台北",
-      "cityId": 16,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=16",
-      "storeCount": 16
-    },
-    {
-      "city": "新北",
-      "cityId": 15,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=15",
-      "storeCount": 9
-    },
-    {
-      "city": "桃園",
-      "cityId": 14,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=14",
-      "storeCount": 9
-    },
-    {
-      "city": "新竹",
-      "cityId": 13,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=13",
-      "storeCount": 3
-    },
-    {
-      "city": "苗栗",
-      "cityId": 39,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=39",
-      "storeCount": 2
-    },
-    {
-      "city": "台中",
-      "cityId": 12,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=12",
-      "storeCount": 6
-    },
-    {
-      "city": "彰化",
-      "cityId": 11,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=11",
-      "storeCount": 0
-    },
-    {
-      "city": "南投",
-      "cityId": 43,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=43",
-      "storeCount": 1
-    },
-    {
-      "city": "雲林",
-      "cityId": 54,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=54",
-      "storeCount": 1
-    },
-    {
-      "city": "嘉義",
-      "cityId": 10,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=10",
-      "storeCount": 1
-    },
-    {
-      "city": "台南",
-      "cityId": 9,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=9",
-      "storeCount": 4
-    },
-    {
-      "city": "高雄",
-      "cityId": 5,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=5",
-      "storeCount": 8
-    },
-    {
-      "city": "屏東",
-      "cityId": 40,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=40",
-      "storeCount": 1
-    },
-    {
-      "city": "宜蘭",
-      "cityId": 42,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=42",
-      "storeCount": 0
-    },
-    {
-      "city": "花蓮",
-      "cityId": 6,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=6",
-      "storeCount": 1
-    },
-    {
-      "city": "澎湖",
-      "cityId": 45,
-      "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=45",
-      "storeCount": 1
-    }
-  ],
+  "source": {
+    "officialStorePages": [
+      {
+        "city": "金門",
+        "cityId": 59,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=59",
+        "storeCount": 1
+      },
+      {
+        "city": "基隆",
+        "cityId": 58,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=58",
+        "storeCount": 2
+      },
+      {
+        "city": "台北",
+        "cityId": 16,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=16",
+        "storeCount": 16
+      },
+      {
+        "city": "新北",
+        "cityId": 15,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=15",
+        "storeCount": 9
+      },
+      {
+        "city": "桃園",
+        "cityId": 14,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=14",
+        "storeCount": 9
+      },
+      {
+        "city": "新竹",
+        "cityId": 13,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=13",
+        "storeCount": 3
+      },
+      {
+        "city": "苗栗",
+        "cityId": 39,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=39",
+        "storeCount": 2
+      },
+      {
+        "city": "台中",
+        "cityId": 12,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=12",
+        "storeCount": 6
+      },
+      {
+        "city": "彰化",
+        "cityId": 11,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=11",
+        "storeCount": 0
+      },
+      {
+        "city": "南投",
+        "cityId": 43,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=43",
+        "storeCount": 1
+      },
+      {
+        "city": "雲林",
+        "cityId": 54,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=54",
+        "storeCount": 1
+      },
+      {
+        "city": "嘉義",
+        "cityId": 10,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=10",
+        "storeCount": 1
+      },
+      {
+        "city": "台南",
+        "cityId": 9,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=9",
+        "storeCount": 4
+      },
+      {
+        "city": "高雄",
+        "cityId": 5,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=5",
+        "storeCount": 8
+      },
+      {
+        "city": "屏東",
+        "cityId": 40,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=40",
+        "storeCount": 1
+      },
+      {
+        "city": "宜蘭",
+        "cityId": 42,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=42",
+        "storeCount": 0
+      },
+      {
+        "city": "花蓮",
+        "cityId": 6,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=6",
+        "storeCount": 1
+      },
+      {
+        "city": "澎湖",
+        "cityId": 45,
+        "url": "https://www.truedan.com.tw/portal_d1_cnt.php?s_contury=1&s_city=45",
+        "storeCount": 1
+      }
+    ],
+    "officialWebsite": "https://www.truedan.com.tw/",
+    "officialStoreList": "https://www.truedan.com.tw/store.php",
+    "notes": "Official per-city pages are the store population source. Google Order provider evidence is counted only from opened Google Order panels, with pickup and delivery separated when readable."
+  },
   "notes": [
     "本版已用官網 per-city pages 建立官方台灣門市母體與縣市分布。",
     "官網未提供逐店平台點餐 URL；Google Order、Uber Eats、foodpanda、Nidin、LINE、QuickClick 需後續逐店定位查核。",
     "官網 HTML 註解保留 store.truedan.com.tw 連結；2026-06-22 抓取該網域回 502，因此標示為需人工複查，不列入 confirmed adoption。",
     "Platform-direct rerun: Ocard brand API was checked directly and matched against every official active store. This is counted separately from Google Order provider evidence and includes pickup/delivery mode fields.",
-    "Ocard currently returns 66 platform stores; 65 match the official active store population. Official Hanshin Arena is not listed on Ocard, while Ocard has one platform-only Xinzhuang Xintai entry."
+    "Ocard currently returns 66 platform stores; 65 match the official active store population. Official Hanshin Arena is not listed on Ocard, while Ocard has one platform-only Xinzhuang Xintai entry.",
+    "Fixed dashboard output mirrors the shared brand-order-analysis layout used by chage, with Taiwan map, region/city filters, all-source counts, Google Order pickup/delivery provider views, and store-level evidence."
   ],
   "platformDirectAudit": {
     "checkedAt": "2026-06-22T09:12:49Z",
@@ -351,5 +347,28 @@
       "Uber Eats:unavailable_or_blocked": 1,
       "foodpanda:unavailable_or_blocked": 1
     }
+  },
+  "gmbMissingCount": 0,
+  "googleOrderEntryCount": 63,
+  "googleOrderEntryRate": 0.9545,
+  "allSourcePickupSystemCounts": {
+    "Ocard": 65,
+    "foodpanda": 21,
+    "Nidin": 4
+  },
+  "allSourceDeliverySystemCounts": {
+    "Ocard": 64,
+    "foodpanda": 21,
+    "Uber Eats": 17,
+    "Nidin": 5
+  },
+  "gmbPickupSystemCounts": {
+    "foodpanda": 21,
+    "Nidin": 4
+  },
+  "gmbDeliverySystemCounts": {
+    "foodpanda": 21,
+    "Uber Eats": 17,
+    "Nidin": 5
   }
 }
