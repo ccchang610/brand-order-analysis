@@ -1451,5 +1451,98 @@
     "notes": [],
     "storeId": "truedan-tw-59-01",
     "storeName": "金門金湖店"
+  },
+  {
+    "storeId": "truedan-tw-15-03",
+    "storeName": "板橋府中店",
+    "panelUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEk2ekRhOUxhQ0QzNXNPNnFvdkI1M3dKVE1FbVc0eXdPTlNKemVVblIzdUhtNjJUMWVfZEdkT0poQmNEdHhjS2t1cGxudmNhWjNmSWo3VmpLMklTM2d6NHFXTUdtRjdvUi13cWc4SEdpOW5UMjczVWpVEhdRVkE1YXQtekk5bkJ2cjBQMXBEcjZRWRoiQURzcjlmUW9CVFhCcmxVNE5LelBSNFRQa1lQVllrQVo1dxIEODEyNBoBMyoAMAA4AUAAGCogkNaKmwJKAhAB",
+    "checkedAt": "2026-06-22T15:16:04Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ztmh&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dztmh&adj_fallback=https://foodpanda.com.tw/restaurant/ztmh/zhen-zhu-dan-ban-qiao-fu-zhong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ztmh/zhen-zhu-dan-ban-qiao-fu-zhong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ztmh&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dztmh&adj_fallback=https://foodpanda.com.tw/restaurant/ztmh/zhen-zhu-dan-ban-qiao-fu-zhong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ztmh/zhen-zhu-dan-ban-qiao-fu-zhong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      }
+    },
+    "notes": [
+      "Chrome kgmid check; only foodpanda reserve provider links were counted as strict Google Order provider evidence."
+    ]
+  },
+  {
+    "storeId": "truedan-tw-14-05",
+    "storeName": "桃園大園店",
+    "panelUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEplaHdoZnB4WVB2ZDVDOG1VVjhDYmNMWXEwYnJWeFJjX1hYVjR5X1N2VVgzVE1XVEMxYWtEcnROdUVqM2NTTDJaWktaS0xGby1QNmRqT1pRZ1V1RjVJNnJ3bWxoVE1uR2sxMkFrMDQzYVM3M0U2MmdnEhdSMUE1YW9HN0pLbk8xZThQamN5QmdBWRoiQURzcjlmVGtQQXlQd2NkM1BQT1UzUXc1cm9wSUtEQm1PQRIEODEyNBoBMyoAMAA4AUAAGCogitWc_AhKAhAB",
+    "checkedAt": "2026-06-22T15:16:04Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=u2as&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Du2as&adj_fallback=https://foodpanda.com.tw/restaurant/u2as/zhen-zhu-dan-tao-yuan-da-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/u2as/zhen-zhu-dan-tao-yuan-da-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=u2as&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Du2as&adj_fallback=https://foodpanda.com.tw/restaurant/u2as/zhen-zhu-dan-tao-yuan-da-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/u2as/zhen-zhu-dan-tao-yuan-da-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      }
+    },
+    "notes": [
+      "Chrome kgmid check; only foodpanda reserve provider links were counted as strict Google Order provider evidence."
+    ]
+  },
+  {
+    "storeId": "truedan-tw-5-07",
+    "storeName": "漢神巨蛋店",
+    "panelUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEw1eUNwc19fRTZ5N29VM2xWVnpybzRuSHJtX0oyRXlkVUVHNkEwZ2ZBa25aMGh0ZXIxdkNyTjY5LS1BQlNOcVRrSzdKM0pHVXRKNjNLMnV6ZUctNktmM2NaNXhBMmJoRmlWckNJQ29oTlA4WmFZR3NnEhdUVkE1YXVuOUhNRGwxZThQc3AyQ3VBRRoiQURzcjlmUkJ2eGVOYTlHd25YZjNhZkx4VnRLQXR1UUU2dxIEODEyNBoBMyoAMAA4AUAAGCogrJr0_g1KAhAB",
+    "checkedAt": "2026-06-22T15:16:04Z",
+    "modes": {
+      "pickup": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=uzup&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Duzup&adj_fallback=https://foodpanda.com.tw/restaurant/uzup/zhen-zhu-dan-han-shen-ju-dan?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/uzup/zhen-zhu-dan-han-shen-ju-dan?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      },
+      "delivery": {
+        "clicked": true,
+        "providers": [
+          {
+            "provider": "foodpanda",
+            "label": "foodpanda",
+            "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=uzup&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Duzup&adj_fallback=https://foodpanda.com.tw/restaurant/uzup/zhen-zhu-dan-han-shen-ju-dan?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/uzup/zhen-zhu-dan-han-shen-ju-dan?utm_campaign=google_reserve_place_order_action_CH-SEO_"
+          }
+        ]
+      }
+    },
+    "notes": [
+      "Chrome kgmid check; only foodpanda reserve provider links were counted as strict Google Order provider evidence."
+    ]
   }
 ]

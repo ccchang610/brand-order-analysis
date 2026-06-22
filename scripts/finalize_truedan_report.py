@@ -170,11 +170,11 @@ def rebuild_summary(stores: list[dict]) -> dict:
             ),
         }
     )
-    summary["notes"] = [
-        note for note in summary.get("notes", []) if isinstance(note, str)
-    ] + [
+    notes = [note for note in summary.get("notes", []) if isinstance(note, str)]
+    notes.append(
         "Fixed dashboard output mirrors the shared brand-order-analysis layout used by chage, with Taiwan map, region/city filters, all-source counts, Google Order pickup/delivery provider views, and store-level evidence."
-    ]
+    )
+    summary["notes"] = list(dict.fromkeys(notes))
     return summary
 
 
@@ -252,7 +252,7 @@ def report_html() -> str:
       <div class="segmented" id="regionFilters"></div>
       <label>城市<select id="cityFilter"></select></label>
       <label>系統<select id="systemFilter"></select></label>
-      <label>Google Order <select id="gmbFilter"><option value="all">全部</option><option value="confirmed">Google Order 有證據</option><option value="gap">Google Order 缺口</option><option value="no_gmb_found">GMB/Maps 未找到</option></select></label>
+      <label>Google Order <select id="gmbFilter"><option value="all">全部</option><option value="confirmed">Google Order 有證據</option><option value="gap">Google Order 待查核</option><option value="no_gmb_found">GMB/Maps 未找到</option></select></label>
       <label class="search">搜尋門市<input id="searchInput" type="search" placeholder="門市、地址、城市" /></label>
     </section>
 
@@ -315,7 +315,7 @@ def report_html() -> str:
 
   <script src="data-inline.js?v=1"></script>
   <script src="../assets/taiwan-map.js?v=35"></script>
-  <script src="../assets/app.js?v=36"></script>
+  <script src="../assets/app.js?v=37"></script>
 </body>
 </html>
 """

@@ -578,21 +578,21 @@
     "checkedAt": "2026-06-22T04:45:20Z"
   },
   {
-    "checkedAt": "2026-06-22T04:12:16Z",
+    "checkedAt": "2026-06-22T15:16:04Z",
     "storeId": "truedan-tw-15-03",
     "storeName": "板橋府中店",
     "address": "新北市板橋區中山路一段29號1樓",
-    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%9D%BF%E6%A9%8B%E5%BA%9C%E4%B8%AD%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B529%E8%99%9F1%E6%A8%93",
-    "gmbStatus": "not_found",
-    "gmbOrderingStatus": "not_found",
-    "gmbUrl": "",
-    "buttonDetected": false,
-    "providers": [],
-    "panelTextSample": "",
-    "panelUrl": "",
-    "title": "珍煮丹府中店 - Google 地圖",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEk2ekRhOUxhQ0QzNXNPNnFvdkI1M3dKVE1FbVc0eXdPTlNKemVVblIzdUhtNjJUMWVfZEdkT0poQmNEdHhjS2t1cGxudmNhWjNmSWo3VmpLMklTM2d6NHFXTUdtRjdvUi13cWc4SEdpOW5UMjczVWpVEhdRVkE1YXQtekk5bkJ2cjBQMXBEcjZRWRoiQURzcjlmUW9CVFhCcmxVNE5LelBSNFRQa1lQVllrQVo1dxIEODEyNBoBMyoAMAA4AUAAGCogkNaKmwJKAhAB",
+    "title": "板橋府中店",
     "notes": [
-      "No matching store name/address visible in Maps result text."
+      "Chrome kgmid check confirmed pickup and delivery Google Order buttons with foodpanda provider links."
     ]
   },
   {
@@ -736,21 +736,21 @@
     "checkedAt": "2026-06-22T04:45:20Z"
   },
   {
-    "checkedAt": "2026-06-22T04:12:16Z",
+    "checkedAt": "2026-06-22T15:16:04Z",
     "storeId": "truedan-tw-14-05",
     "storeName": "桃園大園店",
     "address": "桃園市大園區仁壽路27號",
-    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E5%A4%A7%E5%9C%92%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E5%9C%92%E5%8D%80%E4%BB%81%E5%A3%BD%E8%B7%AF27%E8%99%9F",
-    "gmbStatus": "not_found",
-    "gmbOrderingStatus": "not_found",
-    "gmbUrl": "",
-    "buttonDetected": false,
-    "providers": [],
-    "panelTextSample": "",
-    "panelUrl": "",
-    "title": "珍煮丹大園店 - Google 地圖",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEplaHdoZnB4WVB2ZDVDOG1VVjhDYmNMWXEwYnJWeFJjX1hYVjR5X1N2VVgzVE1XVEMxYWtEcnROdUVqM2NTTDJaWktaS0xGby1QNmRqT1pRZ1V1RjVJNnJ3bWxoVE1uR2sxMkFrMDQzYVM3M0U2MmdnEhdSMUE1YW9HN0pLbk8xZThQamN5QmdBWRoiQURzcjlmVGtQQXlQd2NkM1BQT1UzUXc1cm9wSUtEQm1PQRIEODEyNBoBMyoAMAA4AUAAGCogitWc_AhKAhAB",
+    "title": "桃園大園店",
     "notes": [
-      "No matching store name/address visible in Maps result text."
+      "Chrome kgmid check confirmed pickup and delivery Google Order buttons with foodpanda provider links."
     ]
   },
   {
@@ -934,21 +934,21 @@
     "checkedAt": "2026-06-22T04:45:20Z"
   },
   {
-    "checkedAt": "2026-06-22T04:12:16Z",
+    "checkedAt": "2026-06-22T15:16:04Z",
     "storeId": "truedan-tw-5-07",
     "storeName": "漢神巨蛋店",
     "address": "高雄市左營區博愛二路777號B1",
-    "mapsSearchUrl": "https://www.google.com/maps/search/%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E5%8D%80%E5%8D%9A%E6%84%9B%E4%BA%8C%E8%B7%AF777%E8%99%9FB1",
-    "gmbStatus": "not_found",
-    "gmbOrderingStatus": "not_found",
-    "gmbUrl": "",
-    "buttonDetected": false,
-    "providers": [],
-    "panelTextSample": "",
-    "panelUrl": "",
-    "title": "珍煮丹 高雄漢神巨蛋購物廣場店 - Google 地圖",
+    "gmbStatus": "confirmed",
+    "gmbOrderingStatus": "confirmed",
+    "gmbUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1",
+    "buttonDetected": true,
+    "providers": [
+      "foodpanda"
+    ],
+    "panelUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEw1eUNwc19fRTZ5N29VM2xWVnpybzRuSHJtX0oyRXlkVUVHNkEwZ2ZBa25aMGh0ZXIxdkNyTjY5LS1BQlNOcVRrSzdKM0pHVXRKNjNLMnV6ZUctNktmM2NaNXhBMmJoRmlWckNJQ29oTlA4WmFZR3NnEhdUVkE1YXVuOUhNRGwxZThQc3AyQ3VBRRoiQURzcjlmUkJ2eGVOYTlHd25YZjNhZkx4VnRLQXR1UUU2dxIEODEyNBoBMyoAMAA4AUAAGCogrJr0_g1KAhAB",
+    "title": "漢神巨蛋店",
     "notes": [
-      "No matching store name/address visible in Maps result text."
+      "Chrome kgmid check confirmed pickup and delivery Google Order buttons with foodpanda provider links."
     ]
   },
   {

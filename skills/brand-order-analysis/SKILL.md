@@ -93,9 +93,9 @@ Fixed HTML output for reusable multi-brand report repositories means each brand 
 
 When producing an HTML report, use a dashboard-first layout:
 
-1. Brand store overview: official store count, GMB-found count, Google-found count, third-party-found count, verification gap, Taiwan map, region filter, and city ranking.
+1. Brand store overview: official store count, GMB-found count, GMB-not-found count, Google-found count, third-party-found count, Taiwan map, region filter, and city ranking. Do not label Google Order pending reviews as GMB coverage gaps.
 2. All-source ordering overview: any ordering-system count, adoption rate, unknown count, main systems, region matrix, and city table.
-3. Google Order provider/link overview: GMB-found count, Google Order provider count, Google Order provider coverage rate, Google Order provider evidence gap, Google Order provider/link chart that includes visible `gmbOrderLinks`, and region matrix.
+3. Google Order provider/link overview: GMB-found count, Google Order provider count, Google Order provider coverage rate, Google Order pending-review count, Google Order provider/link chart that includes visible `gmbOrderLinks`, and region matrix.
 4. All-source vs Google Order provider comparison: system name, all-source count/rate, Google Order provider count/rate, and gap.
 5. Store details: searchable and filterable table with store, city, region group, address, official source, GMB status, all-source systems, Google Order provider evidence plus Google Order panel links in the same visible cell, evidence links, and review status.
 

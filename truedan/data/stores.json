@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T04:45:20Z",
+  "generatedAt": "2026-06-22T15:16:04Z",
   "brand": "珍煮丹 TRUEDAN",
   "source": {
     "officialStorePages": [
@@ -5196,8 +5196,35 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%9D%BF%E6%A9%8B%E5%BA%9C%E4%B8%AD%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%80%E6%AE%B529%E8%99%9F1%E6%A8%93",
       "gmbUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "needs_manual_review",
-      "gmbOrderLinks": [],
+      "gmbOrderingStatus": "confirmed",
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "provider_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ztmh&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dztmh&adj_fallback=https://foodpanda.com.tw/restaurant/ztmh/zhen-zhu-dan-ban-qiao-fu-zhong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ztmh/zhen-zhu-dan-ban-qiao-fu-zhong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEk2ekRhOUxhQ0QzNXNPNnFvdkI1M3dKVE1FbVc0eXdPTlNKemVVblIzdUhtNjJUMWVfZEdkT0poQmNEdHhjS2t1cGxudmNhWjNmSWo3VmpLMklTM2d6NHFXTUdtRjdvUi13cWc4SEdpOW5UMjczVWpVEhdRVkE1YXQtekk5bkJ2cjBQMXBEcjZRWRoiQURzcjlmUW9CVFhCcmxVNE5LelBSNFRQa1lQVllrQVo1dxIEODEyNBoBMyoAMAA4AUAAGCogkNaKmwJKAhAB",
+          "observedAt": "2026-06-22T15:16:04Z",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "provider_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=ztmh&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Dztmh&adj_fallback=https://foodpanda.com.tw/restaurant/ztmh/zhen-zhu-dan-ban-qiao-fu-zhong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/ztmh/zhen-zhu-dan-ban-qiao-fu-zhong-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEk2ekRhOUxhQ0QzNXNPNnFvdkI1M3dKVE1FbVc0eXdPTlNKemVVblIzdUhtNjJUMWVfZEdkT0poQmNEdHhjS2t1cGxudmNhWjNmSWo3VmpLMklTM2d6NHFXTUdtRjdvUi13cWc4SEdpOW5UMjczVWpVEhdRVkE1YXQtekk5bkJ2cjBQMXBEcjZRWRoiQURzcjlmUW9CVFhCcmxVNE5LelBSNFRQa1lQVllrQVo1dxIEODEyNBoBMyoAMAA4AUAAGCogkNaKmwJKAhAB",
+          "observedAt": "2026-06-22T15:16:04Z",
+          "confidence": "confirmed"
+        }
+      ],
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -5217,53 +5244,62 @@
           "label": "Ocard Online Order",
           "confidence": "confirmed",
           "evidenceNote": "Matched directly from Ocard brand API by store name/address. pickup=ASAP, delivery=ASAP."
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEk2ekRhOUxhQ0QzNXNPNnFvdkI1M3dKVE1FbVc0eXdPTlNKemVVblIzdUhtNjJUMWVfZEdkT0poQmNEdHhjS2t1cGxudmNhWjNmSWo3VmpLMklTM2d6NHFXTUdtRjdvUi13cWc4SEdpOW5UMjczVWpVEhdRVkE1YXQtekk5bkJ2cjBQMXBEcjZRWRoiQURzcjlmUW9CVFhCcmxVNE5LelBSNFRQa1lQVllrQVo1dxIEODEyNBoBMyoAMAA4AUAAGCogkNaKmwJKAhAB",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "third_party",
+          "orderMode": [
+            "unknown"
+          ],
+          "evidenceUrl": "https://order.nidin.shop/menu/3867",
+          "label": "Nidin store menu",
+          "confidence": "confirmed",
+          "evidenceNote": "Direct Google result opened to the named Nidin store menu; pickup/delivery mode was not readable without location state."
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "User-supplied GMB profile confirmed; Google Order provider panel has not been audited after this match update.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
       "evidenceNotes": [
         "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。",
         "User supplied matching GMB profile on 2026-06-22: https://share.google/MmRDBl3N8JAONyuSQ -> /g/11mvqqw_mq."
       ],
       "checkedAt": "2026-06-22T09:27:00Z",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "attemptCount": 2,
-        "maxAttempts": 3,
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
             "attempt": 1,
-            "target": "googleMapsSearch",
-            "status": "not_found",
-            "buttonDetected": false,
-            "providersParsed": false,
-            "title": "珍煮丹府中店 - Google 地圖",
+            "target": "chrome_google_search_kgmid",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "title": "板橋府中店",
             "notes": [
-              "No matching store name/address visible in Maps result text."
-            ]
-          },
-          {
-            "attempt": 2,
-            "target": "user_supplied_gmb_share_url",
-            "status": "gmb_profile_confirmed",
-            "buttonDetected": false,
-            "providersParsed": false,
-            "title": "珍煮丹府中店",
-            "notes": [
-              "User supplied GMB share URL resolved to kgmid /g/11mvqqw_mq."
+              "User-supplied GMB kgmid was opened in Chrome.",
+              "Google Order pickup and delivery buttons were clicked.",
+              "foodpanda reserve provider link was visible after opening each mode."
             ]
           }
         ],
-        "panelUrl": "",
-        "checkedAt": "2026-06-22T09:27:00Z",
-        "checkMethod": "user_supplied_gmb_profile_match",
-        "matchQuality": "user_supplied_named_gmb_profile",
-        "notes": "User supplied a matching Google Business Profile URL. Provider rows were not inferred from the profile URL.",
-        "userSuppliedGmbShareUrl": "https://share.google/MmRDBl3N8JAONyuSQ",
-        "resolvedGmbUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1",
-        "kgmid": "/g/11mvqqw_mq"
+        "panelUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEk2ekRhOUxhQ0QzNXNPNnFvdkI1M3dKVE1FbVc0eXdPTlNKemVVblIzdUhtNjJUMWVfZEdkT0poQmNEdHhjS2t1cGxudmNhWjNmSWo3VmpLMklTM2d6NHFXTUdtRjdvUi13cWc4SEdpOW5UMjczVWpVEhdRVkE1YXQtekk5bkJ2cjBQMXBEcjZRWRoiQURzcjlmUW9CVFhCcmxVNE5LelBSNFRQa1lQVllrQVo1dxIEODEyNBoBMyoAMAA4AUAAGCogkNaKmwJKAhAB",
+        "checkedAt": "2026-06-22T15:16:04Z",
+        "checkMethod": "chrome_google_search_kgmid_google_order_buttons",
+        "matchQuality": "named_gmb_profile",
+        "notes": "Mode-aware Chrome check parsed foodpanda provider from Google Order pickup and delivery buttons."
       },
       "platformAudit": {
         "Ocard": {
@@ -5281,12 +5317,14 @@
           "checkedAt": "2026-06-22T09:12:49Z"
         },
         "Nidin": {
-          "status": "brand_page_active_location_required",
+          "status": "direct_url_confirmed_mode_unknown",
           "sourceType": "third_party",
-          "evidenceUrl": "https://order.nidin.shop/brand/truedan",
-          "directUrls": [],
-          "checkedAt": "2026-06-22T09:12:49Z",
-          "evidence": "Nidin brand page is active, but the current public brand page requires location selection before showing nearby stores. Store-level Nidin URLs are preserved when direct URLs were visible inside prior Google Order panels."
+          "evidenceUrl": "https://order.nidin.shop/menu/3867",
+          "directUrls": [
+            "https://order.nidin.shop/menu/3867"
+          ],
+          "checkedAt": "2026-06-22T15:16:04Z",
+          "evidence": "Direct named Nidin menu page was visible from Google results; mode was not readable in the public page state."
         },
         "LINE": {
           "status": "official_link_routes_to_ocard",
@@ -5296,7 +5334,14 @@
           "evidence": "The current public Ocard entry is distributed with utm_source=line; no separate LINE ordering store list was found."
         }
       },
-      "gmbShareUrl": "https://share.google/MmRDBl3N8JAONyuSQ"
+      "gmbShareUrl": "https://share.google/MmRDBl3N8JAONyuSQ",
+      "gmbOrderPanelUrl": "https://www.google.com/search?kgmid=/g/11mvqqw_mq&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%BA%9C%E4%B8%AD%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEk2ekRhOUxhQ0QzNXNPNnFvdkI1M3dKVE1FbVc0eXdPTlNKemVVblIzdUhtNjJUMWVfZEdkT0poQmNEdHhjS2t1cGxudmNhWjNmSWo3VmpLMklTM2d6NHFXTUdtRjdvUi13cWc4SEdpOW5UMjczVWpVEhdRVkE1YXQtekk5bkJ2cjBQMXBEcjZRWRoiQURzcjlmUW9CVFhCcmxVNE5LelBSNFRQa1lQVllrQVo1dxIEODEyNBoBMyoAMAA4AUAAGCogkNaKmwJKAhAB",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda"
+      ]
     },
     {
       "brand": "珍煮丹",
@@ -6507,8 +6552,35 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%A1%83%E5%9C%92%E5%A4%A7%E5%9C%92%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E5%9C%92%E5%8D%80%E4%BB%81%E5%A3%BD%E8%B7%AF27%E8%99%9F",
       "gmbUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "needs_manual_review",
-      "gmbOrderLinks": [],
+      "gmbOrderingStatus": "confirmed",
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "provider_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=u2as&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Du2as&adj_fallback=https://foodpanda.com.tw/restaurant/u2as/zhen-zhu-dan-tao-yuan-da-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/u2as/zhen-zhu-dan-tao-yuan-da-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEplaHdoZnB4WVB2ZDVDOG1VVjhDYmNMWXEwYnJWeFJjX1hYVjR5X1N2VVgzVE1XVEMxYWtEcnROdUVqM2NTTDJaWktaS0xGby1QNmRqT1pRZ1V1RjVJNnJ3bWxoVE1uR2sxMkFrMDQzYVM3M0U2MmdnEhdSMUE1YW9HN0pLbk8xZThQamN5QmdBWRoiQURzcjlmVGtQQXlQd2NkM1BQT1UzUXc1cm9wSUtEQm1PQRIEODEyNBoBMyoAMAA4AUAAGCogitWc_AhKAhAB",
+          "observedAt": "2026-06-22T15:16:04Z",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "provider_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=u2as&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Du2as&adj_fallback=https://foodpanda.com.tw/restaurant/u2as/zhen-zhu-dan-tao-yuan-da-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/u2as/zhen-zhu-dan-tao-yuan-da-yuan-dian?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEplaHdoZnB4WVB2ZDVDOG1VVjhDYmNMWXEwYnJWeFJjX1hYVjR5X1N2VVgzVE1XVEMxYWtEcnROdUVqM2NTTDJaWktaS0xGby1QNmRqT1pRZ1V1RjVJNnJ3bWxoVE1uR2sxMkFrMDQzYVM3M0U2MmdnEhdSMUE1YW9HN0pLbk8xZThQamN5QmdBWRoiQURzcjlmVGtQQXlQd2NkM1BQT1UzUXc1cm9wSUtEQm1PQRIEODEyNBoBMyoAMAA4AUAAGCogitWc_AhKAhAB",
+          "observedAt": "2026-06-22T15:16:04Z",
+          "confidence": "confirmed"
+        }
+      ],
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
@@ -6528,53 +6600,62 @@
           "label": "Ocard Online Order",
           "confidence": "confirmed",
           "evidenceNote": "Matched directly from Ocard brand API by store name/address. pickup=ASAP, delivery=ASAP."
+        },
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEplaHdoZnB4WVB2ZDVDOG1VVjhDYmNMWXEwYnJWeFJjX1hYVjR5X1N2VVgzVE1XVEMxYWtEcnROdUVqM2NTTDJaWktaS0xGby1QNmRqT1pRZ1V1RjVJNnJ3bWxoVE1uR2sxMkFrMDQzYVM3M0U2MmdnEhdSMUE1YW9HN0pLbk8xZThQamN5QmdBWRoiQURzcjlmVGtQQXlQd2NkM1BQT1UzUXc1cm9wSUtEQm1PQRIEODEyNBoBMyoAMAA4AUAAGCogitWc_AhKAhAB",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "third_party",
+          "orderMode": [
+            "unknown"
+          ],
+          "evidenceUrl": "https://order.nidin.shop/menu/6581",
+          "label": "Nidin store menu",
+          "confidence": "confirmed",
+          "evidenceNote": "Direct Google result opened to the named Nidin store menu; pickup/delivery mode was not readable without location state."
         }
       ],
       "hasAnyOrderingSystem": true,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "User-supplied GMB profile confirmed; Google Order provider panel has not been audited after this match update.",
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
       "evidenceNotes": [
         "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。",
         "User supplied matching GMB profile on 2026-06-22: https://share.google/nuueoPAtFr2sRhCSb -> /g/11frdw_yxp."
       ],
       "checkedAt": "2026-06-22T09:27:00Z",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "attemptCount": 2,
-        "maxAttempts": 3,
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
             "attempt": 1,
-            "target": "googleMapsSearch",
-            "status": "not_found",
-            "buttonDetected": false,
-            "providersParsed": false,
-            "title": "珍煮丹大園店 - Google 地圖",
+            "target": "chrome_google_search_kgmid",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "title": "桃園大園店",
             "notes": [
-              "No matching store name/address visible in Maps result text."
-            ]
-          },
-          {
-            "attempt": 2,
-            "target": "user_supplied_gmb_share_url",
-            "status": "gmb_profile_confirmed",
-            "buttonDetected": false,
-            "providersParsed": false,
-            "title": "珍煮丹大園店",
-            "notes": [
-              "User supplied GMB share URL resolved to kgmid /g/11frdw_yxp."
+              "User-supplied GMB kgmid was opened in Chrome.",
+              "Google Order pickup and delivery buttons were clicked.",
+              "foodpanda reserve provider link was visible after opening each mode."
             ]
           }
         ],
-        "panelUrl": "",
-        "checkedAt": "2026-06-22T09:27:00Z",
-        "checkMethod": "user_supplied_gmb_profile_match",
-        "matchQuality": "user_supplied_named_gmb_profile",
-        "notes": "User supplied a matching Google Business Profile URL. Provider rows were not inferred from the profile URL.",
-        "userSuppliedGmbShareUrl": "https://share.google/nuueoPAtFr2sRhCSb",
-        "resolvedGmbUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1",
-        "kgmid": "/g/11frdw_yxp"
+        "panelUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEplaHdoZnB4WVB2ZDVDOG1VVjhDYmNMWXEwYnJWeFJjX1hYVjR5X1N2VVgzVE1XVEMxYWtEcnROdUVqM2NTTDJaWktaS0xGby1QNmRqT1pRZ1V1RjVJNnJ3bWxoVE1uR2sxMkFrMDQzYVM3M0U2MmdnEhdSMUE1YW9HN0pLbk8xZThQamN5QmdBWRoiQURzcjlmVGtQQXlQd2NkM1BQT1UzUXc1cm9wSUtEQm1PQRIEODEyNBoBMyoAMAA4AUAAGCogitWc_AhKAhAB",
+        "checkedAt": "2026-06-22T15:16:04Z",
+        "checkMethod": "chrome_google_search_kgmid_google_order_buttons",
+        "matchQuality": "named_gmb_profile",
+        "notes": "Mode-aware Chrome check parsed foodpanda provider from Google Order pickup and delivery buttons."
       },
       "platformAudit": {
         "Ocard": {
@@ -6592,12 +6673,14 @@
           "checkedAt": "2026-06-22T09:12:49Z"
         },
         "Nidin": {
-          "status": "brand_page_active_location_required",
+          "status": "direct_url_confirmed_mode_unknown",
           "sourceType": "third_party",
-          "evidenceUrl": "https://order.nidin.shop/brand/truedan",
-          "directUrls": [],
-          "checkedAt": "2026-06-22T09:12:49Z",
-          "evidence": "Nidin brand page is active, but the current public brand page requires location selection before showing nearby stores. Store-level Nidin URLs are preserved when direct URLs were visible inside prior Google Order panels."
+          "evidenceUrl": "https://order.nidin.shop/menu/6581",
+          "directUrls": [
+            "https://order.nidin.shop/menu/6581"
+          ],
+          "checkedAt": "2026-06-22T15:16:04Z",
+          "evidence": "Direct named Nidin menu page was visible from Google results; mode was not readable in the public page state."
         },
         "LINE": {
           "status": "official_link_routes_to_ocard",
@@ -6607,7 +6690,14 @@
           "evidence": "The current public Ocard entry is distributed with utm_source=line; no separate LINE ordering store list was found."
         }
       },
-      "gmbShareUrl": "https://share.google/nuueoPAtFr2sRhCSb"
+      "gmbShareUrl": "https://share.google/nuueoPAtFr2sRhCSb",
+      "gmbOrderPanelUrl": "https://www.google.com/search?kgmid=/g/11frdw_yxp&q=%E7%8F%8D%E7%85%AE%E4%B8%B9%E5%A4%A7%E5%9C%92%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEplaHdoZnB4WVB2ZDVDOG1VVjhDYmNMWXEwYnJWeFJjX1hYVjR5X1N2VVgzVE1XVEMxYWtEcnROdUVqM2NTTDJaWktaS0xGby1QNmRqT1pRZ1V1RjVJNnJ3bWxoVE1uR2sxMkFrMDQzYVM3M0U2MmdnEhdSMUE1YW9HN0pLbk8xZThQamN5QmdBWRoiQURzcjlmVGtQQXlQd2NkM1BQT1UzUXc1cm9wSUtEQm1PQRIEODEyNBoBMyoAMAA4AUAAGCogitWc_AhKAhAB",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda"
+      ]
     },
     {
       "brand": "珍煮丹",
@@ -8064,76 +8154,116 @@
       "googleSearchUrl": "https://www.google.com/search?q=%E7%8F%8D%E7%85%AE%E4%B8%B9%20%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E5%8D%80%E5%8D%9A%E6%84%9B%E4%BA%8C%E8%B7%AF777%E8%99%9FB1",
       "gmbUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1",
       "gmbStatus": "confirmed",
-      "gmbOrderingStatus": "needs_manual_review",
-      "gmbOrderLinks": [],
+      "gmbOrderingStatus": "confirmed",
+      "gmbOrderLinks": [
+        {
+          "platform": "foodpanda",
+          "kind": "provider_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "pickup"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=uzup&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Duzup&adj_fallback=https://foodpanda.com.tw/restaurant/uzup/zhen-zhu-dan-han-shen-ju-dan?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/uzup/zhen-zhu-dan-han-shen-ju-dan?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEw1eUNwc19fRTZ5N29VM2xWVnpybzRuSHJtX0oyRXlkVUVHNkEwZ2ZBa25aMGh0ZXIxdkNyTjY5LS1BQlNOcVRrSzdKM0pHVXRKNjNLMnV6ZUctNktmM2NaNXhBMmJoRmlWckNJQ29oTlA4WmFZR3NnEhdUVkE1YXVuOUhNRGwxZThQc3AyQ3VBRRoiQURzcjlmUkJ2eGVOYTlHd25YZjNhZkx4VnRLQXR1UUU2dxIEODEyNBoBMyoAMAA4AUAAGCogrJr0_g1KAhAB",
+          "observedAt": "2026-06-22T15:16:04Z",
+          "confidence": "confirmed"
+        },
+        {
+          "platform": "foodpanda",
+          "kind": "provider_link",
+          "sourceType": "gmb_order_panel",
+          "orderMode": [
+            "delivery"
+          ],
+          "label": "foodpanda",
+          "href": "https://www.foodpanda.com.tw/food-ordering?c=tw&s=s&vc=uzup&adj_t=1naixy2v_1nsybtos&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_deep_link=foodpanda%3A%2F%2F%3Fc%3Dtw%26s%3Ds%26vc%3Duzup&adj_fallback=https://foodpanda.com.tw/restaurant/uzup/zhen-zhu-dan-han-shen-ju-dan?utm_campaign=google_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https://foodpanda.com.tw/restaurant/uzup/zhen-zhu-dan-han-shen-ju-dan?utm_campaign=google_reserve_place_order_action_CH-SEO_",
+          "panelUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEw1eUNwc19fRTZ5N29VM2xWVnpybzRuSHJtX0oyRXlkVUVHNkEwZ2ZBa25aMGh0ZXIxdkNyTjY5LS1BQlNOcVRrSzdKM0pHVXRKNjNLMnV6ZUctNktmM2NaNXhBMmJoRmlWckNJQ29oTlA4WmFZR3NnEhdUVkE1YXVuOUhNRGwxZThQc3AyQ3VBRRoiQURzcjlmUkJ2eGVOYTlHd25YZjNhZkx4VnRLQXR1UUU2dxIEODEyNBoBMyoAMAA4AUAAGCogrJr0_g1KAhAB",
+          "observedAt": "2026-06-22T15:16:04Z",
+          "confidence": "confirmed"
+        }
+      ],
       "sourceCoverage": {
         "officialListed": true,
         "gmbFound": true,
         "googleFound": true,
-        "thirdPartyFound": false,
+        "thirdPartyFound": true,
         "officialOrderingFound": false
       },
-      "orderingSystems": [],
-      "hasAnyOrderingSystem": false,
-      "hasGmbOrderingSystem": false,
-      "manualReviewReason": "User-supplied GMB profile confirmed; Google Order provider panel has not been audited after this match update.",
+      "orderingSystems": [
+        {
+          "system": "foodpanda",
+          "sourceType": "gmb",
+          "orderMode": [
+            "delivery",
+            "pickup"
+          ],
+          "evidenceUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEw1eUNwc19fRTZ5N29VM2xWVnpybzRuSHJtX0oyRXlkVUVHNkEwZ2ZBa25aMGh0ZXIxdkNyTjY5LS1BQlNOcVRrSzdKM0pHVXRKNjNLMnV6ZUctNktmM2NaNXhBMmJoRmlWckNJQ29oTlA4WmFZR3NnEhdUVkE1YXVuOUhNRGwxZThQc3AyQ3VBRRoiQURzcjlmUkJ2eGVOYTlHd25YZjNhZkx4VnRLQXR1UUU2dxIEODEyNBoBMyoAMAA4AUAAGCogrJr0_g1KAhAB",
+          "confidence": "confirmed"
+        },
+        {
+          "system": "Nidin",
+          "sourceType": "third_party",
+          "orderMode": [
+            "unknown"
+          ],
+          "evidenceUrl": "https://order.nidin.shop/menu/6590",
+          "label": "Nidin store menu",
+          "confidence": "confirmed",
+          "evidenceNote": "Direct Google result opened to the named Nidin store menu; pickup/delivery mode was not readable without location state."
+        }
+      ],
+      "hasAnyOrderingSystem": true,
+      "hasGmbOrderingSystem": true,
+      "manualReviewReason": "",
       "evidenceNotes": [
         "官網頁面含 Google Maps address embed，可作為 GMB 查核 lead，但不能直接算作已找到命名 GBP。",
         "User supplied matching GMB profile on 2026-06-22: https://share.google/itPACHE47fOSn90ti -> /g/11lh6g80vv."
       ],
       "checkedAt": "2026-06-22T09:27:00Z",
       "gmbSignals": {
-        "buttonDetected": false,
-        "providersParsed": false,
-        "attemptCount": 2,
-        "maxAttempts": 3,
+        "buttonDetected": true,
+        "providersParsed": true,
+        "attemptCount": 1,
+        "maxAttempts": 1,
         "attemptHistory": [
           {
             "attempt": 1,
-            "target": "googleMapsSearch",
-            "status": "not_found",
-            "buttonDetected": false,
-            "providersParsed": false,
-            "title": "珍煮丹 高雄漢神巨蛋購物廣場店 - Google 地圖",
+            "target": "chrome_google_search_kgmid",
+            "status": "confirmed",
+            "buttonDetected": true,
+            "providersParsed": true,
+            "title": "漢神巨蛋店",
             "notes": [
-              "No matching store name/address visible in Maps result text."
-            ]
-          },
-          {
-            "attempt": 2,
-            "target": "user_supplied_gmb_share_url",
-            "status": "gmb_profile_confirmed",
-            "buttonDetected": false,
-            "providersParsed": false,
-            "title": "珍煮丹 高雄漢神巨蛋購物廣場店",
-            "notes": [
-              "User supplied GMB share URL resolved to kgmid /g/11lh6g80vv."
+              "User-supplied GMB kgmid was opened in Chrome.",
+              "Google Order pickup and delivery buttons were clicked.",
+              "foodpanda reserve provider link was visible after opening each mode."
             ]
           }
         ],
-        "panelUrl": "",
-        "checkedAt": "2026-06-22T09:27:00Z",
-        "checkMethod": "user_supplied_gmb_profile_match",
-        "matchQuality": "user_supplied_named_gmb_profile",
-        "notes": "User supplied a matching Google Business Profile URL. Provider rows were not inferred from the profile URL.",
-        "userSuppliedGmbShareUrl": "https://share.google/itPACHE47fOSn90ti",
-        "resolvedGmbUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1",
-        "kgmid": "/g/11lh6g80vv"
+        "panelUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEw1eUNwc19fRTZ5N29VM2xWVnpybzRuSHJtX0oyRXlkVUVHNkEwZ2ZBa25aMGh0ZXIxdkNyTjY5LS1BQlNOcVRrSzdKM0pHVXRKNjNLMnV6ZUctNktmM2NaNXhBMmJoRmlWckNJQ29oTlA4WmFZR3NnEhdUVkE1YXVuOUhNRGwxZThQc3AyQ3VBRRoiQURzcjlmUkJ2eGVOYTlHd25YZjNhZkx4VnRLQXR1UUU2dxIEODEyNBoBMyoAMAA4AUAAGCogrJr0_g1KAhAB",
+        "checkedAt": "2026-06-22T15:16:04Z",
+        "checkMethod": "chrome_google_search_kgmid_google_order_buttons",
+        "matchQuality": "named_gmb_profile",
+        "notes": "Mode-aware Chrome check parsed foodpanda provider from Google Order pickup and delivery buttons."
       },
       "platformAudit": {
         "Ocard": {
-          "status": "not_listed_for_official_store",
+          "status": "store_page_found_not_available",
           "sourceType": "official",
-          "evidenceUrl": "https://order.ocard.co/truedan?a=&utm_medium=line&utm_source=bot",
-          "checkedAt": "2026-06-22T09:12:49Z"
+          "evidenceUrl": "https://order.ocard.co/truedan/w8XkMw",
+          "checkedAt": "2026-06-22T15:16:04Z",
+          "evidence": "Direct Ocard store page opened for the named store, but it displayed Not available for now, so it is not counted as confirmed adoption."
         },
         "Nidin": {
-          "status": "brand_page_active_location_required",
+          "status": "direct_url_confirmed_mode_unknown",
           "sourceType": "third_party",
-          "evidenceUrl": "https://order.nidin.shop/brand/truedan",
-          "directUrls": [],
-          "checkedAt": "2026-06-22T09:12:49Z",
-          "evidence": "Nidin brand page is active, but the current public brand page requires location selection before showing nearby stores. Store-level Nidin URLs are preserved when direct URLs were visible inside prior Google Order panels."
+          "evidenceUrl": "https://order.nidin.shop/menu/6590",
+          "directUrls": [
+            "https://order.nidin.shop/menu/6590"
+          ],
+          "checkedAt": "2026-06-22T15:16:04Z",
+          "evidence": "Direct named Nidin menu page was visible from Google results; mode was not readable in the public page state."
         },
         "LINE": {
           "status": "official_link_routes_to_ocard",
@@ -8143,7 +8273,14 @@
           "evidence": "The current public Ocard entry is distributed with utm_source=line; no separate LINE ordering store list was found."
         }
       },
-      "gmbShareUrl": "https://share.google/itPACHE47fOSn90ti"
+      "gmbShareUrl": "https://share.google/itPACHE47fOSn90ti",
+      "gmbOrderPanelUrl": "https://www.google.com/search?kgmid=/g/11lh6g80vv&q=%E7%8F%8D%E7%85%AE%E4%B8%B9+%E9%AB%98%E9%9B%84%E6%BC%A2%E7%A5%9E%E5%B7%A8%E8%9B%8B%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%A0%B4%E5%BA%97&source=sh/x/loc/uni/m1/1#sv=CAESzQEKuQEStgEKd0FKaVQ0dEw1eUNwc19fRTZ5N29VM2xWVnpybzRuSHJtX0oyRXlkVUVHNkEwZ2ZBa25aMGh0ZXIxdkNyTjY5LS1BQlNOcVRrSzdKM0pHVXRKNjNLMnV6ZUctNktmM2NaNXhBMmJoRmlWckNJQ29oTlA4WmFZR3NnEhdUVkE1YXVuOUhNRGwxZThQc3AyQ3VBRRoiQURzcjlmUkJ2eGVOYTlHd25YZjNhZkx4VnRLQXR1UUU2dxIEODEyNBoBMyoAMAA4AUAAGCogrJr0_g1KAhAB",
+      "gmbPickupProviders": [
+        "foodpanda"
+      ],
+      "gmbDeliveryProviders": [
+        "foodpanda"
+      ]
     },
     {
       "brand": "珍煮丹",
