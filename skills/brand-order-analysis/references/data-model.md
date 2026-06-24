@@ -98,7 +98,7 @@ For `no_gmb_order_button`, include enough evidence to explain why the status is 
 
 User-provided screenshots may set `hasGmbOrderingSystem: true` only when the screenshot shows the correct GMB profile and a visible Google Order entry. If provider rows are not visible, use `button_confirmed_provider_pending` and do not create `sourceType: gmb` provider claims.
 
-For `orderMode`, count `pickup` or `delivery` only when that mode is active, pressed, or can be selected in the Google Order panel. A greyed or disabled mode label does not count. In one-button Google Order flows, inspect the inner `自取` / `運送` controls after the panel opens; if only one mode is active, write only that mode. Provider rows must be visible inside the scoped Google Order dialog/panel; ignore provider names from background Google results, knowledge-panel snippets, official-site snippets, ads, generic website rows, review widgets, or hidden text.
+For `orderMode`, count `pickup` or `delivery` only when that mode is active, pressed, or can be selected in the Google Order panel. A greyed or disabled mode label does not count. In one-button Google Order flows, inspect the inner mode controls after the panel opens; map `自取` and `取貨` to `pickup`, and map `外送` and `運送` to `delivery`. If only one mode is active, write only that mode. Provider rows must be visible inside the scoped Google Order dialog/panel; ignore provider names from background Google results, knowledge-panel snippets, official-site snippets, ads, generic website rows, review widgets, or hidden text.
 
 First-pass mode rule: when the Google Order panel or `google.com/searchviewer` flow opens and pickup/delivery controls are available, select/read both modes before writing `orderingSystems`. Each `sourceType: gmb` claim should carry the exact modes where that provider row was visible. Use `unknown` only when provider rows are visible but mode controls are absent, blocked, or unreadable.
 
@@ -160,11 +160,14 @@ Example `gmbSignals`:
   "panelUrl": "https://www.google.com/search?...",
   "checkedAt": "2026-05-31",
   "checkMethod": "human_paced_gmb_recheck_multi_attempt",
+  "unresolvedReason": "button_confirmed_provider_pending",
   "storeContext": "street_front",
   "matchQuality": "Google Search business card matched store name and address.",
   "notes": "Blue Google Order entry confirmed, but provider names were not readable after bounded retries."
 }
 ```
+
+Use `gmbSignals.unresolvedReason` to distinguish identity-resolution failures from Google Order panel failures without expanding the main status enum. Preferred values include `gmb_profile_found_panel_timeout`, `button_visible_click_failed`, `button_confirmed_provider_pending`, `google_blocked`, `wrong_or_ambiguous_profile`, and `no_gmb_order_button_after_recheck`.
 
 For `attemptCount`, count total tries across the Google Search business-card target, stored panel URL, and GMB/Maps URL. For `maxAttempts`, record the per-target maximum. Stop retries early when providers are parsed. If a persistent profile is blocked or stale, rerun unresolved pending stores with a fresh browser profile/session; repeated fresh checks with no blue Google Order entry can resolve stale pending records as `no_gmb_order_button`.
 ## Ordering Systems

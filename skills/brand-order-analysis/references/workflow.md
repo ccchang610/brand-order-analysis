@@ -100,6 +100,7 @@ Use this protocol whenever Google Order provider evidence matters.
 2. If no entry is found by a quick pass, do not finalize `no_gmb_order_button`. Run a human-paced re-check before deciding:
    - use a persistent browser profile when possible
    - use Taiwan locale and local timezone for Taiwan brands
+   - use Google Maps direct search as a profile-resolution aid when Google Search cards are ambiguous, but keep provider extraction scoped to the opened Google Order panel/searchviewer flow
    - search Google by brand name, store name, and address before trusting an official Maps link
    - if the official Maps link or address search does not produce a named GMB profile, search Google with `brand name + store name`; when a highly similar named result appears and there is no competing duplicate for that store, recognize it as the GMB profile, update `gmbUrl`, set `sourceCoverage.gmbFound: true`, and record the query/result basis in `gmbSignals`
    - verify the GMB profile name, address, phone, and photos match the intended store; official locator links may resolve to address-only pages or the wrong profile
@@ -114,7 +115,7 @@ Use this protocol whenever Google Order provider evidence matters.
    - merchant-site rows such as `ocard.co` or `order.ocard.co` are valid Google Order provider rows when they appear inside that scoped panel, including when Google marks them as merchant preferred; the same links outside the panel remain all-source evidence only
    - do not perform a provider-only Google Order sweep and then run a second mode-classification sweep by default; a second pass is only for blocked, timed-out, stale, or mode-control-missing panels
    - pickup/delivery visibility alone is not mode evidence; count a mode only if its control can be selected or is already active/pressed
-   - in one-button flows, inspect the inner `自取` / `運送` active and disabled states after the panel opens; if only delivery is active, write delivery only, and if mode state is unreadable, use `unknown` rather than copying provider rows into both modes
+   - in one-button flows, inspect the inner mode controls after the panel opens; map `自取` and `取貨` to `pickup`, and map `外送` and `運送` to `delivery`; if only delivery is active, write delivery only, and if mode state is unreadable, use `unknown` rather than copying provider rows into both modes
    - parse provider names only from visible rows inside the Google Order dialog/panel, not from the background Google result page or knowledge panel
    - record every visible href/link inside the opened Google Order flow in `gmbOrderLinks`, including Instagram, LINE, marketplace, merchant website, and similar order-flow destinations
 3. Before accepting `no_gmb_order_button`, classify the store context:
@@ -124,8 +125,8 @@ Use this protocol whenever Google Order provider evidence matters.
 4. For stores that are `button_confirmed_provider_pending`, blocked, timed out, suspicious street-front `no_gmb_order_button`, or otherwise unresolved, run bounded multi-attempt re-checks before finalizing:
    - for existing brand reports in this repository, use `scripts/recheck_named_gmb_match.py` with `--brand-root`, `--brand-query`, and brand aliases to reject address-only/wrong-name GMB leads before checking Google Order
    - default to at least 3 attempts per store when time permits
-   - try the Google Search business card for the store name and address first, then the stored Google Order panel URL and known GMB/Maps URL
-   - prefer the Google Search business card for unresolved stores because it may expose blue pickup/delivery buttons while the Maps place page only shows a website row
+   - try the Google Search business card for the store name and address first, then Google Maps direct search or the known GMB/Maps URL for profile disambiguation, then any stored Google Order panel URL
+   - prefer the target that exposes the correct named profile and a visible order entry; Google Search business cards may expose blue pickup/delivery buttons while Maps may be better for selecting the correct store among nearby duplicates
    - for stored Google Maps URLs whose visible title is only an address, re-search by brand + store name + address and update `gmbUrl` to the named business profile or Google Search business card before checking buttons
    - if desktop checks disagree with user evidence or store context, retry with a mobile viewport and mobile user agent
    - retry both one-button and two-button flows because Google may expose pickup and delivery differently by store
@@ -150,7 +151,7 @@ Use this protocol whenever Google Order provider evidence matters.
 7. Do not parse provider names from the whole Google results page as Google Order providers. Page text can include official Nidin results, marketplace snippets, ads, or knowledge-panel links that are not the opened Google Order panel.
 8. Treat `nidin.shop` or `order.nidin.shop` as `Nidin` only when it is a visible provider row inside the opened Google Order panel. Do not count official Nidin links, organic results, or Maps website rows as Google Order evidence.
 9. Preserve prior confirmed Google Order provider claims when a later re-check is blocked.
-10. Store retry evidence in `gmbSignals`: `buttonDetected`, `providersParsed`, `attemptCount`, `maxAttempts`, `attemptHistory`, `panelUrl`, `checkedAt`, `checkMethod`, and notes. Use this in the HTML details table so "pending" stores show why they are pending and how many attempts were made.
+10. Store retry evidence in `gmbSignals`: `buttonDetected`, `providersParsed`, `attemptCount`, `maxAttempts`, `attemptHistory`, `panelUrl`, `checkedAt`, `checkMethod`, `unresolvedReason`, and notes. Use this in the HTML details table so "pending" stores show why they are pending and how many attempts were made. Prefer precise unresolved reasons such as `gmb_profile_found_panel_timeout`, `button_visible_click_failed`, `button_confirmed_provider_pending`, `google_blocked`, `wrong_or_ambiguous_profile`, or `no_gmb_order_button_after_recheck`.
 11. Store Google Order panel links in `gmbOrderLinks`: `platform`, `kind`, `sourceType: gmb_order_panel`, `orderMode`, `label`, `href`, `panelUrl`, `observedAt`, and `confidence`.
 ## Provider Interpretation
 
