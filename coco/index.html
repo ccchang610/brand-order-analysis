@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CoCo都可 台灣點餐系統總覽</title>
+  <link rel="stylesheet" href="../assets/styles.css?v=35" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Brand Order Analysis</p>
+      <h1>CoCo都可 台灣點餐系統總覽</h1>
+      <p class="subhead">以使用者提供的 Nidin CoCo 品牌頁作為目前最強公開門市母體，分離全來源點餐證據與 Google Order provider evidence；GMB 自取/外送供應商只在 opened Google Order panel 可讀時才列入。<span class="version">v1 coco-local-report</span></p>
+    </div>
+    <div class="meta">
+      <span id="generatedAt">Loading</span>
+      <a href="data/stores.csv">CSV</a>
+      <a href="data/summary.json">Summary JSON</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="segmented" id="regionFilters"></div>
+      <label>城市<select id="cityFilter"></select></label>
+      <label>系統<select id="systemFilter"></select></label>
+      <label>Google Order <select id="gmbFilter"><option value="all">全部</option><option value="confirmed">Google Order 有供應商</option><option value="gap">Google Order 待查核</option><option value="no_gmb_found">GMB/Maps 未找到</option></select></label>
+      <label class="search">搜尋門市<input id="searchInput" type="search" placeholder="門市、地址、城市" /></label>
+    </section>
+
+    <section class="insight-strip" id="insightStrip"></section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">1. Store Footprint</p><h2>門市分布與來源覆蓋</h2></div>
+        <p>Nidin CoCo 品牌頁回傳的台灣門市母體，並以 22 縣市地圖檢視分布；GMB/Google 欄位會隨後續 live audit 回寫。</p>
+      </div>
+      <div class="kpi-grid" id="storeKpis"></div>
+      <div class="split map-layout">
+        <div>
+          <h3>台灣門市地圖</h3>
+          <p class="map-source">支援全台 22 縣市，無門市縣市顯示 0。</p>
+          <div class="taiwan-map" id="taiwanMap"></div>
+        </div>
+        <div><h3>城市排序</h3><div class="bars" id="cityBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">2. All Sources</p><h2>全來源點餐系統</h2></div>
+        <p>Nidin direct portal 是目前已確認的全來源點餐證據；Uber Eats、foodpanda、LINE、QuickClick 等平台若後續可匹配到門市，會以非 GMB sourceType 寫入。</p>
+      </div>
+      <div class="kpi-grid" id="allSourceKpis"></div>
+      <div class="split">
+        <div><h3>自取系統</h3><div class="bars" id="pickupBars"></div></div>
+        <div><h3>外送系統</h3><div class="bars" id="deliveryBars"></div></div>
+      </div>
+      <div class="split compact">
+        <div><h3>區域導入率</h3><div class="matrix" id="regionMatrix"></div></div>
+        <div><h3>說明</h3><p class="note">全來源採用門市母體與平台 direct evidence；Google Order provider evidence 另列，避免把背景頁、官方連結或 marketplace snippet 誤算成 GMB provider。</p></div>
+      </div>
+    </section>
+
+    <section class="panel warning">
+      <div class="section-title">
+        <div><p class="eyebrow">3. Google Order</p><h2>Google Order provider / link 總覽</h2></div>
+        <p>只有在正確 GMB profile 的藍色線上點餐流程內，讀到可見 provider row 時，才列入 Google Order provider。待查核是 coverage gap，不代表沒有點餐。</p>
+      </div>
+      <div class="kpi-grid" id="gmbKpis"></div>
+      <div class="split">
+        <div><h3>Google Order 自取選項</h3><div class="bars" id="gmbPickupBars"></div></div>
+        <div><h3>Google Order 外送選項</h3><div class="bars" id="gmbDeliveryBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">4. Comparison</p><h2>全來源 vs Google Order provider</h2></div></div>
+      <div class="table-wrap"><table><thead><tr><th>系統</th><th>全來源門市</th><th>全來源採用率</th><th>Google Order provider 門市</th><th>Google Order provider 覆蓋率</th><th>差距</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">5. Store Details</p><h2>門市明細</h2></div><p id="detailCount"></p></div>
+      <div class="table-wrap details"><table><thead><tr><th>門市</th><th>區域</th><th>地址</th><th>全來源點餐</th><th>Google Order 證據</th><th>連結 / 審核</th></tr></thead><tbody id="storeRows"></tbody></table></div>
+    </section>
+  </main>
+
+  <script src="data-inline.js?v=1"></script>
+  <script src="../assets/taiwan-map.js?v=35"></script>
+  <script src="../assets/app.js?v=37"></script>
+</body>
+</html>

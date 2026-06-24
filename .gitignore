@@ -3,6 +3,8 @@ data/.gmb-human-profile/
 daming/data/.gmb-human-profile/
 chage/data/.gmb-human-profile/
 */data/.gmb-*-profile/
+*/data/.gmb-*/
+*/data/.maps-*/
 scripts/__pycache__/
 __pycache__/
 *.pyc

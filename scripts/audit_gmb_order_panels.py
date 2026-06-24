@@ -79,7 +79,7 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
             providers = provider_names(f"{href} {link_text}")
             if not providers:
                 continue
-            if "外帶" in link_text or "自取" in link_text:
+            if "外帶" in link_text or "自取" in link_text or "取貨" in link_text:
                 result["pickupProviders"].extend(provider for provider in providers if provider not in result["pickupProviders"])
                 result["panelUrl"] = result["panelUrl"] or href
             elif "外送" in link_text or "運送" in link_text:
@@ -104,8 +104,8 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
         await page.wait_for_timeout(2500)
         body_text = await page.locator("body").inner_text(timeout=8000)
 
-        if "自取" in body_text:
-            pickup_text = await panel_text_for_mode(page, "自取")
+        if "自取" in body_text or "取貨" in body_text:
+            pickup_text = await panel_text_for_mode(page, "取貨" if "取貨" in body_text else "自取")
             # If Google keeps the delivery provider list visible because pickup is disabled,
             # keep pickup empty unless the selected text explicitly names pickup/self-pickup providers.
             if "選擇下單對象" in pickup_text and "運送" not in pickup_text[: max(80, pickup_text.find("選擇下單對象"))]:

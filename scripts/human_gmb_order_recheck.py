@@ -4,6 +4,7 @@ import argparse
 import asyncio
 import json
 import random
+import re
 from datetime import date
 from pathlib import Path
 from urllib.parse import quote_plus
@@ -31,7 +32,7 @@ ORDER_BUTTON_TEXTS = [
     "\u7dda\u4e0a\u8a02\u9910",
     "Order online",
 ]
-PICKUP_TEXTS = ["\u81ea\u53d6", "\u5916\u5e36", "Pickup"]
+PICKUP_TEXTS = ["\u53d6\u8ca8", "\u81ea\u53d6", "\u5916\u5e36", "Pickup"]
 DELIVERY_TEXTS = ["\u904b\u9001", "\u5916\u9001", "Delivery"]
 PANEL_TEXTS = [
     "\u9078\u64c7\u4e0b\u55ae\u5c0d\u8c61",
@@ -159,6 +160,28 @@ async def visible_text_probe(page) -> dict:
 
 async def click_first_text(page, texts: list[str]) -> bool:
     for text in texts:
+        exact_pattern = re.compile(rf"^\s*{re.escape(text)}\s*$")
+        for locator in (
+            page.get_by_role("button", name=exact_pattern),
+            page.get_by_role("link", name=exact_pattern),
+            page.get_by_text(exact_pattern),
+        ):
+            try:
+                count = min(await locator.count(), 8)
+                for index in range(count):
+                    candidate = locator.nth(index)
+                    if not await candidate.is_visible(timeout=900):
+                        continue
+                    if not await candidate.is_enabled():
+                        continue
+                    box = await candidate.bounding_box(timeout=900)
+                    if not box or box["width"] < 30 or box["height"] < 18:
+                        continue
+                    await candidate.click(timeout=6000)
+                    await human_pause(page, 1200, 2600)
+                    return True
+            except Exception:
+                continue
         for locator in (
             page.get_by_role("button", name=text, exact=False),
             page.get_by_role("link", name=text, exact=False),
@@ -210,11 +233,12 @@ async def click_first_text(page, texts: list[str]) -> bool:
                             el,
                             text: normalize(`${el.innerText || el.textContent || ''} ${el.getAttribute('aria-label') || ''}`)
                         }))
-                        .filter(item => texts.some(text => item.text.includes(text)))
+                        .filter(item => texts.some(text => item.text === text || item.text.startsWith(text) || item.text.endsWith(text)))
+                        .filter(item => item.text.length <= 32)
                         .sort((a, b) => {
                             const ar = a.el.getBoundingClientRect();
                             const br = b.el.getBoundingClientRect();
-                            return (ar.top - br.top) || (ar.left - br.left);
+                            return (br.left - ar.left) || (ar.top - br.top);
                         });
                     if (!nodes.length) return false;
                     nodes[0].el.click();
@@ -267,7 +291,8 @@ async def click_first_text(page, texts: list[str]) -> bool:
                         .filter(isVisible)
                         .map(el => {
                             const text = normalize(`${el.innerText || el.textContent || ''} ${el.getAttribute('aria-label') || ''}`);
-                            if (!texts.some(needle => text.includes(needle))) return null;
+                            if (!texts.some(needle => text === needle || text.startsWith(needle) || text.endsWith(needle))) return null;
+                            if (text.length > 32 || /相關問題|搜尋結果|可以.*線上點餐|CoCo.*線上點餐嗎/.test(text)) return null;
                             const target = clickableTarget(el);
                             if (!target || target === document.body || !isVisible(target) || isDisabled(target)) return null;
                             const rect = target.getBoundingClientRect();
@@ -305,6 +330,62 @@ async def click_first_text(page, texts: list[str]) -> bool:
                 return True
         except Exception:
             continue
+    return False
+
+
+async def click_maps_order_button(page) -> bool:
+    try:
+        target = await page.evaluate(
+            """
+            () => {
+                const normalize = value => (value || '').replace(/\\s+/g, ' ').trim();
+                const isVisible = el => {
+                    const rect = el.getBoundingClientRect();
+                    const style = getComputedStyle(el);
+                    return rect.width > 20
+                        && rect.height > 12
+                        && rect.bottom > 0
+                        && rect.top < innerHeight
+                        && rect.right > 0
+                        && rect.left < innerWidth
+                        && style.display !== 'none'
+                        && style.visibility !== 'hidden'
+                        && Number(style.opacity || 1) > 0.2;
+                };
+                const articles = [...document.querySelectorAll('[role="article"]')]
+                    .filter(isVisible)
+                    .filter(article => normalize(article.innerText || article.textContent || '').includes('線上點餐'))
+                    .sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
+                for (const article of articles) {
+                    const nodes = [...article.querySelectorAll('a, button, [role="button"], [jsaction], [onclick], [tabindex], div, span')]
+                        .filter(isVisible)
+                        .map(el => {
+                            const text = normalize(`${el.innerText || el.textContent || ''} ${el.getAttribute('aria-label') || ''}`);
+                            const target = el.closest('a, button, [role="button"], [jsaction], [onclick], [tabindex]') || el;
+                            return { el, target, text };
+                        })
+                        .filter(item => item.text.length <= 40 && item.text.endsWith('線上點餐') && isVisible(item.target))
+                        .sort((a, b) => {
+                            const ar = a.target.getBoundingClientRect();
+                            const br = b.target.getBoundingClientRect();
+                            return (br.width * br.height - ar.width * ar.height) || (ar.top - br.top);
+                        });
+                    if (!nodes.length) continue;
+                    const rect = nodes[0].target.getBoundingClientRect();
+                    return { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 };
+                }
+                return null;
+            }
+            """
+        )
+        if target:
+            await page.mouse.move(target["x"], target["y"], steps=random.randint(8, 18))
+            await human_pause(page, 120, 420)
+            await page.mouse.click(target["x"], target["y"], delay=random.randint(40, 160))
+            await human_pause(page, 1200, 2600)
+            return True
+    except Exception:
+        pass
     return False
 
 
@@ -526,7 +607,7 @@ async def inspect_order_flow(page) -> dict:
             await human_settle(page)
         except Exception:
             pass
-        clicked = await click_first_text(page, ORDER_BUTTON_TEXTS)
+        clicked = await click_maps_order_button(page) or await click_first_text(page, ORDER_BUTTON_TEXTS)
         text_after_entry_click = await wait_for_panel_text(page) if clicked else ""
         result["buttonDetected"] = clicked and is_order_panel_text(page.url, text_after_entry_click)
         await human_pause(page, 400, 900)

@@ -35,6 +35,7 @@ PROVIDER_PATTERNS = {
 TRUSTED_GMB_PROVIDER_NAMES = set(PROVIDER_PATTERNS.values())
 
 PICKUP_TEXT = "\u81ea\u53d6"
+PICKUP_ALT_TEXT = "\u53d6\u8ca8"
 DELIVERY_TEXT = "\u904b\u9001"
 DELIVERY_ALT_TEXT = "\u5916\u9001"
 ORDER_BUTTON_TEXT = "\u7dda\u4e0a\u9ede\u9910"
@@ -466,7 +467,7 @@ async def read_two_button_flow(page, store: dict, result: dict) -> bool:
         providers = await visible_provider_names(page)
         mode_state = await mode_control_state(
             page,
-            [PICKUP_TEXT] if mode_key == "pickupProviders" else [DELIVERY_TEXT, DELIVERY_ALT_TEXT],
+            [PICKUP_TEXT, PICKUP_ALT_TEXT] if mode_key == "pickupProviders" else [DELIVERY_TEXT, DELIVERY_ALT_TEXT],
         )
         if providers and mode_state == "active":
             result[mode_key] = providers
@@ -560,8 +561,8 @@ async def audit_store(context, store: dict, index: int, total: int) -> dict:
             await page.wait_for_timeout(2500)
         body = await get_body_text(page)
 
-        if PICKUP_TEXT in body:
-            pickup_text = await click_mode_and_read(page, PICKUP_TEXT)
+        if PICKUP_TEXT in body or PICKUP_ALT_TEXT in body:
+            pickup_text = await click_mode_and_read(page, PICKUP_ALT_TEXT if PICKUP_ALT_TEXT in body else PICKUP_TEXT)
             if is_order_panel_text(page.url, pickup_text):
                 result["pickupProviders"] = await visible_provider_names(page)
 

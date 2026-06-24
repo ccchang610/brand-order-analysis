@@ -187,15 +187,58 @@ def update_match_signals(store: dict, result: dict, profile_url: str, history: l
     return store
 
 
-async def audit_store_by_name(context, store: dict, brand_query: str, brand_aliases: list[str], attempts: int) -> dict:
+async def audit_store_by_name(
+    context,
+    store: dict,
+    brand_query: str,
+    brand_aliases: list[str],
+    attempts: int,
+    single_search_target: bool = False,
+    prefer_stored_gmb: bool = False,
+    maps_first: bool = False,
+) -> dict:
     page = await context.new_page()
     history: list[dict] = []
-    targets = [
-        ("googleSearch", f"https://www.google.com/search?q={quote_plus(query_for(store, brand_query))}&hl=zh-TW"),
-        ("mapsSearch", f"https://www.google.com/maps/search/?api=1&query={quote_plus(query_for(store, brand_query))}"),
-    ]
-    if store.get("gmbUrl"):
-        targets.append(("storedGmbUrl", store["gmbUrl"]))
+    base_query = query_for(store, brand_query)
+    store_name = (store.get("storeName") or "").strip()
+    branch_name = re.sub(r"[（(].*?[）)]", "", store_name).strip()
+    address = re.sub(r"^\s*\d{3,5}\s*", "", store.get("address") or "").strip()
+    district = district_from_address(address)
+    query_values = []
+    for value in [
+        base_query,
+        f"{brand_query} {store_name}".strip(),
+        f"{brand_query} {branch_name}".strip(),
+        f"{brand_query} {branch_name} {district}".strip(),
+        f"{brand_query} {address}".strip(),
+    ]:
+        if value and value not in query_values:
+            query_values.append(value)
+    google_targets = []
+    for idx, query in enumerate(query_values, start=1):
+        google_targets.append((f"googleSearch:{idx}", f"https://www.google.com/search?q={quote_plus(query)}&hl=zh-TW"))
+    maps_targets = []
+    for idx, query in enumerate(query_values[:3], start=1):
+        maps_targets.append((f"mapsSearch:{idx}", f"https://maps.google.com/?q={quote_plus(query)}&hl=zh-TW"))
+    stored_target = [("storedGmbUrl", store["gmbUrl"])] if store.get("gmbUrl") else []
+    if maps_first:
+        stored_maps = [
+            item
+            for item in stored_target
+            if "maps" in item[1].lower() or "share.google" in item[1].lower()
+        ]
+        stored_other = [item for item in stored_target if item not in stored_maps]
+        targets = stored_maps + maps_targets + stored_other + google_targets
+    else:
+        targets = []
+        if prefer_stored_gmb:
+            targets.extend(stored_target)
+        targets.extend(google_targets)
+        targets.extend(maps_targets)
+        if not prefer_stored_gmb:
+            targets.extend(stored_target)
+    if single_search_target:
+        targets = targets[:1]
     best = None
     best_url = ""
     named_profile_seen = False

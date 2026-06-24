@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-06-24T18:15:29Z",
+  "brand": "CoCo都可",
+  "brandSlug": "coco",
+  "market": "Taiwan",
+  "sitePath": "./coco/",
+  "officialStoreCount": 343,
+  "gmbFoundCount": 343,
+  "gmbMissingCount": 0,
+  "googleFoundCount": 343,
+  "thirdPartyFoundCount": 321,
+  "verificationGapCount": 14,
+  "anyOrderingSystemCount": 341,
+  "anyOrderingSystemAdoptionRate": 0.9942,
+  "googleOrderEntryCount": 329,
+  "googleOrderEntryRate": 0.9592,
+  "gmbOrderingSystemCount": 329,
+  "gmbOrderingSystemAdoptionRate": 0.9592,
+  "gmbCoverageGapCount": 14,
+  "unknownOrderingSystemCount": 2,
+  "cityCounts": {
+    "基隆市": 9,
+    "台北市": 45,
+    "新北市": 85,
+    "桃園市": 91,
+    "新竹市": 21,
+    "新竹縣": 26,
+    "苗栗縣": 20,
+    "台中市": 17,
+    "彰化縣": 2,
+    "南投縣": 1,
+    "雲林縣": 3,
+    "嘉義市": 0,
+    "嘉義縣": 1,
+    "台南市": 6,
+    "高雄市": 6,
+    "屏東縣": 0,
+    "宜蘭縣": 8,
+    "花蓮縣": 0,
+    "台東縣": 0,
+    "澎湖縣": 0,
+    "金門縣": 2,
+    "連江縣": 0
+  },
+  "regionCounts": {
+    "北部": 297,
+    "中部": 23,
+    "南部": 13,
+    "東部": 8,
+    "離島": 2
+  },
+  "allSourceSystemCounts": {
+    "Nidin": 336,
+    "foodpanda": 321,
+    "Uber Eats": 306
+  },
+  "allSourcePickupSystemCounts": {
+    "Nidin": 336,
+    "foodpanda": 263,
+    "Uber Eats": 4
+  },
+  "allSourceDeliverySystemCounts": {
+    "Nidin": 332,
+    "foodpanda": 320,
+    "Uber Eats": 306
+  },
+  "gmbSystemCounts": {
+    "foodpanda": 321,
+    "Uber Eats": 306,
+    "Nidin": 183
+  },
+  "gmbPickupSystemCounts": {
+    "foodpanda": 263,
+    "Nidin": 177,
+    "Uber Eats": 4
+  },
+  "gmbDeliverySystemCounts": {
+    "foodpanda": 320,
+    "Uber Eats": 306,
+    "Nidin": 181
+  },
+  "gmbOrderOptionCounts": {
+    "foodpanda": 321,
+    "Uber Eats": 306,
+    "Nidin": 183
+  },
+  "gmbOrderPickupOptionCounts": {
+    "foodpanda": 263,
+    "Nidin": 177,
+    "Uber Eats": 4
+  },
+  "gmbOrderDeliveryOptionCounts": {
+    "foodpanda": 320,
+    "Uber Eats": 306,
+    "Nidin": 181
+  },
+  "allSourceSystemAdoptionRates": {
+    "Nidin": 0.9796,
+    "foodpanda": 0.9359,
+    "Uber Eats": 0.8921
+  },
+  "gmbSystemAdoptionRates": {
+    "foodpanda": 0.9359,
+    "Uber Eats": 0.8921,
+    "Nidin": 0.5335
+  },
+  "gmbOrderOptionAdoptionRates": {
+    "foodpanda": 0.9359,
+    "Uber Eats": 0.8921,
+    "Nidin": 0.5335
+  },
+  "systemComparison": [
+    {
+      "system": "Nidin",
+      "allSourceStoreCount": 336,
+      "allSourceAdoptionRate": 0.9796,
+      "gmbStoreCount": 183,
+      "gmbAdoptionRate": 0.5335,
+      "countGap": 153,
+      "percentagePointGap": 0.4461
+    },
+    {
+      "system": "Uber Eats",
+      "allSourceStoreCount": 306,
+      "allSourceAdoptionRate": 0.8921,
+      "gmbStoreCount": 306,
+      "gmbAdoptionRate": 0.8921,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "foodpanda",
+      "allSourceStoreCount": 321,
+      "allSourceAdoptionRate": 0.9359,
+      "gmbStoreCount": 321,
+      "gmbAdoptionRate": 0.9359,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    }
+  ],
+  "gmbStatusCounts": {
+    "confirmed": 343
+  },
+  "gmbOrderingStatusCounts": {
+    "confirmed": 329,
+    "unavailable_or_blocked": 14
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 343,
+    "gmbFound": 343,
+    "googleFound": 343,
+    "thirdPartyFound": 321
+  },
+  "source": {
+    "officialWebsite": "",
+    "officialStoreList": "",
+    "primaryStorePopulation": "https://order.nidin.shop/brand/cocotea",
+    "primaryStorePopulationType": "user_supplied_nidin_brand_portal",
+    "nidinApi": "https://loctw-service-api.nidin.shop/shopper/v2/store/listByPositionNew",
+    "notes": "No Taiwan Chinese official store locator was found during intake. The user-supplied Nidin CoCo brand portal is used as the primary public store population source; Google Order provider evidence remains separate and requires live GMB panel reads."
+  },
+  "notes": [
+    "Nidin platform-direct check found the CoCo brand portal and returned the active baseline store population used in this report.",
+    "Nidin all-source ordering evidence is counted as third-party/platform evidence, not as Google Order provider evidence.",
+    "Google Order provider rows are counted only when a named GMB profile is opened and the visible Google Order panel is read by pickup/delivery mode.",
+    "QuickClick, Uber Eats, foodpanda, LINE, and other platform fields are preserved as platform-direct audit metadata where no exhaustive public API was available.",
+    "Latest unresolved-store rerun completed with fixed exact order-button click handling and 取貨/運送 mode mapping. Remaining unresolved stores are listed in data/gmb_followup_rerun.*; these are coverage gaps, not no-adoption evidence."
+  ],
+  "platformDirectAudit": {
+    "checkedAt": "2026-06-24T18:15:29Z",
+    "platformsChecked": [
+      "Nidin",
+      "QuickClick",
+      "Uber Eats",
+      "foodpanda",
+      "LINE"
+    ],
+    "Nidin": {
+      "brandUrl": "https://order.nidin.shop/brand/cocotea",
+      "apiUrl": "https://loctw-service-api.nidin.shop/shopper/v2/store/listByPositionNew",
+      "status": "confirmed",
+      "platformStoreCount": 343,
+      "reportStoreCount": 343,
+      "pickupStoreCount": 336,
+      "deliveryStoreCount": 332
+    },
+    "QuickClick": {
+      "status": "needs_manual_review",
+      "attempts": [
+        {
+          "url": "https://order.quickclick.cc/tw/portals/COCOTEA",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "httpStatus": 200,
+          "status": "needs_manual_review"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/cocotea",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "httpStatus": 200,
+          "status": "needs_manual_review"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/CoCo",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "httpStatus": 200,
+          "status": "needs_manual_review"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/COCO",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "httpStatus": 200,
+          "status": "needs_manual_review"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/coco",
+          "finalUrl": "https://order.quickclick.cc/tw/portals/coco",
+          "httpStatus": 200,
+          "status": "needs_manual_review"
+        }
+      ],
+      "checkedAt": "2026-06-23T15:15:35Z"
+    },
+    "Uber Eats": {
+      "status": "public_search_page_checked_not_exhaustive",
+      "evidenceUrl": "https://www.ubereats.com/tw/search?q=CoCo%E9%83%BD%E5%8F%AF",
+      "httpStatus": 404,
+      "finalUrl": "https://def.uber.com/zh/TW/challenge?from_service=d2ViLWVhdHMtdjI%3D&q=ZWJjMzgyZTZkOTdmMmJhZjg1ZDEwZjQ3MTVhM2QwNDg6VFo0Mzl3R09iRUVjSWgvZjpXbEgxOXFhcS9aS05LNlpRTCtaa083YituS3FFVlNobElFOGwwOHlBME5pdWhhVit3VWVhdGVLS245R1Y3ckpYMFY2cXBsdVhtQ1ZiYlZDMHRPb1N6czgybW5pY285cW9FM1pVQUtYVG1pdjVIelc5OTFCYVBKamJEeVhXekQrTXNXNncxMVlUOE5RU1lJUG1RYXNPaEt1cVBYcTEyQjhEbEtlaHRlWXcvSXFkTGZPdUxmcE5kWFRwa0ZkWURZVUJiVkR5eGpnV3Zsc09KS25Fd1Bhd0VjTmFYL1BZeWhVbE9qVE13VXI5YzRDdUJRLy9ldUt2RUVzK2RDbHJSemtTOUtUVGNwb1dyUEduMnMxdFUxNTVJOEE4elE9PTpOb2ppVjAyQkJtWGlWbW5BeEJQTnNRPT0%3D",
+      "notes": "Search page reachability only; platform store matching is not exhaustive without app/API access."
+    },
+    "foodpanda": {
+      "status": "public_search_page_checked_not_exhaustive",
+      "evidenceUrl": "https://www.foodpanda.com.tw/search?q=CoCo%E9%83%BD%E5%8F%AF",
+      "httpStatus": 404,
+      "finalUrl": "https://www.foodpanda.com.tw/search?q=CoCo%E9%83%BD%E5%8F%AF",
+      "notes": "Search page reachability only; platform store matching is not exhaustive without app/API access."
+    },
+    "LINE": {
+      "status": "not_found",
+      "notes": "No exhaustive public LINE ordering source was discovered from the Nidin baseline build; LINE links seen inside future Google Order panels should be recorded in gmbOrderLinks."
+    }
+  },
+  "followUpRerunCount": 14,
+  "followUpRerunFiles": {
+    "json": "data/gmb_followup_rerun.json",
+    "csv": "data/gmb_followup_rerun.csv"
+  }
+}
