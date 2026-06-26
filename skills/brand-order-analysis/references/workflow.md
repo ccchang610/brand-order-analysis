@@ -45,6 +45,23 @@ Use this protocol before finalizing all-source adoption counts whenever any orde
 6. Do not infer all stores are on a platform from one matched store. Use brand-level portal/API coverage when available, and otherwise mark unverified stores as platform-direct gaps or needs manual review.
 7. Only after platform-direct checks and Google Order checks are both represented should the report compare all-source adoption against Google Order provider evidence.
 
+Platform-direct results do not reduce the required GMB / Google Order coverage. They can prioritize GMB work, seed provider pattern matching, and explain all-source adoption, but every active store still needs GMB review unless a fresh confirmed GMB provider audit already exists and is intentionally reused.
+
+## Low-Resource GMB Audit Defaults
+
+Use a low-resource browser profile by default for large GMB / Google Order audits. Escalate only for small targeted manual checks or when the user explicitly asks for headed/high-concurrency behavior.
+
+- Run browser automation headless by default.
+- Use concurrency `1` for Google/Maps/GMB checks unless the user explicitly approves more. Google pages are CPU-heavy and higher concurrency often causes timeouts, bot checks, and worse total throughput.
+- Run in small batches, usually 20-30 stores, then close the browser/context and start a fresh batch.
+- Checkpoint after every store by writing `stores.json`, `summary.json`, CSV, and inline report data. A stopped run should be resumable without losing completed stores.
+- Prefer `--status`, `--ids`, `--start`, and `--limit` style target selection. Do not re-open fresh confirmed stores unless they are stale, user-requested, affected by a parser/provider-pattern update, or needed for quality sampling.
+- Use a temporary browser profile or cache directory outside synced workspaces such as Google Drive. Temporary browser/cache folders should be disposable; unfinished audit state and final report data should live in the brand report directory.
+- Block low-value resources conservatively: images, fonts, media, analytics, ad/tracking endpoints. Do not block JavaScript or CSS by default because mode active/disabled state and visible provider-row detection can depend on rendered UI state.
+- Close pages after each store and close browser/context at the end of each batch.
+- Use bounded per-store timeouts and store `unavailable_or_blocked` or another precise reviewable status instead of letting one store stall the run.
+- Record enough progress metadata to resume safely, such as checked store IDs, status counts, attempt history, provider patterns used, and whether pickup/delivery modes were actually read.
+
 ## Execution Steps
 
 1. Build the official store population and deduplicate stores.
@@ -148,11 +165,15 @@ Use this protocol whenever Google Order provider evidence matters.
    - if a screenshot shows the correct GMB profile and a visible online-order button, treat entry coverage as confirmed
    - if provider rows are not visible, set `button_confirmed_provider_pending`; do not infer providers from the button or surrounding page
    - if provider rows are visible, record only those visible row providers and preserve the screenshot/source note in `gmbSignals`
-7. Do not parse provider names from the whole Google results page as Google Order providers. Page text can include official Nidin results, marketplace snippets, ads, or knowledge-panel links that are not the opened Google Order panel.
-8. Treat `nidin.shop` or `order.nidin.shop` as `Nidin` only when it is a visible provider row inside the opened Google Order panel. Do not count official Nidin links, organic results, or Maps website rows as Google Order evidence.
-9. Preserve prior confirmed Google Order provider claims when a later re-check is blocked.
-10. Store retry evidence in `gmbSignals`: `buttonDetected`, `providersParsed`, `attemptCount`, `maxAttempts`, `attemptHistory`, `panelUrl`, `checkedAt`, `checkMethod`, `unresolvedReason`, and notes. Use this in the HTML details table so "pending" stores show why they are pending and how many attempts were made. Prefer precise unresolved reasons such as `gmb_profile_found_panel_timeout`, `button_visible_click_failed`, `button_confirmed_provider_pending`, `google_blocked`, `wrong_or_ambiguous_profile`, or `no_gmb_order_button_after_recheck`.
-11. Store Google Order panel links in `gmbOrderLinks`: `platform`, `kind`, `sourceType: gmb_order_panel`, `orderMode`, `label`, `href`, `panelUrl`, `observedAt`, and `confidence`.
+7. Preserve prior confirmed Google Order evidence:
+   - a later weaker result such as `no_gmb_order_button`, timeout, blocked, mobile mismatch, or provider-pending must not erase prior confirmed `sourceType: gmb` provider claims
+   - user-screenshot-confirmed provider rows must be preserved unless stronger current evidence explicitly contradicts them
+   - if a weak re-check fails to reproduce prior evidence, keep the prior claims and mark `gmbSignals.preservedPriorConfirmedEvidence` or `gmbSignals.preservedUserScreenshotEvidence`
+8. Do not parse provider names from the whole Google results page as Google Order providers. Page text can include official Nidin results, marketplace snippets, ads, or knowledge-panel links that are not the opened Google Order panel.
+9. Treat `nidin.shop` or `order.nidin.shop` as `Nidin` only when it is a visible provider row inside the opened Google Order panel. Do not count official Nidin links, organic results, or Maps website rows as Google Order evidence.
+10. Preserve prior confirmed Google Order provider claims when a later re-check is blocked.
+11. Store retry evidence in `gmbSignals`: `buttonDetected`, `providersParsed`, `attemptCount`, `maxAttempts`, `attemptHistory`, `panelUrl`, `checkedAt`, `checkMethod`, `unresolvedReason`, `modeReadStates`, and notes. Use this in the HTML details table so "pending" stores show why they are pending and how many attempts were made. Prefer precise unresolved reasons such as `gmb_profile_found_panel_timeout`, `button_visible_click_failed`, `button_confirmed_provider_pending`, `google_blocked`, `wrong_or_ambiguous_profile`, or `no_gmb_order_button_after_recheck`.
+12. Store Google Order panel links in `gmbOrderLinks`: `platform`, `kind`, `sourceType: gmb_order_panel`, `orderMode`, `label`, `href`, `panelUrl`, `observedAt`, and `confidence`.
 ## Provider Interpretation
 
 - `all-source ordering systems`: all confirmed ordering systems from official, Google, GMB, third-party, marketplace, LINE, or local platform evidence.

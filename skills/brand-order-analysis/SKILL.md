@@ -63,6 +63,8 @@ All-source ordering adoption must include platform-direct checks, not only Googl
 
 For Google Business Profile / Google Order, keep these principles in the top-level skill and use `references/workflow.md` for the detailed re-check protocol.
 
+- Use a low-resource GMB audit profile by default for large brands: headless browser, single-store sequential checks unless explicitly overridden, small batches with per-store checkpointing, temporary browser profiles outside synced workspaces, and conservative request blocking for image/font/media/analytics resources while preserving JS and CSS.
+- GMB checks remain required even when platform-direct sources find foodpanda, Uber Eats, Nidin, PB Order, LINE, QuickClick, or another ordering system. Platform-direct evidence may prioritize and seed provider patterns, but it must not be used to skip Google Order/GMB provider-panel review.
 - First verify the correct named GMB profile. Official Maps links and address-only pages are leads, not confirmed profiles.
 - If a profile is missing, re-search Google by `brand + store name` and, when useful, `brand + store name + address`; accept a highly similar, non-duplicate GMB result and record why it matched.
 - Use Google Maps direct search as a GMB identity-resolution aid when Google Search cards are ambiguous, especially for nearby or similarly named stores. Do not treat Maps as a replacement for Google Order provider extraction; provider claims still require rows visible inside the opened Google Order panel/searchviewer flow.
@@ -73,6 +75,8 @@ For Google Business Profile / Google Order, keep these principles in the top-lev
 - For one-button Google Order flows, read the active/pressed/disabled state of the inner mode controls. Treat `自取` and `取貨` as `pickup`; treat `外送` and `運送` as `delivery`. Count only the active or successfully selected mode; if the mode cannot be determined, use `unknown` instead of copying providers into both modes.
 - Preserve visible post-click order-flow links in `gmbOrderLinks`, but keep strict `gmbSystemCounts` limited to visible provider rows.
 - Blocked, timed-out, ambiguous, provider-pending, or no-button checks stay reviewable with `gmbSignals`; do not treat them as no ordering system. When possible, classify unresolved checks with a precise `gmbSignals.unresolvedReason`, such as `gmb_profile_found_panel_timeout`, `button_visible_click_failed`, `button_confirmed_provider_pending`, `google_blocked`, `wrong_or_ambiguous_profile`, or `no_gmb_order_button_after_recheck`.
+- A weaker later automated result, such as `no_gmb_order_button`, timeout, mobile mismatch, or provider-pending, must not overwrite prior confirmed Google Order provider claims or user-screenshot-confirmed provider rows. Preserve confirmed evidence and mark the re-check as weaker or unreproduced in `gmbSignals`.
+- Record mode-read metadata in `gmbSignals.modeReadStates` when possible, for example `{ "pickupProviders": "active", "deliveryProviders": "active" }`, so reviewers can tell whether pickup and delivery were actually selected/read.
 ## Output Requirements
 
 When producing datasets, include:

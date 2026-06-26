@@ -104,6 +104,8 @@ First-pass mode rule: when the Google Order panel or `google.com/searchviewer` f
 
 `nidin.shop` / `order.nidin.shop` counts as `Nidin`, and `ocard.co` / `order.ocard.co` counts as `Ocard`, only when it is a visible provider row inside the opened Google Order panel. Merchant-preferred rows are valid when they are panel rows. The same domains in official ordering links, organic Google results, or Maps website rows are not Google Order evidence.
 
+When re-checking GMB, preserve stronger prior evidence. A later `no_gmb_order_button`, timeout, bot check, mobile mismatch, or provider-pending result must not delete prior confirmed `sourceType: gmb` claims unless the current matching GMB profile is clearly verified and stronger evidence shows the old claim is stale or wrong. Preserve user-screenshot-confirmed provider rows and annotate the re-check in `gmbSignals` instead of silently downgrading the store.
+
 ## Google Order Panel Links
 
 Use `gmbOrderLinks` to preserve links visible only after opening the Google Order button/searchviewer flow. This includes marketplace links, LINE links, Instagram links, merchant-site links, and other visible destinations shown in the opened order flow.
@@ -139,6 +141,10 @@ Example `gmbSignals`:
 {
   "buttonDetected": true,
   "providersParsed": false,
+  "modeReadStates": {
+    "pickupProviders": "active",
+    "deliveryProviders": "active"
+  },
   "attemptCount": 6,
   "maxAttempts": 3,
   "attemptHistory": [
@@ -163,6 +169,8 @@ Example `gmbSignals`:
   "unresolvedReason": "button_confirmed_provider_pending",
   "storeContext": "street_front",
   "matchQuality": "Google Search business card matched store name and address.",
+  "preservedPriorConfirmedEvidence": false,
+  "preservedUserScreenshotEvidence": false,
   "notes": "Blue Google Order entry confirmed, but provider names were not readable after bounded retries."
 }
 ```
@@ -170,6 +178,12 @@ Example `gmbSignals`:
 Use `gmbSignals.unresolvedReason` to distinguish identity-resolution failures from Google Order panel failures without expanding the main status enum. Preferred values include `gmb_profile_found_panel_timeout`, `button_visible_click_failed`, `button_confirmed_provider_pending`, `google_blocked`, `wrong_or_ambiguous_profile`, and `no_gmb_order_button_after_recheck`.
 
 For `attemptCount`, count total tries across the Google Search business-card target, stored panel URL, and GMB/Maps URL. For `maxAttempts`, record the per-target maximum. Stop retries early when providers are parsed. If a persistent profile is blocked or stale, rerun unresolved pending stores with a fresh browser profile/session; repeated fresh checks with no blue Google Order entry can resolve stale pending records as `no_gmb_order_button`.
+
+`gmbSignals.modeReadStates` should record whether each mode was actually selected/read. Suggested values are `active`, `inactive`, `missing`, `disabled`, `blocked`, or `unknown`. A store can be confirmed for delivery while pickup remains empty only when the pickup control was inactive, missing, disabled, blocked, or could not be selected; record that state so reviewers can distinguish a true mode absence from a parser miss.
+
+Use `gmbSignals.preservedPriorConfirmedEvidence: true` when a weaker later re-check failed to reproduce existing confirmed provider claims and the prior claims were kept. Use `gmbSignals.preservedUserScreenshotEvidence: true` when preserving user-provided screenshot evidence.
+
+For live-audit implementation metadata, keep disposable browser profiles, caches, screenshots, and logs outside synced workspaces when possible. Final datasets and unfinished audit state that are needed to resume a brand analysis should stay in the brand directory. If a local file is temporary and safe to delete, store it under a clearly named disposable scratch location and clean it after the run.
 ## Ordering Systems
 
 Use `orderingSystems` as an array of evidence-backed claims:
