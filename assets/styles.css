@@ -707,6 +707,10 @@ main {
   background: #fcb900;
 }
 
+.platform-row.platform-brand-pb-order .bar-fill {
+  background: #ff6b4a;
+}
+
 .platform-row.platform-brand-nidin b {
   color: #0098ff;
 }
@@ -725,6 +729,10 @@ main {
 
 .platform-row.platform-brand-quickclick b {
   color: #000000;
+}
+
+.platform-row.platform-brand-pb-order b {
+  color: #ff6b4a;
 }
 
 .matrix-row {
@@ -908,6 +916,12 @@ td small {
   border: 1px solid #fcb900;
 }
 
+.platform-logo.platform-pb-order {
+  background: #ff6b4a;
+  color: #ffffff;
+  border: 1px solid #ff6b4a;
+}
+
 .platform-nidin {
   background: #0098ff;
   color: #ffffff;
@@ -941,6 +955,12 @@ td small {
   background: #fcb900;
   color: #000000;
   border: 1px solid #fcb900;
+}
+
+.platform-pb-order {
+  background: #ff6b4a;
+  color: #ffffff;
+  border: 1px solid #ff6b4a;
 }
 
 .order-link-list {

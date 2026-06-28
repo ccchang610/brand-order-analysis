@@ -3,8 +3,10 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import os
 import random
 import re
+import tempfile
 from datetime import date
 from pathlib import Path
 from urllib.parse import quote_plus
@@ -34,6 +36,8 @@ ORDER_BUTTON_TEXTS = [
 ]
 PICKUP_TEXTS = ["\u53d6\u8ca8", "\u81ea\u53d6", "\u5916\u5e36", "Pickup"]
 DELIVERY_TEXTS = ["\u904b\u9001", "\u5916\u9001", "Delivery"]
+
+
 PANEL_TEXTS = [
     "\u9078\u64c7\u4e0b\u55ae\u5c0d\u8c61",
     "\u53ef\u80fd\u9808\u652f\u4ed8\u624b\u7e8c\u8cbb",
@@ -550,7 +554,11 @@ async def click_enabled_mode_text(page, mode_texts: list[str]) -> bool:
 
 
 async def read_mode(page, mode_texts: list[str]) -> list[str]:
+    if await mode_control_state(page, mode_texts) == "active":
+        return await visible_provider_names(page)
     clicked = await click_enabled_mode_text(page, mode_texts)
+    if not clicked:
+        clicked = await click_mode_control(page, mode_texts)
     if not clicked:
         return []
     text = await wait_for_panel_text(page)
@@ -567,6 +575,7 @@ async def inspect_order_flow(page) -> dict:
         "panelUrl": page.url,
         "pickupProviders": [],
         "deliveryProviders": [],
+        "modeReadStates": {},
         "notes": "No Google Order button was found during human-paced browser check.",
         "buttonDetected": False,
     }
@@ -598,6 +607,7 @@ async def inspect_order_flow(page) -> dict:
                 page,
                 PICKUP_TEXTS if mode_key == "pickupProviders" else DELIVERY_TEXTS,
             )
+            result["modeReadStates"][mode_key] = mode_state
             if mode_state == "active":
                 result[mode_key] = await visible_provider_names(page)
 
@@ -626,12 +636,14 @@ async def inspect_order_flow(page) -> dict:
     if is_order_panel_text(page.url, text_after_click):
         if not result["pickupProviders"]:
             result["pickupProviders"] = await read_mode(page, PICKUP_TEXTS)
+            result["modeReadStates"]["pickupProviders"] = await mode_control_state(page, PICKUP_TEXTS)
         if not result["deliveryProviders"]:
             result["deliveryProviders"] = await read_mode(page, DELIVERY_TEXTS)
+            result["modeReadStates"]["deliveryProviders"] = await mode_control_state(page, DELIVERY_TEXTS)
 
     if result["pickupProviders"] or result["deliveryProviders"]:
         result["status"] = "confirmed"
-        result["notes"] = "Human-paced Google Order re-check opened the blue order flow and read providers."
+        result["notes"] = "Human-paced Google Order re-check opened the blue order flow and explicitly read pickup/delivery modes."
     else:
         result["status"] = "button_confirmed_provider_pending"
         result["notes"] = "Human-paced Google Order re-check confirmed a blue Google Order entry, but provider names still need manual panel review."
@@ -755,8 +767,10 @@ async def main() -> None:
     else:
         targets = stores
 
-    profile_dir = DATA / ".gmb-human-profile"
-    profile_dir.mkdir(exist_ok=True)
+    brand_root = Path(os.environ.get("BRAND_ANALYSIS_REPORT_ROOT") or DATA.parent)
+    temp_profile = tempfile.TemporaryDirectory(prefix=f"codex-brand-analysis-{brand_root.name}-human-")
+    profile_dir = Path(temp_profile.name) / "gmb-human-profile"
+    profile_dir.mkdir(parents=True, exist_ok=True)
 
     context_options = {
         "locale": "zh-TW",
@@ -826,6 +840,7 @@ async def main() -> None:
             await context.close()
             if browser:
                 await browser.close()
+            temp_profile.cleanup()
 
     payload["stores"] = [updated.get(store["storeId"], store) for store in stores]
     summary = write_outputs(payload)

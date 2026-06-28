@@ -3,7 +3,9 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import os
 import sys
+import tempfile
 from pathlib import Path
 
 from playwright.async_api import async_playwright
@@ -109,8 +111,10 @@ async def main() -> None:
     if args.limit:
         targets = targets[: args.limit]
 
-    profile_dir = STORES_PATH.parent / ".gmb-human-profile"
-    profile_dir.mkdir(exist_ok=True)
+    brand_root = Path(os.environ.get("BRAND_ANALYSIS_REPORT_ROOT") or STORES_PATH.parents[1])
+    temp_profile = tempfile.TemporaryDirectory(prefix=f"codex-brand-analysis-{brand_root.name}-panel-")
+    profile_dir = Path(temp_profile.name) / "gmb-human-profile"
+    profile_dir.mkdir(parents=True, exist_ok=True)
 
     updated: dict[str, dict] = {}
     async with async_playwright() as playwright:
@@ -145,6 +149,7 @@ async def main() -> None:
             )
             await asyncio.sleep(1.2)
         await context.close()
+        temp_profile.cleanup()
 
     payload["stores"] = [updated.get(store["storeId"], store) for store in stores]
     summary = write_outputs(payload)

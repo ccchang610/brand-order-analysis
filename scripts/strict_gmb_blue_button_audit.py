@@ -29,6 +29,12 @@ PROVIDER_PATTERNS = {
     "quickclick": "QuickClick",
     "快一點": "QuickClick",
     "order.quickclick.cc": "QuickClick",
+    "PB Order": "PB Order",
+    "AiCity-PB": "PB Order",
+    "AiCity": "PB Order",
+    "PB點餐": "PB Order",
+    "esgpb.com": "PB Order",
+    "app-205-rd.esgpb.com": "PB Order",
     "LINE": "LINE",
     "lin.ee": "LINE",
 }
@@ -667,6 +673,7 @@ def apply_result(store: dict, result: dict) -> dict:
         "attemptCount": result.get("attemptCount"),
         "maxAttempts": result.get("maxAttempts"),
         "attemptHistory": result.get("attemptHistory", []),
+        "modeReadStates": result.get("modeReadStates", {}),
         "notes": result.get("notes", ""),
     }
     return store

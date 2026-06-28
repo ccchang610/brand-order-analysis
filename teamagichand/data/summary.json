@@ -1,0 +1,266 @@
+{
+  "generatedAt": "2026-06-28T20:25:32Z",
+  "brand": "茶之魔手",
+  "brandSlug": "teamagichand",
+  "market": "Taiwan",
+  "sitePath": "./teamagichand/",
+  "officialStoreCount": 446,
+  "gmbFoundCount": 446,
+  "googleFoundCount": 446,
+  "thirdPartyFoundCount": 9,
+  "verificationGapCount": 0,
+  "anyOrderingSystemCount": 122,
+  "anyOrderingSystemAdoptionRate": 0.2735,
+  "gmbOrderingSystemCount": 126,
+  "gmbOrderingSystemAdoptionRate": 0.2825,
+  "gmbCoverageGapCount": 320,
+  "unknownOrderingSystemCount": 324,
+  "cityCounts": {
+    "基隆市": 0,
+    "台北市": 3,
+    "新北市": 3,
+    "桃園市": 2,
+    "新竹市": 0,
+    "新竹縣": 2,
+    "苗栗縣": 0,
+    "台中市": 13,
+    "彰化縣": 9,
+    "南投縣": 7,
+    "雲林縣": 11,
+    "嘉義市": 11,
+    "嘉義縣": 16,
+    "台南市": 194,
+    "高雄市": 130,
+    "屏東縣": 41,
+    "宜蘭縣": 0,
+    "花蓮縣": 1,
+    "台東縣": 1,
+    "澎湖縣": 2,
+    "金門縣": 0,
+    "連江縣": 0
+  },
+  "regionCounts": {
+    "北部": 10,
+    "中部": 40,
+    "南部": 392,
+    "東部": 2,
+    "離島": 2
+  },
+  "allSourceSystemCounts": {
+    "foodpanda": 126,
+    "Nidin": 5,
+    "PB Order": 4,
+    "Uber Eats": 1
+  },
+  "gmbSystemCounts": {
+    "foodpanda": 126,
+    "PB Order": 4,
+    "Uber Eats": 1
+  },
+  "gmbOrderOptionCounts": {
+    "foodpanda": 126,
+    "PB Order": 4,
+    "Uber Eats": 1
+  },
+  "gmbOrderPickupOptionCounts": {
+    "foodpanda": 111,
+    "PB Order": 4,
+    "Uber Eats": 1
+  },
+  "gmbOrderDeliveryOptionCounts": {
+    "foodpanda": 126,
+    "Uber Eats": 1
+  },
+  "allSourceSystemAdoptionRates": {
+    "foodpanda": 0.2825,
+    "Nidin": 0.0112,
+    "PB Order": 0.009,
+    "Uber Eats": 0.0022
+  },
+  "gmbSystemAdoptionRates": {
+    "foodpanda": 0.2825,
+    "PB Order": 0.009,
+    "Uber Eats": 0.0022
+  },
+  "gmbOrderOptionAdoptionRates": {
+    "foodpanda": 0.2825,
+    "PB Order": 0.009,
+    "Uber Eats": 0.0022
+  },
+  "systemComparison": [
+    {
+      "system": "Nidin",
+      "allSourceStoreCount": 5,
+      "allSourceAdoptionRate": 0.0112,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 5,
+      "percentagePointGap": 0.0112
+    },
+    {
+      "system": "PB Order",
+      "allSourceStoreCount": 4,
+      "allSourceAdoptionRate": 0.009,
+      "gmbStoreCount": 4,
+      "gmbAdoptionRate": 0.009,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "Uber Eats",
+      "allSourceStoreCount": 1,
+      "allSourceAdoptionRate": 0.0022,
+      "gmbStoreCount": 1,
+      "gmbAdoptionRate": 0.0022,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "foodpanda",
+      "allSourceStoreCount": 126,
+      "allSourceAdoptionRate": 0.2825,
+      "gmbStoreCount": 126,
+      "gmbAdoptionRate": 0.2825,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    }
+  ],
+  "gmbStatusCounts": {
+    "confirmed": 446
+  },
+  "gmbOrderingStatusCounts": {
+    "no_gmb_order_button": 320,
+    "confirmed": 126
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 446,
+    "gmbFound": 446,
+    "googleFound": 446,
+    "thirdPartyFound": 9
+  },
+  "source": {
+    "officialWebsite": "https://www.teamagichand.com.tw/",
+    "officialStoreList": "https://www.teamagichand.com.tw/store/",
+    "notes": "Official store locator table is the active store population source. Google Order provider evidence is counted only after opening a matched GMB/Google Order panel."
+  },
+  "notes": [
+    "茶之魔手官網門市頁為官方 active store population 來源。",
+    "Nidin brand API was checked directly and matched by official address/store identity; this is all-source platform evidence, not Google Order provider evidence.",
+    "Foodpanda chain page was checked as platform-direct brand evidence, but the public page did not expose an exhaustive store list in the fetched payload.",
+    "Google Order provider rows must be read from opened GMB order flows and separated into pickup/delivery modes."
+  ],
+  "platformDirectAudit": {
+    "checkedAt": "2026-06-24T22:16:41Z",
+    "platformsChecked": [
+      "Nidin",
+      "foodpanda",
+      "Uber Eats",
+      "LINE",
+      "QuickClick",
+      "PB 點餐"
+    ],
+    "Nidin": {
+      "brandUrl": "https://order.nidin.shop/brand/teamagichand",
+      "apiUrl": "https://loctw-service-api.nidin.shop/shopper/v2/store/listByPositionNew",
+      "platformStoreCount": 5,
+      "officialStoreMatchedCount": 5,
+      "pickupMatchedCount": 5,
+      "deliveryMatchedCount": 5,
+      "platformStoresNotInOfficialList": []
+    },
+    "foodpanda": {
+      "status": "brand_page_found_single_location_payload",
+      "sourceType": "marketplace",
+      "evidenceUrl": "https://www.foodpanda.com.tw/chain/ch3sh/cha-zhi-mo-shou",
+      "checkedAt": "2026-06-24T22:16:41Z",
+      "httpStatus": 200,
+      "notes": "Foodpanda chain page is public evidence for the brand, but the public page exposes a current/single vendor payload rather than an exhaustive store list. Store-level foodpanda should be confirmed by direct page, Google Order panel, or manual review before counting as all-store platform coverage.",
+      "visibleVendorName": "è¶ä¹é­æ (é«éç½æ¨¹åº)",
+      "visibleVendorAddress": "(O)é«éå¸æ©é ­åéè±è·¯3ä¹11è"
+    },
+    "Uber Eats": {
+      "status": "public_store_pages_found_by_search_no_exhaustive_brand_api",
+      "sourceType": "marketplace",
+      "evidenceUrl": "https://www.ubereats.com/tw",
+      "checkedAt": "2026-06-24T22:16:41Z",
+      "notes": "Public Uber Eats single-store pages can be found by search, but no stable public brand-wide store API/list was confirmed during this local run."
+    },
+    "LINE": {
+      "status": "not_found_as_separate_brand_ordering_portal",
+      "sourceType": "line",
+      "checkedAt": "2026-06-24T22:16:41Z",
+      "notes": "No separate LINE ordering brand store list was found. Nidin pages may be distributed through LINE by individual stores, but store-level LINE ordering was not inferred without a direct LINE/OA evidence URL."
+    },
+    "QuickClick": {
+      "status": "not_found",
+      "sourceType": "third_party",
+      "checkedAt": "2026-06-24T22:16:41Z",
+      "attempts": [
+        {
+          "url": "https://order.quickclick.cc/tw/portals/teamagichand",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "httpStatus": 200,
+          "status": "not_found"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/teaMagicHand",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "httpStatus": 200,
+          "status": "not_found"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/TeaMagicHand",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "httpStatus": 200,
+          "status": "not_found"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/magictea",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "httpStatus": 200,
+          "status": "not_found"
+        },
+        {
+          "url": "https://order.quickclick.cc/tw/portals/Teamagichand",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "httpStatus": 200,
+          "status": "not_found"
+        }
+      ]
+    },
+    "PB Order": {
+      "status": "confirmed",
+      "sourceType": "third_party",
+      "brandUrl": "https://app.esgpb.com/order/",
+      "checkedAt": "2026-06-26T07:59:25Z",
+      "platformStoreCount": 4,
+      "officialStoreMatchedCount": 4,
+      "pickupMatchedCount": 4,
+      "deliveryMatchedCount": 0,
+      "platformStoresNotInOfficialList": [],
+      "notes": "PB public ordering page exposes pickup order links. Matched by official address; counted as all-source pickup evidence, not Google Order provider evidence."
+    }
+  },
+  "googleOrderEntryCount": 126,
+  "googleOrderEntryRate": 0.2825,
+  "allSourcePickupSystemCounts": {
+    "foodpanda": 111,
+    "Nidin": 5,
+    "PB Order": 4,
+    "Uber Eats": 1
+  },
+  "allSourceDeliverySystemCounts": {
+    "foodpanda": 126,
+    "Nidin": 5,
+    "Uber Eats": 1
+  },
+  "gmbPickupSystemCounts": {
+    "foodpanda": 111,
+    "PB Order": 4,
+    "Uber Eats": 1
+  },
+  "gmbDeliverySystemCounts": {
+    "foodpanda": 126,
+    "Uber Eats": 1
+  }
+}

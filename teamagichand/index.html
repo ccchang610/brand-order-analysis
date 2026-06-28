@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>茶之魔手 點餐系統總覽</title>
+  <link rel="stylesheet" href="../assets/styles.css?v=35" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Brand Order Analysis</p>
+      <h1>茶之魔手 點餐系統總覽</h1>
+      <p class="subhead">台灣官方門市、Google/Maps/GMB 覆蓋、全來源平台點餐與 Google Order provider evidence，並區分自取與外送模式。<span class="version">teamagichand local audit</span></p>
+    </div>
+    <div class="meta">
+      <span id="generatedAt">Loading</span>
+      <a href="data/stores.csv">CSV</a>
+      <a href="data/summary.json">Summary JSON</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="segmented" id="regionFilters"></div>
+      <label>城市<select id="cityFilter"></select></label>
+      <label>系統<select id="systemFilter"></select></label>
+      <label>Google Order <select id="gmbFilter"><option value="all">全部</option><option value="confirmed">Google Order 有供應商</option><option value="gap">Google Order 待查核</option><option value="no_gmb_found">GMB/Maps 未找到</option></select></label>
+      <label class="search">搜尋門市<input id="searchInput" type="search" placeholder="門市、地址、城市" /></label>
+    </section>
+
+    <section class="insight-strip" id="insightStrip"></section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">1. Store Footprint</p><h2>官方門市與地理分布</h2></div>
+        <p>以茶之魔手官網門市表格作為 active store population；官方 Maps 連結只作為地址 lead，GMB 需另行命名 profile 確認。</p>
+      </div>
+      <div class="kpi-grid" id="storeKpis"></div>
+      <div class="split map-layout">
+        <div>
+          <h3>台灣門市地圖</h3>
+          <p class="map-source">顯示台灣 22 縣市；無門市縣市保留 0。</p>
+          <div class="taiwan-map" id="taiwanMap"></div>
+        </div>
+        <div><h3>城市排行</h3><div class="bars" id="cityBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">2. All Sources</p><h2>全來源點餐系統</h2></div>
+        <p>包含官方/平台直查、Google Order provider rows 與第三方公開證據；不把 Google Order 缺口當成沒有平台點餐。</p>
+      </div>
+      <div class="kpi-grid" id="allSourceKpis"></div>
+      <div class="split">
+        <div><h3>自取系統</h3><div class="bars" id="pickupBars"></div></div>
+        <div><h3>外送系統</h3><div class="bars" id="deliveryBars"></div></div>
+      </div>
+      <div class="split compact">
+        <div><h3>區域採用率</h3><div class="matrix" id="regionMatrix"></div></div>
+        <div><h3>判讀說明</h3><p class="note">全來源與 Google Order provider rows 分開計算；GMB provider 只採計開啟 Google Order panel 後可見的供應商列。</p></div>
+      </div>
+    </section>
+
+    <section class="panel warning">
+      <div class="section-title">
+        <div><p class="eyebrow">3. Google Order</p><h2>Google Order provider / link 總覽</h2></div>
+        <p>只有在正確 Google Business Profile 的藍色線上點餐流程中讀到 provider row，才列入嚴格 GMB provider evidence；自取與外送分開顯示。</p>
+      </div>
+      <div class="kpi-grid" id="gmbKpis"></div>
+      <div class="split">
+        <div><h3>Google Order 自取</h3><div class="bars" id="gmbPickupBars"></div></div>
+        <div><h3>Google Order 外送</h3><div class="bars" id="gmbDeliveryBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">4. Comparison</p><h2>全來源 vs Google Order provider</h2></div></div>
+      <div class="table-wrap"><table><thead><tr><th>系統</th><th>全來源門市</th><th>全來源比例</th><th>Google Order provider 門市</th><th>Google Order provider 比例</th><th>差距</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">5. Store Details</p><h2>門市明細</h2></div><p id="detailCount"></p></div>
+      <div class="table-wrap details"><table><thead><tr><th>門市</th><th>地址</th><th>區域</th><th>全來源系統</th><th>Google Order 證據</th><th>連結 / 查核</th></tr></thead><tbody id="storeRows"></tbody></table></div>
+    </section>
+  </main>
+
+  <script src="data-inline.js?v=1"></script>
+  <script src="../assets/taiwan-map.js?v=35"></script>
+  <script src="../assets/app.js?v=37"></script>
+</body>
+</html>

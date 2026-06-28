@@ -8,6 +8,7 @@ import os
 import random
 import re
 import sys
+import tempfile
 from datetime import date
 from pathlib import Path
 from urllib.parse import quote_plus
@@ -31,6 +32,7 @@ ORDER_GAP_STATUSES = {
     "not_found",
     "no_gmb_profile_match",
 }
+
 
 ADDRESS_ONLY_MARKERS = ("新增遺漏的地點", "加入你的商家", "位於這個地點的專區")
 
@@ -402,8 +404,9 @@ async def main() -> None:
     if args.limit:
         targets = targets[: args.limit]
 
-    profile_dir = brand_root / "data" / ".gmb-named-profile"
-    profile_dir.mkdir(exist_ok=True)
+    temp_profile = tempfile.TemporaryDirectory(prefix=f"codex-brand-analysis-{brand_root.name}-named-")
+    profile_dir = Path(temp_profile.name) / "gmb-named-profile"
+    profile_dir.mkdir(parents=True, exist_ok=True)
     context_options = {
         "locale": "zh-TW",
         "timezone_id": "Asia/Taipei",
@@ -468,6 +471,7 @@ async def main() -> None:
                 await asyncio.sleep(random.uniform(1.8, 4.5))
         finally:
             await context.close()
+            temp_profile.cleanup()
 
     payload["stores"] = [updated_by_id.get(store["storeId"], store) for store in stores]
     summary = write_brand_outputs(brand_slug, brand_root, payload)
