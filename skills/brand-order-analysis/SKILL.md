@@ -16,7 +16,7 @@ The core output is a dashboard-ready dataset plus, when requested, an HTML repor
 3. Which providers are visible inside Google Order, and where are Google Order provider evidence gaps?
 4. What does each store-level record show, including evidence and verification status?
 
-Read `references/workflow.md` for the full execution and HTML report structure. Read `references/data-model.md` for fields, statuses, adoption-rate rules, Taiwan geography rules, and validation requirements.
+Read `references/workflow.md` for the full execution and HTML report structure. Read `references/data-model.md` for fields, statuses, adoption-rate rules, Taiwan geography rules, and validation requirements. For large store-by-store audits that use subagents, also read `references/subagent-batch-protocol.md` before splitting work.
 
 ## Core Workflow
 
@@ -39,6 +39,7 @@ Read `references/workflow.md` for the full execution and HTML report structure. 
 11. Generate `data/stores.json`, `data/summary.json`, and optionally `data/stores.csv`.
 12. If the user asks for an HTML output, build a dashboard-style report with store overview, all-source ordering overview, Google Order provider overview, comparison table, and store details.
 13. For multi-brand static sites, keep the repository root as the brand selector and place each brand report in its own stable slug directory.
+14. For large brands, preserve the low-resource batch-reading core: split stores into small batches, checkpoint after every store, and use subagents only for store-level evidence extraction or QA while the main agent owns final merge and report calculations.
 
 ## Source Rules
 
@@ -77,6 +78,15 @@ For Google Business Profile / Google Order, keep these principles in the top-lev
 - Blocked, timed-out, ambiguous, provider-pending, or no-button checks stay reviewable with `gmbSignals`; do not treat them as no ordering system. When possible, classify unresolved checks with a precise `gmbSignals.unresolvedReason`, such as `gmb_profile_found_panel_timeout`, `button_visible_click_failed`, `button_confirmed_provider_pending`, `google_blocked`, `wrong_or_ambiguous_profile`, or `no_gmb_order_button_after_recheck`.
 - A weaker later automated result, such as `no_gmb_order_button`, timeout, mobile mismatch, or provider-pending, must not overwrite prior confirmed Google Order provider claims or user-screenshot-confirmed provider rows. Preserve confirmed evidence and mark the re-check as weaker or unreproduced in `gmbSignals`.
 - Record mode-read metadata in `gmbSignals.modeReadStates` when possible, for example `{ "pickupProviders": "active", "deliveryProviders": "active" }`, so reviewers can tell whether pickup and delivery were actually selected/read.
+## Subagent-Assisted Batch Rule
+
+Use subagents only where the work is store-level and evidence-shaped. The main agent owns the source of truth: official store population, active denominator, closed-store exclusion, provider canonicalization, final merge, summary formulas, and report output.
+
+- Preserve the existing low-resource GMB pattern: headless by default, Google / Maps / GMB concurrency `1` unless explicitly approved, batches of about 20-30 stores, disposable browser profiles outside synced folders, and checkpointing after every store.
+- Good subagent tasks: platform-direct checks, GMB identity candidates, marketplace / LINE / ordering-link evidence, unresolved-store QA, and fixed-schema evidence extraction.
+- Avoid subagent tasks that compute final adoption rates, rewrite `stores.json` directly, decide denominator changes, or run many Google Order panel browsers in parallel.
+- Worker output must follow `references/subagent-batch-protocol.md`; validate worker JSONL before merge.
+- Strict Google Order provider evidence still requires visible provider rows inside the opened Google Order panel/searchviewer flow. Subagent findings outside that flow remain official, marketplace, third-party, LINE, Google, or manual evidence, not `sourceType: gmb`.
 ## Output Requirements
 
 When producing datasets, include:
@@ -139,7 +149,8 @@ When updating this skill directly:
 - Update this file for trigger wording, top-level workflow, source policy, output requirements, or HTML report structure.
 - Update `references/workflow.md` for detailed execution steps, source comparison flow, dashboard sections, and publishing checks.
 - Update `references/data-model.md` for schemas, fields, status values, adoption-rate formulas, source coverage, ordering-system evidence, and validation rules.
-- Add scripts only when a repeated cross-brand operation becomes stable enough to automate.
+- Update `references/subagent-batch-protocol.md` when batch/subagent roles, worker output shape, or merge safety rules change.
+- Add scripts only when a repeated cross-brand operation becomes stable enough to automate. Batch splitting and worker-output validation are stable cross-brand helpers; automatic merge should stay conservative and review-gated.
 - Update `agents/openai.yaml` when the UI display name, short description, or default prompt changes.
 
 After editing, remind the user to restart Codex so the updated skill is reloaded.

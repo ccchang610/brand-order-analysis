@@ -33,6 +33,10 @@ Each store record should keep at least:
 - `manualReviewReason`
 - `evidenceNotes`
 - `checkedAt`
+- optional `auditBatchId`
+- optional `auditWorkerId`
+- optional `auditPasses`
+- optional `auditConflicts`
 
 Legacy fields such as `takeoutAvailable`, `deliveryAvailable`, `takeoutProviders`, `deliveryProviders`, `otherProviders`, and `providerEvidenceUrls` may be kept for compatibility, but new work should use `orderingSystems` as the canonical evidence model.
 
@@ -184,6 +188,24 @@ For `attemptCount`, count total tries across the Google Search business-card tar
 Use `gmbSignals.preservedPriorConfirmedEvidence: true` when a weaker later re-check failed to reproduce existing confirmed provider claims and the prior claims were kept. Use `gmbSignals.preservedUserScreenshotEvidence: true` when preserving user-provided screenshot evidence.
 
 For live-audit implementation metadata, keep disposable browser profiles, caches, screenshots, and logs outside synced workspaces when possible. Final datasets and unfinished audit state that are needed to resume a brand analysis should stay in the brand directory. If a local file is temporary and safe to delete, store it under a clearly named disposable scratch location and clean it after the run.
+## Subagent Batch Evidence Fields
+
+Subagent output is not the canonical store record. It is merge input that must be validated first. When useful, merged store records may retain lightweight metadata:
+
+- `auditBatchId`: last batch file that contributed evidence to the store.
+- `auditWorkerId`: worker/subagent id for the last accepted evidence row.
+- `auditPasses`: array of accepted evidence pass summaries, such as `platform_direct`, `gmb_identity`, `gmb_order_panel`, `unresolved_recheck`, or `qa_sample`.
+- `auditConflicts`: unresolved or intentionally preserved conflicts, especially weaker later Google Order checks that should not overwrite prior confirmed evidence.
+
+Worker JSONL rows must include `batchId`, `workerId`, `taskType`, `storeId`, `status`, `evidence`, and `checkedAt`. Merge them by stable `storeId` only. Do not let worker rows create new official stores, delete active stores, change the active denominator, or directly update summary counts.
+
+Use worker evidence as follows:
+
+- `platform_direct` rows may add `platformAudit` and non-GMB `orderingSystems` claims.
+- `gmb_identity` rows may update `gmbUrl`, `gmbStatus`, `sourceCoverage.gmbFound`, and `gmbSignals.matchQuality` when the named profile match is clear.
+- `gmb_order_panel` rows may create `sourceType: gmb` claims only when the evidence proves that provider rows were visible inside the opened Google Order panel/searchviewer flow.
+- `unresolved_recheck` and `qa_sample` rows should usually update `gmbSignals`, `manualReviewReason`, or `auditConflicts` rather than silently overwriting confirmed claims.
+
 ## Ordering Systems
 
 Use `orderingSystems` as an array of evidence-backed claims:

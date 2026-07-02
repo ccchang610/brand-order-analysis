@@ -62,6 +62,25 @@ Use a low-resource browser profile by default for large GMB / Google Order audit
 - Use bounded per-store timeouts and store `unavailable_or_blocked` or another precise reviewable status instead of letting one store stall the run.
 - Record enough progress metadata to resume safely, such as checked store IDs, status counts, attempt history, provider patterns used, and whether pickup/delivery modes were actually read.
 
+## Subagent-Assisted Batch Execution
+
+Use this only after the canonical official active store population exists. Subagents speed up store-level evidence collection, but they do not replace the main-agent merge and validation pass.
+
+- Main agent creates batch files from the canonical `stores.json`; default batch size is 20-30 stores.
+- Subagents may run platform-direct checks, GMB identity candidate discovery, marketplace / LINE / ordering-link extraction, and unresolved-store QA in parallel.
+- Do not run high-concurrency Google / Maps / GMB browser checks. The Google Order panel worker keeps the low-resource defaults: concurrency `1`, small batches, temporary profile/cache outside synced folders, bounded timeouts, and checkpoint after every store.
+- Worker output is JSONL evidence. It must be validated before merge and must not directly edit `stores.json`, `summary.json`, CSV, `data-inline.js`, or HTML.
+- Main agent merges only evidence-backed fields, preserves prior confirmed GMB evidence, records conflicts, regenerates outputs, and reruns publishing validation.
+
+Recommended execution:
+
+1. Build canonical active store records.
+2. Generate subagent batch files with fixed `taskType` values.
+3. Run platform-direct and GMB identity batches in parallel where safe.
+4. Validate worker JSONL output.
+5. Run strict Google Order panel checks sequentially or with explicitly approved low concurrency.
+6. Merge evidence, resolve conflicts, regenerate outputs, and validate counts.
+
 ## Execution Steps
 
 1. Build the official store population and deduplicate stores.
@@ -97,6 +116,7 @@ Use a low-resource browser profile by default for large GMB / Google Order audit
    - `manualReviewReason` when blocked, ambiguous, or unresolved
 12. Generate `data/stores.json`, `data/summary.json`, and CSV if useful.
 13. Build the dashboard HTML only after the dataset and summary formulas are stable.
+14. If subagents were used, preserve the batch files, validated worker JSONL outputs, and conflict ledger in a reviewable work folder until the final report is accepted.
 
 ## Adoption and Counting Rules
 
