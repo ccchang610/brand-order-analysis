@@ -60,6 +60,8 @@ Read `references/workflow.md` for the full execution and HTML report structure. 
 
 All-source ordering adoption must include platform-direct checks, not only Google/GMB evidence. If any candidate ordering platform appears for the brand, such as Nidin, QuickClick, LINE ordering, an official ordering portal, foodpanda, Uber Eats, or another local platform, search or open the platform or brand ordering entry directly and attempt to match every official active store by store name, address, phone, or platform store ID. Do not infer chain-wide coverage from one matched store, but do not treat absence from Google Order as absence from the platform. Store platform-direct evidence as `sourceType: official`, `marketplace`, `line`, or `third_party`, and keep it separate from strict `sourceType: gmb` Google Order provider rows.
 
+All-source evidence is the superset view. Google Order provider evidence is a strict subset view. A system found in Google Order should also appear in all-source counts, but a system found from official sites, platform-direct checks, LINE, marketplace pages, Google snippets, or brand-level portals must not be copied into Google Order counts. Re-running a strict Google Order audit must never clear, shrink, or overwrite all-source evidence unless the source itself was proven wrong. Keep the two write paths separate in code and in merge reviews.
+
 ## Google Order Audit Rule
 
 For Google Business Profile / Google Order, keep these principles in the top-level skill and use `references/workflow.md` for the detailed re-check protocol.
@@ -70,23 +72,28 @@ For Google Business Profile / Google Order, keep these principles in the top-lev
 - If a profile is missing, re-search Google by `brand + store name` and, when useful, `brand + store name + address`; accept a highly similar, non-duplicate GMB result and record why it matched.
 - Use Google Maps direct search as a GMB identity-resolution aid when Google Search cards are ambiguous, especially for nearby or similarly named stores. Do not treat Maps as a replacement for Google Order provider extraction; provider claims still require rows visible inside the opened Google Order panel/searchviewer flow.
 - Separate Google Order entry coverage from provider evidence. A blue order button confirms entry only; provider claims require visible provider rows inside the opened panel.
-- First successful Google Order panel reads must be mode-aware: inspect pickup and delivery before writing provider evidence.
+- First successful Google Order panel reads must be mode-aware: inspect pickup and delivery before writing provider evidence. Record the state of each mode separately and never copy providers from delivery into pickup, from pickup into delivery, or from one store into another.
 - Scope provider extraction to the visible Google Order panel/dialog containing the online-order provider list. Do not parse provider names from the background Google results page, Knowledge Panel website row, snippets, ads, or generic `網站` links.
+- Provider extraction must be row-scoped. Count a provider only when an actual visible provider row/card inside the opened Google Order panel names that provider for the active mode. Do not count full-panel text, ancestor containers, hidden DOM text, link URLs, provider names from previous stores, or combined containers that mention multiple providers unless each provider has its own visible row/card.
 - Treat merchant-site rows such as `ocard.co` as valid Google Order provider evidence only when the row is visible inside the active Google Order pickup/delivery panel; outside that panel they remain all-source evidence.
 - For one-button Google Order flows, read the active/pressed/disabled state of the inner mode controls. Treat `自取` and `取貨` as `pickup`; treat `外送` and `運送` as `delivery`. Count only the active or successfully selected mode; if the mode cannot be determined, use `unknown` instead of copying providers into both modes.
 - Preserve visible post-click order-flow links in `gmbOrderLinks`, but keep strict `gmbSystemCounts` limited to visible provider rows.
+- LINE, Nidin, eathere, QuickClick, Uber Eats, foodpanda, official merchant sites, or any other provider may be Google Order evidence only if it appears as a visible provider row after opening the correct store's blue Google Order flow for the active mode. Known platform presence outside that flow is all-source evidence only.
 - Blocked, timed-out, ambiguous, provider-pending, or no-button checks stay reviewable with `gmbSignals`; do not treat them as no ordering system. When possible, classify unresolved checks with a precise `gmbSignals.unresolvedReason`, such as `gmb_profile_found_panel_timeout`, `button_visible_click_failed`, `button_confirmed_provider_pending`, `google_blocked`, `wrong_or_ambiguous_profile`, or `no_gmb_order_button_after_recheck`.
 - A weaker later automated result, such as `no_gmb_order_button`, timeout, mobile mismatch, or provider-pending, must not overwrite prior confirmed Google Order provider claims or user-screenshot-confirmed provider rows. Preserve confirmed evidence and mark the re-check as weaker or unreproduced in `gmbSignals`.
-- Record mode-read metadata in `gmbSignals.modeReadStates` when possible, for example `{ "pickupProviders": "active", "deliveryProviders": "active" }`, so reviewers can tell whether pickup and delivery were actually selected/read.
+- Record mode-read metadata in `gmbSignals.modeReadStates` when possible, for example `{ "pickupProviders": "active_no_provider", "deliveryProviders": "active" }`, so reviewers can tell whether pickup and delivery were actually selected/read. Preferred values are `active`, `active_no_provider`, `disabled`, `not_found`, `blocked`, and `unknown`.
+- Preserve short row-level snippets in `gmbSignals.providerRowTexts` when feasible. These snippets are audit evidence for why each strict provider was counted and make it easier to catch false positives caused by parsing the whole panel.
 ## Subagent-Assisted Batch Rule
 
 Use subagents only where the work is store-level and evidence-shaped. The main agent owns the source of truth: official store population, active denominator, closed-store exclusion, provider canonicalization, final merge, summary formulas, and report output.
 
 - Preserve the existing low-resource GMB pattern: headless by default, Google / Maps / GMB concurrency `1` unless explicitly approved, batches of about 20-30 stores, disposable browser profiles outside synced folders, and checkpointing after every store.
+- If the user explicitly approves parallel Google Order work, split stores into independent shards and keep concurrency `1` inside each shard worker. Prefer 4-6 workers only after a small pilot confirms Google is not blocking, CPU is stable, and JSONL checkpointing is append/resumable. Record elapsed time and rows/minute so the team can compare subagent speed against the single-worker baseline.
 - Good subagent tasks: platform-direct checks, GMB identity candidates, marketplace / LINE / ordering-link evidence, unresolved-store QA, and fixed-schema evidence extraction.
 - Avoid subagent tasks that compute final adoption rates, rewrite `stores.json` directly, decide denominator changes, or run many Google Order panel browsers in parallel.
 - Worker output must follow `references/subagent-batch-protocol.md`; validate worker JSONL before merge.
 - Strict Google Order provider evidence still requires visible provider rows inside the opened Google Order panel/searchviewer flow. Subagent findings outside that flow remain official, marketplace, third-party, LINE, Google, or manual evidence, not `sourceType: gmb`.
+- Workers must write shard JSONL only. They must not edit `stores.json`, `summary.json`, CSV, `data-inline.js`, HTML, shared scripts, or skill files. The main agent performs the only canonical merge and must preserve all-source evidence independently from strict GMB evidence.
 ## Output Requirements
 
 When producing datasets, include:
@@ -164,9 +171,12 @@ Before calling the work complete:
 - Confirm permanently closed, closed, or moved stores are excluded from the active store records and denominator unless historical coverage was explicitly requested.
 - Confirm all-source adoption rate equals stores with any ordering system divided by official store count.
 - Confirm Google Order provider coverage rate equals stores with `sourceType: gmb` provider evidence divided by official store count.
+- Confirm `allSourceSystemCounts` is computed from all eligible non-GMB and GMB ordering evidence, while `gmbSystemCounts` is computed only from strict `sourceType: gmb` provider rows. A Google Order rerun must not erase platform-direct all-source evidence such as eathere, LINE, Nidin, QuickClick, official portals, foodpanda, or Uber Eats.
 - Confirm GMB profile missing stores and blocked Google Order checks are counted as coverage gaps, not as non-adoption.
 - Confirm `button_confirmed_provider_pending` stores count as Google Order entry coverage, but do not affect `gmbSystemCounts` until panel providers are confirmed.
 - Confirm `gmbOrderLinks` preserve links visible inside the opened Google Order flow while not changing strict `gmbSystemCounts` unless the link is also a visible provider row.
+- Spot-check user screenshots or manual samples against strict GMB rows. If a screenshot shows only foodpanda or only Uber Eats in the opened panel for a mode, remove any other strict GMB providers for that store/mode unless stronger current panel-row evidence exists.
+- Confirm pickup and delivery were both attempted when controls exist. Empty pickup is valid only when the pickup state is recorded as `active_no_provider`, `disabled`, `not_found`, `blocked`, or another explicit non-provider state; it is not valid when delivery was the only mode parsed.
 - Confirm Google Order overview charts or provider/link charts include `gmbOrderLinks` by mode so Instagram/LINE/merchant-site order-flow links appear in the summary, while strict provider-row counts remain separately available.
 - Confirm any store-detail Google Order provider/evidence column displays `gmbOrderLinks` by mode.
 - Confirm city counts and region counts sum to official store count.

@@ -69,7 +69,7 @@ Use this only after the canonical official active store population exists. Subag
 - Main agent creates batch files from the canonical `stores.json`; default batch size is 20-30 stores.
 - Subagents may run platform-direct checks, GMB identity candidate discovery, marketplace / LINE / ordering-link extraction, and unresolved-store QA in parallel.
 - Do not run high-concurrency Google / Maps / GMB browser checks. The Google Order panel worker keeps the low-resource defaults: concurrency `1`, small batches, temporary profile/cache outside synced folders, bounded timeouts, and checkpoint after every store.
-- Worker output is JSONL evidence. It must be validated before merge and must not directly edit `stores.json`, `summary.json`, CSV, `data-inline.js`, or HTML.
+- Worker output is JSONL evidence. It must be validated before merge and must not directly edit `stores.json`, `summary.json`, CSV, `data-inline.js`, or HTML. Worker JSONL must be append/resumable and must skip store IDs already completed in that shard instead of truncating prior progress on restart.
 - Main agent merges only evidence-backed fields, preserves prior confirmed GMB evidence, records conflicts, regenerates outputs, and reruns publishing validation.
 
 Recommended execution:
@@ -78,7 +78,7 @@ Recommended execution:
 2. Generate subagent batch files with fixed `taskType` values.
 3. Run platform-direct and GMB identity batches in parallel where safe.
 4. Validate worker JSONL output.
-5. Run strict Google Order panel checks sequentially or with explicitly approved low concurrency.
+5. Run strict Google Order panel checks sequentially or with explicitly approved low concurrency. If the user approves parallel subagents, use independent shards with one browser worker per shard, measure elapsed time and rows/minute, and keep each shard from touching canonical report files.
 6. Merge evidence, resolve conflicts, regenerate outputs, and validate counts.
 
 ## Execution Steps
@@ -147,13 +147,15 @@ Use this protocol whenever Google Order provider evidence matters.
    - wait for render, move the pointer, scroll, pause, then inspect visible buttons
    - click one-button online order flows or separate pickup and delivery buttons when present
    - button visibility alone is not a provider signal; after clicking, wait for the Google Order panel/searchviewer flow and read only that panel
-   - first successful panel/searchviewer open must read pickup and delivery modes in the same pass; click/select `pickup` and `delivery`, parse provider rows per mode, and write `orderMode`, `gmbPickupProviders`, `gmbDeliveryProviders`, and mode-specific `gmbOrderLinks` immediately
+   - first successful panel/searchviewer open must read pickup and delivery modes in the same pass; click/select `pickup` and `delivery`, parse provider rows per mode, and write `orderMode`, `gmbPickupProviders`, `gmbDeliveryProviders`, and mode-specific `gmbOrderLinks` immediately. Do not accept a delivery-only parser result as complete when a pickup control exists; record the pickup state as `active_no_provider`, `disabled`, `not_found`, `blocked`, or `unknown`.
    - provider extraction must be scoped to the smallest visible Google Order panel/dialog that contains both the online-order heading and provider-list text such as `選擇下單對象`; ignore background Google Search results, Knowledge Panel website rows, snippets, ads, and generic `網站` links
    - merchant-site rows such as `ocard.co` or `order.ocard.co` are valid Google Order provider rows when they appear inside that scoped panel, including when Google marks them as merchant preferred; the same links outside the panel remain all-source evidence only
    - do not perform a provider-only Google Order sweep and then run a second mode-classification sweep by default; a second pass is only for blocked, timed-out, stale, or mode-control-missing panels
    - pickup/delivery visibility alone is not mode evidence; count a mode only if its control can be selected or is already active/pressed
    - in one-button flows, inspect the inner mode controls after the panel opens; map `自取` and `取貨` to `pickup`, and map `外送` and `運送` to `delivery`; if only delivery is active, write delivery only, and if mode state is unreadable, use `unknown` rather than copying provider rows into both modes
    - parse provider names only from visible rows inside the Google Order dialog/panel, not from the background Google result page or knowledge panel
+   - reject provider detections that come only from full-panel text, ancestor containers, hidden DOM, cached page text, link hrefs, or a combined container that names multiple providers without row-level separation
+   - preserve short `providerRowTexts` snippets in `gmbSignals` for counted strict providers so screenshot/user QA can identify false positives
    - record every visible href/link inside the opened Google Order flow in `gmbOrderLinks`, including Instagram, LINE, marketplace, merchant website, and similar order-flow destinations
 3. Before accepting `no_gmb_order_button`, classify the store context:
    - street-front stores should get at least one extra fresh-profile re-check; if still unresolved, also try Google Search business-card and mobile viewport/user-agent checks
@@ -190,6 +192,7 @@ Use this protocol whenever Google Order provider evidence matters.
    - user-screenshot-confirmed provider rows must be preserved unless stronger current evidence explicitly contradicts them
    - if a weak re-check fails to reproduce prior evidence, keep the prior claims and mark `gmbSignals.preservedPriorConfirmedEvidence` or `gmbSignals.preservedUserScreenshotEvidence`
 8. Do not parse provider names from the whole Google results page as Google Order providers. Page text can include official Nidin results, marketplace snippets, ads, or knowledge-panel links that are not the opened Google Order panel.
+8a. Do not let a strict Google Order rerun overwrite the all-source platform view. Platform-direct systems such as eathere, LINE, Nidin, QuickClick, official portals, Uber Eats, and foodpanda remain all-source evidence even when they are absent from the opened Google Order panel.
 9. Treat `nidin.shop` or `order.nidin.shop` as `Nidin` only when it is a visible provider row inside the opened Google Order panel. Do not count official Nidin links, organic results, or Maps website rows as Google Order evidence.
 10. Preserve prior confirmed Google Order provider claims when a later re-check is blocked.
 11. Store retry evidence in `gmbSignals`: `buttonDetected`, `providersParsed`, `attemptCount`, `maxAttempts`, `attemptHistory`, `panelUrl`, `checkedAt`, `checkMethod`, `unresolvedReason`, `modeReadStates`, and notes. Use this in the HTML details table so "pending" stores show why they are pending and how many attempts were made. Prefer precise unresolved reasons such as `gmb_profile_found_panel_timeout`, `button_visible_click_failed`, `button_confirmed_provider_pending`, `google_blocked`, `wrong_or_ambiguous_profile`, or `no_gmb_order_button_after_recheck`.
@@ -197,7 +200,7 @@ Use this protocol whenever Google Order provider evidence matters.
 ## Provider Interpretation
 
 - `all-source ordering systems`: all confirmed ordering systems from official, Google, GMB, third-party, marketplace, LINE, or local platform evidence.
-- `Google Order provider evidence`: only systems where `sourceType` is `gmb`.
+- `Google Order provider evidence`: only systems where `sourceType` is `gmb`, provider row/card text was visible inside the opened Google Order panel, and the provider was tied to the active/read mode.
 - `Google Order panel links`: links visible after opening the Google Order button flow. Keep them in `gmbOrderLinks`, show them in store details, and include them in Google Order provider/link overview charts. Do not count them as strict provider rows unless they are visible provider rows.
 - A claim may use `sourceType: gmb` only if it was observed inside the Google Business Profile blue online-order button flow. The button may appear as one `線上點餐` button or as separate `點餐外帶` and `點餐外送` buttons. Open the button, read the pickup or delivery panel, then record only the providers visible there. Official Nidin links, marketplace URLs, embedded Maps links, Google search snippets, or known provider pages must remain `official`, `marketplace`, `third_party`, or `google`; never backfill them as Google Order.
 - Google Order panel rows labelled `nidin.shop` / `order.nidin.shop`, `ocard.co` / `order.ocard.co`, or another merchant ordering domain are valid Google Order provider rows only when visible inside the opened panel. The same domains outside the opened panel are not valid Google Order evidence.

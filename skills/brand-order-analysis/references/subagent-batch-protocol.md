@@ -14,6 +14,7 @@ Use subagents when:
 - The worker task has a fixed output shape, such as GMB identity candidates, platform-direct evidence, marketplace matches, LINE/order links, or unresolved-store QA.
 - A worker can stop after producing evidence without deciding final adoption rates.
 - The main agent can review conflicts before data is merged.
+- The user has approved parallel store-level work or the task is non-Google platform evidence that is safe to parallelize.
 
 Do not use subagents to:
 
@@ -117,16 +118,19 @@ Allowed `status` values:
 
 - Preserve the existing low-resource pattern: one Google / Maps / GMB browser worker by default, small batches, per-store checkpointing, and disposable browser profiles outside synced folders.
 - Subagents may prepare GMB identity candidates, but strict provider extraction still requires visible rows inside the opened Google Order panel/searchviewer flow.
-- Do not run many workers against Google simultaneously. More browser workers can increase blocking, timeouts, and CPU pressure.
+- Do not run many workers against Google simultaneously unless the user explicitly approves a shard pilot. When approved, run independent shards with one browser worker inside each shard, append/resume JSONL output, and record elapsed time plus rows/minute for comparison against the single-worker baseline.
 - If a worker only sees a blue order button but cannot read provider rows, return `button_confirmed_provider_pending` evidence and do not guess providers.
+- A Google Order worker must attempt both pickup and delivery when controls exist. It must report `modeReadStates` with values such as `active`, `active_no_provider`, `disabled`, `not_found`, `blocked`, or `unknown`; an empty pickup or delivery list without a mode state is not complete evidence.
+- Provider claims require row-level visible evidence inside the opened Google Order panel/searchviewer flow. Workers must not parse full-panel text, ancestor containers, hidden DOM text, link hrefs, cached snippets, or background Google/Maps content as strict providers. Include compact `providerRowTexts` snippets for accepted providers.
+- LINE, Nidin, eathere, QuickClick, foodpanda, Uber Eats, and merchant-site links can be strict GMB providers only when visible as provider rows in the opened panel. Otherwise they stay all-source evidence.
 - If a current check is weaker than prior confirmed provider evidence, report the weaker result as a conflict. Do not overwrite the confirmed evidence.
 
 ## Merge Rules
 
-- Validate every worker JSONL file before applying it.
+- Validate every worker JSONL file before applying it. Reject or quarantine rows that lack store IDs, mode states for Google Order work, row-level provider evidence for strict GMB claims, or current-shard provenance.
 - Merge only by stable `storeId`.
-- Apply platform-direct evidence into `platformAudit` and non-GMB `orderingSystems`.
-- Apply GMB provider evidence only when the worker evidence proves the provider row was visible inside the opened Google Order flow.
+- Apply platform-direct evidence into `platformAudit` and non-GMB `orderingSystems`. Never clear platform-direct or all-source evidence simply because a strict Google Order shard did not show that provider.
+- Apply GMB provider evidence only when the worker evidence proves the provider row was visible inside the opened Google Order flow for the active/read mode. A stronger confirmed current row can replace stale strict GMB evidence; weaker rows such as no-button, timeout, provider-pending, blocked, or ambiguous become conflicts and must not erase prior confirmed providers or user-screenshot corrections.
 - Put ambiguous or conflicting rows into a conflict ledger instead of silently overwriting canonical data.
 - Regenerate `summary.json`, CSV, `data-inline.js`, and HTML only after the canonical store data is stable.
 
@@ -135,6 +139,6 @@ Allowed `status` values:
 1. Main agent builds canonical stores and writes batch files.
 2. Workers run platform-direct and GMB identity batches in parallel.
 3. Main agent validates worker output and merges low-risk evidence.
-4. One low-resource GMB browser worker runs Google Order panel batches sequentially.
+4. One low-resource GMB browser worker runs Google Order panel batches sequentially, or multiple approved shard workers run with concurrency `1` per shard and append/resumable JSONL checkpoints.
 5. Workers can QA unresolved or sampled stores, but final conflict resolution stays with the main agent.
 6. Main agent regenerates outputs and verifies JSON, counts, city/region totals, all-source adoption, strict GMB provider counts, and Google Order provider/link charts.
