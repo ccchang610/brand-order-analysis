@@ -1,0 +1,466 @@
+{
+  "generatedAt": "2026-07-23",
+  "brand": "麻古茶坊 MACU Tea",
+  "brandSlug": "macu",
+  "market": "Taiwan",
+  "sitePath": "./macu/",
+  "officialStoreCount": 366,
+  "gmbFoundCount": 366,
+  "gmbMissingCount": 0,
+  "googleFoundCount": 366,
+  "thirdPartyFoundCount": 366,
+  "verificationGapCount": 60,
+  "anyOrderingSystemCount": 366,
+  "googleOrderEntryCount": 320,
+  "googleOrderEntryRate": 0.8743,
+  "gmbOrderingSystemCount": 306,
+  "gmbCoverageGapCount": 46,
+  "unknownOrderingSystemCount": 0,
+  "cityCounts": {
+    "基隆市": 1,
+    "台北市": 17,
+    "新北市": 18,
+    "桃園市": 16,
+    "新竹市": 6,
+    "新竹縣": 5,
+    "苗栗縣": 5,
+    "台中市": 45,
+    "彰化縣": 16,
+    "南投縣": 2,
+    "雲林縣": 5,
+    "嘉義市": 3,
+    "嘉義縣": 5,
+    "台南市": 65,
+    "高雄市": 120,
+    "屏東縣": 26,
+    "宜蘭縣": 4,
+    "花蓮縣": 2,
+    "台東縣": 3,
+    "澎湖縣": 1,
+    "金門縣": 1,
+    "連江縣": 0
+  },
+  "regionCounts": {
+    "北部": 72,
+    "中部": 68,
+    "南部": 219,
+    "東部": 5,
+    "離島": 2
+  },
+  "allSourceSystemCounts": {
+    "食在麻吉 eathere": 366,
+    "LINE": 366,
+    "Uber Eats": 269,
+    "foodpanda": 182
+  },
+  "allSourcePickupSystemCounts": {
+    "食在麻吉 eathere": 366,
+    "LINE": 366,
+    "foodpanda": 41,
+    "Uber Eats": 9
+  },
+  "allSourceDeliverySystemCounts": {
+    "食在麻吉 eathere": 366,
+    "LINE": 366,
+    "Uber Eats": 268,
+    "foodpanda": 182
+  },
+  "gmbSystemCounts": {
+    "Uber Eats": 269,
+    "foodpanda": 182
+  },
+  "gmbPickupSystemCounts": {
+    "foodpanda": 41,
+    "Uber Eats": 9
+  },
+  "gmbDeliverySystemCounts": {
+    "Uber Eats": 268,
+    "foodpanda": 182
+  },
+  "gmbOrderOptionCounts": {
+    "Uber Eats": 269,
+    "foodpanda": 182
+  },
+  "gmbOrderPickupOptionCounts": {
+    "foodpanda": 41,
+    "Uber Eats": 9
+  },
+  "gmbOrderDeliveryOptionCounts": {
+    "Uber Eats": 268,
+    "foodpanda": 182
+  },
+  "gmbStatusCounts": {
+    "confirmed": 366
+  },
+  "gmbOrderingStatusCounts": {
+    "confirmed": 306,
+    "no_gmb_order_button": 46,
+    "button_confirmed_provider_pending": 14
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 366,
+    "gmbFound": 366,
+    "googleFound": 366,
+    "thirdPartyFound": 366
+  },
+  "source": {
+    "officialWebsite": "https://www.macutea.com.tw/",
+    "officialStoreList": "https://www.macutea.com.tw/shop.php",
+    "googleMapLinksFromOfficialStores": true,
+    "platformDirectAudit": {
+      "checkedAt": "2026-07-22",
+      "officialLinks": [
+        {
+          "label": "",
+          "url": "https://lihi.cc/nu0Qy",
+          "finalUrl": "https://www.instagram.com/macu2008tw",
+          "status": 200,
+          "title": ""
+        },
+        {
+          "label": "",
+          "url": "https://lihi.cc/a1lfw",
+          "finalUrl": "https://page.line.me/bjf7099i?oat__id=5728761&openQrModal=true",
+          "status": 200,
+          "title": "MACU麻古茶坊 | LINE 官方帳號"
+        },
+        {
+          "label": "",
+          "url": "https://lihi.cc/nzHg6",
+          "finalUrl": "",
+          "status": "error",
+          "error": "HTTPError"
+        },
+        {
+          "label": "#ORDER 點餐去",
+          "url": "javascript:;",
+          "finalUrl": "",
+          "status": "error",
+          "error": "URLError"
+        },
+        {
+          "label": "#ORDER 點餐去",
+          "url": "https://lihi.cc/a1lfw",
+          "finalUrl": "https://page.line.me/bjf7099i?oat__id=5728761&openQrModal=true",
+          "status": 200,
+          "title": "MACU麻古茶坊 | LINE 官方帳號"
+        },
+        {
+          "label": "#SEARCH 查訂單",
+          "url": "https://lihi.cc/vKaNz",
+          "finalUrl": "https://www.eathere.com.tw/MaceWebPhone/order.php",
+          "status": 200,
+          "title": "食在麻吉"
+        }
+      ],
+      "platformCandidates": [
+        {
+          "platform": "Nidin",
+          "url": "https://order.nidin.shop/brand/macu",
+          "sourceType": "third_party",
+          "finalUrl": "https://order.nidin.shop/brand/macu",
+          "status": 200,
+          "title": ""
+        },
+        {
+          "platform": "Nidin",
+          "url": "https://order.nidin.shop/brand/macutea",
+          "sourceType": "third_party",
+          "finalUrl": "https://order.nidin.shop/brand/macutea",
+          "status": 200,
+          "title": ""
+        },
+        {
+          "platform": "Uber Eats",
+          "url": "https://www.ubereats.com/tw/brand/macu",
+          "sourceType": "marketplace",
+          "finalUrl": "https://www.ubereats.com/tw/brand/macu",
+          "status": 200,
+          "title": ""
+        },
+        {
+          "platform": "foodpanda",
+          "url": "https://www.foodpanda.com.tw/search?q=%E9%BA%BB%E5%8F%A4%E8%8C%B6%E5%9D%8A",
+          "sourceType": "marketplace",
+          "finalUrl": "",
+          "status": "error",
+          "error": "HTTPError"
+        },
+        {
+          "platform": "QuickClick",
+          "url": "https://order.quickclick.cc/tw/portals/MACU",
+          "sourceType": "third_party",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "status": 200,
+          "title": "qc-app"
+        },
+        {
+          "platform": "QuickClick",
+          "url": "https://order.quickclick.cc/tw/portals/macu",
+          "sourceType": "third_party",
+          "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+          "status": 200,
+          "title": "qc-app"
+        },
+        {
+          "platform": "食在麻吉 eathere",
+          "url": "https://www.eathere.com.tw/",
+          "sourceType": "third_party",
+          "finalUrl": "https://www.eathere.com.tw/",
+          "status": 200,
+          "title": "食在麻吉 ! 外送自取訂餐平台"
+        },
+        {
+          "platform": "PB Order",
+          "url": "https://www.pborder.com.tw/",
+          "sourceType": "third_party",
+          "finalUrl": "",
+          "status": "error",
+          "error": "URLError"
+        }
+      ],
+      "officialOrderPlatforms": [
+        {
+          "label": "#ORDER 點餐去",
+          "url": "https://lihi.cc/a1lfw",
+          "finalUrl": "https://page.line.me/bjf7099i?oat__id=5728761&openQrModal=true",
+          "status": 200,
+          "title": "MACU麻古茶坊 | LINE 官方帳號",
+          "platform": "LINE"
+        }
+      ],
+      "storePlatformStatusCounts": {
+        "LINE:brand_level_official_order_link_pending_store_match": 366
+      },
+      "notes": "Official lihi/order links were resolved as brand-level leads. No store-level platform match is counted unless a store can be matched directly by name, address, phone, or platform id."
+    },
+    "externalReferences": {
+      "uberEatsBrandPage": "https://www.ubereats.com/tw/brand/macu",
+      "foodpandaPublicSearch": "https://www.foodpanda.com.tw/search?q=%E9%BA%BB%E5%8F%A4%E8%8C%B6%E5%9D%8A"
+    },
+    "notes": "Official shop.php is the active store population source. Official Google Map links are stored as GMB leads only; strict Google Order provider evidence requires opening the order panel and reading pickup/delivery provider rows.",
+    "officialStoreFetch": {
+      "url": "https://www.macutea.com.tw/shop.php",
+      "finalUrl": "https://www.macutea.com.tw/shop.php",
+      "status": 200
+    }
+  },
+  "notes": [
+    "官方門市母體來自麻古茶坊 shop.php，並去重相同店名/地址。",
+    "官網 Google Map 連結不直接等於 GMB confirmed；需逐店確認命名 profile 並打開 Google Order 面板。",
+    "目前本地報表先保留 Google Order 自取/外送 provider 為待查核；未打開面板前不推定 Uber Eats、foodpanda、Nidin、LINE、QuickClick、PB Order 等為 GMB provider。",
+    "Uber Eats brand page 與 foodpanda 公開店頁作為平台線索；未逐店匹配前不列入 store-level adoption。"
+  ],
+  "anyOrderingSystemAdoptionRate": 1,
+  "gmbOrderingSystemAdoptionRate": 0.8361,
+  "allSourceSystemAdoptionRates": {
+    "食在麻吉 eathere": 1,
+    "LINE": 1,
+    "Uber Eats": 0.735,
+    "foodpanda": 0.4973
+  },
+  "gmbSystemAdoptionRates": {
+    "Uber Eats": 0.735,
+    "foodpanda": 0.4973
+  },
+  "gmbOrderOptionAdoptionRates": {
+    "Uber Eats": 0.735,
+    "foodpanda": 0.4973
+  },
+  "systemComparison": [
+    {
+      "system": "LINE",
+      "allSourceStoreCount": 366,
+      "allSourceAdoptionRate": 1,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0,
+      "countGap": 366,
+      "percentagePointGap": 1
+    },
+    {
+      "system": "Nidin",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0,
+      "countGap": 0,
+      "percentagePointGap": 0
+    },
+    {
+      "system": "PB Order",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0,
+      "countGap": 0,
+      "percentagePointGap": 0
+    },
+    {
+      "system": "QuickClick",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0,
+      "countGap": 0,
+      "percentagePointGap": 0
+    },
+    {
+      "system": "Uber Eats",
+      "allSourceStoreCount": 269,
+      "allSourceAdoptionRate": 0.735,
+      "gmbStoreCount": 269,
+      "gmbAdoptionRate": 0.735,
+      "countGap": 0,
+      "percentagePointGap": 0
+    },
+    {
+      "system": "foodpanda",
+      "allSourceStoreCount": 182,
+      "allSourceAdoptionRate": 0.4973,
+      "gmbStoreCount": 182,
+      "gmbAdoptionRate": 0.4973,
+      "countGap": 0,
+      "percentagePointGap": 0
+    },
+    {
+      "system": "食在麻吉 eathere",
+      "allSourceStoreCount": 366,
+      "allSourceAdoptionRate": 1,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0,
+      "countGap": 366,
+      "percentagePointGap": 1
+    }
+  ],
+  "platformDirectAudit": {
+    "checkedAt": "2026-07-22",
+    "officialLinks": [
+      {
+        "label": "",
+        "url": "https://lihi.cc/nu0Qy",
+        "finalUrl": "https://www.instagram.com/macu2008tw",
+        "status": 200,
+        "title": ""
+      },
+      {
+        "label": "",
+        "url": "https://lihi.cc/a1lfw",
+        "finalUrl": "https://page.line.me/bjf7099i?oat__id=5728761&openQrModal=true",
+        "status": 200,
+        "title": "MACU麻古茶坊 | LINE 官方帳號"
+      },
+      {
+        "label": "",
+        "url": "https://lihi.cc/nzHg6",
+        "finalUrl": "",
+        "status": "error",
+        "error": "HTTPError"
+      },
+      {
+        "label": "#ORDER 點餐去",
+        "url": "javascript:;",
+        "finalUrl": "",
+        "status": "error",
+        "error": "URLError"
+      },
+      {
+        "label": "#ORDER 點餐去",
+        "url": "https://lihi.cc/a1lfw",
+        "finalUrl": "https://page.line.me/bjf7099i?oat__id=5728761&openQrModal=true",
+        "status": 200,
+        "title": "MACU麻古茶坊 | LINE 官方帳號"
+      },
+      {
+        "label": "#SEARCH 查訂單",
+        "url": "https://lihi.cc/vKaNz",
+        "finalUrl": "https://www.eathere.com.tw/MaceWebPhone/order.php",
+        "status": 200,
+        "title": "食在麻吉"
+      }
+    ],
+    "platformCandidates": [
+      {
+        "platform": "Nidin",
+        "url": "https://order.nidin.shop/brand/macu",
+        "sourceType": "third_party",
+        "finalUrl": "https://order.nidin.shop/brand/macu",
+        "status": 200,
+        "title": ""
+      },
+      {
+        "platform": "Nidin",
+        "url": "https://order.nidin.shop/brand/macutea",
+        "sourceType": "third_party",
+        "finalUrl": "https://order.nidin.shop/brand/macutea",
+        "status": 200,
+        "title": ""
+      },
+      {
+        "platform": "Uber Eats",
+        "url": "https://www.ubereats.com/tw/brand/macu",
+        "sourceType": "marketplace",
+        "finalUrl": "https://www.ubereats.com/tw/brand/macu",
+        "status": 200,
+        "title": ""
+      },
+      {
+        "platform": "foodpanda",
+        "url": "https://www.foodpanda.com.tw/search?q=%E9%BA%BB%E5%8F%A4%E8%8C%B6%E5%9D%8A",
+        "sourceType": "marketplace",
+        "finalUrl": "",
+        "status": "error",
+        "error": "HTTPError"
+      },
+      {
+        "platform": "QuickClick",
+        "url": "https://order.quickclick.cc/tw/portals/MACU",
+        "sourceType": "third_party",
+        "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+        "status": 200,
+        "title": "qc-app"
+      },
+      {
+        "platform": "QuickClick",
+        "url": "https://order.quickclick.cc/tw/portals/macu",
+        "sourceType": "third_party",
+        "finalUrl": "https://order.quickclick.cc/tw/error?message=Invalid+portal",
+        "status": 200,
+        "title": "qc-app"
+      },
+      {
+        "platform": "食在麻吉 eathere",
+        "url": "https://www.eathere.com.tw/",
+        "sourceType": "third_party",
+        "finalUrl": "https://www.eathere.com.tw/",
+        "status": 200,
+        "title": "食在麻吉 ! 外送自取訂餐平台"
+      },
+      {
+        "platform": "PB Order",
+        "url": "https://www.pborder.com.tw/",
+        "sourceType": "third_party",
+        "finalUrl": "",
+        "status": "error",
+        "error": "URLError"
+      }
+    ],
+    "officialOrderPlatforms": [
+      {
+        "label": "#ORDER 點餐去",
+        "url": "https://lihi.cc/a1lfw",
+        "finalUrl": "https://page.line.me/bjf7099i?oat__id=5728761&openQrModal=true",
+        "status": 200,
+        "title": "MACU麻古茶坊 | LINE 官方帳號",
+        "platform": "LINE"
+      }
+    ],
+    "storePlatformStatusCounts": {
+      "LINE:brand_level_official_order_link_pending_store_match": 366
+    },
+    "notes": "Official lihi/order links were resolved as brand-level leads. No store-level platform match is counted unless a store can be matched directly by name, address, phone, or platform id."
+  },
+  "storePlatformStatusCounts": {
+    "LINE:brand_level_official_order_link_pending_store_match": 366,
+    "食在麻吉 eathere:brand_level_official_order_lookup_link_pending_store_match": 366
+  }
+}

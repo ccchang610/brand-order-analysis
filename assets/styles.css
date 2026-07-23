@@ -904,6 +904,18 @@ td small {
   border: 1px solid #06c755;
 }
 
+.platform-eathere {
+  background: #2f6f73;
+  color: #ffffff;
+  border: 1px solid #2f6f73;
+}
+
+.platform-logo.platform-eathere {
+  background: #2f6f73;
+  color: #ffffff;
+  border: 1px solid #2f6f73;
+}
+
 .platform-logo.platform-instagram {
   background: #e4405f;
   color: #ffffff;
