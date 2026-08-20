@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>南廠里店家點餐系統總覽</title>
+  <link rel="stylesheet" href="../assets/styles.css?v=35" />
+  <link rel="stylesheet" href="local.css?v=3" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Neighborhood Order Analysis</p>
+      <h1>南廠里店家點餐系統總覽</h1>
+      <p class="subhead">以指定 30 家單店為母體，拆分平台直查與 Google Order provider evidence，並逐店核對自取／外送。<span class="version">2026-08-19 local audit</span></p>
+    </div>
+    <div class="meta">
+      <span id="generatedAt">Loading</span>
+      <a href="data/stores.csv">CSV</a>
+      <a href="data/summary.json">Summary JSON</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="segmented" id="regionFilters"></div>
+      <label>城市／行政區<select id="cityFilter"></select></label>
+      <label>系統<select id="systemFilter"></select></label>
+      <label>Google Order <select id="gmbFilter"><option value="all">全部</option><option value="confirmed">Google Order 有證據</option><option value="gap">Google Order 待查核</option><option value="no_gmb_found">GMB/Maps 未找到</option></select></label>
+      <label class="search">搜尋店家<input id="searchInput" type="search" placeholder="店家、地址、行政區" /></label>
+    </section>
+
+    <section class="insight-strip" id="insightStrip"></section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">1. Store Footprint</p><h2>指定店家與街區分布</h2></div>
+        <p>母體固定為本次指定的 30 家店；地圖以南廠里周邊街區為主，跨出里界的指定店仍保留並標示。</p>
+      </div>
+      <div class="kpi-grid" id="storeKpis"></div>
+      <div class="split map-layout">
+        <div>
+          <h3>南廠里周邊店家地圖</h3>
+          <p class="map-source">示意標記依街道與門牌配置；點選標記可篩選店家，不作導航座標使用。</p>
+          <div class="taiwan-map neighborhood-map" id="taiwanMap"></div>
+        </div>
+        <div><h3>行政區分布</h3><div class="bars" id="cityBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title">
+        <div><p class="eyebrow">2. All Sources</p><h2>全來源點餐系統</h2></div>
+        <p>整合店家／平台直查、Google、GMB 與第三方來源。外帶與外送分開計算；公開搜尋未找到不等於店家確定未使用。</p>
+      </div>
+      <div class="kpi-grid" id="allSourceKpis"></div>
+      <div class="split">
+        <div><h3>自取系統</h3><div class="bars" id="pickupBars"></div></div>
+        <div><h3>外送系統</h3><div class="bars" id="deliveryBars"></div></div>
+      </div>
+      <div class="split compact">
+        <div><h3>區域導入率</h3><div class="matrix" id="regionMatrix"></div></div>
+        <div><h3>證據邊界</h3><p class="note">全來源包含平台直查與 Google Order 面板證據；Nidin、LINE、QuickClick、食在麻吉、PB 點餐等若公開搜尋未找到，只代表本次未取得可驗證連結。</p></div>
+      </div>
+    </section>
+
+    <section class="panel warning">
+      <div class="section-title">
+        <div><p class="eyebrow">3. Google Order</p><h2>Google Order provider / link 分布</h2></div>
+        <p>只把 Google Business Profile 藍色點餐流程中、指定自取或外送模式後可見的 provider row 算為 GMB provider evidence。</p>
+      </div>
+      <div class="kpi-grid" id="gmbKpis"></div>
+      <div class="split">
+        <div><h3>Google Order 自取選項</h3><div class="bars" id="gmbPickupBars"></div></div>
+        <div><h3>Google Order 外送選項</h3><div class="bars" id="gmbDeliveryBars"></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">4. Comparison</p><h2>全來源 vs Google Order provider</h2></div></div>
+      <div class="table-wrap"><table><thead><tr><th>系統</th><th>全來源店家</th><th>全來源占比</th><th>Google Order provider 店家</th><th>Google Order provider 占比</th><th>缺口</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><div><p class="eyebrow">5. Store Details</p><h2>逐店明細</h2></div><p id="detailCount"></p></div>
+      <div class="table-wrap details"><table><thead><tr><th>店家</th><th>區域</th><th>地址</th><th>全來源點餐</th><th>Google Order 證據</th><th>連結 / 審核</th></tr></thead><tbody id="storeRows"></tbody></table></div>
+    </section>
+  </main>
+
+  <script src="data-inline.js?v=1"></script>
+  <script src="app.js?v=1"></script>
+  <script src="local-map.js?v=3"></script>
+</body>
+</html>

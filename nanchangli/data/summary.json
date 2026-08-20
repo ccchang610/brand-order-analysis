@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-08-19",
+  "brand": "南廠里店家點餐系統總覽",
+  "brandSlug": "nanchangli",
+  "market": "Taiwan / Tainan neighborhood target list",
+  "sitePath": "./nanchangli/",
+  "officialStoreCount": 30,
+  "gmbFoundCount": 30,
+  "gmbMissingCount": 0,
+  "googleFoundCount": 30,
+  "thirdPartyFoundCount": 7,
+  "verificationGapCount": 21,
+  "anyOrderingSystemCount": 10,
+  "anyOrderingSystemAdoptionRate": 0.3333,
+  "googleOrderEntryCount": 9,
+  "googleOrderEntryRate": 0.3,
+  "gmbOrderingSystemCount": 9,
+  "gmbOrderingSystemAdoptionRate": 0.3,
+  "gmbCoverageGapCount": 21,
+  "unknownOrderingSystemCount": 20,
+  "cityCounts": {
+    "基隆市": 0,
+    "台北市": 0,
+    "新北市": 0,
+    "桃園市": 0,
+    "新竹市": 0,
+    "新竹縣": 0,
+    "苗栗縣": 0,
+    "台中市": 0,
+    "彰化縣": 0,
+    "南投縣": 0,
+    "雲林縣": 0,
+    "嘉義市": 0,
+    "嘉義縣": 0,
+    "台南市": 30,
+    "高雄市": 0,
+    "屏東縣": 0,
+    "宜蘭縣": 0,
+    "花蓮縣": 0,
+    "台東縣": 0,
+    "澎湖縣": 0,
+    "金門縣": 0,
+    "連江縣": 0
+  },
+  "regionCounts": {
+    "北部": 0,
+    "中部": 0,
+    "南部": 30,
+    "東部": 0,
+    "離島": 0
+  },
+  "allSourceSystemCounts": {
+    "Uber Eats": 9,
+    "foodpanda": 6
+  },
+  "allSourcePickupSystemCounts": {
+    "Uber Eats": 6,
+    "foodpanda": 6
+  },
+  "allSourceDeliverySystemCounts": {
+    "Uber Eats": 9,
+    "foodpanda": 6
+  },
+  "gmbSystemCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 6
+  },
+  "gmbPickupSystemCounts": {
+    "Uber Eats": 6,
+    "foodpanda": 6
+  },
+  "gmbDeliverySystemCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 6
+  },
+  "gmbOrderOptionCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 6
+  },
+  "gmbOrderPickupOptionCounts": {
+    "Uber Eats": 6,
+    "foodpanda": 6
+  },
+  "gmbOrderDeliveryOptionCounts": {
+    "Uber Eats": 8,
+    "foodpanda": 6
+  },
+  "allSourceSystemAdoptionRates": {
+    "Uber Eats": 0.3,
+    "foodpanda": 0.2
+  },
+  "gmbSystemAdoptionRates": {
+    "Uber Eats": 0.2667,
+    "foodpanda": 0.2
+  },
+  "gmbOrderOptionAdoptionRates": {
+    "Uber Eats": 0.2667,
+    "foodpanda": 0.2
+  },
+  "systemComparison": [
+    {
+      "system": "LINE",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0.0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "MOS Order",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0.0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "Nidin",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0.0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "Ocard",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0.0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "PB Order",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0.0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "QuickClick",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0.0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "Uber Eats",
+      "allSourceStoreCount": 9,
+      "allSourceAdoptionRate": 0.3,
+      "gmbStoreCount": 8,
+      "gmbAdoptionRate": 0.2667,
+      "countGap": 1,
+      "percentagePointGap": 0.0333
+    },
+    {
+      "system": "foodpanda",
+      "allSourceStoreCount": 6,
+      "allSourceAdoptionRate": 0.2,
+      "gmbStoreCount": 6,
+      "gmbAdoptionRate": 0.2,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    },
+    {
+      "system": "食在麻吉 eathere",
+      "allSourceStoreCount": 0,
+      "allSourceAdoptionRate": 0.0,
+      "gmbStoreCount": 0,
+      "gmbAdoptionRate": 0.0,
+      "countGap": 0,
+      "percentagePointGap": 0.0
+    }
+  ],
+  "gmbStatusCounts": {
+    "confirmed": 30
+  },
+  "gmbOrderingStatusCounts": {
+    "no_gmb_order_button": 21,
+    "confirmed": 9
+  },
+  "sourceCoverageCounts": {
+    "officialListed": 30,
+    "gmbFound": 30,
+    "googleFound": 30,
+    "thirdPartyFound": 7
+  },
+  "source": {
+    "population": "User-provided 30-store target list",
+    "geography": "Named neighborhood analysis centered on 南廠里; stores are retained even when the supplied name resolves just outside the strict village boundary.",
+    "notes": "Current addresses are reconciled from named public sources and then checked against named GMB profiles. Google Order providers require visible mode-specific panel rows."
+  },
+  "notes": [
+    "本報表以使用者指定的 30 家店為母體，不以連鎖品牌官方門市數作分母。",
+    "你我他之家已以 2025 年商業登記的現址大德街 69 號為主，西門路舊址保留在證據備註。",
+    "名單中若有店址落在嚴格南廠里界外，仍保留於使用者指定母體並顯示實際地址。",
+    "Google Order 嚴格統計只計入正確 GMB 藍色點餐流程內、依自取或外送模式可見的 provider row；平台直接頁面另列全來源證據。"
+  ]
+}
